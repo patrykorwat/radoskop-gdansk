@@ -1,0 +1,938 @@
+{
+  "source_file": "glosowania.pdf",
+  "source_url": null,
+  "date": "2026-02-05",
+  "date_raw": "05.02.2026",
+  "number_roman": "XXIII",
+  "number": 23,
+  "attendees": [
+    "Jolanta Banach",
+    "Agnieszka Bartków",
+    "Łukasz Bejm",
+    "Kamila Błaszczyk",
+    "Wojciech Błaszkowski",
+    "Sylwia Cisoń",
+    "Katarzyna Czerniewska",
+    "Piotr Dzik",
+    "Żaneta Geryk",
+    "Piotr Gierszewski",
+    "Anna Golędzinowska",
+    "Michał Hajduk",
+    "Barbara Imianowska",
+    "Beata Jankowiak",
+    "Aleksander Jankowski",
+    "Maximilian Kieturakis",
+    "Krystian Kłos",
+    "Kazimierz Koralewski",
+    "Andrzej Kowalczys",
+    "Marta Magott",
+    "Przemysław Majewski",
+    "Marcin Makowski",
+    "Marcin Mickun",
+    "Bogdan Oleszek",
+    "Agnieszka Owczarczak",
+    "Jan Perucki",
+    "Karol Rabenda",
+    "Tomasz Rakowski",
+    "Sylwia Rydlewska-Kowalik",
+    "Mateusz Skarbek",
+    "Andrzej Skiba",
+    "Cezary Śpiewak-Dowbór",
+    "Łukasz Świacki",
+    "Karol Ważny"
+  ],
+  "attendee_count": 34,
+  "votes": [
+    {
+      "vote_index": 0,
+      "topic": "włączenie druku nr 594;",
+      "counts": {
+        "za": 32,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 0,
+        "nieobecni": 2
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Agnieszka Bartków",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": [],
+        "nieobecni": [
+          "Karol Rabenda",
+          "Tomasz Rakowski"
+        ]
+      }
+    },
+    {
+      "vote_index": 1,
+      "topic": "w sprawie przyjęcia do realizacji rocznego planu potrzeb w zakresie wykonywania prac społecznie użytecznych na 2026 rok w mieście Gdańsku (druk 592);",
+      "druk": 592,
+      "counts": {
+        "za": 27,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 5,
+        "nieobecni": 2
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Agnieszka Bartków",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak-Dowbór",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": [
+          "Łukasz Bejm",
+          "Anna Golędzinowska",
+          "Krystian Kłos",
+          "Jan Perucki",
+          "Łukasz Świacki"
+        ],
+        "nieobecni": [
+          "Karol Rabenda",
+          "Tomasz Rakowski"
+        ]
+      }
+    },
+    {
+      "vote_index": 2,
+      "topic": "w sprawie ustalenia jednostkowych stawek kalkulacyjnych dotacji przedmiotowej dla Gdańskich Nieruchomości samorządowego zakładu budżetowego w Gdańsku na 2026 rok (druk 589);",
+      "druk": 589,
+      "counts": {
+        "za": 32,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 1,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Agnieszka Bartków",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": [
+          "Katarzyna Czerniewska"
+        ],
+        "nieobecni": [
+          "Tomasz Rakowski"
+        ]
+      }
+    },
+    {
+      "vote_index": 3,
+      "topic": "w sprawie trybu postępowania o udzielenie dotacji celowej na prowadzenie społecznej agencji najmu, sposobu jej rozliczania oraz sposobu kontroli wykonywania zadania (druk 590);",
+      "druk": 590,
+      "counts": {
+        "za": 32,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 1,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Agnieszka Bartków",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": [
+          "Katarzyna Czerniewska"
+        ],
+        "nieobecni": [
+          "Tomasz Rakowski"
+        ]
+      }
+    },
+    {
+      "vote_index": 4,
+      "topic": "w sprawie przystąpienia do sporządzenia miejscowego planu zagospodarowania przestrzennego Długie Ogrody - rejon ulicy Reduta Żbik w mieście Gdańsku (druk 579);",
+      "druk": 579,
+      "counts": {
+        "za": 33,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 0,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Agnieszka Bartków",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": [],
+        "nieobecni": [
+          "Tomasz Rakowski"
+        ]
+      }
+    },
+    {
+      "vote_index": 5,
+      "topic": "w sprawie przystąpienia do sporządzenia miejscowego planu zagospodarowania przestrzennego VII Dwór – rejon ulic Michałowskiego i Norblina w mieście Gdańsku (druk 580);",
+      "druk": 580,
+      "counts": {
+        "za": 30,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 3,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Agnieszka Bartków",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak-Dowbór",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": [
+          "Wojciech Błaszkowski",
+          "Marcin Makowski",
+          "Łukasz Świacki"
+        ],
+        "nieobecni": [
+          "Tomasz Rakowski"
+        ]
+      }
+    },
+    {
+      "vote_index": 6,
+      "topic": "w sprawie przystąpienia do sporządzenia miejscowego planu zagospodarowania przestrzennego Maćkowy - rejon ulic Borkowskiej i Jagatowskiej w mieście Gdańsku (druk 581);",
+      "druk": 581,
+      "counts": {
+        "za": 32,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 1,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Agnieszka Bartków",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": [
+          "Marta Magott"
+        ],
+        "nieobecni": [
+          "Tomasz Rakowski"
+        ]
+      }
+    },
+    {
+      "vote_index": 7,
+      "topic": "w sprawie przystąpienia do sporządzenia miejscowego planu zagospodarowania przestrzennego Szadółki - rejon ulicy Stężyckiej i Obwodnicy Zachodniej Trójmiasta w mieście Gdańsku (druk 582);",
+      "druk": 582,
+      "counts": {
+        "za": 32,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 1,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Agnieszka Bartków",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": [
+          "Piotr Dzik"
+        ],
+        "nieobecni": [
+          "Tomasz Rakowski"
+        ]
+      }
+    },
+    {
+      "vote_index": 8,
+      "topic": "w sprawie przystąpienia do sporządzenia miejscowego planu zagospodarowania przestrzennego Rudniki – rejon Kanału Rudnickiego i ulicy tzw. Nowej Sandomierskiej w mieście Gdańsku (druk 583);",
+      "druk": 583,
+      "counts": {
+        "za": 33,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 0,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Agnieszka Bartków",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": [],
+        "nieobecni": [
+          "Tomasz Rakowski"
+        ]
+      }
+    },
+    {
+      "vote_index": 9,
+      "topic": "w sprawie odstąpienia od sporządzenia miejscowego planu zagospodarowania przestrzennego Stare Szkoty - cmentarz św. Ignacego w mieście Gdańsku (druk 584);",
+      "druk": 584,
+      "counts": {
+        "za": 31,
+        "przeciw": 0,
+        "wstrzymal_sie": 1,
+        "brak_glosu": 1,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [
+          "Agnieszka Bartków"
+        ],
+        "brak_glosu": [
+          "Marta Magott"
+        ],
+        "nieobecni": [
+          "Tomasz Rakowski"
+        ]
+      }
+    },
+    {
+      "vote_index": 10,
+      "topic": "w sprawie przystąpienia do sporządzenia miejscowego planu zagospodarowania przestrzennego Stare Szkoty - rejon cmentarza św. Ignacego i ulicy Podmiejskiej w mieście Gdańsku (druk 585);",
+      "druk": 585,
+      "counts": {
+        "za": 32,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 1,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Agnieszka Bartków",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": [
+          "Marta Magott"
+        ],
+        "nieobecni": [
+          "Tomasz Rakowski"
+        ]
+      }
+    },
+    {
+      "vote_index": 11,
+      "topic": "w sprawie nadania nazwy Rondo im. ks. prałata Józefa Bigusa (druk 586);",
+      "druk": 586,
+      "counts": {
+        "za": 32,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 1,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Agnieszka Bartków",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": [
+          "Jolanta Banach"
+        ],
+        "nieobecni": [
+          "Tomasz Rakowski"
+        ]
+      }
+    },
+    {
+      "vote_index": 12,
+      "topic": "w sprawie nadania nazwy Rondo Wsi Wysoka (druk 587);",
+      "druk": 587,
+      "counts": {
+        "za": 33,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 0,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Agnieszka Bartków",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": [],
+        "nieobecni": [
+          "Tomasz Rakowski"
+        ]
+      }
+    },
+    {
+      "vote_index": 13,
+      "topic": "w sprawie nadania nazwy ulica Agrestowa (druk 588);",
+      "druk": 588,
+      "counts": {
+        "za": 32,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 1,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Agnieszka Bartków",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": [
+          "Andrzej Kowalczys"
+        ],
+        "nieobecni": [
+          "Tomasz Rakowski"
+        ]
+      }
+    },
+    {
+      "vote_index": 14,
+      "topic": "zmieniająca uchwałę w sprawie przepisów porządkowych związanych z przewozem osób i bagażu ręcznego pojazdami gminnego transportu zbiorowego na terenie obsługiwanym przez komunikację miejską organizowaną przez Miasto Gdańsk (druk 591);",
+      "druk": 591,
+      "counts": {
+        "za": 33,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 0,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Agnieszka Bartków",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": [],
+        "nieobecni": [
+          "Tomasz Rakowski"
+        ]
+      }
+    },
+    {
+      "vote_index": 15,
+      "topic": "w sprawie rozpatrzenia odwołania od Zarządzenia Nr 1970/25 Prezydenta Miasta Gdańska z dnia 6 listopada 2025 r. (druk 594);",
+      "druk": 594,
+      "counts": {
+        "za": 33,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 0,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Agnieszka Bartków",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": [],
+        "nieobecni": [
+          "Tomasz Rakowski"
+        ]
+      }
+    }
+  ],
+  "vote_count": 16
+}

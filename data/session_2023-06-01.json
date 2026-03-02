@@ -1,0 +1,158 @@
+{
+  "source_file": "2023_202306211488_glosowanie.pdf",
+  "source_url": "https://download.cloudgdansk.pl/gdansk-pl/d/202306211488/glosowanie.pdf",
+  "date": "2023-06-01",
+  "date_raw": "1 czerwca 2023",
+  "number_roman": "LXIII",
+  "number": 63,
+  "attendees": [
+    "Łukasz Bejm",
+    "Kamila Błaszczyk",
+    "Wojciech Błaszkowski",
+    "Katarzyna Czerniewska",
+    "Beata Dunajewska",
+    "Piotr Dzik",
+    "Piotr Gierszewski",
+    "Anna Golędzinowska",
+    "Michał Hajduk",
+    "Henryk Hałas",
+    "Barbara Imianowska",
+    "Beata Jankowiak",
+    "Waldemar Jaroszewicz",
+    "Krystian Kłos",
+    "Kazimierz Koralewski",
+    "Andrzej Kowalczys",
+    "Alicja Krasula",
+    "Emilia Lodzińska",
+    "Przemysław Majewski",
+    "Przemysław Malak",
+    "Bogdan Oleszek",
+    "Agnieszka Owczarczak",
+    "Jan Perucki",
+    "Romuald Plewa",
+    "Karol Rabenda",
+    "Przemysław Ryś",
+    "Mateusz Skarbek",
+    "Andrzej Skiba",
+    "Andrzej Stelmasiewicz",
+    "Elżbieta Strzelczyk",
+    "Cezary Śpiewak-Dowbór",
+    "Lech Wałęsa",
+    "Teresa Wasilewska",
+    "Karol Ważny"
+  ],
+  "attendee_count": 34,
+  "votes": [
+    {
+      "vote_index": 0,
+      "topic": "POPRAWKA APEL w sprawie podjęcia natychmiastowych działań na rzecz przywrócenia jakości środowiska naturalnego i czystości na terenie działania Zarządu Morskiego Portu Gdańsk SA oraz dzielnic przyległych do portu, a także redukcji zagrożeń dla zdrowia mieszkańców tych dzielnic.(druk nr 1711):.",
+      "counts": {
+        "za": 11,
+        "przeciw": 21,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 0,
+        "nieobecni": 2
+      },
+      "named_votes": {
+        "za": [
+          "Beata Dunajewska",
+          "Piotr Gierszewski",
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Kazimierz Koralewski",
+          "Alicja Krasula",
+          "Przemysław Majewski",
+          "Przemysław Malak",
+          "Romuald Plewa",
+          "Andrzej Skiba",
+          "Elżbieta Strzelczyk"
+        ],
+        "przeciw": [
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Beata Jankowiak",
+          "Krystian Kłos",
+          "Andrzej Kowalczys",
+          "Emilia Lodzińska",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Stelmasiewicz",
+          "Cezary Śpiewak-Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "nieobecni": [
+          "Waldemar Jaroszewicz",
+          "Karol Rabenda"
+        ],
+        "wstrzymal_sie": [],
+        "brak_glosu": []
+      }
+    },
+    {
+      "vote_index": 1,
+      "topic": "w sprawie podjęcia natychmiastowych działań na rzecz przywrócenia jakości środowiska naturalnego i czystości na terenie działania Zarządu Morskiego Portu Gdańsk SA oraz dzielnic przyległych do portu, a także redukcji zagrożeń dla zdrowia mieszkańców tych dzielnic.(druk nr 1711):. PODJĘTO APEL",
+      "counts": {
+        "za": 22,
+        "przeciw": 0,
+        "wstrzymal_sie": 10,
+        "brak_glosu": 0,
+        "nieobecni": 2
+      },
+      "named_votes": {
+        "za": [
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Katarzyna Czerniewska",
+          "Beata Dunajewska",
+          "Piotr Dzik",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Beata Jankowiak",
+          "Krystian Kłos",
+          "Andrzej Kowalczys",
+          "Emilia Lodzińska",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Stelmasiewicz",
+          "Cezary Śpiewak- Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "wstrzymal_sie": [
+          "Piotr Gierszewski",
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Kazimierz Koralewski",
+          "Alicja Krasula",
+          "Przemysław Majewski",
+          "Przemysław Malak",
+          "Romuald Plewa",
+          "Andrzej Skiba",
+          "Elżbieta Strzelczyk"
+        ],
+        "nieobecni": [
+          "Waldemar Jaroszewicz",
+          "Karol Rabenda"
+        ],
+        "przeciw": [],
+        "brak_glosu": []
+      }
+    }
+  ],
+  "vote_count": 2
+}

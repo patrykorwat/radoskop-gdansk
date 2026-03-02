@@ -1,0 +1,2437 @@
+{
+  "source_file": "2021_202111180513_glosowanie.pdf",
+  "source_url": "https://download.cloudgdansk.pl/gdansk-pl/d/202111180513/glosowanie.pdf",
+  "date": "2021-11-25",
+  "date_raw": "25 listopada 2021",
+  "number_roman": "XLII",
+  "number": 42,
+  "attendees": [
+    "Łukasz Bejm",
+    "Kamila Błaszczyk",
+    "Wojciech Błaszkowski",
+    "Katarzyna Czerniewska",
+    "Beata Dunajewska",
+    "Piotr Dzik",
+    "Piotr Gierszewski",
+    "Anna Golędzinowska",
+    "Michał Hajduk",
+    "Henryk Hałas",
+    "Barbara Imianowska",
+    "Beata Jankowiak",
+    "Waldemar Jaroszewicz",
+    "Krystian Kłos",
+    "Kazimierz Koralewski",
+    "Andrzej Kowalczys",
+    "Alicja Krasula",
+    "Emilia Lodzińska",
+    "Przemysław Majewski",
+    "Przemysław Malak",
+    "Bogdan Oleszek",
+    "Agnieszka Owczarczak",
+    "Jan Perucki",
+    "Romuald Plewa",
+    "Karol Rabenda",
+    "Przemysław Ryś",
+    "Mateusz Skarbek",
+    "Andrzej Skiba",
+    "Andrzej Stelmasiewicz",
+    "Elżbieta Strzelczyk",
+    "Cezary Śpiewak-Dowbór",
+    "Lech Wałęsa",
+    "Teresa Wasilewska",
+    "Karol Ważny"
+  ],
+  "attendee_count": 34,
+  "votes": [
+    {
+      "vote_index": 0,
+      "topic": "włączenie druku 1128.",
+      "counts": {
+        "za": 31,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 1,
+        "nieobecni": 2
+      },
+      "named_votes": {
+        "za": [
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Katarzyna Czerniewska",
+          "Beata Dunajewska",
+          "Piotr Dzik",
+          "Piotr Gierszewski",
+          "Michał Hajduk",
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Waldemar Jaroszewicz",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Alicja Krasula",
+          "Emilia Lodzińska",
+          "Przemysław Majewski",
+          "Przemysław Malak",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Romuald Plewa",
+          "Karol Rabenda",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Stelmasiewicz",
+          "Cezary Śpiewak- Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "brak_glosu": [
+          "Elżbieta Strzelczyk"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": []
+      }
+    },
+    {
+      "vote_index": 1,
+      "topic": "włączenie druku 1129.",
+      "counts": {
+        "za": 32,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 0,
+        "nieobecni": 2
+      },
+      "named_votes": {
+        "za": [
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Katarzyna Czerniewska",
+          "Beata Dunajewska",
+          "Piotr Dzik",
+          "Piotr Gierszewski",
+          "Michał Hajduk",
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Waldemar Jaroszewicz",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Alicja Krasula",
+          "Emilia Lodzińska",
+          "Przemysław Majewski",
+          "Przemysław Malak",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Romuald Plewa",
+          "Karol Rabenda",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Stelmasiewicz",
+          "Elżbieta Strzelczyk",
+          "Cezary Śpiewak-Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": []
+      }
+    },
+    {
+      "vote_index": 2,
+      "topic": "włączenie druku 1130.",
+      "counts": {
+        "za": 32,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 0,
+        "nieobecni": 2
+      },
+      "named_votes": {
+        "za": [
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Katarzyna Czerniewska",
+          "Beata Dunajewska",
+          "Piotr Dzik",
+          "Piotr Gierszewski",
+          "Michał Hajduk",
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Waldemar Jaroszewicz",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Alicja Krasula",
+          "Emilia Lodzińska",
+          "Przemysław Majewski",
+          "Przemysław Malak",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Romuald Plewa",
+          "Karol Rabenda",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Stelmasiewicz",
+          "Elżbieta Strzelczyk",
+          "Cezary Śpiewak-Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": []
+      }
+    },
+    {
+      "vote_index": 3,
+      "topic": "włączenie druku 1131.",
+      "counts": {
+        "za": 30,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 2,
+        "nieobecni": 2
+      },
+      "named_votes": {
+        "za": [
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Katarzyna Czerniewska",
+          "Beata Dunajewska",
+          "Piotr Dzik",
+          "Piotr Gierszewski",
+          "Michał Hajduk",
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Waldemar Jaroszewicz",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Alicja Krasula",
+          "Emilia Lodzińska",
+          "Przemysław Majewski",
+          "Przemysław Malak",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Romuald Plewa",
+          "Karol Rabenda",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Stelmasiewicz",
+          "Elżbieta Strzelczyk",
+          "Cezary Śpiewak-Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "brak_glosu": [
+          "Wojciech Błaszkowski",
+          "Andrzej Kowalczys"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": []
+      }
+    },
+    {
+      "vote_index": 4,
+      "topic": "włączenie druku 1132.",
+      "counts": {
+        "za": 32,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 0,
+        "nieobecni": 2
+      },
+      "named_votes": {
+        "za": [
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Katarzyna Czerniewska",
+          "Beata Dunajewska",
+          "Piotr Dzik",
+          "Piotr Gierszewski",
+          "Michał Hajduk",
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Waldemar Jaroszewicz",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Alicja Krasula",
+          "Emilia Lodzińska",
+          "Przemysław Majewski",
+          "Przemysław Malak",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Romuald Plewa",
+          "Karol Rabenda",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Stelmasiewicz",
+          "Elżbieta Strzelczyk",
+          "Cezary Śpiewak-Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": []
+      }
+    },
+    {
+      "vote_index": 5,
+      "topic": "włączenie druku 1133.",
+      "counts": {
+        "za": 30,
+        "przeciw": 0,
+        "wstrzymal_sie": 2,
+        "brak_glosu": 0,
+        "nieobecni": 2
+      },
+      "named_votes": {
+        "za": [
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Katarzyna Czerniewska",
+          "Beata Dunajewska",
+          "Piotr Dzik",
+          "Piotr Gierszewski",
+          "Michał Hajduk",
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Waldemar Jaroszewicz",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Alicja Krasula",
+          "Emilia Lodzińska",
+          "Przemysław Malak",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Romuald Plewa",
+          "Karol Rabenda",
+          "Mateusz Skarbek",
+          "Andrzej Stelmasiewicz",
+          "Elżbieta Strzelczyk",
+          "Cezary Śpiewak-Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "wstrzymal_sie": [
+          "Przemysław Majewski",
+          "Przemysław Ryś"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ],
+        "przeciw": [],
+        "brak_glosu": []
+      }
+    },
+    {
+      "vote_index": 6,
+      "topic": "właczenie druku 1134.",
+      "counts": {
+        "za": 31,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 1,
+        "nieobecni": 2
+      },
+      "named_votes": {
+        "za": [
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Katarzyna Czerniewska",
+          "Beata Dunajewska",
+          "Piotr Dzik",
+          "Piotr Gierszewski",
+          "Michał Hajduk",
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Waldemar Jaroszewicz",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Alicja Krasula",
+          "Emilia Lodzińska",
+          "Przemysław Majewski",
+          "Przemysław Malak",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Romuald Plewa",
+          "Karol Rabenda",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Stelmasiewicz",
+          "Elżbieta Strzelczyk",
+          "Cezary Śpiewak-Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "brak_glosu": [
+          "Wojciech Błaszkowski"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": []
+      }
+    },
+    {
+      "vote_index": 7,
+      "topic": "włączenie druku 1135.",
+      "counts": {
+        "za": 28,
+        "przeciw": 0,
+        "wstrzymal_sie": 4,
+        "brak_glosu": 0,
+        "nieobecni": 2
+      },
+      "named_votes": {
+        "za": [
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Katarzyna Czerniewska",
+          "Beata Dunajewska",
+          "Piotr Dzik",
+          "Piotr Gierszewski",
+          "Michał Hajduk",
+          "Henryk Hałas",
+          "Beata Jankowiak",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Emilia Lodzińska",
+          "Przemysław Malak",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Romuald Plewa",
+          "Karol Rabenda",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Stelmasiewicz",
+          "Elżbieta Strzelczyk",
+          "Cezary Śpiewak-Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "wstrzymal_sie": [
+          "Barbara Imianowska",
+          "Waldemar Jaroszewicz",
+          "Alicja Krasula",
+          "Przemysław Majewski"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ],
+        "przeciw": [],
+        "brak_glosu": []
+      }
+    },
+    {
+      "vote_index": 8,
+      "topic": "włączenie druku 1136.",
+      "counts": {
+        "za": 29,
+        "przeciw": 0,
+        "wstrzymal_sie": 2,
+        "brak_glosu": 1,
+        "nieobecni": 2
+      },
+      "named_votes": {
+        "za": [
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Katarzyna Czerniewska",
+          "Beata Dunajewska",
+          "Piotr Dzik",
+          "Piotr Gierszewski",
+          "Michał Hajduk",
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Waldemar Jaroszewicz",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Alicja Krasula",
+          "Emilia Lodzińska",
+          "Przemysław Malak",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Stelmasiewicz",
+          "Elżbieta Strzelczyk",
+          "Cezary Śpiewak-Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "wstrzymal_sie": [
+          "Przemysław Majewski",
+          "Romuald Plewa"
+        ],
+        "brak_glosu": [
+          "Łukasz Bejm"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska",
+          "Andrzej Skiba"
+        ],
+        "przeciw": []
+      }
+    },
+    {
+      "vote_index": 9,
+      "topic": "zmieniająca uchwałę w sprawie określenia zadań, na które przeznaczone będą środki z Państwowego Funduszu Rehabilitacji Osób Niepełnosprawnych w 2021 roku (druk 1105);.",
+      "druk": 1105,
+      "counts": {
+        "za": 31,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 2,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Katarzyna Czerniewska",
+          "Beata Dunajewska",
+          "Piotr Dzik",
+          "Piotr Gierszewski",
+          "Michał Hajduk",
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Alicja Krasula",
+          "Emilia Lodzińska",
+          "Przemysław Majewski",
+          "Przemysław Malak",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Romuald Plewa",
+          "Karol Rabenda",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Andrzej Stelmasiewicz",
+          "Elżbieta Strzelczyk",
+          "Cezary Śpiewak- Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "brak_glosu": [
+          "Łukasz Bejm",
+          "Waldemar Jaroszewicz"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": []
+      }
+    },
+    {
+      "vote_index": 10,
+      "topic": "w sprawie podniesienia wysokości wynagrodzenia rodzinom zastępczym zawodowym i prowadzącym rodzinne domy dziecka (druk 1112);.",
+      "druk": 1112,
+      "counts": {
+        "za": 32,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 1,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Katarzyna Czerniewska",
+          "Beata Dunajewska",
+          "Piotr Dzik",
+          "Piotr Gierszewski",
+          "Michał Hajduk",
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Waldemar Jaroszewicz",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Alicja Krasula",
+          "Emilia Lodzińska",
+          "Przemysław Majewski",
+          "Przemysław Malak",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Romuald Plewa",
+          "Karol Rabenda",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Andrzej Stelmasiewicz",
+          "Elżbieta Strzelczyk",
+          "Cezary Śpiewak-Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "brak_glosu": [
+          "Łukasz Bejm"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": []
+      }
+    },
+    {
+      "vote_index": 11,
+      "topic": "w sprawie wysokości opłat za pobyt i wyżywienie dziecka w żłobkach Gdańskiego Zespołu Żłobków oraz warunków częściowego lub całkowitego zwolnienia z ponoszenia opłat (druk 1115); .",
+      "druk": 1115,
+      "counts": {
+        "za": 31,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 2,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Katarzyna Czerniewska",
+          "Beata Dunajewska",
+          "Piotr Dzik",
+          "Piotr Gierszewski",
+          "Michał Hajduk",
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Waldemar Jaroszewicz",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Alicja Krasula",
+          "Emilia Lodzińska",
+          "Przemysław Majewski",
+          "Przemysław Malak",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Andrzej Stelmasiewicz",
+          "Elżbieta Strzelczyk",
+          "Cezary Śpiewak-Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "brak_glosu": [
+          "Łukasz Bejm",
+          "Romuald Plewa"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": []
+      }
+    },
+    {
+      "vote_index": 12,
+      "topic": "w sprawie zamiaru likwidacji XI Liceum Ogólnokształcącego - Szkoły Mistrzostwa Sportowego wchodzącego w skład Zespołu Szkół Mistrzostwa Sportowego w Gdańsku (druk 1106); .",
+      "druk": 1106,
+      "counts": {
+        "za": 32,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 1,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Katarzyna Czerniewska",
+          "Beata Dunajewska",
+          "Piotr Dzik",
+          "Piotr Gierszewski",
+          "Michał Hajduk",
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Waldemar Jaroszewicz",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Alicja Krasula",
+          "Emilia Lodzińska",
+          "Przemysław Majewski",
+          "Przemysław Malak",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Romuald Plewa",
+          "Karol Rabenda",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Andrzej Stelmasiewicz",
+          "Elżbieta Strzelczyk",
+          "Cezary Śpiewak-Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "brak_glosu": [
+          "Łukasz Bejm"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": []
+      }
+    },
+    {
+      "vote_index": 13,
+      "topic": "w sprawie zamiaru likwidacji Szkoły Policealnej nr 5 w Gdańsku (druk 1107);.",
+      "druk": 1107,
+      "counts": {
+        "za": 32,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 1,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Katarzyna Czerniewska",
+          "Beata Dunajewska",
+          "Piotr Dzik",
+          "Piotr Gierszewski",
+          "Michał Hajduk",
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Waldemar Jaroszewicz",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Alicja Krasula",
+          "Emilia Lodzińska",
+          "Przemysław Majewski",
+          "Przemysław Malak",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Romuald Plewa",
+          "Karol Rabenda",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Andrzej Stelmasiewicz",
+          "Elżbieta Strzelczyk",
+          "Cezary Śpiewak-Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "brak_glosu": [
+          "Łukasz Bejm"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": []
+      }
+    },
+    {
+      "vote_index": 14,
+      "topic": "w sprawie uchwalenia miejscowego planu zagospodarowania przestrzennego dwutorowej linii elektroenergetycznej 110 kV relacji GPZ Gdańsk Błonia - GPZ Maćki - GPZ Pruszcz Gdański w mieście Gdańsku (druk 1111);.",
+      "druk": 1111,
+      "counts": {
+        "za": 22,
+        "przeciw": 0,
+        "wstrzymal_sie": 8,
+        "brak_glosu": 3,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Katarzyna Czerniewska",
+          "Beata Dunajewska",
+          "Piotr Gierszewski",
+          "Michał Hajduk",
+          "Beata Jankowiak",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Emilia Lodzińska",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Stelmasiewicz",
+          "Elżbieta Strzelczyk",
+          "Cezary Śpiewak-Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska"
+        ],
+        "wstrzymal_sie": [
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Waldemar Jaroszewicz",
+          "Alicja Krasula",
+          "Przemysław Majewski",
+          "Przemysław Malak",
+          "Romuald Plewa",
+          "Andrzej Skiba"
+        ],
+        "brak_glosu": [
+          "Łukasz Bejm",
+          "Piotr Dzik",
+          "Karol Ważny"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ],
+        "przeciw": []
+      }
+    },
+    {
+      "vote_index": 15,
+      "topic": "w sprawie uchwalenia miejscowego planu zagospodarowania przestrzennego Ujeścisko w rejonie ulic Łódzkiej i Orląt Lwowskich w mieście Gdańsku (druk 1113);.",
+      "druk": 1113,
+      "counts": {
+        "za": 19,
+        "przeciw": 11,
+        "wstrzymal_sie": 1,
+        "brak_glosu": 2,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Katarzyna Czerniewska",
+          "Beata Dunajewska",
+          "Piotr Dzik",
+          "Michał Hajduk",
+          "Beata Jankowiak",
+          "Krystian Kłos",
+          "Andrzej Kowalczys",
+          "Emilia Lodzińska",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Przemysław Ryś",
+          "Andrzej Stelmasiewicz",
+          "Cezary Śpiewak-Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "przeciw": [
+          "Piotr Gierszewski",
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Waldemar Jaroszewicz",
+          "Kazimierz Koralewski",
+          "Alicja Krasula",
+          "Przemysław Majewski",
+          "Przemysław Malak",
+          "Romuald Plewa",
+          "Andrzej Skiba",
+          "Elżbieta Strzelczyk"
+        ],
+        "wstrzymal_sie": [
+          "Karol Rabenda"
+        ],
+        "brak_glosu": [
+          "Łukasz Bejm",
+          "Mateusz Skarbek"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ]
+      }
+    },
+    {
+      "vote_index": 16,
+      "topic": "w sprawie uchwalenia miejscowego planu zagospodarowania przestrzennego Strzyża - rejon ulic Płk. Wilka Krzyżanowskiego, Żeglarskiej i Bernarda Chrzanowskiego w mieście Gdańsku (druk 1117);.",
+      "druk": 1117,
+      "counts": {
+        "za": 21,
+        "przeciw": 1,
+        "wstrzymal_sie": 11,
+        "brak_glosu": 0,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Katarzyna Czerniewska",
+          "Beata Dunajewska",
+          "Piotr Dzik",
+          "Michał Hajduk",
+          "Beata Jankowiak",
+          "Krystian Kłos",
+          "Andrzej Kowalczys",
+          "Emilia Lodzińska",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Stelmasiewicz",
+          "Cezary Śpiewak-Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "przeciw": [
+          "Karol Rabenda"
+        ],
+        "wstrzymal_sie": [
+          "Piotr Gierszewski",
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Waldemar Jaroszewicz",
+          "Kazimierz Koralewski",
+          "Alicja Krasula",
+          "Przemysław Majewski",
+          "Przemysław Malak",
+          "Romuald Plewa",
+          "Andrzej Skiba",
+          "Elżbieta Strzelczyk"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ],
+        "brak_glosu": []
+      }
+    },
+    {
+      "vote_index": 17,
+      "topic": "w sprawie przystąpienia do sporządzenia miejscowego planu zagospodarowania przestrzennego Olszynka - rejon ulicy Zawodzie w mieście Gdańsku (druk 1104);.",
+      "druk": 1104,
+      "counts": {
+        "za": 21,
+        "przeciw": 0,
+        "wstrzymal_sie": 11,
+        "brak_glosu": 1,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Katarzyna Czerniewska",
+          "Beata Dunajewska",
+          "Piotr Dzik",
+          "Michał Hajduk",
+          "Beata Jankowiak",
+          "Krystian Kłos",
+          "Andrzej Kowalczys",
+          "Emilia Lodzińska",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Stelmasiewicz",
+          "Cezary Śpiewak-Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "wstrzymal_sie": [
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Waldemar Jaroszewicz",
+          "Kazimierz Koralewski",
+          "Alicja Krasula",
+          "Przemysław Majewski",
+          "Przemysław Malak",
+          "Romuald Plewa",
+          "Karol Rabenda",
+          "Andrzej Skiba",
+          "Elżbieta Strzelczyk"
+        ],
+        "brak_glosu": [
+          "Piotr Gierszewski"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ],
+        "przeciw": []
+      }
+    },
+    {
+      "vote_index": 18,
+      "topic": "w sprawie ustanowienia użytku ekologicznego \"Jeziorko Martynka\" (druk 1110) + autopoprawka;.",
+      "druk": 1110,
+      "counts": {
+        "za": 32,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 1,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Katarzyna Czerniewska",
+          "Beata Dunajewska",
+          "Piotr Dzik",
+          "Piotr Gierszewski",
+          "Michał Hajduk",
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Waldemar Jaroszewicz",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Alicja Krasula",
+          "Emilia Lodzińska",
+          "Przemysław Majewski",
+          "Przemysław Malak",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Romuald Plewa",
+          "Karol Rabenda",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Andrzej Stelmasiewicz",
+          "Elżbieta Strzelczyk",
+          "Cezary Śpiewak-Dowbór",
+          "Lech Wałęsa",
+          "Karol Ważny"
+        ],
+        "brak_glosu": [
+          "Teresa Wasilewska"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": []
+      }
+    },
+    {
+      "vote_index": 19,
+      "topic": "w sprawie nadania nazwy Plac Porozumienia Gdańskiego (druk 1124);.",
+      "druk": 1124,
+      "counts": {
+        "za": 32,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 1,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Beata Dunajewska",
+          "Piotr Dzik",
+          "Piotr Gierszewski",
+          "Michał Hajduk",
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Waldemar Jaroszewicz",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Alicja Krasula",
+          "Emilia Lodzińska",
+          "Przemysław Majewski",
+          "Przemysław Malak",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Romuald Plewa",
+          "Karol Rabenda",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Andrzej Stelmasiewicz",
+          "Elżbieta Strzelczyk",
+          "Cezary Śpiewak-Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "brak_glosu": [
+          "Katarzyna Czerniewska"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": []
+      }
+    },
+    {
+      "vote_index": 20,
+      "topic": "w sprawie nadania nazwy ulica prof. Marii Hrabowskiej (druk 1125);.",
+      "druk": 1125,
+      "counts": {
+        "za": 32,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 1,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Beata Dunajewska",
+          "Piotr Dzik",
+          "Piotr Gierszewski",
+          "Michał Hajduk",
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Waldemar Jaroszewicz",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Alicja Krasula",
+          "Emilia Lodzińska",
+          "Przemysław Majewski",
+          "Przemysław Malak",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Romuald Plewa",
+          "Karol Rabenda",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Andrzej Stelmasiewicz",
+          "Elżbieta Strzelczyk",
+          "Cezary Śpiewak-Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "brak_glosu": [
+          "Katarzyna Czerniewska"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": []
+      }
+    },
+    {
+      "vote_index": 21,
+      "topic": "w sprawie nadania nazwy ulica Hilarego Koprowskiego (druk 1126);.",
+      "druk": 1126,
+      "counts": {
+        "za": 32,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 1,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Beata Dunajewska",
+          "Piotr Dzik",
+          "Piotr Gierszewski",
+          "Michał Hajduk",
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Waldemar Jaroszewicz",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Alicja Krasula",
+          "Emilia Lodzińska",
+          "Przemysław Majewski",
+          "Przemysław Malak",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Romuald Plewa",
+          "Karol Rabenda",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Andrzej Stelmasiewicz",
+          "Elżbieta Strzelczyk",
+          "Cezary Śpiewak-Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "brak_glosu": [
+          "Katarzyna Czerniewska"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": []
+      }
+    },
+    {
+      "vote_index": 22,
+      "topic": "w sprawie nadania nazwy ulica prof. Krzysztofa Skóry (druk 1127);.",
+      "druk": 1127,
+      "counts": {
+        "za": 33,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 0,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Katarzyna Czerniewska",
+          "Beata Dunajewska",
+          "Piotr Dzik",
+          "Piotr Gierszewski",
+          "Michał Hajduk",
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Waldemar Jaroszewicz",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Alicja Krasula",
+          "Emilia Lodzińska",
+          "Przemysław Majewski",
+          "Przemysław Malak",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Romuald Plewa",
+          "Karol Rabenda",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Andrzej Stelmasiewicz",
+          "Elżbieta Strzelczyk",
+          "Cezary Śpiewak-Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": []
+      }
+    },
+    {
+      "vote_index": 23,
+      "topic": "w sprawie wyrażenia woli objęcia udziałów w podwyższonym kapitale zakładowym jednoosobowej spółki Gminy Miasta Gdańska działającej pod firmą Gdańskie Towarzystwo Budownictwa Społecznego Spółka z ograniczoną odpowiedzialnością z siedzibą w Gdańsku (druk 1108);.",
+      "druk": 1108,
+      "counts": {
+        "za": 29,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 4,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Katarzyna Czerniewska",
+          "Beata Dunajewska",
+          "Piotr Gierszewski",
+          "Michał Hajduk",
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Waldemar Jaroszewicz",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Alicja Krasula",
+          "Emilia Lodzińska",
+          "Przemysław Majewski",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Romuald Plewa",
+          "Przemysław Ryś",
+          "Andrzej Skiba",
+          "Andrzej Stelmasiewicz",
+          "Elżbieta Strzelczyk",
+          "Cezary Śpiewak-Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "brak_glosu": [
+          "Piotr Dzik",
+          "Przemysław Malak",
+          "Karol Rabenda",
+          "Mateusz Skarbek"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": []
+      }
+    },
+    {
+      "vote_index": 24,
+      "topic": "w sprawie wyrażenia woli objęcia udziałów w podwyższonym kapitale zakładowym spółki Hala Gdańsk-Sopot spółka z ograniczoną odpowiedzialnością z siedzibą w Gdańsku (druk 1114);.",
+      "druk": 1114,
+      "counts": {
+        "za": 30,
+        "przeciw": 0,
+        "wstrzymal_sie": 1,
+        "brak_glosu": 2,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Beata Dunajewska",
+          "Piotr Dzik",
+          "Piotr Gierszewski",
+          "Michał Hajduk",
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Waldemar Jaroszewicz",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Alicja Krasula",
+          "Emilia Lodzińska",
+          "Przemysław Majewski",
+          "Przemysław Malak",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Romuald Plewa",
+          "Karol Rabenda",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Stelmasiewicz",
+          "Elżbieta Strzelczyk",
+          "Cezary Śpiewak-Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska"
+        ],
+        "wstrzymal_sie": [
+          "Andrzej Skiba"
+        ],
+        "brak_glosu": [
+          "Katarzyna Czerniewska",
+          "Karol Ważny"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ],
+        "przeciw": []
+      }
+    },
+    {
+      "vote_index": 25,
+      "topic": "w sprawie zatwierdzenia wniosku Prezydenta Miasta Gdańska o udzielenie Gminie Miasta Gdańska wsparcia ze środków Rządowego Funduszu Rozwoju Mieszkalnictwa na sfinansowanie objęcia udziałów w Towarzystwie Budownictwa Społecznego \"Motława\" spółka z ograniczoną odpowiedzialnością (druk 1109);.",
+      "druk": 1109,
+      "counts": {
+        "za": 30,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 3,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Beata Dunajewska",
+          "Piotr Gierszewski",
+          "Michał Hajduk",
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Waldemar Jaroszewicz",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Alicja Krasula",
+          "Emilia Lodzińska",
+          "Przemysław Majewski",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Romuald Plewa",
+          "Karol Rabenda",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Andrzej Stelmasiewicz",
+          "Elżbieta Strzelczyk",
+          "Cezary Śpiewak-Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "brak_glosu": [
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Przemysław Malak"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": []
+      }
+    },
+    {
+      "vote_index": 26,
+      "topic": "zmieniająca uchwałę w sprawie przyjęcia wieloletniego programu gospodarowania mieszkaniowym zasobem Gminy Miasta Gdańska na lata 2020-2024 (druk 1121); .",
+      "druk": 1121,
+      "counts": {
+        "za": 29,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 4,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Beata Dunajewska",
+          "Piotr Gierszewski",
+          "Michał Hajduk",
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Waldemar Jaroszewicz",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Alicja Krasula",
+          "Emilia Lodzińska",
+          "Przemysław Majewski",
+          "Przemysław Malak",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Romuald Plewa",
+          "Karol Rabenda",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Andrzej Stelmasiewicz",
+          "Elżbieta Strzelczyk",
+          "Cezary Śpiewak- Dowbór",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "brak_glosu": [
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Krystian Kłos",
+          "Lech Wałęsa"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": []
+      }
+    },
+    {
+      "vote_index": 27,
+      "topic": "zmieniająca uchwałę w sprawie zasad wynajmowania lokali mieszkalnych wchodzących w skład mieszkaniowego zasobu Gminy Miasta Gdańska oraz zasad udzielania pomocy w wynajęciu lokali mieszkalnych w zasobach Towarzystw Budownictwa Społecznego (druk 1122);.",
+      "druk": 1122,
+      "counts": {
+        "za": 33,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 0,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Katarzyna Czerniewska",
+          "Beata Dunajewska",
+          "Piotr Dzik",
+          "Piotr Gierszewski",
+          "Michał Hajduk",
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Waldemar Jaroszewicz",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Alicja Krasula",
+          "Emilia Lodzińska",
+          "Przemysław Majewski",
+          "Przemysław Malak",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Romuald Plewa",
+          "Karol Rabenda",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Andrzej Stelmasiewicz",
+          "Elżbieta Strzelczyk",
+          "Cezary Śpiewak-Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": []
+      }
+    },
+    {
+      "vote_index": 28,
+      "topic": "w sprawie ogłoszenia tekstu jednolitego uchwały w sprawie Regulaminu dostarczania wody i odprowadzania ścieków na terenie Miasta Gdańska (druk 1120); .",
+      "druk": 1120,
+      "counts": {
+        "za": 33,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 0,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Katarzyna Czerniewska",
+          "Beata Dunajewska",
+          "Piotr Dzik",
+          "Piotr Gierszewski",
+          "Michał Hajduk",
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Waldemar Jaroszewicz",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Alicja Krasula",
+          "Emilia Lodzińska",
+          "Przemysław Majewski",
+          "Przemysław Malak",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Romuald Plewa",
+          "Karol Rabenda",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Andrzej Stelmasiewicz",
+          "Elżbieta Strzelczyk",
+          "Cezary Śpiewak-Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": []
+      }
+    },
+    {
+      "vote_index": 29,
+      "topic": "w sprawie przystąpienia Gminy Miasta Gdańska do stowarzyszenia CCAM - Connected, Cooperative and Automated Mobility Association (\"Stowarzyszenie na rzecz mobilności połączonej, współpracującej i zautomatyzowanej\") (druk 1123); .",
+      "druk": 1123,
+      "counts": {
+        "za": 21,
+        "przeciw": 2,
+        "wstrzymal_sie": 9,
+        "brak_glosu": 1,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Katarzyna Czerniewska",
+          "Beata Dunajewska",
+          "Piotr Dzik",
+          "Michał Hajduk",
+          "Beata Jankowiak",
+          "Krystian Kłos",
+          "Andrzej Kowalczys",
+          "Emilia Lodzińska",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Stelmasiewicz",
+          "Cezary Śpiewak-Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "przeciw": [
+          "Henryk Hałas",
+          "Karol Rabenda"
+        ],
+        "wstrzymal_sie": [
+          "Piotr Gierszewski",
+          "Barbara Imianowska",
+          "Waldemar Jaroszewicz",
+          "Kazimierz Koralewski",
+          "Alicja Krasula",
+          "Przemysław Malak",
+          "Romuald Plewa",
+          "Andrzej Skiba",
+          "Elżbieta Strzelczyk"
+        ],
+        "brak_glosu": [
+          "Przemysław Majewski"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ]
+      }
+    },
+    {
+      "vote_index": 30,
+      "topic": "w sprawie ustalenia wysokości opłat za usuwanie pojazdów z dróg i ich przechowywanie na parkingu strzeżonym oraz wysokości kosztów powstałych w przypadku odstąpienia od usunięcia pojazdu z drogi (druk 1116); .",
+      "druk": 1116,
+      "counts": {
+        "za": 30,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 3,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Katarzyna Czerniewska",
+          "Beata Dunajewska",
+          "Piotr Dzik",
+          "Piotr Gierszewski",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Waldemar Jaroszewicz",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Alicja Krasula",
+          "Emilia Lodzińska",
+          "Przemysław Malak",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Andrzej Stelmasiewicz",
+          "Elżbieta Strzelczyk",
+          "Cezary Śpiewak-Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "brak_glosu": [
+          "Henryk Hałas",
+          "Przemysław Majewski",
+          "Romuald Plewa"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": []
+      }
+    },
+    {
+      "vote_index": 31,
+      "topic": "w sprawie ogłoszenia tekstu jednolitego uchwały w sprawie ustalania zasad taryfowych, cen za przejazdy środkami gminnego transportu zbiorowego oraz wysokości opłat dodatkowych i opłat manipulacyjnych (druk 1131);.",
+      "druk": 1131,
+      "counts": {
+        "za": 33,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 0,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Katarzyna Czerniewska",
+          "Beata Dunajewska",
+          "Piotr Dzik",
+          "Piotr Gierszewski",
+          "Michał Hajduk",
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Waldemar Jaroszewicz",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Alicja Krasula",
+          "Emilia Lodzińska",
+          "Przemysław Majewski",
+          "Przemysław Malak",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Romuald Plewa",
+          "Karol Rabenda",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Andrzej Stelmasiewicz",
+          "Elżbieta Strzelczyk",
+          "Cezary Śpiewak-Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": []
+      }
+    },
+    {
+      "vote_index": 32,
+      "topic": "zmieniająca uchwałę w sprawie powołania Miejskiej Komisji ds. Wyborów w Jednostkach Pomocniczych w Gdańsku i ustalenia jej Regulaminu (druk 1103); .",
+      "druk": 1103,
+      "counts": {
+        "za": 31,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 2,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Katarzyna Czerniewska",
+          "Beata Dunajewska",
+          "Piotr Gierszewski",
+          "Michał Hajduk",
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Waldemar Jaroszewicz",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Alicja Krasula",
+          "Emilia Lodzińska",
+          "Przemysław Majewski",
+          "Przemysław Malak",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Romuald Plewa",
+          "Karol Rabenda",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Andrzej Stelmasiewicz",
+          "Elżbieta Strzelczyk",
+          "Cezary Śpiewak- Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "brak_glosu": [
+          "Piotr Dzik",
+          "Andrzej Kowalczys"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": []
+      }
+    },
+    {
+      "vote_index": 33,
+      "topic": "zmieniająca uchwałę w sprawie powołania Młodzieżowej Rady Miasta Gdańska (druk 1132);.",
+      "druk": 1132,
+      "counts": {
+        "za": 30,
+        "przeciw": 0,
+        "wstrzymal_sie": 1,
+        "brak_glosu": 2,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Katarzyna Czerniewska",
+          "Beata Dunajewska",
+          "Piotr Gierszewski",
+          "Michał Hajduk",
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Waldemar Jaroszewicz",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Alicja Krasula",
+          "Emilia Lodzińska",
+          "Przemysław Malak",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Romuald Plewa",
+          "Karol Rabenda",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Andrzej Stelmasiewicz",
+          "Elżbieta Strzelczyk",
+          "Cezary Śpiewak-Dowbór",
+          "Lech Wałęsa",
+          "Karol Ważny"
+        ],
+        "wstrzymal_sie": [
+          "Przemysław Majewski"
+        ],
+        "brak_glosu": [
+          "Piotr Dzik",
+          "Teresa Wasilewska"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ],
+        "przeciw": []
+      }
+    },
+    {
+      "vote_index": 34,
+      "topic": "w sprawie rozpatrzenia skargi XYZ na działania Dyrektora Gdańskiego Centrum Świadczeń (druk 1128);.",
+      "druk": 1128,
+      "counts": {
+        "za": 30,
+        "przeciw": 0,
+        "wstrzymal_sie": 1,
+        "brak_glosu": 2,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Katarzyna Czerniewska",
+          "Beata Dunajewska",
+          "Piotr Gierszewski",
+          "Michał Hajduk",
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Waldemar Jaroszewicz",
+          "Krystian Kłos",
+          "Andrzej Kowalczys",
+          "Alicja Krasula",
+          "Emilia Lodzińska",
+          "Przemysław Malak",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Romuald Plewa",
+          "Karol Rabenda",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Andrzej Stelmasiewicz",
+          "Elżbieta Strzelczyk",
+          "Cezary Śpiewak-Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "wstrzymal_sie": [
+          "Przemysław Majewski"
+        ],
+        "brak_glosu": [
+          "Piotr Dzik",
+          "Kazimierz Koralewski"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ],
+        "przeciw": []
+      }
+    },
+    {
+      "vote_index": 35,
+      "topic": "w sprawie rozpatrzenia skargi na działalność Gdańskiego Centrum Świadczeń (druk 1129);.",
+      "druk": 1129,
+      "counts": {
+        "za": 33,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 0,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Katarzyna Czerniewska",
+          "Beata Dunajewska",
+          "Piotr Dzik",
+          "Piotr Gierszewski",
+          "Michał Hajduk",
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Waldemar Jaroszewicz",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Alicja Krasula",
+          "Emilia Lodzińska",
+          "Przemysław Majewski",
+          "Przemysław Malak",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Romuald Plewa",
+          "Karol Rabenda",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Andrzej Stelmasiewicz",
+          "Elżbieta Strzelczyk",
+          "Cezary Śpiewak-Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": []
+      }
+    },
+    {
+      "vote_index": 36,
+      "topic": "w sprawie rozpatrzenia skargi na nienależyte wykonywanie zadań przez Gdańskie Centrum Świadczeń (druk 1130);.",
+      "druk": 1130,
+      "counts": {
+        "za": 33,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 0,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Katarzyna Czerniewska",
+          "Beata Dunajewska",
+          "Piotr Dzik",
+          "Piotr Gierszewski",
+          "Michał Hajduk",
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Waldemar Jaroszewicz",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Alicja Krasula",
+          "Emilia Lodzińska",
+          "Przemysław Majewski",
+          "Przemysław Malak",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Romuald Plewa",
+          "Karol Rabenda",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Andrzej Stelmasiewicz",
+          "Elżbieta Strzelczyk",
+          "Cezary Śpiewak-Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": []
+      }
+    },
+    {
+      "vote_index": 37,
+      "topic": "w sprawie rozpatrzenia petycji z dnia 20 października 2021 r. w sprawie ochrony dzieci oraz ludzi osłabionych przed szkodliwym wpływem na ich zdrowie sztucznego promieniowania mikrofalowego (druk 1133);.",
+      "druk": 1133,
+      "counts": {
+        "za": 33,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 0,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Katarzyna Czerniewska",
+          "Beata Dunajewska",
+          "Piotr Dzik",
+          "Piotr Gierszewski",
+          "Michał Hajduk",
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Waldemar Jaroszewicz",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Alicja Krasula",
+          "Emilia Lodzińska",
+          "Przemysław Majewski",
+          "Przemysław Malak",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Romuald Plewa",
+          "Karol Rabenda",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Andrzej Stelmasiewicz",
+          "Elżbieta Strzelczyk",
+          "Cezary Śpiewak-Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": []
+      }
+    },
+    {
+      "vote_index": 38,
+      "topic": "w sprawie ustalenia wysokości diet dla Przewodniczących Rad, Przewodniczących Zarządów i Zastępców Przewodniczących Zarządów jednostek pomocniczych Miasta Gdańska (druk 1134);.",
+      "druk": 1134,
+      "counts": {
+        "za": 32,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 1,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Katarzyna Czerniewska",
+          "Beata Dunajewska",
+          "Piotr Dzik",
+          "Piotr Gierszewski",
+          "Michał Hajduk",
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Waldemar Jaroszewicz",
+          "Krystian Kłos",
+          "Andrzej Kowalczys",
+          "Alicja Krasula",
+          "Emilia Lodzińska",
+          "Przemysław Majewski",
+          "Przemysław Malak",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Romuald Plewa",
+          "Karol Rabenda",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Andrzej Stelmasiewicz",
+          "Elżbieta Strzelczyk",
+          "Cezary Śpiewak-Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "brak_glosu": [
+          "Kazimierz Koralewski"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": []
+      }
+    },
+    {
+      "vote_index": 39,
+      "topic": "zmieniająca uchwałę w sprawie ustalenia diet i zwrotu kosztów podróży służbowych dla radnych Miasta Gdańska (druk 1135).",
+      "druk": 1135,
+      "counts": {
+        "za": 21,
+        "przeciw": 0,
+        "wstrzymal_sie": 12,
+        "brak_glosu": 0,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Katarzyna Czerniewska",
+          "Beata Dunajewska",
+          "Piotr Dzik",
+          "Michał Hajduk",
+          "Beata Jankowiak",
+          "Krystian Kłos",
+          "Andrzej Kowalczys",
+          "Emilia Lodzińska",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Stelmasiewicz",
+          "Cezary Śpiewak-Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "wstrzymal_sie": [
+          "Piotr Gierszewski",
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Waldemar Jaroszewicz",
+          "Kazimierz Koralewski",
+          "Alicja Krasula",
+          "Przemysław Majewski",
+          "Przemysław Malak",
+          "Romuald Plewa",
+          "Karol Rabenda",
+          "Andrzej Skiba",
+          "Elżbieta Strzelczyk"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ],
+        "przeciw": [],
+        "brak_glosu": []
+      }
+    },
+    {
+      "vote_index": 40,
+      "topic": "w sprawie ustalenia wynagrodzenia dla Prezydenta Miasta Gdańska w okresie kadencji 2018- 2023 (druk 1136).",
+      "druk": 1136,
+      "counts": {
+        "za": 23,
+        "przeciw": 0,
+        "wstrzymal_sie": 10,
+        "brak_glosu": 0,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Katarzyna Czerniewska",
+          "Beata Dunajewska",
+          "Piotr Dzik",
+          "Piotr Gierszewski",
+          "Michał Hajduk",
+          "Beata Jankowiak",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Emilia Lodzińska",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Stelmasiewicz",
+          "Cezary Śpiewak-Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "wstrzymal_sie": [
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Waldemar Jaroszewicz",
+          "Alicja Krasula",
+          "Przemysław Majewski",
+          "Przemysław Malak",
+          "Romuald Plewa",
+          "Karol Rabenda",
+          "Andrzej Skiba",
+          "Elżbieta Strzelczyk"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ],
+        "przeciw": [],
+        "brak_glosu": []
+      }
+    },
+    {
+      "vote_index": 41,
+      "topic": "POPRAWKA Oświadczenie w sprawie solidarności ze służbami mundurowymi strzegącymi granicy polsko – białoruskiej + autopoprawka + poprawka;.",
+      "counts": {
+        "za": 32,
+        "przeciw": 0,
+        "wstrzymal_sie": 1,
+        "brak_glosu": 0,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Katarzyna Czerniewska",
+          "Beata Dunajewska",
+          "Piotr Dzik",
+          "Piotr Gierszewski",
+          "Michał Hajduk",
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Waldemar Jaroszewicz",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Alicja Krasula",
+          "Emilia Lodzińska",
+          "Przemysław Majewski",
+          "Przemysław Malak",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Andrzej Stelmasiewicz",
+          "Elżbieta Strzelczyk",
+          "Cezary Śpiewak-Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "wstrzymal_sie": [
+          "Romuald Plewa"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ],
+        "przeciw": [],
+        "brak_glosu": []
+      }
+    },
+    {
+      "vote_index": 42,
+      "topic": "Oświadczenie w sprawie solidarności ze służbami mundurowymi strzegącymi granicy polsko – białoruskiej + autopoprawka + poprawka;.",
+      "counts": {
+        "za": 33,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 0,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Katarzyna Czerniewska",
+          "Beata Dunajewska",
+          "Piotr Dzik",
+          "Piotr Gierszewski",
+          "Michał Hajduk",
+          "Henryk Hałas",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Waldemar Jaroszewicz",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Alicja Krasula",
+          "Emilia Lodzińska",
+          "Przemysław Majewski",
+          "Przemysław Malak",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Romuald Plewa",
+          "Karol Rabenda",
+          "Przemysław Ryś",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Andrzej Stelmasiewicz",
+          "Elżbieta Strzelczyk",
+          "Cezary Śpiewak-Dowbór",
+          "Lech Wałęsa",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "nieobecni": [
+          "Anna Golędzinowska"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": []
+      }
+    }
+  ],
+  "vote_count": 43
+}

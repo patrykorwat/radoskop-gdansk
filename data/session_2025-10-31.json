@@ -1,0 +1,1896 @@
+{
+  "source_file": "2025_202511263839_glosowania.pdf",
+  "source_url": "https://download.cloudgdansk.pl/gdansk-pl/d/202511263839/glosowania.pdf",
+  "date": "2025-10-31",
+  "date_raw": "31.10.2025",
+  "number_roman": "XX",
+  "number": 20,
+  "attendees": [
+    "Jolanta Banach",
+    "Agnieszka Bartków",
+    "Łukasz Bejm",
+    "Kamila Błaszczyk",
+    "Wojciech Błaszkowski",
+    "Sylwia Cisoń",
+    "Katarzyna Czerniewska",
+    "Piotr Dzik",
+    "Żaneta Geryk",
+    "Piotr Gierszewski",
+    "Anna Golędzinowska",
+    "Michał Hajduk",
+    "Barbara Imianowska",
+    "Beata Jankowiak",
+    "Aleksander Jankowski",
+    "Maximilian Kieturakis",
+    "Krystian Kłos",
+    "Kazimierz Koralewski",
+    "Andrzej Kowalczys",
+    "Marta Magott",
+    "Przemysław Majewski",
+    "Marcin Makowski",
+    "Marcin Mickun",
+    "Bogdan Oleszek",
+    "Agnieszka Owczarczak",
+    "Jan Perucki",
+    "Karol Rabenda",
+    "Tomasz Rakowski",
+    "Sylwia Rydlewska-Kowalik",
+    "Mateusz Skarbek",
+    "Andrzej Skiba",
+    "Cezary Śpiewak-Dowbór",
+    "Łukasz Świacki",
+    "Karol Ważny"
+  ],
+  "attendee_count": 34,
+  "votes": [
+    {
+      "vote_index": 0,
+      "topic": "włączenie druku (480);",
+      "counts": {
+        "za": 29,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 5,
+        "nieobecni": 0
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Kamila Błaszczyk",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak- Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": [
+          "Agnieszka Bartków",
+          "Łukasz Bejm",
+          "Wojciech Błaszkowski",
+          "Karol Rabenda",
+          "Tomasz Rakowski"
+        ],
+        "nieobecni": []
+      }
+    },
+    {
+      "vote_index": 1,
+      "topic": "zmieniająca uchwałę w sprawie uchwalenia budżetu na 2025 rok (druk 454);",
+      "druk": 454,
+      "counts": {
+        "za": 24,
+        "przeciw": 7,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 2,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Beata Jankowiak",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Marta Magott",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [
+          "Piotr Gierszewski",
+          "Barbara Imianowska",
+          "Aleksander Jankowski",
+          "Kazimierz Koralewski",
+          "Przemysław Majewski",
+          "Tomasz Rakowski",
+          "Andrzej Skiba"
+        ],
+        "wstrzymal_sie": [],
+        "brak_glosu": [
+          "Andrzej Kowalczys",
+          "Karol Rabenda"
+        ],
+        "nieobecni": [
+          "Agnieszka Bartków"
+        ]
+      }
+    },
+    {
+      "vote_index": 2,
+      "topic": "zmieniająca uchwałę w sprawie przyjęcia Wieloletniej Prognozy Finansowej Gminy Miasta Gdańska (druk 455)",
+      "druk": 455,
+      "counts": {
+        "za": 23,
+        "przeciw": 6,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 4,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Beata Jankowiak",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Marta Magott",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [
+          "Piotr Gierszewski",
+          "Barbara Imianowska",
+          "Aleksander Jankowski",
+          "Kazimierz Koralewski",
+          "Przemysław Majewski",
+          "Andrzej Skiba"
+        ],
+        "wstrzymal_sie": [],
+        "brak_glosu": [
+          "Katarzyna Czerniewska",
+          "Andrzej Kowalczys",
+          "Karol Rabenda",
+          "Tomasz Rakowski"
+        ],
+        "nieobecni": [
+          "Agnieszka Bartków"
+        ]
+      }
+    },
+    {
+      "vote_index": 3,
+      "topic": "w sprawie określenia wysokości stawek w podatku od nieruchomości i zwolnień od tego podatku na terenie Miasta Gdańska (druk 451);",
+      "druk": 451,
+      "counts": {
+        "za": 25,
+        "przeciw": 8,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 0,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Beata Jankowiak",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [
+          "Piotr Gierszewski",
+          "Barbara Imianowska",
+          "Aleksander Jankowski",
+          "Kazimierz Koralewski",
+          "Przemysław Majewski",
+          "Karol Rabenda",
+          "Tomasz Rakowski",
+          "Andrzej Skiba"
+        ],
+        "wstrzymal_sie": [],
+        "brak_glosu": [],
+        "nieobecni": [
+          "Agnieszka Bartków"
+        ]
+      }
+    },
+    {
+      "vote_index": 4,
+      "topic": "w sprawie opłaty miejscowej (druk 452);",
+      "druk": 452,
+      "counts": {
+        "za": 33,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 0,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Tomasz Rakowski",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": [],
+        "nieobecni": [
+          "Agnieszka Bartków"
+        ]
+      }
+    },
+    {
+      "vote_index": 5,
+      "topic": "w sprawie określenia wysokości stawek podatku od środków transportowych obowiązujących na terenie Miasta Gdańska (druk 453);",
+      "druk": 453,
+      "counts": {
+        "za": 23,
+        "przeciw": 8,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 2,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Beata Jankowiak",
+          "Maximilian Kieturakis",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [
+          "Piotr Gierszewski",
+          "Barbara Imianowska",
+          "Aleksander Jankowski",
+          "Kazimierz Koralewski",
+          "Przemysław Majewski",
+          "Karol Rabenda",
+          "Tomasz Rakowski",
+          "Andrzej Skiba"
+        ],
+        "wstrzymal_sie": [],
+        "brak_glosu": [
+          "Żaneta Geryk",
+          "Krystian Kłos"
+        ],
+        "nieobecni": [
+          "Agnieszka Bartków"
+        ]
+      }
+    },
+    {
+      "vote_index": 6,
+      "topic": "w sprawie wyboru firmy audytorskiej uprawnionej do badania sprawozdania finansowego Gminy Miasta Gdańska za lata 2025-2026",
+      "counts": {
+        "za": 24,
+        "przeciw": 0,
+        "wstrzymal_sie": 8,
+        "brak_glosu": 1,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Żaneta Geryk",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Beata Jankowiak",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [
+          "Piotr Gierszewski",
+          "Barbara Imianowska",
+          "Aleksander Jankowski",
+          "Kazimierz Koralewski",
+          "Przemysław Majewski",
+          "Karol Rabenda",
+          "Tomasz Rakowski",
+          "Andrzej Skiba"
+        ],
+        "brak_glosu": [
+          "Piotr Dzik"
+        ],
+        "nieobecni": [
+          "Agnieszka Bartków"
+        ]
+      }
+    },
+    {
+      "vote_index": 7,
+      "topic": "zmieniająca uchwałę w sprawie szczegółowych zasad, sposobu i trybu umarzania, odraczania terminów spłaty lub rozkładania na raty spłaty należności pieniężnych mających charakter cywilnoprawny, przypadających Gminie Miasta Gdańska i jej jednostkom organizacyjnym, warunków dopuszczalności pomocy publicznej w przypadkach, w których ulga stanowić będzie pomoc publiczną oraz wskazania organów lub osób uprawnionych do udzielania ulg (druk 458);",
+      "druk": 458,
+      "counts": {
+        "za": 32,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 1,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Tomasz Rakowski",
+          "Sylwia Rydlewska- Kowalik",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": [
+          "Piotr Dzik"
+        ],
+        "nieobecni": [
+          "Agnieszka Bartków"
+        ]
+      }
+    },
+    {
+      "vote_index": 8,
+      "topic": "REZOLUCJA skierowana do Prezydenta Miasta Gdańska w sprawie lokali mieszkalnych niewykorzystywanych do celów mieszkalnych, lecz przeznaczonych na prowadzenie działalności gospodarczej, w szczególności działalności najmu krótkoterminowego (druk 479);",
+      "druk": 479,
+      "counts": {
+        "za": 31,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 2,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Tomasz Rakowski",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": [
+          "Sylwia Cisoń",
+          "Maximilian Kieturakis"
+        ],
+        "nieobecni": [
+          "Agnieszka Bartków"
+        ]
+      }
+    },
+    {
+      "vote_index": 9,
+      "topic": "w sprawie wyrażenia woli objęcia udziałów w podwyższonym kapitale zakładowym jednoosobowej spółki Gminy Miasta Gdańska działającej pod nazwą Gdańska Agencja Rozwoju Gospodarczego spółka z o.o. (druk 462);",
+      "druk": 462,
+      "counts": {
+        "za": 30,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 3,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Tomasz Rakowski",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": [
+          "Sylwia Cisoń",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis"
+        ],
+        "nieobecni": [
+          "Agnieszka Bartków"
+        ]
+      }
+    },
+    {
+      "vote_index": 10,
+      "topic": "zmieniająca uchwałę w sprawie zasad bezprzetargowej sprzedaży lokali mieszkalnych i budynków jednorodzinnych oraz warunków udzielania i wysokości stawek procentowych bonifikat (druk 456);",
+      "druk": 456,
+      "counts": {
+        "za": 31,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 2,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Tomasz Rakowski",
+          "Sylwia Rydlewska- Kowalik",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak-Dowbór",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": [
+          "Beata Jankowiak",
+          "Łukasz Świacki"
+        ],
+        "nieobecni": [
+          "Agnieszka Bartków"
+        ]
+      }
+    },
+    {
+      "vote_index": 11,
+      "topic": "zmieniająca uchwałę w sprawie zasad wynajmowania lokali mieszkalnych wchodzących w skład mieszkaniowego zasobu Gminy Miasta Gdańska oraz zasad udzielania pomocy w wynajęciu lokali mieszkalnych w zasobach Towarzystw Budownictwa Społecznego (druk 463);",
+      "druk": 463,
+      "counts": {
+        "za": 32,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 1,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Tomasz Rakowski",
+          "Sylwia Rydlewska- Kowalik",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": [
+          "Maximilian Kieturakis"
+        ],
+        "nieobecni": [
+          "Agnieszka Bartków"
+        ]
+      }
+    },
+    {
+      "vote_index": 12,
+      "topic": "w sprawie ustalenia lokalizacji inwestycji mieszkaniowej przy ul. Droszyńskiego 8-11 i inwestycji towarzyszących w mieście Gdańsku (druk 450);",
+      "druk": 450,
+      "counts": {
+        "za": 24,
+        "przeciw": 0,
+        "wstrzymal_sie": 7,
+        "brak_glosu": 2,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Beata Jankowiak",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Sylwia Rydlewska-Kowalik",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [
+          "Piotr Gierszewski",
+          "Barbara Imianowska",
+          "Aleksander Jankowski",
+          "Kazimierz Koralewski",
+          "Przemysław Majewski",
+          "Tomasz Rakowski",
+          "Andrzej Skiba"
+        ],
+        "brak_glosu": [
+          "Karol Rabenda",
+          "Mateusz Skarbek"
+        ],
+        "nieobecni": [
+          "Agnieszka Bartków"
+        ]
+      }
+    },
+    {
+      "vote_index": 13,
+      "topic": "w sprawie Regulaminu programu stypendialnego Prezydenta Miasta Gdańska dla studentów i doktorantów im. Daniela Gabriela Fahrenheita (druk 459);",
+      "druk": 459,
+      "counts": {
+        "za": 29,
+        "przeciw": 0,
+        "wstrzymal_sie": 3,
+        "brak_glosu": 1,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [
+          "Przemysław Majewski",
+          "Tomasz Rakowski",
+          "Andrzej Skiba"
+        ],
+        "brak_glosu": [
+          "Karol Rabenda"
+        ],
+        "nieobecni": [
+          "Agnieszka Bartków"
+        ]
+      }
+    },
+    {
+      "vote_index": 14,
+      "topic": "w sprawie zmiany nazwy części ulicy Jana Bażyńskiego (druk 457);",
+      "druk": 457,
+      "counts": {
+        "za": 25,
+        "przeciw": 0,
+        "wstrzymal_sie": 7,
+        "brak_glosu": 1,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Beata Jankowiak",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [
+          "Piotr Gierszewski",
+          "Barbara Imianowska",
+          "Aleksander Jankowski",
+          "Kazimierz Koralewski",
+          "Przemysław Majewski",
+          "Karol Rabenda",
+          "Tomasz Rakowski"
+        ],
+        "brak_glosu": [
+          "Andrzej Skiba"
+        ],
+        "nieobecni": [
+          "Agnieszka Bartków"
+        ]
+      }
+    },
+    {
+      "vote_index": 15,
+      "topic": "WNIOSEK FORMALNY O ODESŁANIE DRUKU DO KOMISJI w sprawie zmiany nazwy części ulicy Jana Bażyńskiego (druk 457);",
+      "druk": 457,
+      "counts": {
+        "za": 7,
+        "przeciw": 23,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 3,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Piotr Gierszewski",
+          "Barbara Imianowska",
+          "Aleksander Jankowski",
+          "Kazimierz Koralewski",
+          "Przemysław Majewski",
+          "Karol Rabenda",
+          "Tomasz Rakowski"
+        ],
+        "przeciw": [
+          "Jolanta Banach",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Beata Jankowiak",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "wstrzymal_sie": [],
+        "brak_glosu": [
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Andrzej Skiba"
+        ],
+        "nieobecni": [
+          "Agnieszka Bartków"
+        ]
+      }
+    },
+    {
+      "vote_index": 16,
+      "topic": "w sprawie zawarcia porozumienia międzygminnego w przedmiocie powierzenia Gminie Miasta Gdańska realizacji zadań publicznych z zakresu promowania aktywności fizycznej i zrównoważonej mobilności w formie organizacji Kampanii \"Rowerowy Maj\" w roku 2026 (druk 461);",
+      "druk": 461,
+      "counts": {
+        "za": 32,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 1,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Tomasz Rakowski",
+          "Sylwia Rydlewska- Kowalik",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": [
+          "Jolanta Banach"
+        ],
+        "nieobecni": [
+          "Agnieszka Bartków"
+        ]
+      }
+    },
+    {
+      "vote_index": 17,
+      "topic": "w sprawie zmiany uchwały w sprawie zatwierdzenia planu kontroli Komisji Rewizyjnej Rady Miasta Gdańska na rok 2025 (druk 480);",
+      "druk": 480,
+      "counts": {
+        "za": 33,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 0,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Tomasz Rakowski",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": [],
+        "nieobecni": [
+          "Agnieszka Bartków"
+        ]
+      }
+    },
+    {
+      "vote_index": 18,
+      "topic": "w sprawie skargi Pani XY na Dyrektora Gdańskiego Zarządu Dróg i Zieleni (druk 464);",
+      "druk": 464,
+      "counts": {
+        "za": 32,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 1,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Tomasz Rakowski",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": [
+          "Krystian Kłos"
+        ],
+        "nieobecni": [
+          "Agnieszka Bartków"
+        ]
+      }
+    },
+    {
+      "vote_index": 19,
+      "topic": "w sprawie skargi Pani XY na Prezydenta Miasta (druk 465);",
+      "druk": 465,
+      "counts": {
+        "za": 32,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 1,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Tomasz Rakowski",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": [
+          "Andrzej Skiba"
+        ],
+        "nieobecni": [
+          "Agnieszka Bartków"
+        ]
+      }
+    },
+    {
+      "vote_index": 20,
+      "topic": "w sprawie skargi Pana XY na Dyrektora Miejskiego Ośrodka Pomocy Rodzinie w Gdańsku (druk 466);",
+      "druk": 466,
+      "counts": {
+        "za": 32,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 1,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Tomasz Rakowski",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": [
+          "Andrzej Skiba"
+        ],
+        "nieobecni": [
+          "Agnieszka Bartków"
+        ]
+      }
+    },
+    {
+      "vote_index": 21,
+      "topic": "w sprawie skargi Pana XY na zachowanie pracownika socjalnego Miejskiego Ośrodka Pomocy Rodzinie w Gdańsku (druk 467);",
+      "druk": 467,
+      "counts": {
+        "za": 32,
+        "przeciw": 0,
+        "wstrzymal_sie": 1,
+        "brak_glosu": 0,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Tomasz Rakowski",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [
+          "Andrzej Skiba"
+        ],
+        "brak_glosu": [],
+        "nieobecni": [
+          "Agnieszka Bartków"
+        ]
+      }
+    },
+    {
+      "vote_index": 22,
+      "topic": "w sprawie skargi na działania Dyrektora placówki opiekuńczo-wychowawczej \"Wichrowy Dom\" (druk 468);",
+      "druk": 468,
+      "counts": {
+        "za": 33,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 0,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Tomasz Rakowski",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": [],
+        "nieobecni": [
+          "Agnieszka Bartków"
+        ]
+      }
+    },
+    {
+      "vote_index": 23,
+      "topic": "w sprawie skargi Pani XY na zachowanie pracowników Miejskiego Ośrodka Pomocy Rodzinie w Gdańsku (druk 469);",
+      "druk": 469,
+      "counts": {
+        "za": 33,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 0,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Tomasz Rakowski",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": [],
+        "nieobecni": [
+          "Agnieszka Bartków"
+        ]
+      }
+    },
+    {
+      "vote_index": 24,
+      "topic": "w sprawie skargi Pani XY na działania pracowników Miejskiego Ośrodka Pomocy Rodzinie w Gdańsku (druk 470);",
+      "druk": 470,
+      "counts": {
+        "za": 33,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 0,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Tomasz Rakowski",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": [],
+        "nieobecni": [
+          "Agnieszka Bartków"
+        ]
+      }
+    },
+    {
+      "vote_index": 25,
+      "topic": "w sprawie skargi Pani XY na działania pracowników Miejskiego Ośrodka Pomocy Rodzinie w Gdańsku (druk 471);",
+      "druk": 471,
+      "counts": {
+        "za": 32,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 1,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Tomasz Rakowski",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": [
+          "Marcin Mickun"
+        ],
+        "nieobecni": [
+          "Agnieszka Bartków"
+        ]
+      }
+    },
+    {
+      "vote_index": 26,
+      "topic": "w sprawie skargi Pana XY na działania pracowników Miejskiego Ośrodka Pomocy Rodzinie w Gdańsku (druk 472);",
+      "druk": 472,
+      "counts": {
+        "za": 33,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 0,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Tomasz Rakowski",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": [],
+        "nieobecni": [
+          "Agnieszka Bartków"
+        ]
+      }
+    },
+    {
+      "vote_index": 27,
+      "topic": "w sprawie wniosku z dnia 5 czerwca 2025 roku o uruchomienie poboru opłaty w Strefie Płatnego Parkowania w rejonie ulic: Strzeleckiej, Kurkowej, a ponadto w zatoce postojowej przy ul. Nowe Ogrody przed skrzyżowaniem z ul. Powstańców Warszawskich (druk 473);",
+      "druk": 473,
+      "counts": {
+        "za": 26,
+        "przeciw": 0,
+        "wstrzymal_sie": 7,
+        "brak_glosu": 0,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Beata Jankowiak",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [
+          "Piotr Gierszewski",
+          "Barbara Imianowska",
+          "Aleksander Jankowski",
+          "Kazimierz Koralewski",
+          "Przemysław Majewski",
+          "Tomasz Rakowski",
+          "Andrzej Skiba"
+        ],
+        "brak_glosu": [],
+        "nieobecni": [
+          "Agnieszka Bartków"
+        ]
+      }
+    },
+    {
+      "vote_index": 28,
+      "topic": "w sprawie wniosku Zarządu Administracji i Eksploatacji Domu Handlowo-Usługowego s.c. (druk 474);",
+      "druk": 474,
+      "counts": {
+        "za": 25,
+        "przeciw": 8,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 0,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Beata Jankowiak",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [
+          "Piotr Gierszewski",
+          "Barbara Imianowska",
+          "Aleksander Jankowski",
+          "Kazimierz Koralewski",
+          "Przemysław Majewski",
+          "Karol Rabenda",
+          "Tomasz Rakowski",
+          "Andrzej Skiba"
+        ],
+        "wstrzymal_sie": [],
+        "brak_glosu": [],
+        "nieobecni": [
+          "Agnieszka Bartków"
+        ]
+      }
+    },
+    {
+      "vote_index": 29,
+      "topic": "w sprawie rozpatrzenia petycji w sprawie ochrony unikalnego charakteru Wyspy Sobieszewskiej (druk 475);",
+      "druk": 475,
+      "counts": {
+        "za": 33,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 0,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Tomasz Rakowski",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": [],
+        "nieobecni": [
+          "Agnieszka Bartków"
+        ]
+      }
+    },
+    {
+      "vote_index": 30,
+      "topic": "w sprawie przekazania Prezydentowi Miasta Gdańska petycji w sprawie zmiany organizacji ruchu na Biskupiej Górce (druk 476);",
+      "druk": 476,
+      "counts": {
+        "za": 32,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 1,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Tomasz Rakowski",
+          "Sylwia Rydlewska- Kowalik",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "brak_glosu": [
+          "Jolanta Banach"
+        ],
+        "nieobecni": [
+          "Agnieszka Bartków"
+        ]
+      }
+    },
+    {
+      "vote_index": 31,
+      "topic": "w sprawie petycji Pani XY (druk 477);",
+      "druk": 477,
+      "counts": {
+        "za": 29,
+        "przeciw": 0,
+        "wstrzymal_sie": 2,
+        "brak_glosu": 2,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Tomasz Rakowski",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [
+          "Przemysław Majewski",
+          "Andrzej Skiba"
+        ],
+        "brak_glosu": [
+          "Jolanta Banach",
+          "Barbara Imianowska"
+        ],
+        "nieobecni": [
+          "Agnieszka Bartków"
+        ]
+      }
+    },
+    {
+      "vote_index": 32,
+      "topic": "w sprawie petycji Stowarzyszenia Suweren.pl (druk 478);",
+      "druk": 478,
+      "counts": {
+        "za": 24,
+        "przeciw": 0,
+        "wstrzymal_sie": 8,
+        "brak_glosu": 1,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Beata Jankowiak",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Sylwia Rydlewska-Kowalik",
+          "Mateusz Skarbek",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [
+          "Piotr Gierszewski",
+          "Barbara Imianowska",
+          "Aleksander Jankowski",
+          "Kazimierz Koralewski",
+          "Przemysław Majewski",
+          "Karol Rabenda",
+          "Tomasz Rakowski",
+          "Andrzej Skiba"
+        ],
+        "brak_glosu": [
+          "Jolanta Banach"
+        ],
+        "nieobecni": [
+          "Agnieszka Bartków"
+        ]
+      }
+    }
+  ],
+  "vote_count": 33
+}

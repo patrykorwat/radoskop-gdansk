@@ -1,0 +1,996 @@
+{
+  "source_file": "2025_202502246915_glosowania.pdf",
+  "source_url": "https://download.cloudgdansk.pl/gdansk-pl/d/202502246915/glosowania.pdf",
+  "date": "2025-02-13",
+  "date_raw": "13.2.2025",
+  "number_roman": "XIII",
+  "number": 13,
+  "attendees": [
+    "Jolanta Banach",
+    "Agnieszka Bartków",
+    "Łukasz Bejm",
+    "Kamila Błaszczyk",
+    "Wojciech Błaszkowski",
+    "Sylwia Cisoń",
+    "Katarzyna Czerniewska",
+    "Piotr Dzik",
+    "Żaneta Geryk",
+    "Piotr Gierszewski",
+    "Anna Golędzinowska",
+    "Michał Hajduk",
+    "Barbara Imianowska",
+    "Beata Jankowiak",
+    "Aleksander Jankowski",
+    "Maximilian Kieturakis",
+    "Krystian Kłos",
+    "Kazimierz Koralewski",
+    "Andrzej Kowalczys",
+    "Marta Magott",
+    "Przemysław Majewski",
+    "Marcin Makowski",
+    "Marcin Mickun",
+    "Bogdan Oleszek",
+    "Agnieszka Owczarczak",
+    "Jan Perucki",
+    "Karol Rabenda",
+    "Tomasz Rakowski",
+    "Mateusz Skarbek",
+    "Andrzej Skiba",
+    "Cezary Śpiewak-Dowbór",
+    "Łukasz Świacki",
+    "Teresa Wasilewska",
+    "Karol Ważny"
+  ],
+  "attendee_count": 34,
+  "votes": [
+    {
+      "vote_index": 0,
+      "topic": "Wpłynął wniosek o zmianę porządku obrad i przeniesienie (druk 230); pkt 4, ppkt 11, przeniesienie do pkt 4, ppkt 4B",
+      "druk": 230,
+      "counts": {
+        "za": 29,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 4,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Agnieszka Bartków",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Tomasz Rakowski",
+          "Mateusz Skarbek",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "brak_glosu": [
+          "Piotr Dzik",
+          "Krystian Kłos",
+          "Andrzej Skiba",
+          "Teresa Wasilewska"
+        ],
+        "nieobecni": [
+          "Karol Rabenda"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": []
+      }
+    },
+    {
+      "vote_index": 1,
+      "topic": "Wpłynął wniosek o zmianę porządku obrad i przeniesienie (druk 217); pkt 4, ppkt 5, przeniesienie do pkt 4, ppkt 2A",
+      "druk": 217,
+      "counts": {
+        "za": 29,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 4,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Agnieszka Bartków",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "brak_glosu": [
+          "Piotr Dzik",
+          "Krystian Kłos",
+          "Tomasz Rakowski",
+          "Teresa Wasilewska"
+        ],
+        "nieobecni": [
+          "Karol Rabenda"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": []
+      }
+    },
+    {
+      "vote_index": 2,
+      "topic": "Wpłynął wniosek o włączenie projektu uchwały (druk 235); pkt 4, ppkt 4A",
+      "druk": 235,
+      "counts": {
+        "za": 29,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 4,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Agnieszka Bartków",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "brak_glosu": [
+          "Piotr Dzik",
+          "Krystian Kłos",
+          "Tomasz Rakowski",
+          "Teresa Wasilewska"
+        ],
+        "nieobecni": [
+          "Karol Rabenda"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": []
+      }
+    },
+    {
+      "vote_index": 3,
+      "topic": "Wpłynął wniosek o włączenie projektu uchwały (druk 236); (druk 236); pkt 4, ppkt 7A",
+      "druk": 236,
+      "counts": {
+        "za": 28,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 5,
+        "nieobecni": 1
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Agnieszka Bartków",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "brak_glosu": [
+          "Łukasz Bejm",
+          "Piotr Dzik",
+          "Krystian Kłos",
+          "Tomasz Rakowski",
+          "Teresa Wasilewska"
+        ],
+        "nieobecni": [
+          "Karol Rabenda"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": []
+      }
+    },
+    {
+      "vote_index": 4,
+      "topic": "w sprawie ustanowienia Nagrody Miasta Gdańska w Dziedzinie Kultury „Splendor Gedanensis” i Tytułu Mecenasa Kultury Gdańska (druk 235); XIII/218/25",
+      "druk": 235,
+      "resolution": "XIII/218/25",
+      "counts": {
+        "za": 27,
+        "przeciw": 0,
+        "wstrzymal_sie": 6,
+        "brak_glosu": 1,
+        "nieobecni": 0
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Agnieszka Bartków",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Beata Jankowiak",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Mateusz Skarbek",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "wstrzymal_sie": [
+          "Piotr Gierszewski",
+          "Aleksander Jankowski",
+          "Kazimierz Koralewski",
+          "Przemysław Majewski",
+          "Tomasz Rakowski",
+          "Andrzej Skiba"
+        ],
+        "brak_glosu": [
+          "Barbara Imianowska"
+        ],
+        "przeciw": [],
+        "nieobecni": []
+      }
+    },
+    {
+      "vote_index": 5,
+      "topic": "w sprawie ogłoszenia zamiaru i przyczyn podziału samorządowej instytucji kultury Gdańska Galeria Miejska (druk 230);",
+      "druk": 230,
+      "counts": {
+        "za": 26,
+        "przeciw": 0,
+        "wstrzymal_sie": 6,
+        "brak_glosu": 2,
+        "nieobecni": 0
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Agnieszka Bartków",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Beata Jankowiak",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Mateusz Skarbek",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "wstrzymal_sie": [
+          "Piotr Gierszewski",
+          "Aleksander Jankowski",
+          "Kazimierz Koralewski",
+          "Przemysław Majewski",
+          "Tomasz Rakowski",
+          "Andrzej Skiba"
+        ],
+        "brak_glosu": [
+          "Barbara Imianowska",
+          "Karol Rabenda"
+        ],
+        "przeciw": [],
+        "nieobecni": []
+      }
+    },
+    {
+      "vote_index": 6,
+      "topic": "w sprawie zamiaru przekształcenia Poradni Psychologiczno – Pedagogicznej Nr 4 w Gdańsku poprzez likwidację jej filii przy ul. Związku Jaszczurczego 4 w Gdańsku (druk 233);",
+      "druk": 233,
+      "counts": {
+        "za": 31,
+        "przeciw": 0,
+        "wstrzymal_sie": 2,
+        "brak_glosu": 1,
+        "nieobecni": 0
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Agnieszka Bartków",
+          "Łukasz Bejm",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Tomasz Rakowski",
+          "Mateusz Skarbek",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "wstrzymal_sie": [
+          "Przemysław Majewski",
+          "Andrzej Skiba"
+        ],
+        "brak_glosu": [
+          "Barbara Imianowska"
+        ],
+        "przeciw": [],
+        "nieobecni": []
+      }
+    },
+    {
+      "vote_index": 7,
+      "topic": "w sprawie składania wniosków o przyjęcie do publicznych liceów ogólnokształcących, techników i branżowych szkół I stopnia prowadzonych przez Gminę Miasta Gdańska w postępowaniu rekrutacyjnym na rok szkolny 2025/2026 (druk 219);",
+      "druk": 219,
+      "counts": {
+        "za": 29,
+        "przeciw": 0,
+        "wstrzymal_sie": 1,
+        "brak_glosu": 4,
+        "nieobecni": 0
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Agnieszka Bartków",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Tomasz Rakowski",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak- Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "wstrzymal_sie": [
+          "Krystian Kłos"
+        ],
+        "brak_glosu": [
+          "Łukasz Bejm",
+          "Żaneta Geryk",
+          "Barbara Imianowska",
+          "Teresa Wasilewska"
+        ],
+        "przeciw": [],
+        "nieobecni": []
+      }
+    },
+    {
+      "vote_index": 8,
+      "topic": "w sprawie utworzenia Szkoły Podstawowej nr 30 w Gdańsku (druk 217);",
+      "druk": 217,
+      "counts": {
+        "za": 32,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 2,
+        "nieobecni": 0
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Agnieszka Bartków",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Tomasz Rakowski",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "brak_glosu": [
+          "Łukasz Bejm",
+          "Barbara Imianowska"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "nieobecni": []
+      }
+    },
+    {
+      "vote_index": 9,
+      "topic": "w sprawie ustalenia na rok szkolny 2025/2026 planu sieci publicznych szkół podstawowych prowadzonych przez Gminę Miasta Gdańska oraz określenia granic obwodów publicznych szkół podstawowych prowadzonych przez Gminę Miasta Gdańska oraz inne organy (druk 218);",
+      "druk": 218,
+      "counts": {
+        "za": 31,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 3,
+        "nieobecni": 0
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Agnieszka Bartków",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Tomasz Rakowski",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "brak_glosu": [
+          "Łukasz Bejm",
+          "Żaneta Geryk",
+          "Barbara Imianowska"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "nieobecni": []
+      }
+    },
+    {
+      "vote_index": 10,
+      "topic": "w sprawie ustalenia na rok szkolny 2025/2026 planu sieci publicznych przedszkoli, oddziałów przedszkolnych w szkołach podstawowych i punktów przedszkolnych przy szkołach podstawowych prowadzonych przez Gminę Miasta Gdańska (druk 225);",
+      "druk": 225,
+      "counts": {
+        "za": 30,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 4,
+        "nieobecni": 0
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Agnieszka Bartków",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Tomasz Rakowski",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "brak_glosu": [
+          "Łukasz Bejm",
+          "Żaneta Geryk",
+          "Barbara Imianowska",
+          "Marcin Makowski"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "nieobecni": []
+      }
+    },
+    {
+      "vote_index": 11,
+      "topic": "w sprawie nadania imienia Przedszkolu nr 15 w Gdańsku przy ul. Waryńskiego 36B (druk 226);",
+      "druk": 226,
+      "counts": {
+        "za": 32,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 2,
+        "nieobecni": 0
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Agnieszka Bartków",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Tomasz Rakowski",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "brak_glosu": [
+          "Łukasz Bejm",
+          "Żaneta Geryk"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "nieobecni": []
+      }
+    },
+    {
+      "vote_index": 12,
+      "topic": "w sprawie ustalenia jednostkowych stawek kalkulacyjnych dotacji przedmiotowej dla Gdańskich Nieruchomości samorządowego zakładu budżetowego w Gdańsku na 2025 rok (druk 232);",
+      "druk": 232,
+      "counts": {
+        "za": 25,
+        "przeciw": 0,
+        "wstrzymal_sie": 8,
+        "brak_glosu": 1,
+        "nieobecni": 0
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Agnieszka Bartków",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Beata Jankowiak",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Mateusz Skarbek",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "wstrzymal_sie": [
+          "Piotr Gierszewski",
+          "Barbara Imianowska",
+          "Aleksander Jankowski",
+          "Kazimierz Koralewski",
+          "Przemysław Majewski",
+          "Karol Rabenda",
+          "Tomasz Rakowski",
+          "Andrzej Skiba"
+        ],
+        "brak_glosu": [
+          "Łukasz Bejm"
+        ],
+        "przeciw": [],
+        "nieobecni": []
+      }
+    },
+    {
+      "vote_index": 13,
+      "topic": "w sprawie poparcia działań Prezydenta Miasta Gdańska zmierzających do utworzenia oraz zawarcia umowy o współpracy ze Społeczną Agencją Najmu (druk 236);",
+      "druk": 236,
+      "counts": {
+        "za": 31,
+        "przeciw": 0,
+        "wstrzymal_sie": 0,
+        "brak_glosu": 3,
+        "nieobecni": 0
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Agnieszka Bartków",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Karol Rabenda",
+          "Tomasz Rakowski",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "brak_glosu": [
+          "Łukasz Bejm",
+          "Piotr Dzik",
+          "Jan Perucki"
+        ],
+        "przeciw": [],
+        "wstrzymal_sie": [],
+        "nieobecni": []
+      }
+    },
+    {
+      "vote_index": 14,
+      "topic": "w sprawie uchwalenia miejscowego planu zagospodarowania przestrzennego Płonia rejon ul. Płońskiej i Zagroble w mieście Gdańsku (druk 224);",
+      "druk": 224,
+      "counts": {
+        "za": 25,
+        "przeciw": 0,
+        "wstrzymal_sie": 8,
+        "brak_glosu": 1,
+        "nieobecni": 0
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Beata Jankowiak",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Mateusz Skarbek",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "wstrzymal_sie": [
+          "Agnieszka Bartków",
+          "Piotr Gierszewski",
+          "Barbara Imianowska",
+          "Aleksander Jankowski",
+          "Kazimierz Koralewski",
+          "Przemysław Majewski",
+          "Tomasz Rakowski",
+          "Andrzej Skiba"
+        ],
+        "brak_glosu": [
+          "Łukasz Bejm"
+        ],
+        "przeciw": [],
+        "nieobecni": []
+      }
+    },
+    {
+      "vote_index": 15,
+      "topic": "zmieniająca uchwałę w sprawie utworzenia i nadania statutu Gdańskiego Centrum Informatycznego (druk 234);",
+      "druk": 234,
+      "counts": {
+        "za": 29,
+        "przeciw": 0,
+        "wstrzymal_sie": 3,
+        "brak_glosu": 2,
+        "nieobecni": 0
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Agnieszka Bartków",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Kazimierz Koralewski",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Tomasz Rakowski",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Teresa Wasilewska",
+          "Karol Ważny"
+        ],
+        "wstrzymal_sie": [
+          "Barbara Imianowska",
+          "Przemysław Majewski",
+          "Andrzej Skiba"
+        ],
+        "brak_glosu": [
+          "Łukasz Bejm",
+          "Mateusz Skarbek"
+        ],
+        "przeciw": [],
+        "nieobecni": []
+      }
+    },
+    {
+      "vote_index": 16,
+      "topic": "zmieniająca uchwałę w sprawie określenia wzoru deklaracji o wysokości opłaty za gospodarowanie odpadami komunalnymi składanej przez właścicieli nieruchomości położonych na terenie Gminy Miasta Gdańska oraz warunków i trybu składania deklaracji za pomocą środków komunikacji elektronicznej (druk 231);",
+      "druk": 231,
+      "counts": {
+        "za": 31,
+        "przeciw": 0,
+        "wstrzymal_sie": 1,
+        "brak_glosu": 2,
+        "nieobecni": 0
+      },
+      "named_votes": {
+        "za": [
+          "Jolanta Banach",
+          "Agnieszka Bartków",
+          "Kamila Błaszczyk",
+          "Wojciech Błaszkowski",
+          "Sylwia Cisoń",
+          "Katarzyna Czerniewska",
+          "Piotr Dzik",
+          "Żaneta Geryk",
+          "Piotr Gierszewski",
+          "Anna Golędzinowska",
+          "Michał Hajduk",
+          "Barbara Imianowska",
+          "Beata Jankowiak",
+          "Aleksander Jankowski",
+          "Maximilian Kieturakis",
+          "Krystian Kłos",
+          "Andrzej Kowalczys",
+          "Marta Magott",
+          "Przemysław Majewski",
+          "Marcin Makowski",
+          "Marcin Mickun",
+          "Bogdan Oleszek",
+          "Agnieszka Owczarczak",
+          "Jan Perucki",
+          "Karol Rabenda",
+          "Tomasz Rakowski",
+          "Mateusz Skarbek",
+          "Andrzej Skiba",
+          "Cezary Śpiewak-Dowbór",
+          "Łukasz Świacki",
+          "Karol Ważny"
+        ],
+        "wstrzymal_sie": [
+          "Kazimierz Koralewski"
+        ],
+        "brak_glosu": [
+          "Łukasz Bejm",
+          "Teresa Wasilewska"
+        ],
+        "przeciw": [],
+        "nieobecni": []
+      }
+    }
+  ],
+  "vote_count": 17
+}
