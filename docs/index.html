@@ -71,6 +71,7 @@ header p { color:var(--muted); margin-top:4px; }
 .stat-card { background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:20px; }
 .stat-card .label { font-size:0.8rem; color:var(--muted); text-transform:uppercase; letter-spacing:0.05em; }
 .stat-card .value { font-size:2rem; font-weight:700; margin-top:4px; }
+.stat-card-link:hover { border-color:var(--accent); box-shadow:0 2px 8px rgba(0,0,0,0.08); }
 .section { margin-bottom:40px; }
 .section h2 { font-size:1.3rem; font-weight:600; margin-bottom:16px; padding-bottom:8px; border-bottom:1px solid var(--border); }
 table { width:100%; border-collapse:collapse; font-size:0.9rem; }
@@ -207,6 +208,7 @@ footer a { color:var(--accent); text-decoration:none; }
   <!-- Main dashboard view -->
   <div id="app" style="display:none">
     <div class="stats-grid" id="stats-grid"></div>
+    <div id="budget-overview" style="display:none"></div>
     <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:20px">
       <div class="tab-bar" id="tab-bar" style="margin-bottom:0">
         <button class="tab active" data-tab="ranking">Ranking radnych</button>
@@ -561,12 +563,74 @@ function renderStats() {
     { label: 'Radnych', value: K.total_councilors },
     { label: 'Kluby', value: clubs.length },
   ];
+  const B = window.BUDGET;
+  if (B && B.totals && B.totals.length > 0) {
+    const latest = B.totals[B.totals.length - 1];
+    const fmtBudget = (n) => (n/1e9).toFixed(2).replace('.', ',') + ' mld';
+    cards.push({ label: `Wydatki ${latest.year}`, value: fmtBudget(latest.expenditure), clickTab: 'budget' });
+    cards.push({ label: `Dochody ${latest.year}`, value: fmtBudget(latest.revenue), clickTab: 'budget' });
+    cards.push({ label: `Deficyt ${latest.year}`, value: fmtBudget(latest.deficit), clickTab: 'budget' });
+  }
   grid.innerHTML = cards.map(c => `
-    <div class="stat-card">
+    <div class="stat-card${c.clickTab ? ' stat-card-link' : ''}"${c.clickTab ? ` onclick="document.querySelector('[data-tab=${c.clickTab}]').click()" style="cursor:pointer"` : ''}>
       <div class="label">${c.label}</div>
       <div class="value">${c.value}</div>
+      ${c.sub ? `<div style="font-size:0.75rem;color:var(--muted);margin-top:2px">${c.sub}</div>` : ''}
     </div>
   `).join('');
+
+  // Budget overview section
+  const overview = document.getElementById('budget-overview');
+  if (!B || !B.totals || B.totals.length < 2) { overview.style.display = 'none'; return; }
+  overview.style.display = '';
+  const fmt = (n) => (n/1e9).toFixed(2).replace('.', ',');
+  const fmtM = (n) => n >= 1e9 ? fmt(n) + ' mld' : (n/1e6).toFixed(0) + ' mln';
+  const latest = B.totals[B.totals.length - 1];
+  const prev = B.totals[B.totals.length - 2];
+  const revChange = ((latest.revenue - prev.revenue) / prev.revenue * 100).toFixed(1);
+  const expChange = ((latest.expenditure - prev.expenditure) / prev.expenditure * 100).toFixed(1);
+  const cats = B.categories[String(latest.year)] || [];
+  const totalExp = cats.reduce((s, c) => s + c.amount, 0);
+  const topCats = cats.slice(0, 5);
+
+  let html = `<div style="background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:20px;margin-bottom:20px;cursor:pointer" onclick="document.querySelector('[data-tab=budget]').click()">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px">
+      <h2 style="font-size:1.1rem;font-weight:600;margin:0;border:none;padding:0">Budżet Gdańska ${latest.year}</h2>
+      <span style="color:var(--accent);font-size:0.85rem">Więcej →</span>
+    </div>
+    <div style="display:flex;gap:24px;flex-wrap:wrap">
+      <div style="flex:1;min-width:200px">
+        <div style="display:flex;gap:16px;margin-bottom:12px;flex-wrap:wrap">
+          <div>
+            <div style="font-size:0.75rem;color:var(--muted);text-transform:uppercase">Dochody</div>
+            <div style="font-size:1.3rem;font-weight:700;color:var(--green)">${fmt(latest.revenue)} mld</div>
+            <div style="font-size:0.75rem;color:${revChange>=0?'var(--green)':'var(--red)'}">${revChange>=0?'+':''}${revChange}% r/r</div>
+          </div>
+          <div>
+            <div style="font-size:0.75rem;color:var(--muted);text-transform:uppercase">Wydatki</div>
+            <div style="font-size:1.3rem;font-weight:700">${fmt(latest.expenditure)} mld</div>
+            <div style="font-size:0.75rem;color:${expChange>=0?'var(--red)':'var(--green)'}">${expChange>=0?'+':''}${expChange}% r/r</div>
+          </div>
+          <div>
+            <div style="font-size:0.75rem;color:var(--muted);text-transform:uppercase">Deficyt</div>
+            <div style="font-size:1.3rem;font-weight:700;color:var(--red)">${fmt(latest.deficit)} mld</div>
+          </div>
+        </div>
+      </div>
+      <div style="flex:1;min-width:240px">
+        <div style="font-size:0.75rem;color:var(--muted);text-transform:uppercase;margin-bottom:8px">Top wydatki ${latest.year}</div>
+        ${topCats.map(c => {
+          const pct = totalExp > 0 ? (c.amount / totalExp * 100).toFixed(1) : '0';
+          return `<div style="display:flex;align-items:center;gap:8px;margin-bottom:4px">
+            <span style="font-size:0.8rem;width:140px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${c.name}</span>
+            <div style="flex:1;background:var(--border);border-radius:3px;height:6px;overflow:hidden"><div style="width:${pct}%;background:var(--accent);height:100%;border-radius:3px"></div></div>
+            <span style="font-size:0.75rem;color:var(--muted);width:55px;text-align:right">${fmtM(c.amount)}</span>
+          </div>`;
+        }).join('')}
+      </div>
+    </div>
+  </div>`;
+  overview.innerHTML = html;
 }
 
 function renderClubFilter() {
