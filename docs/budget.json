@@ -1394,28 +1394,6 @@
           "name": "Inne",
           "amount": 35000000
         }
-      ],
-      "top_project": {
-        "name": "Gdański Projekt Komunikacji Miejskiej (GPKM)",
-        "amount": 340000000,
-        "category": "Transport"
-      },
-      "top_projects": [
-        {
-          "name": "Gdański Projekt Komunikacji Miejskiej (GPKM)",
-          "amount": 340000000,
-          "category": "Transport"
-        },
-        {
-          "name": "Port Czystej Energii (budowa)",
-          "amount": 294000000,
-          "category": "Środowisko"
-        },
-        {
-          "name": "Wiadukt Biskupia Górka i parking",
-          "amount": 174000000,
-          "category": "Drogi"
-        }
       ]
     },
     "2021": {
@@ -1448,28 +1426,6 @@
         {
           "name": "Inne",
           "amount": 35000000
-        }
-      ],
-      "top_project": {
-        "name": "Nowa Warszawska — linia tramwajowa",
-        "amount": 60000000,
-        "category": "Transport"
-      },
-      "top_projects": [
-        {
-          "name": "Termomodernizacja budynków komunalnych",
-          "amount": 87000000,
-          "category": "Gospodarka komunalna"
-        },
-        {
-          "name": "TBS — budowa 217 mieszkań",
-          "amount": 61000000,
-          "category": "Budownictwo"
-        },
-        {
-          "name": "Nowa Warszawska — linia tramwajowa",
-          "amount": 60000000,
-          "category": "Transport"
         }
       ]
     },
@@ -1505,26 +1461,31 @@
           "amount": 40000000
         }
       ],
-      "top_project": {
-        "name": "Nowa Warszawska (GPKM etap IVa)",
-        "amount": 41000000,
-        "category": "Transport"
-      },
       "top_projects": [
         {
-          "name": "Rewitalizacja dzielnic",
-          "amount": 52000000,
-          "category": "Rewitalizacja"
+          "name": "Budowa stadionu piłkarskiego w Gdańsku - Letnicy",
+          "amount_mln": 55.9,
+          "total_cost_mln": 677.5
         },
         {
-          "name": "Nowa Warszawska (GPKM etap IVa)",
-          "amount": 41000000,
-          "category": "Transport"
+          "name": "Rewitalizacja Biskupiej Górki i Starego Chełmu w Gdańsku",
+          "amount_mln": 48.8,
+          "total_cost_mln": 54.9
         },
         {
-          "name": "Modernizacja dróg",
-          "amount": 37000000,
-          "category": "Drogi"
+          "name": "Węzły integracyjne: Gdańsk Główny, Gdańsk Wrzeszcz oraz trasy dojazdowe do węzłów Pomorskiej Kolei Metropolitalnej i Szybkiej Kolei Miejskiej na terenie Gminy Miasta Gdańska",
+          "amount_mln": 43.9,
+          "total_cost_mln": 87.2
+        },
+        {
+          "name": "Gdański Projekt Komunikacji Miejskiej - etap IV A",
+          "amount_mln": 40.9,
+          "total_cost_mln": 367.5
+        },
+        {
+          "name": "Modernizacja drogowych obiektów inżynieryjnych",
+          "amount_mln": 36.1,
+          "total_cost_mln": 68.5
         }
       ]
     },
@@ -1559,28 +1520,6 @@
           "name": "Inne",
           "amount": 40000000
         }
-      ],
-      "top_project": {
-        "name": "Nowa Świętokrzyska (etap I)",
-        "amount": 90000000,
-        "category": "Drogi"
-      },
-      "top_projects": [
-        {
-          "name": "Port Czystej Energii (dokończenie)",
-          "amount": 140000000,
-          "category": "Środowisko"
-        },
-        {
-          "name": "Nowa Świętokrzyska (etap I)",
-          "amount": 90000000,
-          "category": "Drogi"
-        },
-        {
-          "name": "Rewitalizacja Dolnego Miasta",
-          "amount": 80000000,
-          "category": "Rewitalizacja"
-        }
       ]
     },
     "2024": {
@@ -1613,28 +1552,6 @@
         {
           "name": "Inne",
           "amount": 45000000
-        }
-      ],
-      "top_project": {
-        "name": "Port Czystej Energii",
-        "amount": 661000000,
-        "category": "Środowisko"
-      },
-      "top_projects": [
-        {
-          "name": "Port Czystej Energii",
-          "amount": 661000000,
-          "category": "Środowisko"
-        },
-        {
-          "name": "Nowa Bulońska Północna",
-          "amount": 192000000,
-          "category": "Drogi"
-        },
-        {
-          "name": "Nowa Świętokrzyska (etap I)",
-          "amount": 120000000,
-          "category": "Drogi"
         }
       ]
     },
@@ -1669,28 +1586,6 @@
           "name": "Inne",
           "amount": 55000000
         }
-      ],
-      "top_project": {
-        "name": "AmberExpo — IV hala targowa i hotel",
-        "amount": 146000000,
-        "category": "Infrastruktura"
-      },
-      "top_projects": [
-        {
-          "name": "Tramwaj Południe — Wrzeszcz (przygotowanie)",
-          "amount": 160000000,
-          "category": "Transport"
-        },
-        {
-          "name": "AmberExpo — IV hala targowa i hotel",
-          "amount": 146000000,
-          "category": "Infrastruktura"
-        },
-        {
-          "name": "Nowa Świętokrzyska (kontynuacja)",
-          "amount": 81000000,
-          "category": "Drogi"
-        }
       ]
     },
     "2026": {
@@ -1724,73 +1619,7 @@
           "name": "Inne",
           "amount": 49000000
         }
-      ],
-      "top_project": {
-        "name": "Tramwaj Gdańsk Południe — Wrzeszcz",
-        "amount": 801000000,
-        "category": "Transport"
-      },
-      "top_projects": [
-        {
-          "name": "Tramwaj Gdańsk Południe — Wrzeszcz",
-          "amount": 801000000,
-          "category": "Transport"
-        },
-        {
-          "name": "Nowa Świętokrzyska (etap I)",
-          "amount": 82000000,
-          "category": "Drogi"
-        },
-        {
-          "name": "Tramwaj ul. Klonowa",
-          "amount": 55000000,
-          "category": "Transport"
-        }
       ]
     }
-  },
-  "top_projects": [
-    {
-      "name": "Tramwaj Gdansk Poludnie - Wrzeszcz",
-      "amount": 801000000,
-      "category": "Transport",
-      "status": "W budowie",
-      "year_start": 2026,
-      "year_end": 2029,
-      "eu_funding": 260000000
-    },
-    {
-      "name": "Autobusy elektryczne (40 szt.)",
-      "amount": 127000000,
-      "category": "Transport",
-      "status": "Realizacja",
-      "year_start": 2025,
-      "year_end": 2026
-    },
-    {
-      "name": "Infrastruktura rowerowa",
-      "amount": 112000000,
-      "category": "Transport",
-      "status": "Realizacja",
-      "year_start": 2026,
-      "year_end": 2027
-    },
-    {
-      "name": "Nowa Swietokrzyska (etap I)",
-      "amount": 82000000,
-      "category": "Drogi",
-      "status": "W budowie",
-      "year_start": 2024,
-      "year_end": 2027,
-      "eu_funding": 65000000
-    },
-    {
-      "name": "Tramwaj ul. Klonowa",
-      "amount": 55000000,
-      "category": "Transport",
-      "status": "Projektowanie",
-      "year_start": 2026,
-      "year_end": 2028
-    }
-  ]
+  }
 }

@@ -1707,28 +1707,6 @@ function renderBudget() {
     }
 
 
-    // Top investment projects for this year
-    const inv = B.investments && B.investments[yStr];
-    const topProjects = inv && inv.top_projects;
-    if (topProjects && topProjects.length > 0) {
-      const maxAmt = topProjects[0].amount;
-      dhtml += `<h2>Największe inwestycje ${year}</h2>
-        <div style="display:flex;flex-direction:column;gap:12px;margin-bottom:24px">
-          ${topProjects.map((p, i) => `
-            <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:14px 18px">
-              <div style="display:flex;justify-content:space-between;align-items:baseline;gap:8px;margin-bottom:6px">
-                <span style="font-weight:600;font-size:0.95rem">${i+1}. ${p.name}</span>
-                <span style="font-weight:700;font-size:1.1rem;white-space:nowrap">${fmtM(p.amount)} zł</span>
-              </div>
-              <div style="font-size:0.8rem;color:var(--muted);margin-bottom:8px">${p.category}</div>
-              <div style="height:5px;border-radius:3px;background:var(--border)">
-                <div style="height:100%;border-radius:3px;background:var(--accent);width:${Math.round(p.amount/maxAmt*100)}%"></div>
-              </div>
-            </div>
-          `).join('')}
-        </div>`;
-    }
-
     // Budget votes for this year
     if (votes.length > 0) {
       const uchwalenie = votes.filter(v => /uchwaleni[aeu]\s+budżet/i.test(v.topic) && !/zmian|poprawka/i.test(v.topic));
