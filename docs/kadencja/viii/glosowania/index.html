@@ -52,9 +52,9 @@
   --text: #1a1d27;
   --muted: #6b7280;
   --accent: #4f46e5;
-  --green: #16a34a;
+  --green: #15803d;
   --red: #dc2626;
-  --yellow: #ca8a04;
+  --yellow: #a16207;
   --blue: #2563eb;
 }
 * { margin:0; padding:0; box-sizing:border-box; }
@@ -193,12 +193,18 @@ footer a { color:var(--accent); text-decoration:none; }
 .cat-group-header .cat-pill { font-size:0.8rem; padding:3px 10px; }
 .cat-group-count { color:var(--muted); font-size:0.8rem; }
 .cat-summary { display:flex; flex-wrap:wrap; gap:4px; margin-bottom:12px; }
+a.name-link { text-decoration:underline; text-decoration-color:rgba(79,70,229,0.3); text-underline-offset:2px; }
+a.name-link:hover { text-decoration-color:var(--accent); }
+footer a { text-decoration:underline; text-decoration-color:rgba(79,70,229,0.3); }
+.stats-grid { min-height:90px; }
+header { min-height:80px; }
 </style>
 </head>
 <body>
+<main>
 <noscript>
 <div class="container">
-<h1>Radoskop Gdańsk</h1>
+<h2>Radoskop Gdańsk</h2>
 <p>Otwarte narzędzie monitoringu Rady Miasta Gdańska. Dane z protokołów Biuletynu Informacji Publicznej (BIP).</p>
 <h2>Dane</h2>
 <ul>
@@ -1879,5 +1885,6 @@ window.addEventListener('popstate', () => {
 
 init();
 </script>
+</main>
 </body>
 </html>
