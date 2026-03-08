@@ -1394,7 +1394,12 @@
           "name": "Inne",
           "amount": 35000000
         }
-      ]
+      ],
+      "top_project": {
+        "name": "Gdański Projekt Komunikacji Miejskiej (GPKM)",
+        "amount": 340000000,
+        "category": "Transport"
+      }
     },
     "2021": {
       "total": 750000000,
@@ -1427,7 +1432,12 @@
           "name": "Inne",
           "amount": 35000000
         }
-      ]
+      ],
+      "top_project": {
+        "name": "Nowa Warszawska — linia tramwajowa",
+        "amount": 60000000,
+        "category": "Transport"
+      }
     },
     "2022": {
       "total": 830000000,
@@ -1460,7 +1470,12 @@
           "name": "Inne",
           "amount": 40000000
         }
-      ]
+      ],
+      "top_project": {
+        "name": "Nowa Warszawska (GPKM etap IVa)",
+        "amount": 41000000,
+        "category": "Transport"
+      }
     },
     "2023": {
       "total": 790000000,
@@ -1493,7 +1508,12 @@
           "name": "Inne",
           "amount": 40000000
         }
-      ]
+      ],
+      "top_project": {
+        "name": "Nowa Świętokrzyska (etap I)",
+        "amount": 90000000,
+        "category": "Drogi"
+      }
     },
     "2024": {
       "total": 920000000,
@@ -1526,7 +1546,12 @@
           "name": "Inne",
           "amount": 45000000
         }
-      ]
+      ],
+      "top_project": {
+        "name": "Port Czystej Energii",
+        "amount": 661000000,
+        "category": "Środowisko"
+      }
     },
     "2025": {
       "total": 1050000000,
@@ -1559,7 +1584,12 @@
           "name": "Inne",
           "amount": 55000000
         }
-      ]
+      ],
+      "top_project": {
+        "name": "AmberExpo — IV hala targowa i hotel",
+        "amount": 146000000,
+        "category": "Infrastruktura"
+      }
     },
     "2026": {
       "total": 1282000000,
@@ -1592,7 +1622,12 @@
           "name": "Inne",
           "amount": 49000000
         }
-      ]
+      ],
+      "top_project": {
+        "name": "Tramwaj Gdańsk Południe — Wrzeszcz",
+        "amount": 801000000,
+        "category": "Transport"
+      }
     }
   },
   "top_projects": [
