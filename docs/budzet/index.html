@@ -1550,7 +1550,7 @@ let budgetChartTrend = null, budgetChartCat = null;
 
 function renderBudget() {
   const B = window.BUDGET;
-  if (!B) return;
+  if (!B || !B.totals) return;
   const container = document.getElementById('budget-content');
   const fmt = (n) => (n/1e9).toFixed(2).replace('.', ',') + ' mld';
   const fmtM = (n) => n >= 1e9 ? fmt(n) : (n/1e6).toFixed(0) + ' mln';
