@@ -1594,5 +1594,49 @@
         }
       ]
     }
-  }
+  },
+  "top_projects": [
+    {
+      "name": "Tramwaj Gdansk Poludnie - Wrzeszcz",
+      "amount": 801000000,
+      "category": "Transport",
+      "status": "W budowie",
+      "year_start": 2026,
+      "year_end": 2029,
+      "eu_funding": 260000000
+    },
+    {
+      "name": "Autobusy elektryczne (40 szt.)",
+      "amount": 127000000,
+      "category": "Transport",
+      "status": "Realizacja",
+      "year_start": 2025,
+      "year_end": 2026
+    },
+    {
+      "name": "Infrastruktura rowerowa",
+      "amount": 112000000,
+      "category": "Transport",
+      "status": "Realizacja",
+      "year_start": 2026,
+      "year_end": 2027
+    },
+    {
+      "name": "Nowa Swietokrzyska (etap I)",
+      "amount": 82000000,
+      "category": "Drogi",
+      "status": "W budowie",
+      "year_start": 2024,
+      "year_end": 2027,
+      "eu_funding": 65000000
+    },
+    {
+      "name": "Tramwaj ul. Klonowa",
+      "amount": 55000000,
+      "category": "Transport",
+      "status": "Projektowanie",
+      "year_start": 2026,
+      "year_end": 2028
+    }
+  ]
 }
