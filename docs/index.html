@@ -4,26 +4,26 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Radoskop Gdańsk — Monitoring głosowań Rady Miasta Gdańska</title>
-<meta name="description" content="Radoskop — otwarte narzędzie monitoringu Rady Miasta Gdańska. Sprawdź frekwencję, głosowania i aktywność radnych na sesjach.">
+<meta name="description" content="Radoskop — otwarte narzędzie monitoringu Rady Miasta Gdańska. Sprawdź frekwencję, głosowania, uchwały i aktywność radnych na sesjach.">
 <meta name="keywords" content="Gdańsk, rada miasta, radni, głosowania, frekwencja, samorząd, monitoring, transparentność">
 <meta name="author" content="Patryk Orwat">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="canonical" href="https://gdansk.radoskop.pl/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Radoskop Gdańsk — Monitoring głosowań Rady Miasta Gdańska">
-<meta property="og:description" content="Otwarte narzędzie monitoringu Rady Miasta Gdańska. Frekwencja, głosowania i aktywność radnych.">
+<meta property="og:description" content="Otwarte narzędzie monitoringu Rady Miasta Gdańska. Frekwencja, głosowania, uchwały i aktywność radnych.">
 <meta property="og:url" content="https://gdansk.radoskop.pl/">
 <meta property="og:locale" content="pl_PL">
 <meta property="og:site_name" content="Radoskop Gdańsk">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Radoskop Gdańsk — Monitoring głosowań Rady Miasta Gdańska">
-<meta name="twitter:description" content="Otwarte narzędzie monitoringu Rady Miasta Gdańska. Frekwencja, głosowania i aktywność radnych.">
+<meta name="twitter:description" content="Otwarte narzędzie monitoringu Rady Miasta Gdańska. Frekwencja, głosowania, uchwały i aktywność radnych.">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebApplication",
   "name": "Radoskop Gdańsk",
-  "description": "Otwarte narzędzie monitoringu Rady Miasta Gdańska. Sprawdź frekwencję, głosowania i aktywność radnych na sesjach.",
+  "description": "Otwarte narzędzie monitoringu Rady Miasta Gdańska. Sprawdź frekwencję, głosowania, uchwały i aktywność radnych na sesjach.",
   "url": "https://gdansk.radoskop.pl/",
   "applicationCategory": "GovernmentApplication",
   "operatingSystem": "Web",
@@ -198,6 +198,17 @@ a.name-link:hover { text-decoration-color:var(--accent); }
 footer a { text-decoration:underline; text-decoration-color:rgba(79,70,229,0.3); }
 .stats-grid { min-height:90px; }
 header { min-height:80px; }
+/* Uchwały tab */
+.uchwaly-year-group { margin-bottom:16px; }
+.uchwaly-year-header { font-weight:600; font-size:1.1rem; padding:8px 0 6px; border-bottom:2px solid var(--border); margin-bottom:6px; color:var(--text); }
+.uchwala-row { padding:10px 12px; border-bottom:1px solid var(--border); cursor:pointer; transition:background 0.15s; }
+.uchwala-row:hover { background:rgba(79,70,229,0.04); }
+.uchwala-numer { font-weight:600; font-size:0.9rem; color:var(--accent); margin-bottom:2px; }
+.uchwala-tytul { font-size:0.85rem; color:var(--text); line-height:1.4; margin-bottom:4px; }
+.uchwala-meta { display:flex; align-items:center; flex-wrap:wrap; }
+.pager-btn { padding:6px 12px; margin:2px; border:1px solid var(--border); border-radius:6px; background:var(--card); color:var(--text); cursor:pointer; font-size:0.85rem; }
+.pager-btn.active { background:var(--accent); color:#fff; border-color:var(--accent); }
+.pager-btn:hover:not(.active) { background:rgba(79,70,229,0.08); }
 </style>
 </head>
 <body>
@@ -205,7 +216,7 @@ header { min-height:80px; }
 <noscript>
 <div class="container">
 <h2>Radoskop Gdańsk</h2>
-<p>Otwarte narzędzie monitoringu Rady Miasta Gdańska. Dane z protokołów Biuletynu Informacji Publicznej (BIP).</p>
+<p>Otwarte narzędzie monitoringu Rady Miasta Gdańska. Głosowania, uchwały i aktywność radnych. Dane z Biuletynu Informacji Publicznej (BIP) i Bazy Aktów Własnych (BAW).</p>
 <h2>Dane</h2>
 <ul>
 <li>Kadencja Kadencja 2018–2023: 33 sesji, 1424 głosowań, 35 radnych</li>
@@ -281,6 +292,7 @@ header { min-height:80px; }
         <button class="tab" data-tab="sessions">Sesje</button>
         <button class="tab" data-tab="votes">Głosowania</button>
         <button class="tab" data-tab="similarity">Kto z kim głosuje</button>
+        <button class="tab" data-tab="uchwaly">Uchwały</button>
         <button class="tab tab-budget" data-tab="budget">Budżet</button>
       </div>
       <div class="kadencja-bar" id="kadencja-bar"></div>
@@ -345,6 +357,19 @@ header { min-height:80px; }
       <div id="sim-bottom"></div>
     </div>
 
+    <div id="tab-uchwaly" class="section" style="display:none">
+      <div class="profile-metrics" id="uchwaly-stats" style="margin-bottom:16px"></div>
+      <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:12px">
+        <input type="text" id="uchwaly-search" placeholder="Szukaj po tytule lub numerze..." style="flex:1;min-width:200px;padding:8px 12px;border:1px solid var(--border);border-radius:8px;background:var(--card);color:var(--text);font-size:0.9rem">
+        <select id="uchwaly-kadencja-filter" style="padding:8px 12px;border:1px solid var(--border);border-radius:8px;background:var(--card);color:var(--text);font-size:0.9rem">
+          <option value="all">Wszystkie kadencje</option>
+        </select>
+      </div>
+      <div class="filter-bar" id="uchwaly-status-filter" style="margin-bottom:12px;flex-wrap:wrap"></div>
+      <div id="uchwaly-list"></div>
+      <div id="uchwaly-pager" style="text-align:center;margin-top:16px"></div>
+    </div>
+
     <div id="tab-budget" class="section" style="display:none">
       <div id="budget-content"></div>
     </div>
@@ -360,11 +385,14 @@ header { min-height:80px; }
   <!-- Session detail view -->
   <div id="session-view" style="display:none"></div>
 
+  <!-- Uchwała detail view -->
+  <div id="uchwala-view" style="display:none"></div>
+
   <footer>
     Radoskop — otwarte narzędzie monitoringu samorządu.
-    Dane źródłowe: <a href="https://bip.gdansk.pl/rada-miasta" target="_blank">BIP Gdańsk</a>.
+    Dane źródłowe: <a href="https://bip.gdansk.pl/rada-miasta" target="_blank">BIP Gdańsk</a>, <a href="https://baw.bip.gdansk.pl" target="_blank">BAW Gdańsk</a>.
     Kod: <a href="https://github.com/patrykorwat/radoskop-gdansk" target="_blank">GitHub</a> (AGPL-3.0).
-    <br>Zobacz też: <a href="https://radoskop.pl/">Strona główna</a> · <a href="https://gdynia.radoskop.pl/">Radoskop Gdynia</a> · <a href="https://sopot.radoskop.pl/">Radoskop Sopot</a> · <a href="https://warszawa.radoskop.pl/">Radoskop Warszawa</a> · <a href="https://krakow.radoskop.pl/">Radoskop Kraków</a>
+    <br>Zobacz też: <a href="https://radoskop.pl/">Strona główna</a> · <a href="https://gdynia.radoskop.pl/">Gdynia</a> · <a href="https://sopot.radoskop.pl/">Sopot</a> · <a href="https://warszawa.radoskop.pl/">Warszawa</a> · <a href="https://krakow.radoskop.pl/">Kraków</a> · <a href="https://poznan.radoskop.pl/">Poznań</a> · <a href="https://wroclaw.radoskop.pl/">Wrocław</a>
   </footer>
 </div>
 
@@ -450,14 +478,23 @@ async function init() {
     history.replaceState(null, '', decodeURIComponent(sp.get('p')));
   }
   try {
-    const [dataResp, profResp, budgetResp] = await Promise.all([
+    const [dataResp, profResp, budgetResp, uchwalyResp] = await Promise.all([
       fetch('/data.json'),
       fetch('/profiles.json'),
-      fetch('/budget.json')
+      fetch('/budget.json'),
+      fetch('/uchwaly.json')
     ]);
     RAW = await dataResp.json();
     PROFILES = await profResp.json();
     window.BUDGET = budgetResp.ok ? await budgetResp.json() : {};
+    window.UCHWALY = uchwalyResp.ok ? await uchwalyResp.json() : [];
+    // Build reverse lookup: vote_id -> uchwała, and numer -> uchwała
+    window.UCHWALY_BY_VOTE = {};
+    window.UCHWALY_BY_NUMER = {};
+    (window.UCHWALY || []).forEach(u => {
+      if (u.vote_id) window.UCHWALY_BY_VOTE[u.vote_id] = u;
+      if (u.numer) window.UCHWALY_BY_NUMER[u.numer] = u;
+    });
     document.getElementById('loading').style.display = 'none';
     document.getElementById('app').style.display = 'block';
     renderKadencjaBar();
@@ -486,6 +523,13 @@ async function init() {
       selectKadencjaQuiet(defaultKid);
       const snum = decodeURIComponent(path.replace('/sesja/', ''));
       showSession(snum);
+      navigateTo(path, true);
+      return;
+    }
+    if (path.startsWith('/uchwala/')) {
+      selectKadencjaQuiet(defaultKid);
+      const numer = uchwalaSlugToNumer(decodeURIComponent(path.replace('/uchwala/', '')));
+      showUchwala(numer);
       navigateTo(path, true);
       return;
     }
@@ -542,7 +586,7 @@ function selectKadencja(kid) {
 }
 
 function activateTab(tabName) {
-  const allTabs = ['ranking','profiles','sessions','votes','similarity','budget'];
+  const allTabs = ['ranking','profiles','sessions','votes','uchwaly','similarity','budget'];
   currentTab = tabName;
   document.querySelectorAll('.tab').forEach(t => {
     t.classList.toggle('active', t.dataset.tab === tabName);
@@ -551,7 +595,7 @@ function activateTab(tabName) {
     const el = document.getElementById('tab-'+t);
     if (el) el.style.display = (t === tabName) ? 'block' : 'none';
   });
-  document.getElementById('kadencja-bar').style.display = tabName === 'budget' ? 'none' : '';
+  document.getElementById('kadencja-bar').style.display = (tabName === 'budget' || tabName === 'uchwaly') ? 'none' : '';
   setTitle(TAB_TITLES[tabName] || '');
 }
 
@@ -560,16 +604,17 @@ function hideAllViews() {
   document.getElementById('profile-view').style.display = 'none';
   document.getElementById('vote-view').style.display = 'none';
   document.getElementById('session-view').style.display = 'none';
+  document.getElementById('uchwala-view').style.display = 'none';
 }
 
 let currentTab = 'ranking';
-const TAB_SLUGS = {ranking:'ranking',profiles:'radni',sessions:'sesje',votes:'glosowania',similarity:'podobienstwo',budget:'budzet'};
+const TAB_SLUGS = {ranking:'ranking',profiles:'radni',sessions:'sesje',votes:'glosowania',uchwaly:'uchwaly',similarity:'podobienstwo',budget:'budzet'};
 const SLUG_TABS = Object.fromEntries(Object.entries(TAB_SLUGS).map(([k,v])=>[v,k]));
 const KAD_SLUGS = {'2018-2023':'viii','2024-2029':'ix'};
 const SLUG_KADS = Object.fromEntries(Object.entries(KAD_SLUGS).map(([k,v])=>[v,k]));
 
 const BASE_TITLE = 'Radoskop Gdańsk — Jak głosują radni?';
-const TAB_TITLES = {ranking:'Ranking radnych',profiles:'Profile radnych',sessions:'Sesje',votes:'Głosowania',similarity:'Podobieństwo',budget:'Budżet'};
+const TAB_TITLES = {ranking:'Ranking radnych',profiles:'Profile radnych',sessions:'Sesje',votes:'Głosowania',uchwaly:'Uchwały',similarity:'Podobieństwo',budget:'Budżet'};
 function setTitle(subtitle) {
   document.title = subtitle ? subtitle + ' — ' + BASE_TITLE : BASE_TITLE;
 }
@@ -599,6 +644,9 @@ function profileSlug(name) {
   return p ? p.slug : name.toLowerCase().replace(/\s+/g, '-');
 }
 
+function uchwalaNumerToSlug(numer) { return (numer || '').replace(/\//g, '-'); }
+function uchwalaSlugToNumer(slug) { return (slug || '').replace(/-/g, '/'); }
+
 function showMain() {
   hideAllViews();
   document.getElementById('app').style.display = 'block';
@@ -613,6 +661,7 @@ function render() {
   renderProfilesGrid();
   renderSessionsTable();
   renderVotesTable();
+  renderUchwalyTable();
   renderSimilarity();
   renderBudget();
   bindTabs();
@@ -1286,9 +1335,14 @@ function renderVotesTable() {
       const c = v.counts || {};
       const total = (c.za||0) + (c.przeciw||0) + (c.wstrzymal_sie||0);
       const passed = (c.za||0) > total/2;
+      const linkedU = (v.resolution && window.UCHWALY_BY_NUMER && window.UCHWALY_BY_NUMER[v.resolution]) || (window.UCHWALY_BY_VOTE && window.UCHWALY_BY_VOTE[v.id]);
+      const uchCol = linkedU
+        ? `<a href="/uchwala/${uchwalaNumerToSlug(linkedU.numer)}" onclick="event.preventDefault();event.stopPropagation();showUchwala('${(linkedU.numer||'').replace(/'/g, "\\'")}')" style="color:var(--accent);font-size:0.8rem;white-space:nowrap">${linkedU.numer}</a>`
+        : (v.resolution ? `<span style="color:var(--muted);font-size:0.8rem;white-space:nowrap">${v.resolution}</span>` : '');
       html += `<tr class="vote-row" onclick="showVote('${v.id || ''}')">
         <td style="color:var(--muted);width:30px">${i+1}</td>
         <td>${catPill(categorizeVote(v.topic))} ${v.topic ? v.topic.substring(0,120) : '?'}${v.druk ? ` <span style="color:var(--muted)">(druk ${v.druk})</span>` : ''}</td>
+        <td style="width:110px">${uchCol}</td>
         <td><span class="pill pill-za">${c.za||0}</span></td>
         <td>${c.przeciw ? `<span class="pill pill-przeciw">${c.przeciw}</span>` : '0'}</td>
         <td>${c.wstrzymal_sie ? `<span class="pill pill-wstrzymal">${c.wstrzymal_sie}</span>` : '0'}</td>
@@ -1347,7 +1401,15 @@ function showVote(voteId) {
       <div style="color:var(--muted);font-size:0.85rem;margin-bottom:4px"><a class="name-link" href="/sesja/${encodeURIComponent(vote.session_number)}" onclick="event.preventDefault();showSession('${vote.session_number}')" style="color:var(--muted)">Sesja ${vote.session_number} · ${vote.session_date}</a></div>
       <h2 style="font-size:1.3rem;font-weight:600;border:none;padding:0">${vote.topic || '?'}</h2>
       ${vote.druk ? `<div style="color:var(--muted);margin-top:4px">Druk: ${vote.druk}</div>` : ''}
-      ${vote.resolution ? `<div style="color:var(--muted)">Uchwała: ${vote.resolution}</div>` : ''}
+      ${(() => {
+        const linked = (vote.resolution && window.UCHWALY_BY_NUMER[vote.resolution]) || window.UCHWALY_BY_VOTE[voteId];
+        if (linked) {
+          const n = (linked.numer || '').replace(/'/g, "\\'");
+          return '<div style="color:var(--muted)">Uchwała: <a href="/uchwala/' + uchwalaNumerToSlug(linked.numer) + '" onclick="event.preventDefault();showUchwala(\'' + n + '\')" style="color:var(--accent)">' + linked.numer + '</a></div>';
+        }
+        if (vote.resolution) return '<div style="color:var(--muted)">Uchwała: ' + vote.resolution + '</div>';
+        return '';
+      })()}
       ${vote.source_url ? `<div style="margin-top:6px"><a href="${vote.source_url}" target="_blank" rel="noopener" style="color:var(--accent);font-size:0.85rem">Protokół głosowania (BIP) ↗</a></div>` : ''}
     </div>
 
@@ -1402,6 +1464,229 @@ function showVote(voteId) {
       <div class="vote-cat-header">Nieobecni (${(nv.nieobecni||[]).length})</div>
       ${renderNameList(nv.nieobecni, 'rgba(75,85,99,0.05)')}
     </div>
+  `;
+
+  view.innerHTML = html;
+  window.scrollTo(0, 0);
+}
+
+// ==================== UCHWAŁY ====================
+let currentUchwalyStatus = 'all';
+let currentUchwalyKadencja = 'all';
+let currentUchwalySearch = '';
+let uchwalyPage = 0;
+const UCHWALY_PER_PAGE = 50;
+
+const STATUS_COLORS = {
+  'Obowiązujący': 'var(--green)',
+  'Uchylony': 'var(--red)',
+  'Unieważniony': '#ef4444',
+  'Unieważniony w części': '#f97316',
+  'Oczekujący': 'var(--yellow)',
+  'Wygaszony': 'var(--muted)',
+  'Nieustalony': 'var(--muted)',
+};
+
+function renderUchwalyTable() {
+  const uchwaly = window.UCHWALY || [];
+  if (!uchwaly.length) return;
+
+  // Stats
+  const statsEl = document.getElementById('uchwaly-stats');
+  const statusCounts = {};
+  const kadencjaCounts = {};
+  uchwaly.forEach(u => {
+    const s = u.status || 'brak';
+    statusCounts[s] = (statusCounts[s] || 0) + 1;
+    const k = u.kadencja || 'brak';
+    kadencjaCounts[k] = (kadencjaCounts[k] || 0) + 1;
+  });
+
+  const linkedCount = uchwaly.filter(u => u.vote_id).length;
+  statsEl.innerHTML = `
+    <div class="metric-card"><div class="metric-value">${uchwaly.length.toLocaleString('pl')}</div><div class="metric-label">Uchwał</div></div>
+    <div class="metric-card"><div class="metric-value" style="color:var(--green)">${(statusCounts['Obowiązujący']||0).toLocaleString('pl')}</div><div class="metric-label">Obowiązujących</div></div>
+    <div class="metric-card"><div class="metric-value" style="color:var(--red)">${(statusCounts['Uchylony']||0).toLocaleString('pl')}</div><div class="metric-label">Uchylonych</div></div>
+    <div class="metric-card"><div class="metric-value" style="color:var(--accent)">${linkedCount.toLocaleString('pl')}</div><div class="metric-label">Z głosowaniem</div></div>
+  `;
+
+  // Kadencja filter dropdown
+  const kadSelect = document.getElementById('uchwaly-kadencja-filter');
+  if (kadSelect.options.length <= 1) {
+    const kads = Object.keys(kadencjaCounts).filter(k => k !== 'brak').sort().reverse();
+    kads.forEach(k => {
+      const opt = document.createElement('option');
+      opt.value = k;
+      opt.textContent = `Kadencja ${k} (${kadencjaCounts[k]})`;
+      kadSelect.appendChild(opt);
+    });
+    kadSelect.onchange = () => {
+      currentUchwalyKadencja = kadSelect.value;
+      uchwalyPage = 0;
+      renderUchwalyTable();
+    };
+  }
+
+  // Status filter pills
+  const statusBar = document.getElementById('uchwaly-status-filter');
+  const statusOrder = ['Obowiązujący','Uchylony','Unieważniony w części','Unieważniony','Oczekujący','Wygaszony','Nieustalony'];
+  let pills = `<button class="session-pill ${currentUchwalyStatus==='all'?'active':''}" data-st="all">Wszystkie</button>`;
+  for (const st of statusOrder) {
+    if (!statusCounts[st]) continue;
+    pills += `<button class="session-pill ${currentUchwalyStatus===st?'active':''}" data-st="${st}">${st} <span class="pill-count">(${statusCounts[st]})</span></button>`;
+  }
+  statusBar.innerHTML = pills;
+  statusBar.querySelectorAll('.session-pill').forEach(btn => {
+    btn.onclick = () => {
+      currentUchwalyStatus = btn.dataset.st;
+      uchwalyPage = 0;
+      renderUchwalyTable();
+    };
+  });
+
+  // Search
+  const searchEl = document.getElementById('uchwaly-search');
+  if (!searchEl._bound) {
+    searchEl._bound = true;
+    let debounce;
+    searchEl.oninput = () => {
+      clearTimeout(debounce);
+      debounce = setTimeout(() => {
+        currentUchwalySearch = searchEl.value.trim().toLowerCase();
+        uchwalyPage = 0;
+        renderUchwalyTable();
+      }, 300);
+    };
+  }
+
+  // Filter
+  let filtered = uchwaly;
+  if (currentUchwalyStatus !== 'all') {
+    filtered = filtered.filter(u => u.status === currentUchwalyStatus);
+  }
+  if (currentUchwalyKadencja !== 'all') {
+    filtered = filtered.filter(u => u.kadencja === currentUchwalyKadencja);
+  }
+  if (currentUchwalySearch) {
+    const q = currentUchwalySearch;
+    filtered = filtered.filter(u =>
+      (u.tytul || '').toLowerCase().includes(q) ||
+      (u.numer || '').toLowerCase().includes(q)
+    );
+  }
+
+  // Paginate
+  const totalPages = Math.ceil(filtered.length / UCHWALY_PER_PAGE);
+  if (uchwalyPage >= totalPages) uchwalyPage = Math.max(0, totalPages - 1);
+  const pageItems = filtered.slice(uchwalyPage * UCHWALY_PER_PAGE, (uchwalyPage + 1) * UCHWALY_PER_PAGE);
+
+  // Group by year
+  const byYear = {};
+  pageItems.forEach(u => {
+    const y = (u.data_podjecia || '????').substring(0, 4);
+    if (!byYear[y]) byYear[y] = [];
+    byYear[y].push(u);
+  });
+
+  const container = document.getElementById('uchwaly-list');
+  let html = `<div style="color:var(--muted);font-size:0.85rem;margin-bottom:12px">Wyników: ${filtered.length.toLocaleString('pl')}</div>`;
+
+  for (const year of Object.keys(byYear).sort().reverse()) {
+    html += `<div class="uchwaly-year-group">
+      <div class="uchwaly-year-header">${year}</div>`;
+    byYear[year].forEach(u => {
+      const stColor = STATUS_COLORS[u.status] || 'var(--muted)';
+      const hasVote = u.vote_id ? `<span style="color:var(--accent);font-size:0.75rem;margin-left:6px" title="Powiazane z glosowaniem">&#9679;</span>` : '';
+      html += `<div class="uchwala-row" onclick="showUchwala('${(u.numer||'').replace(/'/g, "\\'")}')">
+        <div class="uchwala-numer">${u.numer || '?'}${hasVote}</div>
+        <div class="uchwala-tytul">${(u.tytul || '').substring(0, 200)}</div>
+        <div class="uchwala-meta">
+          <span style="color:${stColor};font-weight:500;font-size:0.8rem">${u.status || '?'}</span>
+          <span style="color:var(--muted);font-size:0.8rem;margin-left:8px">${u.data_podjecia || ''}</span>
+        </div>
+      </div>`;
+    });
+    html += `</div>`;
+  }
+  container.innerHTML = html;
+
+  // Pager
+  const pagerEl = document.getElementById('uchwaly-pager');
+  if (totalPages > 1) {
+    let pHtml = '';
+    const maxButtons = 7;
+    let start = Math.max(0, uchwalyPage - Math.floor(maxButtons / 2));
+    let end = Math.min(totalPages, start + maxButtons);
+    if (end - start < maxButtons) start = Math.max(0, end - maxButtons);
+
+    if (uchwalyPage > 0) pHtml += `<button class="pager-btn" onclick="uchwalyPage=${uchwalyPage-1};renderUchwalyTable()">‹</button>`;
+    for (let i = start; i < end; i++) {
+      pHtml += `<button class="pager-btn ${i===uchwalyPage?'active':''}" onclick="uchwalyPage=${i};renderUchwalyTable()">${i+1}</button>`;
+    }
+    if (uchwalyPage < totalPages - 1) pHtml += `<button class="pager-btn" onclick="uchwalyPage=${uchwalyPage+1};renderUchwalyTable()">›</button>`;
+    pagerEl.innerHTML = pHtml;
+  } else {
+    pagerEl.innerHTML = '';
+  }
+}
+
+function showUchwala(numer) {
+  const uchwaly = window.UCHWALY || [];
+  const u = uchwaly.find(x => x.numer === numer);
+  if (!u) return;
+
+  hideAllViews();
+  const view = document.getElementById('uchwala-view');
+  view.style.display = 'block';
+  navigateTo('/uchwala/' + uchwalaNumerToSlug(numer));
+  setTitle('Uchwała ' + numer);
+
+  const stColor = STATUS_COLORS[u.status] || 'var(--muted)';
+  const bawUrl = u.id ? `https://baw.bip.gdansk.pl/documentDetails/${u.id}` : null;
+
+  let voteLink = '';
+  if (u.vote_id) {
+    voteLink = `<div style="margin-top:12px">
+      <a href="/glosowanie/${u.vote_id}" onclick="event.preventDefault();showVote('${u.vote_id}')" style="color:var(--accent);font-weight:500">
+        Zobacz głosowanie &#8594;
+      </a>
+      ${u.vote_score ? `<span style="color:var(--muted);font-size:0.8rem;margin-left:8px">(dopasowanie: ${Math.round(u.vote_score * 100)}%)</span>` : ''}
+    </div>`;
+  }
+
+  let html = `
+    <button class="profile-back" onclick="showMain();activateTab('uchwaly')">&#8592; Uchwały</button>
+    <div style="margin-bottom:24px">
+      <div style="color:var(--muted);font-size:0.85rem;margin-bottom:4px">${u.organ || 'Rada Miasta Gdańska'}</div>
+      <h2 style="font-size:1.3rem;font-weight:600;border:none;padding:0">${u.numer || '?'}</h2>
+      <div style="margin-top:8px;line-height:1.6">${u.tytul || ''}</div>
+    </div>
+
+    <div class="profile-metrics" style="margin-bottom:24px">
+      <div class="metric-card">
+        <div class="metric-value" style="color:${stColor}">${u.status || '?'}</div>
+        <div class="metric-label">Status</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-value">${u.data_podjecia || '?'}</div>
+        <div class="metric-label">Data podjęcia</div>
+      </div>
+      ${u.data_wejscia ? `<div class="metric-card">
+        <div class="metric-value">${u.data_wejscia}</div>
+        <div class="metric-label">Wejście w życie</div>
+      </div>` : ''}
+      ${u.kadencja ? `<div class="metric-card">
+        <div class="metric-value">${u.kadencja}</div>
+        <div class="metric-label">Kadencja</div>
+      </div>` : ''}
+    </div>
+
+    ${u.odpowiedzialny ? `<div style="margin-bottom:12px"><span style="color:var(--muted)">Odpowiedzialny:</span> ${u.odpowiedzialny}</div>` : ''}
+    ${u.poz_dz_urz ? `<div style="margin-bottom:12px"><span style="color:var(--muted)">Dz. Urz.:</span> poz. ${u.poz_dz_urz}${u.rok_dz_urz ? `, rok ${u.rok_dz_urz}` : ''}</div>` : ''}
+
+    ${voteLink}
+
+    ${bawUrl ? `<div style="margin-top:12px"><a href="${bawUrl}" target="_blank" rel="noopener" style="color:var(--accent);font-size:0.85rem">Pełny tekst w BAW &#8599;</a></div>` : ''}
   `;
 
   view.innerHTML = html;
@@ -1859,6 +2144,12 @@ window.addEventListener('popstate', () => {
   if (path.startsWith('/sesja/')) {
     const snum = decodeURIComponent(path.replace('/sesja/', ''));
     showSession(snum);
+    _popstateActive = false;
+    return;
+  }
+  if (path.startsWith('/uchwala/')) {
+    const numer = uchwalaSlugToNumer(decodeURIComponent(path.replace('/uchwala/', '')));
+    showUchwala(numer);
     _popstateActive = false;
     return;
   }

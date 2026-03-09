@@ -261,6 +261,16 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://gdansk.radoskop.pl/kadencja/ix/uchwaly/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gdansk.radoskop.pl/kadencja/viii/uchwaly/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://gdansk.radoskop.pl/kadencja/viii/ranking/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
