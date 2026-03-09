@@ -1460,33 +1460,6 @@
           "name": "Inne",
           "amount": 40000000
         }
-      ],
-      "top_projects": [
-        {
-          "name": "Budowa stadionu piłkarskiego w Gdańsku - Letnicy",
-          "amount_mln": 55.9,
-          "total_cost_mln": 677.5
-        },
-        {
-          "name": "Rewitalizacja Biskupiej Górki i Starego Chełmu w Gdańsku",
-          "amount_mln": 48.8,
-          "total_cost_mln": 54.9
-        },
-        {
-          "name": "Węzły integracyjne: Gdańsk Główny, Gdańsk Wrzeszcz oraz trasy dojazdowe do węzłów Pomorskiej Kolei Metropolitalnej i Szybkiej Kolei Miejskiej na terenie Gminy Miasta Gdańska",
-          "amount_mln": 43.9,
-          "total_cost_mln": 87.2
-        },
-        {
-          "name": "Gdański Projekt Komunikacji Miejskiej - etap IV A",
-          "amount_mln": 40.9,
-          "total_cost_mln": 367.5
-        },
-        {
-          "name": "Modernizacja drogowych obiektów inżynieryjnych",
-          "amount_mln": 36.1,
-          "total_cost_mln": 68.5
-        }
       ]
     },
     "2023": {

@@ -1707,36 +1707,6 @@ function renderBudget() {
     }
 
 
-    // Top investment projects for this year
-    const invData = B.investments && B.investments[yStr];
-    const topProjects = invData && invData.top_projects;
-    if (topProjects && topProjects.length > 0) {
-      html += `<div class="card" style="margin-top:18px">
-        <h3 style="margin:0 0 12px 0;font-size:1rem">🏗️ Największe inwestycje w ${year} roku</h3>
-        <p style="font-size:0.78rem;color:var(--muted);margin:0 0 10px 0">Planowane wydatki inwestycyjne wg uchwały budżetowej (dane z oficjalnego budżetu PDF)</p>
-        <table style="width:100%;border-collapse:collapse">
-          <thead><tr>
-            <th style="text-align:left;font-size:0.8rem;padding:4px 8px;border-bottom:1px solid var(--border)">Zadanie inwestycyjne</th>
-            <th style="text-align:right;font-size:0.8rem;padding:4px 8px;border-bottom:1px solid var(--border);white-space:nowrap">Plan ${year}</th>
-          </tr></thead>
-          <tbody>${topProjects.map((p, i) => {
-            const barW = Math.round((p.amount_mln / topProjects[0].amount_mln) * 100);
-            return `<tr style="border-bottom:1px solid var(--border)">
-              <td style="font-size:0.82rem;padding:6px 8px">${p.name}</td>
-              <td style="font-size:0.82rem;padding:6px 8px;text-align:right;white-space:nowrap">
-                <div style="display:flex;align-items:center;justify-content:flex-end;gap:6px">
-                  <div style="width:60px;height:6px;background:var(--border);border-radius:3px;overflow:hidden">
-                    <div style="width:${barW}%;height:100%;background:var(--accent);border-radius:3px"></div>
-                  </div>
-                  <span>${p.amount_mln} mln</span>
-                </div>
-              </td>
-            </tr>`;
-          }).join('')}</tbody>
-        </table>
-      </div>`;
-    }
-
     // Budget votes for this year
     if (votes.length > 0) {
       const uchwalenie = votes.filter(v => /uchwaleni[aeu]\s+budżet/i.test(v.topic) && !/zmian|poprawka/i.test(v.topic));
