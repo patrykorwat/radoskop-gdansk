@@ -1088,42 +1088,17 @@ function showProfile(name) {
       html += `</div>`;
     }
 
-    // Interpelacje section for this councilor
+    // ── Profile sub-tabs: Interpelacje / Głosowania ──
     const interpAll = (window.INTERPELACJE || []).filter(i => (i.radni || []).includes(profile.name) || i.radny === profile.name);
-    if (interpAll.length > 0) {
-      const interpKad = interpAll.filter(i => {
-        if (kid === '2024-2029') return i.kadencja === 'IX';
-        if (kid === '2018-2023') return i.kadencja === 'VIII';
-        return true;
-      });
-      const showItems = interpKad.length > 0 ? interpKad : interpAll;
-      const interpCount = showItems.filter(i => i.typ === 'interpelacja').length;
-      const zapCount = showItems.filter(i => i.typ === 'zapytanie').length;
-      html += `<div class="section">
-        <h2>Interpelacje i zapytania (${showItems.length})</h2>
-        <div style="color:var(--muted);font-size:0.85rem;margin-bottom:12px">${interpCount} interpelacji, ${zapCount} zapytań${interpKad.length > 0 && interpKad.length !== interpAll.length ? ` (ta kadencja, razem: ${interpAll.length})` : ''}</div>`;
-      showItems.slice(0, 20).forEach(item => {
-        const oCri = (item.cri || '').replace(/'/g, "\\'");
-        const typBadge = item.typ === 'zapytanie'
-          ? '<span style="background:rgba(37,99,235,0.12);color:var(--blue);padding:1px 5px;border-radius:3px;font-size:0.7rem;font-weight:600">Z</span>'
-          : '<span style="background:rgba(79,70,229,0.12);color:var(--accent);padding:1px 5px;border-radius:3px;font-size:0.7rem;font-weight:600">I</span>';
-        html += `<div class="uchwala-row" onclick="showInterpelacja('${oCri}')" style="cursor:pointer;padding:8px 12px">
-          <div style="display:flex;align-items:center;gap:6px">
-            ${typBadge}
-            <span class="uchwala-numer" style="font-size:0.8rem">${item.cri}</span>
-            <span style="font-size:0.75rem;color:var(--muted)">${item.data_wplywu}</span>
-            ${item.data_odpowiedzi ? '<span style="color:var(--green);font-size:0.7rem">&#10003;</span>' : ''}
-          </div>
-          <div style="font-size:0.85rem">${item.przedmiot || ''}</div>
-        </div>`;
-      });
-      if (showItems.length > 20) {
-        html += `<div style="color:var(--muted);padding:8px 12px;font-size:0.85rem">...i ${showItems.length - 20} więcej. <a href="#" onclick="event.preventDefault();interpRadnyFilter='${profile.name.replace(/'/g, "\\'")}';document.getElementById('interpelacje-radny-filter').value='${profile.name.replace(/'/g, "\\'")}';interpPage=0;showMain();activateTab('interpelacje');renderInterpelacjeTable()" style="color:var(--accent)">Zobacz wszystkie &#8594;</a></div>`;
-      }
-      html += `</div>`;
-    }
+    const interpKad = interpAll.filter(i => {
+      if (kid === '2024-2029') return i.kadencja === 'IX';
+      if (kid === '2018-2023') return i.kadencja === 'VIII';
+      return true;
+    });
+    const showInterpItems = interpKad.length > 0 ? interpKad : interpAll;
+    const hasInterp = showInterpItems.length > 0;
 
-    // Votes grouped by session
+    // Build votes data (needed for tab count + content)
     let allPersonVotes = [];
     let profCatCounts = {};
     const profCatOrder = Object.keys(VOTE_CATS).sort((a,b) => (VOTE_CATS[a]?.order||99) - (VOTE_CATS[b]?.order||99));
@@ -1131,8 +1106,6 @@ function showProfile(name) {
       const kadData = RAW.kadencje.find(k => k.id === kid);
       if (kadData) {
         const sessions = [...(kadData.sessions || [])].sort((a,b) => b.date.localeCompare(a.date));
-        const voteLabel = (v) => ({za:'za',przeciw:'przeciw',wstrzymal_sie:isFemale(profile.name)?'wstrzymała się':'wstrzymał się',brak_glosu:'brak głosu',nieobecny:isFemale(profile.name)?'nieobecna':'nieobecny'})[v]||v||'—';
-        const votePillClass = (v) => ({za:'za',przeciw:'przeciw',wstrzymal_sie:'wstrzymal',brak_glosu:'wstrzymal',nieobecny:'wstrzymal'})[v]||'wstrzymal';
         for (const sess of sessions) {
           const sessionVotes = getSessionVotes(kadData.votes, kadData.sessions, sess);
           if (sessionVotes.length === 0) continue;
@@ -1148,45 +1121,98 @@ function showProfile(name) {
           }).filter(x => x.pv !== null);
           allPersonVotes.push(...personVotes);
         }
-
-        // Category counts for filter
         allPersonVotes.forEach(x => { profCatCounts[x.cat] = (profCatCounts[x.cat]||0) + 1; });
-
-        html += `<div class="section">
-          <h2>Głosy na sesjach</h2>
-          <div class="filter-bar" id="profile-cat-filter" style="margin-bottom:12px;flex-wrap:wrap"></div>
-          <div id="profile-votes-container">`;
-
-        // Group by session
-        const sessGroups = {};
-        allPersonVotes.forEach(x => {
-          const key = x.sess.date;
-          if (!sessGroups[key]) sessGroups[key] = { sess: x.sess, votes: [] };
-          sessGroups[key].votes.push(x);
-        });
-        const sessKeys = Object.keys(sessGroups).sort((a,b) => b.localeCompare(a));
-
-        for (const sk of sessKeys) {
-          const { sess, votes: pvs } = sessGroups[sk];
-          html += `<div class="profile-sess-group" data-sessdate="${sess.date}" style="margin-bottom:16px">
-            <div style="font-weight:600;margin-bottom:6px;font-size:0.9rem">
-              <a class="name-link" href="/sesja/${encodeURIComponent(sess.number)}" onclick="event.preventDefault();showSession('${sess.number}')">Sesja ${sess.number} · ${sess.date}</a>
-              <span class="sess-vote-count" style="color:var(--muted);font-weight:400;margin-left:8px">(${pvs.length} głosowań)</span>
-            </div>
-            <table><tbody>`;
-          pvs.forEach(({vote: v, pv, cat}) => {
-            html += `<tr class="vote-row" data-vcat="${cat}" onclick="showVote('${v.id}')">
-              <td style="width:100px"><span class="pill pill-${votePillClass(pv)}">${voteLabel(pv)}</span></td>
-              <td style="text-align:left;font-size:0.85rem">${catPill(cat)} ${v.topic || '—'}</td>
-            </tr>`;
-          });
-          html += `</tbody></table></div>`;
-        }
-        html += `</div></div>`;
       }
     }
 
+    // Tab bar
+    if (hasInterp || hasVotes) {
+      html += `<div class="tab-bar" id="profile-detail-tabs" style="margin-bottom:16px">`;
+      if (hasInterp) html += `<button class="tab active" data-ptab="interp">Interpelacje (${showInterpItems.length})</button>`;
+      if (hasVotes) html += `<button class="tab${hasInterp ? '' : ' active'}" data-ptab="votes">Głosowania (${allPersonVotes.length})</button>`;
+      html += `</div>`;
+    }
+
+    // ── Interpelacje tab content ──
+    if (hasInterp) {
+      const interpCount = showInterpItems.filter(i => i.typ === 'interpelacja').length;
+      const zapCount = showInterpItems.filter(i => i.typ === 'zapytanie').length;
+      html += `<div id="profile-tab-interp" class="section">
+        <div style="color:var(--muted);font-size:0.85rem;margin-bottom:12px">${interpCount} interpelacji, ${zapCount} zapytań${interpKad.length > 0 && interpKad.length !== interpAll.length ? ` (ta kadencja, razem: ${interpAll.length})` : ''}</div>`;
+      showInterpItems.slice(0, 20).forEach(item => {
+        const oCri = (item.cri || '').replace(/'/g, "\\'");
+        const typBadge = item.typ === 'zapytanie'
+          ? '<span style="background:rgba(37,99,235,0.12);color:var(--blue);padding:1px 5px;border-radius:3px;font-size:0.7rem;font-weight:600">Z</span>'
+          : '<span style="background:rgba(79,70,229,0.12);color:var(--accent);padding:1px 5px;border-radius:3px;font-size:0.7rem;font-weight:600">I</span>';
+        html += `<div class="uchwala-row" onclick="showInterpelacja('${oCri}')" style="cursor:pointer;padding:8px 12px">
+          <div style="display:flex;align-items:center;gap:6px">
+            ${typBadge}
+            <span class="uchwala-numer" style="font-size:0.8rem">${item.cri}</span>
+            <span style="font-size:0.75rem;color:var(--muted)">${item.data_wplywu}</span>
+            ${item.data_odpowiedzi ? '<span style="color:var(--green);font-size:0.7rem">&#10003;</span>' : ''}
+          </div>
+          <div style="font-size:0.85rem">${item.przedmiot || ''}</div>
+        </div>`;
+      });
+      if (showInterpItems.length > 20) {
+        html += `<div style="color:var(--muted);padding:8px 12px;font-size:0.85rem">...i ${showInterpItems.length - 20} więcej. <a href="#" onclick="event.preventDefault();interpRadnyFilter='${profile.name.replace(/'/g, "\\'")}';document.getElementById('interpelacje-radny-filter').value='${profile.name.replace(/'/g, "\\'")}';interpPage=0;showMain();activateTab('interpelacje');renderInterpelacjeTable()" style="color:var(--accent)">Zobacz wszystkie &#8594;</a></div>`;
+      }
+      html += `</div>`;
+    }
+
+    // ── Głosowania tab content ──
+    if (hasVotes && allPersonVotes.length > 0) {
+      const voteLabel = (v) => ({za:'za',przeciw:'przeciw',wstrzymal_sie:isFemale(profile.name)?'wstrzymała się':'wstrzymał się',brak_glosu:'brak głosu',nieobecny:isFemale(profile.name)?'nieobecna':'nieobecny'})[v]||v||'—';
+      const votePillClass = (v) => ({za:'za',przeciw:'przeciw',wstrzymal_sie:'wstrzymal',brak_glosu:'wstrzymal',nieobecny:'wstrzymal'})[v]||'wstrzymal';
+
+      html += `<div id="profile-tab-votes" class="section" style="${hasInterp ? 'display:none' : ''}">
+        <div class="filter-bar" id="profile-cat-filter" style="margin-bottom:12px;flex-wrap:wrap"></div>
+        <div id="profile-votes-container">`;
+
+      const sessGroups = {};
+      allPersonVotes.forEach(x => {
+        const key = x.sess.date;
+        if (!sessGroups[key]) sessGroups[key] = { sess: x.sess, votes: [] };
+        sessGroups[key].votes.push(x);
+      });
+      const sessKeys = Object.keys(sessGroups).sort((a,b) => b.localeCompare(a));
+
+      for (const sk of sessKeys) {
+        const { sess, votes: pvs } = sessGroups[sk];
+        html += `<div class="profile-sess-group" data-sessdate="${sess.date}" style="margin-bottom:16px">
+          <div style="font-weight:600;margin-bottom:6px;font-size:0.9rem">
+            <a class="name-link" href="/sesja/${encodeURIComponent(sess.number)}" onclick="event.preventDefault();showSession('${sess.number}')">Sesja ${sess.number} · ${sess.date}</a>
+            <span class="sess-vote-count" style="color:var(--muted);font-weight:400;margin-left:8px">(${pvs.length} głosowań)</span>
+          </div>
+          <table><tbody>`;
+        pvs.forEach(({vote: v, pv, cat}) => {
+          html += `<tr class="vote-row" data-vcat="${cat}" onclick="showVote('${v.id}')">
+            <td style="width:100px"><span class="pill pill-${votePillClass(pv)}">${voteLabel(pv)}</span></td>
+            <td style="text-align:left;font-size:0.85rem">${catPill(cat)} ${v.topic || '—'}</td>
+          </tr>`;
+        });
+        html += `</tbody></table></div>`;
+      }
+      html += `</div></div>`;
+    }
+
     view.innerHTML = html;
+
+    // Wire up profile detail tabs
+    const profTabBar = document.getElementById('profile-detail-tabs');
+    if (profTabBar) {
+      profTabBar.querySelectorAll('.tab').forEach(btn => {
+        btn.onclick = () => {
+          profTabBar.querySelectorAll('.tab').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          const t = btn.dataset.ptab;
+          const interpEl = document.getElementById('profile-tab-interp');
+          const votesEl = document.getElementById('profile-tab-votes');
+          if (interpEl) interpEl.style.display = t === 'interp' ? '' : 'none';
+          if (votesEl) votesEl.style.display = t === 'votes' ? '' : 'none';
+        };
+      });
+    }
 
     // Wire up profile category filter
     const profCatBar = document.getElementById('profile-cat-filter');
