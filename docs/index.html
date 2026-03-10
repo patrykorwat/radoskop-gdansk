@@ -380,6 +380,9 @@ header { min-height:80px; }
           <option value="interpelacja">Interpelacje</option>
           <option value="zapytanie">Zapytania</option>
         </select>
+        <select id="interpelacje-cat-filter" style="padding:8px 12px;border:1px solid var(--border);border-radius:8px;background:var(--card);color:var(--text);font-size:0.9rem">
+          <option value="all">Wszystkie kategorie</option>
+        </select>
         <select id="interpelacje-radny-filter" style="padding:8px 12px;border:1px solid var(--border);border-radius:8px;background:var(--card);color:var(--text);font-size:0.9rem">
           <option value="all">Wszyscy radni</option>
         </select>
@@ -490,6 +493,48 @@ function isFemale(name) {
   // Polish female first names almost always end in 'a'
   // Exceptions: Lech, Bogdan etc. never end in 'a'; Kuba/Kosma are male but rare in council
   return first.endsWith('a') && first !== 'Kosma' && first !== 'Kuba';
+}
+
+// ── Interpelacja categories ──
+const INTERP_CATS = {
+  drogi:          { label: 'Drogi i chodniki', color: '#6366f1', order: 1 },
+  transport:      { label: 'Transport',        color: '#0ea5e9', order: 2 },
+  inwestycje:     { label: 'Inwestycje',       color: '#f59e0b', order: 3 },
+  nieruchomosci:  { label: 'Nieruchomości',    color: '#8b5cf6', order: 4 },
+  zielen:         { label: 'Zieleń',           color: '#22c55e', order: 5 },
+  bezpieczenstwo: { label: 'Bezpieczeństwo',   color: '#ef4444', order: 6 },
+  edukacja:       { label: 'Edukacja',         color: '#ec4899', order: 7 },
+  porzadek:       { label: 'Porządek',         color: '#f97316', order: 8 },
+  parkowanie:     { label: 'Parkowanie',       color: '#64748b', order: 9 },
+  kultura:        { label: 'Kultura i sport',  color: '#14b8a6', order: 10 },
+  spoleczne:      { label: 'Sprawy społeczne', color: '#a855f7', order: 11 },
+  inne:           { label: 'Inne',             color: '#9ca3af', order: 99 },
+};
+const INTERP_CAT_KWS = [
+  ['drogi', ['ulic','chodnik','nawierzchni','jezdni','drog','asfalt','skrzyżow','rondo ','estakad','most ','mostu','wiadukt','kładk','przejści','pieszych','ścieżk','rowerow','tunel','słupków','utwardzen','barierek','schodów','progów zwal']],
+  ['transport', ['autobusow','tramwaj','przystan','wiaty','wiat ','komunikacj','linii ','pkm','ztm','rozkład','przejazd','kolej','peronów','dworzec','ruchu ','pojazdów']],
+  ['bezpieczenstwo', ['bezpieczeńst','monitoring','kamer','oświetleni','lamp','latarni','straż','policj','defibrylat','sygnalizac','świateł','światło']],
+  ['edukacja', ['szkoł','przedszkol','placówk','oświatow','uczni','kształceni','edukac','żłobk','młodzieży']],
+  ['zielen', ['drzew','parku','park ','zieleni','zielony','plac zabaw','placu zabaw','rekreac','ogrod','deszczow','środowisk','ekolog','smog','hałas','fetor','odpad','śmiec','czystości','uprząt','krajobraz']],
+  ['nieruchomosci', ['nieruchom','lokalu','budynk','mieszka','wynajm','pustosta','kamieni','elewac','okien ','podwórk','wspólnot','działki','działek']],
+  ['inwestycje', ['remont','modernizac','inwestycj','przebudow','budowy','rewaloryz','rewitalizac','renowac','napraw','wymian','zagospodarowan']],
+  ['parkowanie', ['parkowan','parkometr','strefa płatn','parking','zatrzymyw','postoju']],
+  ['kultura', ['kultur','sport','stadion','boisk','pływa','muzeum','teatr','bibliotek','festiwal','pomnik','zabytk','historycz']],
+  ['spoleczne', ['pomoc','społeczn','niepełnospr','senior','bezdomn','opiek','zdrow','szpital','przychodni','terapeu']],
+  ['porzadek', ['porządku','graffiti','dewastacj','wandali','nielegalne','dzikie','porzucon','wraki','reklam','kiosków','uporządkow','usunięci']],
+];
+function categorizeInterpelacja(przedmiot) {
+  if (!przedmiot) return 'inne';
+  const s = przedmiot.toLowerCase();
+  for (const [cat, kws] of INTERP_CAT_KWS) {
+    if (kws.some(kw => s.includes(kw))) return cat;
+  }
+  return 'inne';
+}
+function interpCatPill(cat) {
+  const c = INTERP_CATS[cat];
+  if (!c) return '';
+  return `<span style="background:${c.color}18;color:${c.color};padding:1px 6px;border-radius:4px;font-size:0.7rem;font-weight:600;white-space:nowrap">${c.label}</span>`;
 }
 
 async function init() {
@@ -1134,19 +1179,30 @@ function showProfile(name) {
     }
 
     // ── Interpelacje tab content ──
+    const interpCatCounts = {};
+    showInterpItems.forEach(item => {
+      const cat = categorizeInterpelacja(item.przedmiot);
+      interpCatCounts[cat] = (interpCatCounts[cat] || 0) + 1;
+    });
+    const interpCatOrder = Object.keys(INTERP_CATS).sort((a,b) => (INTERP_CATS[a]?.order||99) - (INTERP_CATS[b]?.order||99));
     if (hasInterp) {
       const interpCount = showInterpItems.filter(i => i.typ === 'interpelacja').length;
       const zapCount = showInterpItems.filter(i => i.typ === 'zapytanie').length;
+
       html += `<div id="profile-tab-interp" class="section">
-        <div style="color:var(--muted);font-size:0.85rem;margin-bottom:12px">${interpCount} interpelacji, ${zapCount} zapytań${interpKad.length > 0 && interpKad.length !== interpAll.length ? ` (ta kadencja, razem: ${interpAll.length})` : ''}</div>`;
-      showInterpItems.slice(0, 20).forEach(item => {
+        <div style="color:var(--muted);font-size:0.85rem;margin-bottom:12px">${interpCount} interpelacji, ${zapCount} zapytań${interpKad.length > 0 && interpKad.length !== interpAll.length ? ` (ta kadencja, razem: ${interpAll.length})` : ''}</div>
+        <div class="filter-bar" id="profile-interp-cat-filter" style="margin-bottom:12px;flex-wrap:wrap"></div>
+        <div id="profile-interp-container">`;
+      showInterpItems.forEach(item => {
         const oCri = (item.cri || '').replace(/'/g, "\\'");
+        const cat = categorizeInterpelacja(item.przedmiot);
         const typBadge = item.typ === 'zapytanie'
           ? '<span style="background:rgba(37,99,235,0.12);color:var(--blue);padding:1px 5px;border-radius:3px;font-size:0.7rem;font-weight:600">Z</span>'
           : '<span style="background:rgba(79,70,229,0.12);color:var(--accent);padding:1px 5px;border-radius:3px;font-size:0.7rem;font-weight:600">I</span>';
-        html += `<div class="uchwala-row" onclick="showInterpelacja('${oCri}')" style="cursor:pointer;padding:8px 12px">
-          <div style="display:flex;align-items:center;gap:6px">
+        html += `<div class="uchwala-row interp-row" data-icat="${cat}" onclick="showInterpelacja('${oCri}')" style="cursor:pointer;padding:8px 12px">
+          <div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap">
             ${typBadge}
+            ${interpCatPill(cat)}
             <span class="uchwala-numer" style="font-size:0.8rem">${item.cri}</span>
             <span style="font-size:0.75rem;color:var(--muted)">${item.data_wplywu}</span>
             ${item.data_odpowiedzi ? '<span style="color:var(--green);font-size:0.7rem">&#10003;</span>' : ''}
@@ -1154,10 +1210,7 @@ function showProfile(name) {
           <div style="font-size:0.85rem">${item.przedmiot || ''}</div>
         </div>`;
       });
-      if (showInterpItems.length > 20) {
-        html += `<div style="color:var(--muted);padding:8px 12px;font-size:0.85rem">...i ${showInterpItems.length - 20} więcej. <a href="#" onclick="event.preventDefault();interpRadnyFilter='${profile.name.replace(/'/g, "\\'")}';document.getElementById('interpelacje-radny-filter').value='${profile.name.replace(/'/g, "\\'")}';interpPage=0;showMain();activateTab('interpelacje');renderInterpelacjeTable()" style="color:var(--accent)">Zobacz wszystkie &#8594;</a></div>`;
-      }
-      html += `</div>`;
+      html += `</div></div>`;
     }
 
     // ── Głosowania tab content ──
@@ -1210,6 +1263,28 @@ function showProfile(name) {
           const votesEl = document.getElementById('profile-tab-votes');
           if (interpEl) interpEl.style.display = t === 'interp' ? '' : 'none';
           if (votesEl) votesEl.style.display = t === 'votes' ? '' : 'none';
+        };
+      });
+    }
+
+    // Wire up profile interpelacje category filter
+    const profInterpCatBar = document.getElementById('profile-interp-cat-filter');
+    if (profInterpCatBar) {
+      let pif = `<button class="session-pill active" data-icat="all">Wszystkie <span class="pill-count">(${showInterpItems.length})</span></button>`;
+      for (const cat of interpCatOrder) {
+        if (!interpCatCounts[cat]) continue;
+        const c = INTERP_CATS[cat];
+        pif += `<button class="session-pill" data-icat="${cat}" style="--pill-color:${c.color}">${c.label} <span class="pill-count">(${interpCatCounts[cat]})</span></button>`;
+      }
+      profInterpCatBar.innerHTML = pif;
+      profInterpCatBar.querySelectorAll('.session-pill').forEach(btn => {
+        btn.onclick = () => {
+          profInterpCatBar.querySelectorAll('.session-pill').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          const cat = btn.dataset.icat;
+          document.querySelectorAll('#profile-interp-container .interp-row').forEach(el => {
+            el.style.display = (cat === 'all' || el.dataset.icat === cat) ? '' : 'none';
+          });
         };
       });
     }
@@ -1791,6 +1866,7 @@ const INTERP_PER_PAGE = 50;
 let interpPage = 0;
 let interpSearch = '';
 let interpTypFilter = 'all';
+let interpCatFilter = 'all';
 let interpRadnyFilter = 'all';
 
 function interpCriToSlug(cri) { return (cri || '').replace(/\//g, '-'); }
@@ -1848,10 +1924,35 @@ function renderInterpelacjeTable() {
     });
   }
 
+  // Category dropdown
+  const catSelect = document.getElementById('interpelacje-cat-filter');
+  if (catSelect && catSelect.options.length <= 1) {
+    const catOrder = Object.keys(INTERP_CATS).sort((a,b) => (INTERP_CATS[a]?.order||99) - (INTERP_CATS[b]?.order||99));
+    catOrder.forEach(cat => {
+      const cnt = all.filter(i => categorizeInterpelacja(i.przedmiot) === cat).length;
+      if (!cnt) return;
+      const opt = document.createElement('option');
+      opt.value = cat;
+      opt.textContent = `${INTERP_CATS[cat].label} (${cnt})`;
+      catSelect.appendChild(opt);
+    });
+  }
+  if (catSelect && !catSelect._wired) {
+    catSelect._wired = true;
+    catSelect.addEventListener('change', () => {
+      interpCatFilter = catSelect.value;
+      interpPage = 0;
+      renderInterpelacjeTable();
+    });
+  }
+
   // Filter
   let filtered = all;
   if (interpTypFilter !== 'all') {
     filtered = filtered.filter(i => i.typ === interpTypFilter);
+  }
+  if (interpCatFilter !== 'all') {
+    filtered = filtered.filter(i => categorizeInterpelacja(i.przedmiot) === interpCatFilter);
   }
   if (interpRadnyFilter !== 'all') {
     filtered = filtered.filter(i => (i.radni || []).includes(interpRadnyFilter) || i.radny === interpRadnyFilter);
@@ -1916,9 +2017,10 @@ function renderInterpelacjeTable() {
     html += `<div class="uchwala-row" onclick="showInterpelacja('${cri}')" style="cursor:pointer">
       <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:8px">
         <div style="flex:1">
-          <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px">
+          <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px;flex-wrap:wrap">
             <span class="uchwala-numer">${item.cri || '?'}</span>
             ${typLabel}
+            ${interpCatPill(categorizeInterpelacja(item.przedmiot))}
             ${hasAnswer}
           </div>
           <div class="uchwala-tytul">${item.przedmiot || '(brak tematu)'}</div>
@@ -1975,8 +2077,9 @@ function showInterpelacja(cri) {
   let html = `
     <button class="profile-back" onclick="showMain();activateTab('interpelacje')">&#8592; Interpelacje</button>
     <div style="margin-bottom:24px">
-      <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px">
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;flex-wrap:wrap">
         <span style="color:${typColor};font-weight:600;font-size:0.85rem;text-transform:uppercase">${typLabel}</span>
+        ${interpCatPill(categorizeInterpelacja(item.przedmiot))}
         <span style="color:var(--muted);font-size:0.85rem">${item.cri || ''}</span>
       </div>
       <h2 style="font-size:1.3rem;font-weight:600;border:none;padding:0">${item.przedmiot || '(brak tematu)'}</h2>
