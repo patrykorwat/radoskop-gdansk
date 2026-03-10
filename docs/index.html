@@ -209,6 +209,94 @@ header { min-height:80px; }
 .pager-btn { padding:6px 12px; margin:2px; border:1px solid var(--border); border-radius:6px; background:var(--card); color:var(--text); cursor:pointer; font-size:0.85rem; }
 .pager-btn.active { background:var(--accent); color:#fff; border-color:var(--accent); }
 .pager-btn:hover:not(.active) { background:rgba(79,70,229,0.08); }
+
+/* ── Mobile ── */
+@media (max-width: 600px) {
+  .container { padding:12px; }
+  header { padding:20px 0 12px; margin-bottom:16px; }
+  header h1 { font-size:1.5rem; }
+  header div { min-width:0; }
+
+  /* Tab bar: horizontal scroll instead of wrap */
+  .tab-bar { flex-wrap:nowrap; overflow-x:auto; -webkit-overflow-scrolling:touch; scrollbar-width:none; gap:4px; padding-bottom:4px; }
+  .tab-bar::-webkit-scrollbar { display:none; }
+  .tab { white-space:nowrap; flex-shrink:0; padding:6px 12px; font-size:0.8rem; }
+
+  /* Kadencja bar */
+  .kadencja-bar { flex-wrap:nowrap; overflow-x:auto; -webkit-overflow-scrolling:touch; }
+  .kadencja-btn { flex-shrink:0; padding:6px 12px; font-size:0.8rem; }
+
+  /* Stats grid */
+  .stats-grid { grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:8px; }
+  .stat-card { padding:12px; }
+  .stat-card .value { font-size:1.5rem; }
+
+  /* Metric cards (profile + interpelacja detail) */
+  .profile-metrics { grid-template-columns:repeat(3, 1fr); gap:8px; }
+  .metric-card { padding:10px 6px; }
+  .metric-card .metric-value { font-size:1.2rem; word-break:break-word; }
+  .metric-card .metric-label { font-size:0.65rem; }
+
+  /* Interpelacja detail metrics: 2-col on mobile */
+  .interp-detail-metrics { grid-template-columns:repeat(2, 1fr); }
+
+  /* Profile meta cards */
+  .profile-meta { grid-template-columns:1fr; gap:10px; }
+
+  /* Filter bars: allow scroll */
+  .filter-bar { flex-wrap:nowrap; overflow-x:auto; -webkit-overflow-scrolling:touch; scrollbar-width:none; padding-bottom:4px; }
+  .filter-bar::-webkit-scrollbar { display:none; }
+  .session-pill { flex-shrink:0; }
+
+  /* Interpelacje filter row: stack vertically */
+  #tab-interpelacje > div:nth-child(2) { flex-direction:column; }
+  #tab-interpelacje > div:nth-child(2) input,
+  #tab-interpelacje > div:nth-child(2) select { width:100%; min-width:0; }
+
+  /* Tables: allow horizontal scroll */
+  table { display:block; overflow-x:auto; -webkit-overflow-scrolling:touch; }
+  th, td { padding:8px 8px; font-size:0.8rem; white-space:nowrap; }
+
+  /* Ranking table tweaks */
+  th:first-child, td:first-child { position:sticky; left:0; background:var(--bg); z-index:1; }
+
+  /* Vote names grid */
+  .vote-names-grid { grid-template-columns:1fr 1fr; }
+
+  /* Session attendees */
+  .session-attendees { grid-template-columns:1fr; }
+
+  /* Speaker bars */
+  .speaker-name { min-width:100px; font-size:0.8rem; }
+
+  /* Profile cards grid */
+  .profiles-grid { grid-template-columns:1fr; }
+
+  /* Similarity pairs */
+  .similarity-pair { font-size:0.8rem; gap:8px; }
+
+  /* Section headers */
+  .section h2 { font-size:1.1rem; }
+
+  /* Chart wraps */
+  .chart-wrap { padding:12px; }
+
+  /* Pager */
+  .pager-btn { padding:4px 8px; font-size:0.8rem; }
+
+  /* Uchwala items */
+  .uchwala-meta { font-size:0.8rem; }
+
+  /* Votes session group */
+  .votes-sess-header { padding:8px 10px; flex-wrap:wrap; }
+  .votes-sess-title { font-size:0.85rem; }
+  .votes-sess-stats { font-size:0.75rem; gap:6px; }
+
+  /* Profile header */
+  .profile-header { gap:12px; }
+  .profile-avatar { width:56px; height:56px; font-size:1.4rem; }
+  .profile-info h2 { font-size:1.3rem; }
+}
 </style>
 </head>
 <body>
@@ -2085,17 +2173,17 @@ function showInterpelacja(cri) {
       <h2 style="font-size:1.3rem;font-weight:600;border:none;padding:0">${item.przedmiot || '(brak tematu)'}</h2>
     </div>
 
-    <div class="profile-metrics" style="margin-bottom:24px">
-      <div class="metric-card">
+    <div class="profile-metrics interp-detail-metrics" style="margin-bottom:24px">
+      <div class="metric-card" style="grid-column:1/-1">
         <div class="metric-value" style="font-size:1.1rem">${radnyHtml}</div>
         <div class="metric-label">${radniArr.length > 1 ? 'Autorzy' : 'Autor'} ${radnyCount ? '(' + radnyCount + ' interp.)' : ''}</div>
       </div>
       <div class="metric-card">
-        <div class="metric-value">${item.data_wplywu || '?'}</div>
+        <div class="metric-value" style="font-size:1.1rem">${item.data_wplywu || '?'}</div>
         <div class="metric-label">Data wpływu</div>
       </div>
       <div class="metric-card">
-        <div class="metric-value" style="color:${item.data_odpowiedzi ? 'var(--green)' : 'var(--muted)'}">${item.data_odpowiedzi || 'brak'}</div>
+        <div class="metric-value" style="font-size:1.1rem;color:${item.data_odpowiedzi ? 'var(--green)' : 'var(--muted)'}">${item.data_odpowiedzi || 'brak'}</div>
         <div class="metric-label">Data odpowiedzi</div>
       </div>
       <div class="metric-card">
