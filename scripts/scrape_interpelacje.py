@@ -34,8 +34,13 @@ except ImportError:
     sys.exit(1)
 
 
-INTERP_URL = "https://bip.gdansk.pl/rada-miasta/publikacja-interpelacji-radnych-miasta-gdanska"
-ZAP_URL = "https://bip.gdansk.pl/rada-miasta/publikacja-zapytan-radnych-miasta-gdanska"
+# Stare endpointy (przed 2025): POST na /rada-miasta/... z form-data year={rok}
+# Nowe endpointy (od ~2025): GET na /picklock/... z ?rok={rok}&wyszukiwana_tresc=
+INTERP_URL_OLD = "https://bip.gdansk.pl/rada-miasta/publikacja-interpelacji-radnych-miasta-gdanska"
+ZAP_URL_OLD = "https://bip.gdansk.pl/rada-miasta/publikacja-zapytan-radnych-miasta-gdanska"
+
+INTERP_URL = "https://bip.gdansk.pl/picklock/publikacja-interpelacji-radnych-miasta-gdanska"
+ZAP_URL = "https://bip.gdansk.pl/picklock/publikacja-zapytan-radnych-miasta-gdanska"
 
 HEADERS = {
     "User-Agent": "Radoskop/1.0 (https://gdansk.radoskop.pl; kontakt@radoskop.pl)"
@@ -70,30 +75,59 @@ def get_kadencja(data_wplywu):
         return "VI"
 
 
-def fetch_year(session, base_url, year):
-    """Pobiera stronę z interpelacjami/zapytaniami dla danego roku."""
-    # Pierwsze żądanie GET, żeby pobrać cookies
-    resp = session.get(base_url, headers=HEADERS, timeout=30)
+def fetch_year(session, base_url, year, debug=False):
+    """Pobiera stronę z interpelacjami/zapytaniami dla danego roku.
+
+    BIP Gdańsk od ~2025 udostępnia dane przez GET /picklock/...?rok={rok}
+    (wcześniej: POST /rada-miasta/... z form-data year={rok}).
+
+    Endpoint zwraca JSON: {"status": 200, "results": "<html>..."}.
+    Wyciągamy HTML z pola "results".
+    """
+    params = {"rok": str(year), "wyszukiwana_tresc": ""}
+    resp = session.get(base_url, params=params, headers=HEADERS, timeout=120)
     resp.raise_for_status()
 
-    # POST z parametrem year
-    data = {"year": str(year)}
-    resp = session.post(base_url, data=data, headers={
-        **HEADERS,
-        "X-Requested-With": "XMLHttpRequest",
-        "Content-Type": "application/x-www-form-urlencoded",
-    }, timeout=60)
-    resp.raise_for_status()
+    # Endpoint zwraca JSON z polem "results" zawierającym HTML
+    content_type = resp.headers.get("Content-Type", "")
+    if "json" in content_type:
+        try:
+            data = resp.json()
+            html = data.get("results", "")
+            if debug:
+                print(f"\n[DEBUG] GET {resp.url}")
+                print(f"[DEBUG] JSON response, status={data.get('status')}, results length={len(html)}")
+            return html
+        except (ValueError, KeyError):
+            pass
+
+    # Fallback: traktuj jako surowy HTML
+    if debug:
+        print(f"\n[DEBUG] GET {resp.url}")
+        print(f"[DEBUG] Status: {resp.status_code}, length: {len(resp.text)}")
+        print(f"[DEBUG] Content-Type: {content_type}")
+
     return resp.text
 
 
-def parse_tables(html, typ, url_prefix):
+def parse_tables(html, typ, url_prefix, debug=False):
     """Parsuje tabelki z interpelacjami/zapytaniami z HTML."""
     soup = BeautifulSoup(html, "html.parser")
     tables = soup.find_all("table", class_="table-sm")
 
+    if debug:
+        print(f"[DEBUG] Found {len(tables)} tables with class='table-sm'")
+        # Show what table classes actually exist
+        all_tables = soup.find_all("table")
+        table_classes = set()
+        for t in all_tables:
+            cls = t.get("class")
+            table_classes.add(str(cls))
+        if table_classes and len(table_classes) <= 10:
+            print(f"[DEBUG] All table classes found: {table_classes}")
+
     records = []
-    for table in tables:
+    for table_idx, table in enumerate(tables):
         obj = {}
         for row in table.find_all("tr"):
             cells = row.find_all("td")
@@ -102,6 +136,9 @@ def parse_tables(html, typ, url_prefix):
             label = cells[0].get_text(strip=True).lower()
             val_cell = cells[1]
             val_text = val_cell.get_text(strip=True)
+
+            if debug and table_idx == 0:
+                print(f"[DEBUG] Label found: '{label}' -> '{val_text[:50]}'")
 
             if "cr" in label and ("cri" in label or "crz" in label or label.startswith("cr")):
                 obj["cri"] = val_text
@@ -121,6 +158,9 @@ def parse_tables(html, typ, url_prefix):
             elif "treść odpowiedzi" in label or "odpowiedz" in label:
                 a = val_cell.find("a")
                 obj["odpowiedz_url"] = a["href"] if a and a.get("href") else ""
+
+        if debug and obj:
+            print(f"[DEBUG] Table {table_idx} parsed object keys: {list(obj.keys())}")
 
         if obj.get("cri"):
             # Prefix zapytania with Z if not already
@@ -145,7 +185,7 @@ def parse_tables(html, typ, url_prefix):
     return records
 
 
-def scrape(years, output_path):
+def scrape(years, output_path, debug=False):
     """Główna funkcja scrapowania."""
     session = requests.Session()
     all_records = []
@@ -155,12 +195,15 @@ def scrape(years, output_path):
     for year in years:
         print(f"  Rok {year}...", end=" ", flush=True)
         try:
-            html = fetch_year(session, INTERP_URL, year)
-            records = parse_tables(html, "interpelacja", "rmg_i")
+            html = fetch_year(session, INTERP_URL, year, debug=debug)
+            records = parse_tables(html, "interpelacja", "rmg_i", debug=debug)
             print(f"{len(records)} rekordów")
             all_records.extend(records)
         except Exception as e:
             print(f"BŁĄD: {e}")
+            if debug:
+                import traceback
+                traceback.print_exc()
         time.sleep(1)
 
     # Zapytania
@@ -168,12 +211,15 @@ def scrape(years, output_path):
     for year in years:
         print(f"  Rok {year}...", end=" ", flush=True)
         try:
-            html = fetch_year(session, ZAP_URL, year)
-            records = parse_tables(html, "zapytanie", "rmg_p")
+            html = fetch_year(session, ZAP_URL, year, debug=debug)
+            records = parse_tables(html, "zapytanie", "rmg_p", debug=debug)
             print(f"{len(records)} rekordów")
             all_records.extend(records)
         except Exception as e:
             print(f"BŁĄD: {e}")
+            if debug:
+                import traceback
+                traceback.print_exc()
         time.sleep(1)
 
     # Sortuj od najnowszych
@@ -206,10 +252,14 @@ def main():
         "--output", default="docs/interpelacje.json",
         help="Ścieżka do pliku wyjściowego"
     )
+    parser.add_argument(
+        "--debug", action="store_true",
+        help="Włącz szczegółowe logowanie debugowania"
+    )
     args = parser.parse_args()
 
     years = [int(y.strip()) for y in args.lata.split(",")]
-    scrape(years, args.output)
+    scrape(years, args.output, debug=args.debug)
 
 
 if __name__ == "__main__":

@@ -15,30 +15,82 @@
 <meta property="og:url" content="https://gdansk.radoskop.pl/">
 <meta property="og:locale" content="pl_PL">
 <meta property="og:site_name" content="Radoskop Gdańsk">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="https://gdansk.radoskop.pl/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Radoskop Gdańsk — Monitoring głosowań Rady Miasta Gdańska">
 <meta name="twitter:description" content="Otwarte narzędzie monitoringu Rady Miasta Gdańska. Frekwencja, głosowania, uchwały, interpelacje i aktywność radnych.">
+<meta name="twitter:image" content="https://gdansk.radoskop.pl/og-image.png">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebApplication",
-  "name": "Radoskop Gdańsk",
-  "description": "Otwarte narzędzie monitoringu Rady Miasta Gdańska. Sprawdź frekwencję, głosowania, uchwały, interpelacje i aktywność radnych na sesjach.",
-  "url": "https://gdansk.radoskop.pl/",
-  "applicationCategory": "GovernmentApplication",
-  "operatingSystem": "Web",
-  "author": {
-    "@type": "Person",
-    "name": "Patryk Orwat"
-  },
-  "about": {
-    "@type": "GovernmentOrganization",
-    "name": "Rada Miasta Gdańska",
-    "url": "https://bip.gdansk.pl/rada-miasta"
-  },
-  "license": "https://www.gnu.org/licenses/agpl-3.0.html",
-  "isAccessibleForFree": true,
-  "inLanguage": "pl"
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "name": "Radoskop Gdańsk",
+      "description": "Radoskop — otwarte narzędzie monitoringu Rady Miasta Gdańska. Sprawdź frekwencję, głosowania i aktywność radnych na sesjach.",
+      "url": "https://gdansk.radoskop.pl/",
+      "applicationCategory": "GovernmentApplication",
+      "operatingSystem": "Web",
+      "author": {
+        "@type": "Person",
+        "name": "Patryk Orwat",
+        "url": "https://radoskop.pl/"
+      },
+      "about": {
+        "@type": "GovernmentOrganization",
+        "name": "Rada Miasta Gdańska",
+        "url": "https://bip.gdansk.pl/rada-miasta"
+      },
+      "license": "https://www.gnu.org/licenses/agpl-3.0.html",
+      "isAccessibleForFree": true,
+      "inLanguage": "pl",
+      "image": "https://gdansk.radoskop.pl/og-image.png"
+    },
+    {
+      "@type": "WebSite",
+      "name": "Radoskop Gdańsk",
+      "url": "https://gdansk.radoskop.pl/",
+      "inLanguage": "pl",
+      "publisher": {
+        "@type": "Person",
+        "name": "Patryk Orwat"
+      }
+    },
+    {
+      "@type": "Dataset",
+      "name": "Dane glosowan Rady Miasta Gdańska",
+      "description": "Otwarte dane o glosowaniach, frekwencji i aktywnosci radnych Rady Miasta Gdańska.",
+      "url": "https://gdansk.radoskop.pl/",
+      "license": "https://www.gnu.org/licenses/agpl-3.0.html",
+      "creator": {
+        "@type": "Person",
+        "name": "Patryk Orwat"
+      },
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://gdansk.radoskop.pl/data.json"
+        }
+      ],
+      "temporalCoverage": "2024-2029",
+      "spatialCoverage": {
+        "@type": "Place",
+        "name": "Gdańsk",
+        "containedInPlace": {
+          "@type": "Country",
+          "name": "Polska"
+        }
+      },
+      "variableMeasured": [
+        "Frekwencja radnych",
+        "Wyniki glosowan imiennych",
+        "Aktywnosc na sesjach"
+      ]
+    }
+  ]
 }
 </script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1SH24XVXR3"></script>
