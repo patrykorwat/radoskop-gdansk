@@ -6,11 +6,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://gdansk.radoskop.pl/budzet/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://gdansk.radoskop.pl/profil/agnieszka-bartkow/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -146,16 +141,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://gdansk.radoskop.pl/profil/lukasz-bejm/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://gdansk.radoskop.pl/profil/lukasz-swiacki/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://gdansk.radoskop.pl/profil/marcin-makowski/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -256,14 +241,49 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://gdansk.radoskop.pl/profil/lukasz-bejm/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gdansk.radoskop.pl/profil/lukasz-swiacki/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://gdansk.radoskop.pl/profil/zaneta-geryk/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://gdansk.radoskop.pl/kadencja/ix/uchwaly/</loc>
-    <changefreq>weekly</changefreq>
+    <loc>https://gdansk.radoskop.pl/budzet/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gdansk.radoskop.pl/kadencja/viii/ranking/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gdansk.radoskop.pl/kadencja/viii/radni/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gdansk.radoskop.pl/kadencja/viii/sesje/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gdansk.radoskop.pl/kadencja/viii/glosowania/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://gdansk.radoskop.pl/kadencja/viii/podobienstwo/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gdansk.radoskop.pl/kadencja/viii/uchwaly/</loc>
@@ -271,63 +291,43 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://gdansk.radoskop.pl/kadencja/viii/ranking/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gdansk.radoskop.pl/kadencja/viii/radni/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gdansk.radoskop.pl/kadencja/viii/sesje/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gdansk.radoskop.pl/kadencja/viii/glosowania/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://gdansk.radoskop.pl/kadencja/viii/podobienstwo/</loc>
-    <changefreq>weekly</changefreq>
+    <loc>https://gdansk.radoskop.pl/kadencja/viii/interpelacje/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://gdansk.radoskop.pl/kadencja/ix/ranking/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://gdansk.radoskop.pl/kadencja/ix/radni/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://gdansk.radoskop.pl/kadencja/ix/sesje/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://gdansk.radoskop.pl/kadencja/ix/glosowania/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://gdansk.radoskop.pl/kadencja/ix/podobienstwo/</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gdansk.radoskop.pl/kadencja/ix/uchwaly/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://gdansk.radoskop.pl/kadencja/ix/interpelacje/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://gdansk.radoskop.pl/kadencja/viii/interpelacje/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
   </url>
 </urlset>

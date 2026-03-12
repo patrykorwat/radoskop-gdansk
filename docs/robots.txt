@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /*.json$
 
 Sitemap: https://gdansk.radoskop.pl/sitemap.xml
