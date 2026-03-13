@@ -676,6 +676,15 @@ function interpCatPill(cat) {
   if (!c) return '';
   return `<span style="background:${c.color}18;color:${c.color};padding:1px 6px;border-radius:4px;font-size:0.7rem;font-weight:600;white-space:nowrap">${c.label}</span>`;
 }
+function radnyLink(name) {
+  if (!name) return '?';
+  const names = name.includes(',') ? name.split(',').map(n => n.trim()).filter(Boolean) : [name.trim()];
+  return names.map(n => {
+    const p = PROFILES && PROFILES.profiles && PROFILES.profiles.find(pr => pr.name === n);
+    if (p) return '<a class="name-link" href="/profil/'+p.slug+'" onclick="event.preventDefault();showProfile(\''+n.replace(/'/g,"\\'")+'\')" style="color:var(--accent)">'+n+'</a>';
+    return n;
+  }).join(', ');
+}
 
 async function init() {
   // Restore path from 404.html SPA redirect
@@ -1274,7 +1283,12 @@ function showProfile(name) {
     }
 
     // ── Profile sub-tabs: Interpelacje / Głosowania ──
-    const interpAll = (window.INTERPELACJE || []).filter(i => (i.radni || []).includes(profile.name) || i.radny === profile.name);
+    const interpAll = (window.INTERPELACJE || []).filter(i => {
+      if ((i.radni || []).includes(profile.name)) return true;
+      const r = (i.radny || '').toLowerCase();
+      const pn = profile.name.toLowerCase();
+      return r === pn || r.includes(pn);
+    });
     const interpKad = interpAll.filter(i => {
       if (kid === '2024-2029') return i.kadencja === 'IX';
       if (kid === '2018-2023') return i.kadencja === 'VIII';
