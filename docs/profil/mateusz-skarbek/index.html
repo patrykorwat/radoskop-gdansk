@@ -7,7 +7,6 @@
 <meta name="description" content="Profil: Mateusz Skarbek. Sprawdz glosowania, frekwencje i aktywnosc w Radzie Miasta Gdańska.">
 <meta name="keywords" content="Gdańsk, rada miasta, radni, głosowania, frekwencja, samorząd, monitoring, transparentność">
 <meta name="author" content="Patryk Orwat">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="canonical" href="https://gdansk.radoskop.pl/profil/mateusz-skarbek/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Mateusz Skarbek - Radoskop Gdańsk">
@@ -15,19 +14,15 @@
 <meta property="og:url" content="https://gdansk.radoskop.pl/profil/mateusz-skarbek/">
 <meta property="og:locale" content="pl_PL">
 <meta property="og:site_name" content="Radoskop Gdańsk">
-<meta property="og:image" content="https://gdansk.radoskop.pl/og-image.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Mateusz Skarbek - Radoskop Gdańsk">
 <meta name="twitter:description" content="Profil: Mateusz Skarbek. Sprawdz glosowania, frekwencje i aktywnosc w Radzie Miasta Gdańska.">
-<meta name="twitter:image" content="https://gdansk.radoskop.pl/og-image.png">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebApplication",
   "name": "Radoskop Gdańsk",
-  "description": "Otwarte narzędzie monitoringu Rady Miasta Gdańska. Sprawdź frekwencję, głosowania, uchwały, interpelacje i aktywność radnych na sesjach.",
+  "description": "Otwarte narzędzie monitoringu Rady Miasta Gdańska. Sprawdź frekwencję, głosowania i aktywność radnych na sesjach.",
   "url": "https://gdansk.radoskop.pl/",
   "applicationCategory": "GovernmentApplication",
   "operatingSystem": "Web",
@@ -56,9 +51,9 @@
   --text: #1a1d27;
   --muted: #6b7280;
   --accent: #4f46e5;
-  --green: #15803d;
+  --green: #16a34a;
   --red: #dc2626;
-  --yellow: #a16207;
+  --yellow: #ca8a04;
   --blue: #2563eb;
 }
 * { margin:0; padding:0; box-sizing:border-box; }
@@ -76,7 +71,6 @@ header p { color:var(--muted); margin-top:4px; }
 .stat-card { background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:20px; }
 .stat-card .label { font-size:0.8rem; color:var(--muted); text-transform:uppercase; letter-spacing:0.05em; }
 .stat-card .value { font-size:2rem; font-weight:700; margin-top:4px; }
-.stat-card-link:hover { border-color:var(--accent); box-shadow:0 2px 8px rgba(0,0,0,0.08); }
 .section { margin-bottom:40px; }
 .section h2 { font-size:1.3rem; font-weight:600; margin-bottom:16px; padding-bottom:8px; border-bottom:1px solid var(--border); }
 table { width:100%; border-collapse:collapse; font-size:0.9rem; }
@@ -197,172 +191,9 @@ footer a { color:var(--accent); text-decoration:none; }
 .cat-group-header .cat-pill { font-size:0.8rem; padding:3px 10px; }
 .cat-group-count { color:var(--muted); font-size:0.8rem; }
 .cat-summary { display:flex; flex-wrap:wrap; gap:4px; margin-bottom:12px; }
-a.name-link { text-decoration:underline; text-decoration-color:rgba(79,70,229,0.3); text-underline-offset:2px; }
-a.name-link:hover { text-decoration-color:var(--accent); }
-footer a { text-decoration:underline; text-decoration-color:rgba(79,70,229,0.3); }
-.stats-grid { min-height:90px; }
-header { min-height:80px; }
-/* Uchwały tab */
-.uchwaly-year-group { margin-bottom:16px; }
-.uchwaly-year-header { font-weight:600; font-size:1.1rem; padding:8px 0 6px; border-bottom:2px solid var(--border); margin-bottom:6px; color:var(--text); }
-.uchwala-row { padding:10px 12px; border-bottom:1px solid var(--border); cursor:pointer; transition:background 0.15s; }
-.uchwala-row:hover { background:rgba(79,70,229,0.04); }
-.uchwala-numer { font-weight:600; font-size:0.9rem; color:var(--accent); margin-bottom:2px; }
-.uchwala-tytul { font-size:0.85rem; color:var(--text); line-height:1.4; margin-bottom:4px; }
-.uchwala-meta { display:flex; align-items:center; flex-wrap:wrap; }
-.pager-btn { padding:6px 12px; margin:2px; border:1px solid var(--border); border-radius:6px; background:var(--card); color:var(--text); cursor:pointer; font-size:0.85rem; }
-.pager-btn.active { background:var(--accent); color:#fff; border-color:var(--accent); }
-.pager-btn:hover:not(.active) { background:rgba(79,70,229,0.08); }
-
-/* ── Mobile ── */
-@media (max-width: 600px) {
-  .container { padding:12px; }
-  header { padding:20px 0 12px; margin-bottom:16px; }
-  header h1 { font-size:1.5rem; }
-  header div { min-width:0; }
-
-  /* Tab bar: horizontal scroll instead of wrap */
-  .tab-bar { flex-wrap:nowrap; overflow-x:auto; -webkit-overflow-scrolling:touch; scrollbar-width:none; gap:4px; padding-bottom:4px; }
-  .tab-bar::-webkit-scrollbar { display:none; }
-  .tab { white-space:nowrap; flex-shrink:0; padding:6px 12px; font-size:0.8rem; }
-
-  /* Kadencja bar */
-  .kadencja-bar { flex-wrap:nowrap; overflow-x:auto; -webkit-overflow-scrolling:touch; }
-  .kadencja-btn { flex-shrink:0; padding:6px 12px; font-size:0.8rem; }
-
-  /* Stats grid */
-  .stats-grid { grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:8px; }
-  .stat-card { padding:12px; }
-  .stat-card .value { font-size:1.5rem; }
-
-  /* Metric cards (profile + interpelacja detail) */
-  .profile-metrics { grid-template-columns:repeat(3, 1fr); gap:8px; }
-  .metric-card { padding:10px 6px; }
-  .metric-card .metric-value { font-size:1.2rem; word-break:break-word; }
-  .metric-card .metric-label { font-size:0.65rem; }
-
-  /* Interpelacja detail metrics: 2-col on mobile */
-  .interp-detail-metrics { grid-template-columns:repeat(2, 1fr); }
-
-  /* Profile meta cards */
-  .profile-meta { grid-template-columns:1fr; gap:10px; }
-
-  /* Filter bars: allow scroll */
-  .filter-bar { flex-wrap:nowrap; overflow-x:auto; -webkit-overflow-scrolling:touch; scrollbar-width:none; padding-bottom:4px; }
-  .filter-bar::-webkit-scrollbar { display:none; }
-  .session-pill { flex-shrink:0; }
-
-  /* Interpelacje filter row: stack vertically */
-  #tab-interpelacje > div:nth-child(2) { flex-direction:column; }
-  #tab-interpelacje > div:nth-child(2) input,
-  #tab-interpelacje > div:nth-child(2) select { width:100%; min-width:0; }
-
-  /* Tables: allow horizontal scroll */
-  table { display:block; overflow-x:auto; -webkit-overflow-scrolling:touch; }
-  th, td { padding:8px 8px; font-size:0.8rem; white-space:nowrap; }
-
-  /* Ranking table tweaks */
-  th:first-child, td:first-child { position:sticky; left:0; background:var(--bg); z-index:1; }
-
-  /* Vote names grid */
-  .vote-names-grid { grid-template-columns:1fr 1fr; }
-
-  /* Session attendees */
-  .session-attendees { grid-template-columns:1fr; }
-
-  /* Speaker bars */
-  .speaker-name { min-width:100px; font-size:0.8rem; }
-
-  /* Profile cards grid */
-  .profiles-grid { grid-template-columns:1fr; }
-
-  /* Similarity pairs */
-  .similarity-pair { font-size:0.8rem; gap:8px; }
-
-  /* Section headers */
-  .section h2 { font-size:1.1rem; }
-
-  /* Chart wraps */
-  .chart-wrap { padding:12px; }
-
-  /* Pager */
-  .pager-btn { padding:4px 8px; font-size:0.8rem; }
-
-  /* Uchwala items */
-  .uchwala-meta { font-size:0.8rem; }
-
-  /* Votes session group */
-  .votes-sess-header { padding:8px 10px; flex-wrap:wrap; }
-  .votes-sess-title { font-size:0.85rem; }
-  .votes-sess-stats { font-size:0.75rem; gap:6px; }
-
-  /* Profile header */
-  .profile-header { gap:12px; }
-  .profile-avatar { width:56px; height:56px; font-size:1.4rem; }
-  .profile-info h2 { font-size:1.3rem; }
-}
 </style>
 </head>
 <body>
-<main>
-<noscript>
-<div class="container">
-<h2>Radoskop Gdańsk</h2>
-<p>Otwarte narzędzie monitoringu Rady Miasta Gdańska. Głosowania, uchwały i aktywność radnych. Dane z Biuletynu Informacji Publicznej (BIP) i Bazy Aktów Własnych (BAW).</p>
-<h2>Dane</h2>
-<ul>
-<li>Kadencja Kadencja 2018–2023: 33 sesji, 1424 głosowań, 35 radnych</li>
-<li>Kadencja Kadencja 2024–2029: 21 sesji, 709 głosowań, 36 radnych</li>
-</ul>
-<h2>Radni — Kadencja 2024–2029</h2>
-<ul>
-<li>Agnieszka Bartków (KO)</li>
-<li>Agnieszka Owczarczak (KO)</li>
-<li>Aleksander Jankowski (PiS)</li>
-<li>Andrzej Kowalczys (KO)</li>
-<li>Andrzej Skiba (PiS)</li>
-<li>Anna Golędzinowska (KO)</li>
-<li>Barbara Imianowska (PiS)</li>
-<li>Beata Jankowiak (KO)</li>
-<li>Bogdan Oleszek (WdG)</li>
-<li>Cezary Śpiewak-Dowbór (KO)</li>
-<li>Emilia Lodzińska (KO)</li>
-<li>Jan Perucki (KO)</li>
-<li>Jolanta Banach (WdG)</li>
-<li>Kamila Błaszczyk (KO)</li>
-<li>Karol Rabenda (PiS)</li>
-<li>Karol Ważny (KO)</li>
-<li>Katarzyna Czerniewska (WdG)</li>
-<li>Kazimierz Koralewski (PiS)</li>
-<li>Krystian Kłos (KO)</li>
-<li>Marcin Makowski (WdG)</li>
-<li>Marcin Mickun (KO)</li>
-<li>Marta Magott (WdG)</li>
-<li>Mateusz Skarbek (KO)</li>
-<li>Maximilian Kieturakis (WdG)</li>
-<li>Michał Hajduk (KO)</li>
-<li>Piotr Dzik (WdG)</li>
-<li>Piotr Gierszewski (PiS)</li>
-<li>Przemysław Majewski (PiS)</li>
-<li>Sylwia Cisoń (KO)</li>
-<li>Sylwia Rydlewska-Kowalik (WdG)</li>
-<li>Teresa Wasilewska (WdG)</li>
-<li>Tomasz Rakowski (PiS)</li>
-<li>Wojciech Błaszkowski (WdG)</li>
-<li>Łukasz Bejm (KO)</li>
-<li>Łukasz Świacki (WdG)</li>
-<li>Żaneta Geryk (KO)</li>
-</ul>
-<h2>Funkcje</h2>
-<ul>
-<li>Ranking radnych wg frekwencji, aktywności i zgodności z klubem</li>
-<li>Profile radnych z historią głosowań na sesjach Rady Miasta Gdańska</li>
-<li>Analiza podobieństwa głosowań między radnymi</li>
-<li>Przegląd sesji i szczegóły poszczególnych głosowań</li>
-</ul>
-<p>Aby korzystać z interaktywnych funkcji, włącz JavaScript w przeglądarce.</p>
-</div>
-</noscript>
 <div class="container">
   <header>
     <div onclick="showMain()" style="cursor:pointer">
@@ -376,16 +207,13 @@ header { min-height:80px; }
   <!-- Main dashboard view -->
   <div id="app" style="display:none">
     <div class="stats-grid" id="stats-grid"></div>
-    <div id="budget-overview" style="display:none"></div>
     <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:20px">
       <div class="tab-bar" id="tab-bar" style="margin-bottom:0">
         <button class="tab active" data-tab="ranking">Ranking radnych</button>
         <button class="tab" data-tab="profiles">Profile radnych</button>
         <button class="tab" data-tab="sessions">Sesje</button>
-        <button class="tab" data-tab="interpelacje">Interpelacje</button>
         <button class="tab" data-tab="votes">Głosowania</button>
         <button class="tab" data-tab="similarity">Kto z kim głosuje</button>
-        <button class="tab" data-tab="uchwaly">Uchwały</button>
         <button class="tab tab-budget" data-tab="budget">Budżet</button>
       </div>
       <div class="kadencja-bar" id="kadencja-bar"></div>
@@ -450,39 +278,6 @@ header { min-height:80px; }
       <div id="sim-bottom"></div>
     </div>
 
-    <div id="tab-uchwaly" class="section" style="display:none">
-      <div class="profile-metrics" id="uchwaly-stats" style="margin-bottom:16px"></div>
-      <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:12px">
-        <input type="text" id="uchwaly-search" placeholder="Szukaj po tytule lub numerze..." style="flex:1;min-width:200px;padding:8px 12px;border:1px solid var(--border);border-radius:8px;background:var(--card);color:var(--text);font-size:0.9rem">
-        <select id="uchwaly-kadencja-filter" style="padding:8px 12px;border:1px solid var(--border);border-radius:8px;background:var(--card);color:var(--text);font-size:0.9rem">
-          <option value="all">Wszystkie kadencje</option>
-        </select>
-      </div>
-      <div class="filter-bar" id="uchwaly-status-filter" style="margin-bottom:12px;flex-wrap:wrap"></div>
-      <div id="uchwaly-list"></div>
-      <div id="uchwaly-pager" style="text-align:center;margin-top:16px"></div>
-    </div>
-
-    <div id="tab-interpelacje" class="section" style="display:none">
-      <div class="profile-metrics" id="interpelacje-stats" style="margin-bottom:16px"></div>
-      <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:12px">
-        <input type="text" id="interpelacje-search" placeholder="Szukaj po temacie, radnym lub numerze..." style="flex:1;min-width:200px;padding:8px 12px;border:1px solid var(--border);border-radius:8px;background:var(--card);color:var(--text);font-size:0.9rem">
-        <select id="interpelacje-typ-filter" style="padding:8px 12px;border:1px solid var(--border);border-radius:8px;background:var(--card);color:var(--text);font-size:0.9rem">
-          <option value="all">Wszystkie typy</option>
-          <option value="interpelacja">Interpelacje</option>
-          <option value="zapytanie">Zapytania</option>
-        </select>
-        <select id="interpelacje-cat-filter" style="padding:8px 12px;border:1px solid var(--border);border-radius:8px;background:var(--card);color:var(--text);font-size:0.9rem">
-          <option value="all">Wszystkie kategorie</option>
-        </select>
-        <select id="interpelacje-radny-filter" style="padding:8px 12px;border:1px solid var(--border);border-radius:8px;background:var(--card);color:var(--text);font-size:0.9rem">
-          <option value="all">Wszyscy radni</option>
-        </select>
-      </div>
-      <div id="interpelacje-list"></div>
-      <div id="interpelacje-pager" style="text-align:center;margin-top:16px"></div>
-    </div>
-
     <div id="tab-budget" class="section" style="display:none">
       <div id="budget-content"></div>
     </div>
@@ -498,17 +293,10 @@ header { min-height:80px; }
   <!-- Session detail view -->
   <div id="session-view" style="display:none"></div>
 
-  <!-- Uchwała detail view -->
-  <div id="uchwala-view" style="display:none"></div>
-
-  <!-- Interpelacja detail view -->
-  <div id="interpelacja-view" style="display:none"></div>
-
   <footer>
     Radoskop — otwarte narzędzie monitoringu samorządu.
-    Dane źródłowe: <a href="https://bip.gdansk.pl/rada-miasta" target="_blank">BIP Gdańsk</a>, <a href="https://baw.bip.gdansk.pl" target="_blank">BAW Gdańsk</a>.
+    Dane źródłowe: <a href="https://bip.gdansk.pl/rada-miasta" target="_blank">BIP Gdańsk</a>.
     Kod: <a href="https://github.com/patrykorwat/radoskop-gdansk" target="_blank">GitHub</a> (AGPL-3.0).
-    <br>Zobacz też: <a href="https://radoskop.pl/">Strona główna</a> · <a href="https://gdynia.radoskop.pl/">Gdynia</a> · <a href="https://sopot.radoskop.pl/">Sopot</a> · <a href="https://warszawa.radoskop.pl/">Warszawa</a> · <a href="https://krakow.radoskop.pl/">Kraków</a> · <a href="https://poznan.radoskop.pl/">Poznań</a> · <a href="https://wroclaw.radoskop.pl/">Wrocław</a>
   </footer>
 </div>
 
@@ -587,48 +375,6 @@ function isFemale(name) {
   return first.endsWith('a') && first !== 'Kosma' && first !== 'Kuba';
 }
 
-// ── Interpelacja categories ──
-const INTERP_CATS = {
-  drogi:          { label: 'Drogi i chodniki', color: '#6366f1', order: 1 },
-  transport:      { label: 'Transport',        color: '#0ea5e9', order: 2 },
-  inwestycje:     { label: 'Inwestycje',       color: '#f59e0b', order: 3 },
-  nieruchomosci:  { label: 'Nieruchomości',    color: '#8b5cf6', order: 4 },
-  zielen:         { label: 'Zieleń',           color: '#22c55e', order: 5 },
-  bezpieczenstwo: { label: 'Bezpieczeństwo',   color: '#ef4444', order: 6 },
-  edukacja:       { label: 'Edukacja',         color: '#ec4899', order: 7 },
-  porzadek:       { label: 'Porządek',         color: '#f97316', order: 8 },
-  parkowanie:     { label: 'Parkowanie',       color: '#64748b', order: 9 },
-  kultura:        { label: 'Kultura i sport',  color: '#14b8a6', order: 10 },
-  spoleczne:      { label: 'Sprawy społeczne', color: '#a855f7', order: 11 },
-  inne:           { label: 'Inne',             color: '#9ca3af', order: 99 },
-};
-const INTERP_CAT_KWS = [
-  ['drogi', ['ulic','chodnik','nawierzchni','jezdni','drog','asfalt','skrzyżow','rondo ','estakad','most ','mostu','wiadukt','kładk','przejści','pieszych','ścieżk','rowerow','tunel','słupków','utwardzen','barierek','schodów','progów zwal']],
-  ['transport', ['autobusow','tramwaj','przystan','wiaty','wiat ','komunikacj','linii ','pkm','ztm','rozkład','przejazd','kolej','peronów','dworzec','ruchu ','pojazdów']],
-  ['bezpieczenstwo', ['bezpieczeńst','monitoring','kamer','oświetleni','lamp','latarni','straż','policj','defibrylat','sygnalizac','świateł','światło']],
-  ['edukacja', ['szkoł','przedszkol','placówk','oświatow','uczni','kształceni','edukac','żłobk','młodzieży']],
-  ['zielen', ['drzew','parku','park ','zieleni','zielony','plac zabaw','placu zabaw','rekreac','ogrod','deszczow','środowisk','ekolog','smog','hałas','fetor','odpad','śmiec','czystości','uprząt','krajobraz']],
-  ['nieruchomosci', ['nieruchom','lokalu','budynk','mieszka','wynajm','pustosta','kamieni','elewac','okien ','podwórk','wspólnot','działki','działek']],
-  ['inwestycje', ['remont','modernizac','inwestycj','przebudow','budowy','rewaloryz','rewitalizac','renowac','napraw','wymian','zagospodarowan']],
-  ['parkowanie', ['parkowan','parkometr','strefa płatn','parking','zatrzymyw','postoju']],
-  ['kultura', ['kultur','sport','stadion','boisk','pływa','muzeum','teatr','bibliotek','festiwal','pomnik','zabytk','historycz']],
-  ['spoleczne', ['pomoc','społeczn','niepełnospr','senior','bezdomn','opiek','zdrow','szpital','przychodni','terapeu']],
-  ['porzadek', ['porządku','graffiti','dewastacj','wandali','nielegalne','dzikie','porzucon','wraki','reklam','kiosków','uporządkow','usunięci']],
-];
-function categorizeInterpelacja(przedmiot) {
-  if (!przedmiot) return 'inne';
-  const s = przedmiot.toLowerCase();
-  for (const [cat, kws] of INTERP_CAT_KWS) {
-    if (kws.some(kw => s.includes(kw))) return cat;
-  }
-  return 'inne';
-}
-function interpCatPill(cat) {
-  const c = INTERP_CATS[cat];
-  if (!c) return '';
-  return `<span style="background:${c.color}18;color:${c.color};padding:1px 6px;border-radius:4px;font-size:0.7rem;font-weight:600;white-space:nowrap">${c.label}</span>`;
-}
-
 async function init() {
   // Restore path from 404.html SPA redirect
   const sp = new URLSearchParams(location.search);
@@ -636,25 +382,14 @@ async function init() {
     history.replaceState(null, '', decodeURIComponent(sp.get('p')));
   }
   try {
-    const [dataResp, profResp, budgetResp, uchwalyResp, interpResp] = await Promise.all([
+    const [dataResp, profResp, budgetResp] = await Promise.all([
       fetch('/data.json'),
       fetch('/profiles.json'),
-      fetch('/budget.json'),
-      fetch('/uchwaly.json'),
-      fetch('/interpelacje.json')
+      fetch('/budget.json')
     ]);
     RAW = await dataResp.json();
     PROFILES = await profResp.json();
-    window.BUDGET = budgetResp.ok ? await budgetResp.json() : {};
-    window.UCHWALY = uchwalyResp.ok ? await uchwalyResp.json() : [];
-    window.INTERPELACJE = interpResp.ok ? await interpResp.json() : [];
-    // Build reverse lookup: vote_id -> uchwała, and numer -> uchwała
-    window.UCHWALY_BY_VOTE = {};
-    window.UCHWALY_BY_NUMER = {};
-    (window.UCHWALY || []).forEach(u => {
-      if (u.vote_id) window.UCHWALY_BY_VOTE[u.vote_id] = u;
-      if (u.numer) window.UCHWALY_BY_NUMER[u.numer] = u;
-    });
+    window.BUDGET = await budgetResp.json();
     document.getElementById('loading').style.display = 'none';
     document.getElementById('app').style.display = 'block';
     renderKadencjaBar();
@@ -686,21 +421,7 @@ async function init() {
       navigateTo(path, true);
       return;
     }
-    if (path.startsWith('/uchwala/')) {
-      selectKadencjaQuiet(defaultKid);
-      const numer = uchwalaSlugToNumer(decodeURIComponent(path.replace('/uchwala/', '')));
-      showUchwala(numer);
-      navigateTo(path, true);
-      return;
-    }
-    if (path.startsWith('/interpelacja/')) {
-      selectKadencjaQuiet(defaultKid);
-      const cri = decodeURIComponent(path.replace('/interpelacja/', '').replace(/-/g, '/'));
-      showInterpelacja(cri);
-      navigateTo(path, true);
-      return;
-    }
-    if (path === '/budzet') {
+    if (path === '/budzet' || path === '/budzet/') {
       selectKadencjaQuiet(defaultKid);
       activateTab('budget');
       navigateTo(path, true);
@@ -753,7 +474,7 @@ function selectKadencja(kid) {
 }
 
 function activateTab(tabName) {
-  const allTabs = ['ranking','profiles','sessions','votes','uchwaly','interpelacje','similarity','budget'];
+  const allTabs = ['ranking','profiles','sessions','votes','similarity','budget'];
   currentTab = tabName;
   document.querySelectorAll('.tab').forEach(t => {
     t.classList.toggle('active', t.dataset.tab === tabName);
@@ -762,7 +483,7 @@ function activateTab(tabName) {
     const el = document.getElementById('tab-'+t);
     if (el) el.style.display = (t === tabName) ? 'block' : 'none';
   });
-  document.getElementById('kadencja-bar').style.display = (tabName === 'budget' || tabName === 'uchwaly' || tabName === 'interpelacje') ? 'none' : '';
+  document.getElementById('kadencja-bar').style.display = tabName === 'budget' ? 'none' : '';
   setTitle(TAB_TITLES[tabName] || '');
 }
 
@@ -771,18 +492,16 @@ function hideAllViews() {
   document.getElementById('profile-view').style.display = 'none';
   document.getElementById('vote-view').style.display = 'none';
   document.getElementById('session-view').style.display = 'none';
-  document.getElementById('uchwala-view').style.display = 'none';
-  document.getElementById('interpelacja-view').style.display = 'none';
 }
 
 let currentTab = 'ranking';
-const TAB_SLUGS = {ranking:'ranking',profiles:'radni',sessions:'sesje',votes:'glosowania',uchwaly:'uchwaly',interpelacje:'interpelacje',similarity:'podobienstwo',budget:'budzet'};
+const TAB_SLUGS = {ranking:'ranking',profiles:'radni',sessions:'sesje',votes:'glosowania',similarity:'podobienstwo',budget:'budzet'};
 const SLUG_TABS = Object.fromEntries(Object.entries(TAB_SLUGS).map(([k,v])=>[v,k]));
 const KAD_SLUGS = {'2018-2023':'viii','2024-2029':'ix'};
 const SLUG_KADS = Object.fromEntries(Object.entries(KAD_SLUGS).map(([k,v])=>[v,k]));
 
 const BASE_TITLE = 'Radoskop Gdańsk — Jak głosują radni?';
-const TAB_TITLES = {ranking:'Ranking radnych',profiles:'Profile radnych',sessions:'Sesje',votes:'Głosowania',uchwaly:'Uchwały',interpelacje:'Interpelacje',similarity:'Podobieństwo',budget:'Budżet'};
+const TAB_TITLES = {ranking:'Ranking radnych',profiles:'Profile radnych',sessions:'Sesje',votes:'Głosowania',similarity:'Podobieństwo',budget:'Budżet'};
 function setTitle(subtitle) {
   document.title = subtitle ? subtitle + ' — ' + BASE_TITLE : BASE_TITLE;
 }
@@ -790,15 +509,17 @@ function setTitle(subtitle) {
 function mainPath(tab, kid) {
   tab = tab || currentTab;
   kid = kid || currentKid;
-  if (tab === 'budget') return '/budzet';
+  if (tab === 'budget') return '/budzet/';
   const kadSlug = KAD_SLUGS[kid] || kid;
   const tabSlug = TAB_SLUGS[tab] || tab;
   if (tab === 'ranking' && kid === (RAW.default_kadencja || '2024-2029')) return '/';
-  return '/kadencja/' + kadSlug + '/' + tabSlug;
+  return '/kadencja/' + kadSlug + '/' + tabSlug + '/';
 }
 
 function navigateTo(path, replace) {
   if (typeof _popstateActive !== 'undefined' && _popstateActive) return;
+  // Ensure trailing slash for all paths except root
+  if (path !== '/' && !path.endsWith('/')) path += '/';
   if (replace) history.replaceState(null, '', path);
   else history.pushState(null, '', path);
 }
@@ -811,9 +532,6 @@ function profileSlug(name) {
   const p = PROFILES && PROFILES.profiles.find(pr => pr.name === name);
   return p ? p.slug : name.toLowerCase().replace(/\s+/g, '-');
 }
-
-function uchwalaNumerToSlug(numer) { return (numer || '').replace(/\//g, '-'); }
-function uchwalaSlugToNumer(slug) { return (slug || '').replace(/-/g, '/'); }
 
 function showMain() {
   hideAllViews();
@@ -829,8 +547,6 @@ function render() {
   renderProfilesGrid();
   renderSessionsTable();
   renderVotesTable();
-  renderUchwalyTable();
-  renderInterpelacjeTable();
   renderSimilarity();
   renderBudget();
   bindTabs();
@@ -846,74 +562,12 @@ function renderStats() {
     { label: 'Radnych', value: K.total_councilors },
     { label: 'Kluby', value: clubs.length },
   ];
-  const B = window.BUDGET;
-  if (B && B.totals && B.totals.length > 0) {
-    const latest = B.totals[B.totals.length - 1];
-    const fmtBudget = (n) => (n/1e9).toFixed(2).replace('.', ',') + ' mld';
-    cards.push({ label: `Wydatki ${latest.year}`, value: fmtBudget(latest.expenditure), clickTab: 'budget' });
-    cards.push({ label: `Dochody ${latest.year}`, value: fmtBudget(latest.revenue), clickTab: 'budget' });
-    cards.push({ label: `Deficyt ${latest.year}`, value: fmtBudget(latest.deficit), clickTab: 'budget' });
-  }
   grid.innerHTML = cards.map(c => `
-    <div class="stat-card${c.clickTab ? ' stat-card-link' : ''}"${c.clickTab ? ` onclick="document.querySelector('[data-tab=${c.clickTab}]').click()" style="cursor:pointer"` : ''}>
+    <div class="stat-card">
       <div class="label">${c.label}</div>
       <div class="value">${c.value}</div>
-      ${c.sub ? `<div style="font-size:0.75rem;color:var(--muted);margin-top:2px">${c.sub}</div>` : ''}
     </div>
   `).join('');
-
-  // Budget overview section
-  const overview = document.getElementById('budget-overview');
-  if (!B || !B.totals || B.totals.length < 2) { overview.style.display = 'none'; return; }
-  overview.style.display = '';
-  const fmt = (n) => (n/1e9).toFixed(2).replace('.', ',');
-  const fmtM = (n) => n >= 1e9 ? fmt(n) + ' mld' : (n/1e6).toFixed(0) + ' mln';
-  const latest = B.totals[B.totals.length - 1];
-  const prev = B.totals[B.totals.length - 2];
-  const revChange = ((latest.revenue - prev.revenue) / prev.revenue * 100).toFixed(1);
-  const expChange = ((latest.expenditure - prev.expenditure) / prev.expenditure * 100).toFixed(1);
-  const cats = B.categories[String(latest.year)] || [];
-  const totalExp = cats.reduce((s, c) => s + c.amount, 0);
-  const topCats = cats.slice(0, 5);
-
-  let html = `<div style="background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:20px;margin-bottom:20px;cursor:pointer" onclick="document.querySelector('[data-tab=budget]').click()">
-    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px">
-      <h2 style="font-size:1.1rem;font-weight:600;margin:0;border:none;padding:0">Budżet Gdańska ${latest.year}</h2>
-      <span style="color:var(--accent);font-size:0.85rem">Więcej →</span>
-    </div>
-    <div style="display:flex;gap:24px;flex-wrap:wrap">
-      <div style="flex:1;min-width:200px">
-        <div style="display:flex;gap:16px;margin-bottom:12px;flex-wrap:wrap">
-          <div>
-            <div style="font-size:0.75rem;color:var(--muted);text-transform:uppercase">Dochody</div>
-            <div style="font-size:1.3rem;font-weight:700;color:var(--green)">${fmt(latest.revenue)} mld</div>
-            <div style="font-size:0.75rem;color:${revChange>=0?'var(--green)':'var(--red)'}">${revChange>=0?'+':''}${revChange}% r/r</div>
-          </div>
-          <div>
-            <div style="font-size:0.75rem;color:var(--muted);text-transform:uppercase">Wydatki</div>
-            <div style="font-size:1.3rem;font-weight:700">${fmt(latest.expenditure)} mld</div>
-            <div style="font-size:0.75rem;color:${expChange>=0?'var(--red)':'var(--green)'}">${expChange>=0?'+':''}${expChange}% r/r</div>
-          </div>
-          <div>
-            <div style="font-size:0.75rem;color:var(--muted);text-transform:uppercase">Deficyt</div>
-            <div style="font-size:1.3rem;font-weight:700;color:var(--red)">${fmt(latest.deficit)} mld</div>
-          </div>
-        </div>
-      </div>
-      <div style="flex:1;min-width:240px">
-        <div style="font-size:0.75rem;color:var(--muted);text-transform:uppercase;margin-bottom:8px">Top wydatki ${latest.year}</div>
-        ${topCats.map(c => {
-          const pct = totalExp > 0 ? (c.amount / totalExp * 100).toFixed(1) : '0';
-          return `<div style="display:flex;align-items:center;gap:8px;margin-bottom:4px">
-            <span style="font-size:0.8rem;width:140px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${c.name}</span>
-            <div style="flex:1;background:var(--border);border-radius:3px;height:6px;overflow:hidden"><div style="width:${pct}%;background:var(--accent);height:100%;border-radius:3px"></div></div>
-            <span style="font-size:0.75rem;color:var(--muted);width:55px;text-align:right">${fmtM(c.amount)}</span>
-          </div>`;
-        }).join('')}
-      </div>
-    </div>
-  </div>`;
-  overview.innerHTML = html;
 }
 
 function renderClubFilter() {
@@ -962,7 +616,7 @@ function renderCouncilorTable() {
 
   tbody.innerHTML = data.map(c => {
     return `<tr>
-      <td><a class="name-link" href="/profil/${profileSlug(c.name)}" onclick="event.preventDefault();showProfile('${c.name.replace(/'/g, "\\'")}')">${c.name}</a></td>
+      <td><a class="name-link" href="/profil/${profileSlug(c.name)}/" onclick="event.preventDefault();showProfile('${c.name.replace(/'/g, "\\'")}')">${c.name}</a></td>
       <td><span class="club ${clubClass(c.club)}">${c.club}</span></td>
       <td>${pctBar(c.frekwencja)}</td>
       <td>${pctBar(c.aktywnosc)}</td>
@@ -1043,7 +697,7 @@ function showProfile(name) {
   hideAllViews();
   const view = document.getElementById('profile-view');
   view.style.display = 'block';
-  navigateTo('/profil/' + profile.slug);
+  navigateTo('/profil/' + profile.slug + '/');
   setTitle(profile.name);
 
   // Find which kadencje this person has data for
@@ -1213,7 +867,7 @@ function showProfile(name) {
         // Find matching vote ID by date + topic prefix (use kadencja matching kid, not global K)
         const kadVotes = (RAW.kadencje.find(k => k.id === kid) || {}).votes || [];
         const matchVote = kadVotes.find(v => v.session_date === r.session && r.topic && v.topic && v.topic.substring(0,80) === r.topic.substring(0,80));
-        const topicHtml = matchVote ? `<a class="name-link" href="/glosowanie/${matchVote.id}" onclick="event.preventDefault();showVote('${matchVote.id}')">${r.topic}</a>` : r.topic;
+        const topicHtml = matchVote ? `<a class="name-link" href="/glosowanie/${matchVote.id}/" onclick="event.preventDefault();showVote('${matchVote.id}')">${r.topic}</a>` : r.topic;
         return `<div class="rebellion-item">
           <div class="reb-date">${r.session} · głos: <span class="pill pill-${r.their_vote === 'przeciw' ? 'przeciw' : 'wstrzymal'}">${({za:'za',przeciw:'przeciw',wstrzymal_sie:isFemale(profile.name)?'wstrzymała się':'wstrzymał się'})[r.their_vote]||r.their_vote}</span> (klub: ${({za:'za',przeciw:'przeciw',wstrzymal_sie:'wstrzymał się'})[r.club_majority]||r.club_majority})</div>
           <div>${catPill(categorizeVote(r.topic))} ${topicHtml}</div>
@@ -1225,17 +879,7 @@ function showProfile(name) {
       html += `</div>`;
     }
 
-    // ── Profile sub-tabs: Interpelacje / Głosowania ──
-    const interpAll = (window.INTERPELACJE || []).filter(i => (i.radni || []).includes(profile.name) || i.radny === profile.name);
-    const interpKad = interpAll.filter(i => {
-      if (kid === '2024-2029') return i.kadencja === 'IX';
-      if (kid === '2018-2023') return i.kadencja === 'VIII';
-      return true;
-    });
-    const showInterpItems = interpKad.length > 0 ? interpKad : interpAll;
-    const hasInterp = showInterpItems.length > 0;
-
-    // Build votes data (needed for tab count + content)
+    // Votes grouped by session
     let allPersonVotes = [];
     let profCatCounts = {};
     const profCatOrder = Object.keys(VOTE_CATS).sort((a,b) => (VOTE_CATS[a]?.order||99) - (VOTE_CATS[b]?.order||99));
@@ -1243,6 +887,8 @@ function showProfile(name) {
       const kadData = RAW.kadencje.find(k => k.id === kid);
       if (kadData) {
         const sessions = [...(kadData.sessions || [])].sort((a,b) => b.date.localeCompare(a.date));
+        const voteLabel = (v) => ({za:'za',przeciw:'przeciw',wstrzymal_sie:isFemale(profile.name)?'wstrzymała się':'wstrzymał się',brak_glosu:'brak głosu',nieobecny:isFemale(profile.name)?'nieobecna':'nieobecny'})[v]||v||'—';
+        const votePillClass = (v) => ({za:'za',przeciw:'przeciw',wstrzymal_sie:'wstrzymal',brak_glosu:'wstrzymal',nieobecny:'wstrzymal'})[v]||'wstrzymal';
         for (const sess of sessions) {
           const sessionVotes = getSessionVotes(kadData.votes, kadData.sessions, sess);
           if (sessionVotes.length === 0) continue;
@@ -1258,128 +904,45 @@ function showProfile(name) {
           }).filter(x => x.pv !== null);
           allPersonVotes.push(...personVotes);
         }
+
+        // Category counts for filter
         allPersonVotes.forEach(x => { profCatCounts[x.cat] = (profCatCounts[x.cat]||0) + 1; });
-      }
-    }
 
-    // Tab bar
-    if (hasInterp || hasVotes) {
-      html += `<div class="tab-bar" id="profile-detail-tabs" style="margin-bottom:16px">`;
-      if (hasInterp) html += `<button class="tab active" data-ptab="interp">Interpelacje (${showInterpItems.length})</button>`;
-      if (hasVotes) html += `<button class="tab${hasInterp ? '' : ' active'}" data-ptab="votes">Głosowania (${allPersonVotes.length})</button>`;
-      html += `</div>`;
-    }
+        html += `<div class="section">
+          <h2>Głosy na sesjach</h2>
+          <div class="filter-bar" id="profile-cat-filter" style="margin-bottom:12px;flex-wrap:wrap"></div>
+          <div id="profile-votes-container">`;
 
-    // ── Interpelacje tab content ──
-    const interpCatCounts = {};
-    showInterpItems.forEach(item => {
-      const cat = categorizeInterpelacja(item.przedmiot);
-      interpCatCounts[cat] = (interpCatCounts[cat] || 0) + 1;
-    });
-    const interpCatOrder = Object.keys(INTERP_CATS).sort((a,b) => (INTERP_CATS[a]?.order||99) - (INTERP_CATS[b]?.order||99));
-    if (hasInterp) {
-      const interpCount = showInterpItems.filter(i => i.typ === 'interpelacja').length;
-      const zapCount = showInterpItems.filter(i => i.typ === 'zapytanie').length;
-
-      html += `<div id="profile-tab-interp" class="section">
-        <div style="color:var(--muted);font-size:0.85rem;margin-bottom:12px">${interpCount} interpelacji, ${zapCount} zapytań${interpKad.length > 0 && interpKad.length !== interpAll.length ? ` (ta kadencja, razem: ${interpAll.length})` : ''}</div>
-        <div class="filter-bar" id="profile-interp-cat-filter" style="margin-bottom:12px;flex-wrap:wrap"></div>
-        <div id="profile-interp-container">`;
-      showInterpItems.forEach(item => {
-        const oCri = (item.cri || '').replace(/'/g, "\\'");
-        const cat = categorizeInterpelacja(item.przedmiot);
-        const typBadge = item.typ === 'zapytanie'
-          ? '<span style="background:rgba(37,99,235,0.12);color:var(--blue);padding:1px 5px;border-radius:3px;font-size:0.7rem;font-weight:600">Z</span>'
-          : '<span style="background:rgba(79,70,229,0.12);color:var(--accent);padding:1px 5px;border-radius:3px;font-size:0.7rem;font-weight:600">I</span>';
-        html += `<div class="uchwala-row interp-row" data-icat="${cat}" onclick="showInterpelacja('${oCri}')" style="cursor:pointer;padding:8px 12px">
-          <div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap">
-            ${typBadge}
-            ${interpCatPill(cat)}
-            <span class="uchwala-numer" style="font-size:0.8rem">${item.cri}</span>
-            <span style="font-size:0.75rem;color:var(--muted)">${item.data_wplywu}</span>
-            ${item.data_odpowiedzi ? '<span style="color:var(--green);font-size:0.7rem">&#10003;</span>' : ''}
-          </div>
-          <div style="font-size:0.85rem">${item.przedmiot || ''}</div>
-        </div>`;
-      });
-      html += `</div></div>`;
-    }
-
-    // ── Głosowania tab content ──
-    if (hasVotes && allPersonVotes.length > 0) {
-      const voteLabel = (v) => ({za:'za',przeciw:'przeciw',wstrzymal_sie:isFemale(profile.name)?'wstrzymała się':'wstrzymał się',brak_glosu:'brak głosu',nieobecny:isFemale(profile.name)?'nieobecna':'nieobecny'})[v]||v||'—';
-      const votePillClass = (v) => ({za:'za',przeciw:'przeciw',wstrzymal_sie:'wstrzymal',brak_glosu:'wstrzymal',nieobecny:'wstrzymal'})[v]||'wstrzymal';
-
-      html += `<div id="profile-tab-votes" class="section" style="${hasInterp ? 'display:none' : ''}">
-        <div class="filter-bar" id="profile-cat-filter" style="margin-bottom:12px;flex-wrap:wrap"></div>
-        <div id="profile-votes-container">`;
-
-      const sessGroups = {};
-      allPersonVotes.forEach(x => {
-        const key = x.sess.date;
-        if (!sessGroups[key]) sessGroups[key] = { sess: x.sess, votes: [] };
-        sessGroups[key].votes.push(x);
-      });
-      const sessKeys = Object.keys(sessGroups).sort((a,b) => b.localeCompare(a));
-
-      for (const sk of sessKeys) {
-        const { sess, votes: pvs } = sessGroups[sk];
-        html += `<div class="profile-sess-group" data-sessdate="${sess.date}" style="margin-bottom:16px">
-          <div style="font-weight:600;margin-bottom:6px;font-size:0.9rem">
-            <a class="name-link" href="/sesja/${encodeURIComponent(sess.number)}" onclick="event.preventDefault();showSession('${sess.number}')">Sesja ${sess.number} · ${sess.date}</a>
-            <span class="sess-vote-count" style="color:var(--muted);font-weight:400;margin-left:8px">(${pvs.length} głosowań)</span>
-          </div>
-          <table><tbody>`;
-        pvs.forEach(({vote: v, pv, cat}) => {
-          html += `<tr class="vote-row" data-vcat="${cat}" onclick="showVote('${v.id}')">
-            <td style="width:100px"><span class="pill pill-${votePillClass(pv)}">${voteLabel(pv)}</span></td>
-            <td style="text-align:left;font-size:0.85rem">${catPill(cat)} ${v.topic || '—'}</td>
-          </tr>`;
+        // Group by session
+        const sessGroups = {};
+        allPersonVotes.forEach(x => {
+          const key = x.sess.date;
+          if (!sessGroups[key]) sessGroups[key] = { sess: x.sess, votes: [] };
+          sessGroups[key].votes.push(x);
         });
-        html += `</tbody></table></div>`;
+        const sessKeys = Object.keys(sessGroups).sort((a,b) => b.localeCompare(a));
+
+        for (const sk of sessKeys) {
+          const { sess, votes: pvs } = sessGroups[sk];
+          html += `<div class="profile-sess-group" data-sessdate="${sess.date}" style="margin-bottom:16px">
+            <div style="font-weight:600;margin-bottom:6px;font-size:0.9rem">
+              <a class="name-link" href="/sesja/${encodeURIComponent(sess.number)}/" onclick="event.preventDefault();showSession('${sess.number}')">Sesja ${sess.number} · ${sess.date}</a>
+              <span class="sess-vote-count" style="color:var(--muted);font-weight:400;margin-left:8px">(${pvs.length} głosowań)</span>
+            </div>
+            <table><tbody>`;
+          pvs.forEach(({vote: v, pv, cat}) => {
+            html += `<tr class="vote-row" data-vcat="${cat}" onclick="showVote('${v.id}')">
+              <td style="width:100px"><span class="pill pill-${votePillClass(pv)}">${voteLabel(pv)}</span></td>
+              <td style="text-align:left;font-size:0.85rem">${catPill(cat)} ${v.topic || '—'}</td>
+            </tr>`;
+          });
+          html += `</tbody></table></div>`;
+        }
+        html += `</div></div>`;
       }
-      html += `</div></div>`;
     }
 
     view.innerHTML = html;
-
-    // Wire up profile detail tabs
-    const profTabBar = document.getElementById('profile-detail-tabs');
-    if (profTabBar) {
-      profTabBar.querySelectorAll('.tab').forEach(btn => {
-        btn.onclick = () => {
-          profTabBar.querySelectorAll('.tab').forEach(b => b.classList.remove('active'));
-          btn.classList.add('active');
-          const t = btn.dataset.ptab;
-          const interpEl = document.getElementById('profile-tab-interp');
-          const votesEl = document.getElementById('profile-tab-votes');
-          if (interpEl) interpEl.style.display = t === 'interp' ? '' : 'none';
-          if (votesEl) votesEl.style.display = t === 'votes' ? '' : 'none';
-        };
-      });
-    }
-
-    // Wire up profile interpelacje category filter
-    const profInterpCatBar = document.getElementById('profile-interp-cat-filter');
-    if (profInterpCatBar) {
-      let pif = `<button class="session-pill active" data-icat="all">Wszystkie <span class="pill-count">(${showInterpItems.length})</span></button>`;
-      for (const cat of interpCatOrder) {
-        if (!interpCatCounts[cat]) continue;
-        const c = INTERP_CATS[cat];
-        pif += `<button class="session-pill" data-icat="${cat}" style="--pill-color:${c.color}">${c.label} <span class="pill-count">(${interpCatCounts[cat]})</span></button>`;
-      }
-      profInterpCatBar.innerHTML = pif;
-      profInterpCatBar.querySelectorAll('.session-pill').forEach(btn => {
-        btn.onclick = () => {
-          profInterpCatBar.querySelectorAll('.session-pill').forEach(b => b.classList.remove('active'));
-          btn.classList.add('active');
-          const cat = btn.dataset.icat;
-          document.querySelectorAll('#profile-interp-container .interp-row').forEach(el => {
-            el.style.display = (cat === 'all' || el.dataset.icat === cat) ? '' : 'none';
-          });
-        };
-      });
-    }
 
     // Wire up profile category filter
     const profCatBar = document.getElementById('profile-cat-filter');
@@ -1580,7 +1143,7 @@ function renderVotesTable() {
       <div class="votes-sess-header" onclick="this.parentElement.classList.toggle('collapsed')">
         <div class="votes-sess-title">
           <span class="votes-sess-toggle">▼</span>
-          <a href="/sesja/${encodeURIComponent(s.number)}" onclick="event.preventDefault();event.stopPropagation();showSession('${s.number}')">Sesja ${s.number} · ${s.date}</a>
+          <a href="/sesja/${encodeURIComponent(s.number)}/" onclick="event.preventDefault();event.stopPropagation();showSession('${s.number}')">Sesja ${s.number} · ${s.date}</a>
         </div>
         <div class="votes-sess-stats">
           <span>${sessVotes.length} głos.</span>
@@ -1595,14 +1158,9 @@ function renderVotesTable() {
       const c = v.counts || {};
       const total = (c.za||0) + (c.przeciw||0) + (c.wstrzymal_sie||0);
       const passed = (c.za||0) > total/2;
-      const linkedU = (v.resolution && window.UCHWALY_BY_NUMER && window.UCHWALY_BY_NUMER[v.resolution]) || (window.UCHWALY_BY_VOTE && window.UCHWALY_BY_VOTE[v.id]);
-      const uchCol = linkedU
-        ? `<a href="/uchwala/${uchwalaNumerToSlug(linkedU.numer)}" onclick="event.preventDefault();event.stopPropagation();showUchwala('${(linkedU.numer||'').replace(/'/g, "\\'")}')" style="color:var(--accent);font-size:0.8rem;white-space:nowrap">${linkedU.numer}</a>`
-        : (v.resolution ? `<span style="color:var(--muted);font-size:0.8rem;white-space:nowrap">${v.resolution}</span>` : '');
       html += `<tr class="vote-row" onclick="showVote('${v.id || ''}')">
         <td style="color:var(--muted);width:30px">${i+1}</td>
         <td>${catPill(categorizeVote(v.topic))} ${v.topic ? v.topic.substring(0,120) : '?'}${v.druk ? ` <span style="color:var(--muted)">(druk ${v.druk})</span>` : ''}</td>
-        <td style="width:110px">${uchCol}</td>
         <td><span class="pill pill-za">${c.za||0}</span></td>
         <td>${c.przeciw ? `<span class="pill pill-przeciw">${c.przeciw}</span>` : '0'}</td>
         <td>${c.wstrzymal_sie ? `<span class="pill pill-wstrzymal">${c.wstrzymal_sie}</span>` : '0'}</td>
@@ -1628,7 +1186,7 @@ function showVote(voteId) {
   hideAllViews();
   const view = document.getElementById('vote-view');
   view.style.display = 'block';
-  navigateTo('/glosowanie/' + voteId);
+  navigateTo('/glosowanie/' + voteId + '/');
   setTitle('Głosowanie: ' + (vote.topic || voteId).substring(0, 60));
 
   const c = vote.counts || {};
@@ -1650,7 +1208,7 @@ function showVote(voteId) {
       const cl = clubMap[n] || '?';
       return `<div class="vote-name-item" style="background:${bgColor}">
         <span class="club ${clubClass(cl)}">${cl}</span>
-        <a class="name-link" href="/profil/${profileSlug(n)}" onclick="event.preventDefault();showProfile('${n.replace(/'/g, "\\'")}')">${n}</a>
+        <a class="name-link" href="/profil/${profileSlug(n)}/" onclick="event.preventDefault();showProfile('${n.replace(/'/g, "\\'")}')">${n}</a>
       </div>`;
     }).join('')}</div>`;
   }
@@ -1658,18 +1216,10 @@ function showVote(voteId) {
   let html = `
     <button class="profile-back" onclick="showSession('${vote.session_number}')">← Sesja ${vote.session_number}</button>
     <div style="margin-bottom:24px">
-      <div style="color:var(--muted);font-size:0.85rem;margin-bottom:4px"><a class="name-link" href="/sesja/${encodeURIComponent(vote.session_number)}" onclick="event.preventDefault();showSession('${vote.session_number}')" style="color:var(--muted)">Sesja ${vote.session_number} · ${vote.session_date}</a></div>
+      <div style="color:var(--muted);font-size:0.85rem;margin-bottom:4px"><a class="name-link" href="/sesja/${encodeURIComponent(vote.session_number)}/" onclick="event.preventDefault();showSession('${vote.session_number}')" style="color:var(--muted)">Sesja ${vote.session_number} · ${vote.session_date}</a></div>
       <h2 style="font-size:1.3rem;font-weight:600;border:none;padding:0">${vote.topic || '?'}</h2>
       ${vote.druk ? `<div style="color:var(--muted);margin-top:4px">Druk: ${vote.druk}</div>` : ''}
-      ${(() => {
-        const linked = (vote.resolution && window.UCHWALY_BY_NUMER[vote.resolution]) || window.UCHWALY_BY_VOTE[voteId];
-        if (linked) {
-          const n = (linked.numer || '').replace(/'/g, "\\'");
-          return '<div style="color:var(--muted)">Uchwała: <a href="/uchwala/' + uchwalaNumerToSlug(linked.numer) + '" onclick="event.preventDefault();showUchwala(\'' + n + '\')" style="color:var(--accent)">' + linked.numer + '</a></div>';
-        }
-        if (vote.resolution) return '<div style="color:var(--muted)">Uchwała: ' + vote.resolution + '</div>';
-        return '';
-      })()}
+      ${vote.resolution ? `<div style="color:var(--muted)">Uchwała: ${vote.resolution}</div>` : ''}
       ${vote.source_url ? `<div style="margin-top:6px"><a href="${vote.source_url}" target="_blank" rel="noopener" style="color:var(--accent);font-size:0.85rem">Protokół głosowania (BIP) ↗</a></div>` : ''}
     </div>
 
@@ -1730,503 +1280,6 @@ function showVote(voteId) {
   window.scrollTo(0, 0);
 }
 
-// ==================== UCHWAŁY ====================
-let currentUchwalyStatus = 'all';
-let currentUchwalyKadencja = 'all';
-let currentUchwalySearch = '';
-let uchwalyPage = 0;
-const UCHWALY_PER_PAGE = 50;
-
-const STATUS_COLORS = {
-  'Obowiązujący': 'var(--green)',
-  'Uchylony': 'var(--red)',
-  'Unieważniony': '#ef4444',
-  'Unieważniony w części': '#f97316',
-  'Oczekujący': 'var(--yellow)',
-  'Wygaszony': 'var(--muted)',
-  'Nieustalony': 'var(--muted)',
-};
-
-function renderUchwalyTable() {
-  const uchwaly = window.UCHWALY || [];
-  if (!uchwaly.length) return;
-
-  // Stats
-  const statsEl = document.getElementById('uchwaly-stats');
-  const statusCounts = {};
-  const kadencjaCounts = {};
-  uchwaly.forEach(u => {
-    const s = u.status || 'brak';
-    statusCounts[s] = (statusCounts[s] || 0) + 1;
-    const k = u.kadencja || 'brak';
-    kadencjaCounts[k] = (kadencjaCounts[k] || 0) + 1;
-  });
-
-  const linkedCount = uchwaly.filter(u => u.vote_id).length;
-  statsEl.innerHTML = `
-    <div class="metric-card"><div class="metric-value">${uchwaly.length.toLocaleString('pl')}</div><div class="metric-label">Uchwał</div></div>
-    <div class="metric-card"><div class="metric-value" style="color:var(--green)">${(statusCounts['Obowiązujący']||0).toLocaleString('pl')}</div><div class="metric-label">Obowiązujących</div></div>
-    <div class="metric-card"><div class="metric-value" style="color:var(--red)">${(statusCounts['Uchylony']||0).toLocaleString('pl')}</div><div class="metric-label">Uchylonych</div></div>
-    <div class="metric-card"><div class="metric-value" style="color:var(--accent)">${linkedCount.toLocaleString('pl')}</div><div class="metric-label">Z głosowaniem</div></div>
-  `;
-
-  // Kadencja filter dropdown
-  const kadSelect = document.getElementById('uchwaly-kadencja-filter');
-  if (kadSelect.options.length <= 1) {
-    const kads = Object.keys(kadencjaCounts).filter(k => k !== 'brak').sort().reverse();
-    kads.forEach(k => {
-      const opt = document.createElement('option');
-      opt.value = k;
-      opt.textContent = `Kadencja ${k} (${kadencjaCounts[k]})`;
-      kadSelect.appendChild(opt);
-    });
-    kadSelect.onchange = () => {
-      currentUchwalyKadencja = kadSelect.value;
-      uchwalyPage = 0;
-      renderUchwalyTable();
-    };
-  }
-
-  // Status filter pills
-  const statusBar = document.getElementById('uchwaly-status-filter');
-  const statusOrder = ['Obowiązujący','Uchylony','Unieważniony w części','Unieważniony','Oczekujący','Wygaszony','Nieustalony'];
-  let pills = `<button class="session-pill ${currentUchwalyStatus==='all'?'active':''}" data-st="all">Wszystkie</button>`;
-  for (const st of statusOrder) {
-    if (!statusCounts[st]) continue;
-    pills += `<button class="session-pill ${currentUchwalyStatus===st?'active':''}" data-st="${st}">${st} <span class="pill-count">(${statusCounts[st]})</span></button>`;
-  }
-  statusBar.innerHTML = pills;
-  statusBar.querySelectorAll('.session-pill').forEach(btn => {
-    btn.onclick = () => {
-      currentUchwalyStatus = btn.dataset.st;
-      uchwalyPage = 0;
-      renderUchwalyTable();
-    };
-  });
-
-  // Search
-  const searchEl = document.getElementById('uchwaly-search');
-  if (!searchEl._bound) {
-    searchEl._bound = true;
-    let debounce;
-    searchEl.oninput = () => {
-      clearTimeout(debounce);
-      debounce = setTimeout(() => {
-        currentUchwalySearch = searchEl.value.trim().toLowerCase();
-        uchwalyPage = 0;
-        renderUchwalyTable();
-      }, 300);
-    };
-  }
-
-  // Filter
-  let filtered = uchwaly;
-  if (currentUchwalyStatus !== 'all') {
-    filtered = filtered.filter(u => u.status === currentUchwalyStatus);
-  }
-  if (currentUchwalyKadencja !== 'all') {
-    filtered = filtered.filter(u => u.kadencja === currentUchwalyKadencja);
-  }
-  if (currentUchwalySearch) {
-    const q = currentUchwalySearch;
-    filtered = filtered.filter(u =>
-      (u.tytul || '').toLowerCase().includes(q) ||
-      (u.numer || '').toLowerCase().includes(q)
-    );
-  }
-
-  // Paginate
-  const totalPages = Math.ceil(filtered.length / UCHWALY_PER_PAGE);
-  if (uchwalyPage >= totalPages) uchwalyPage = Math.max(0, totalPages - 1);
-  const pageItems = filtered.slice(uchwalyPage * UCHWALY_PER_PAGE, (uchwalyPage + 1) * UCHWALY_PER_PAGE);
-
-  // Group by year
-  const byYear = {};
-  pageItems.forEach(u => {
-    const y = (u.data_podjecia || '????').substring(0, 4);
-    if (!byYear[y]) byYear[y] = [];
-    byYear[y].push(u);
-  });
-
-  const container = document.getElementById('uchwaly-list');
-  let html = `<div style="color:var(--muted);font-size:0.85rem;margin-bottom:12px">Wyników: ${filtered.length.toLocaleString('pl')}</div>`;
-
-  for (const year of Object.keys(byYear).sort().reverse()) {
-    html += `<div class="uchwaly-year-group">
-      <div class="uchwaly-year-header">${year}</div>`;
-    byYear[year].forEach(u => {
-      const stColor = STATUS_COLORS[u.status] || 'var(--muted)';
-      const hasVote = u.vote_id ? `<span style="color:var(--accent);font-size:0.75rem;margin-left:6px" title="Powiazane z glosowaniem">&#9679;</span>` : '';
-      html += `<div class="uchwala-row" onclick="showUchwala('${(u.numer||'').replace(/'/g, "\\'")}')">
-        <div class="uchwala-numer">${u.numer || '?'}${hasVote}</div>
-        <div class="uchwala-tytul">${(u.tytul || '').substring(0, 200)}</div>
-        <div class="uchwala-meta">
-          <span style="color:${stColor};font-weight:500;font-size:0.8rem">${u.status || '?'}</span>
-          <span style="color:var(--muted);font-size:0.8rem;margin-left:8px">${u.data_podjecia || ''}</span>
-        </div>
-      </div>`;
-    });
-    html += `</div>`;
-  }
-  container.innerHTML = html;
-
-  // Pager
-  const pagerEl = document.getElementById('uchwaly-pager');
-  if (totalPages > 1) {
-    let pHtml = '';
-    const maxButtons = 7;
-    let start = Math.max(0, uchwalyPage - Math.floor(maxButtons / 2));
-    let end = Math.min(totalPages, start + maxButtons);
-    if (end - start < maxButtons) start = Math.max(0, end - maxButtons);
-
-    if (uchwalyPage > 0) pHtml += `<button class="pager-btn" onclick="uchwalyPage=${uchwalyPage-1};renderUchwalyTable()">‹</button>`;
-    for (let i = start; i < end; i++) {
-      pHtml += `<button class="pager-btn ${i===uchwalyPage?'active':''}" onclick="uchwalyPage=${i};renderUchwalyTable()">${i+1}</button>`;
-    }
-    if (uchwalyPage < totalPages - 1) pHtml += `<button class="pager-btn" onclick="uchwalyPage=${uchwalyPage+1};renderUchwalyTable()">›</button>`;
-    pagerEl.innerHTML = pHtml;
-  } else {
-    pagerEl.innerHTML = '';
-  }
-}
-
-function showUchwala(numer) {
-  const uchwaly = window.UCHWALY || [];
-  const u = uchwaly.find(x => x.numer === numer);
-  if (!u) return;
-
-  hideAllViews();
-  const view = document.getElementById('uchwala-view');
-  view.style.display = 'block';
-  navigateTo('/uchwala/' + uchwalaNumerToSlug(numer));
-  setTitle('Uchwała ' + numer);
-
-  const stColor = STATUS_COLORS[u.status] || 'var(--muted)';
-  const bawUrl = u.id ? `https://baw.bip.gdansk.pl/documentDetails/${u.id}` : null;
-
-  let voteLink = '';
-  if (u.vote_id) {
-    voteLink = `<div style="margin-top:12px">
-      <a href="/glosowanie/${u.vote_id}" onclick="event.preventDefault();showVote('${u.vote_id}')" style="color:var(--accent);font-weight:500">
-        Zobacz głosowanie &#8594;
-      </a>
-      ${u.vote_score ? `<span style="color:var(--muted);font-size:0.8rem;margin-left:8px">(dopasowanie: ${Math.round(u.vote_score * 100)}%)</span>` : ''}
-    </div>`;
-  }
-
-  let html = `
-    <button class="profile-back" onclick="showMain();activateTab('uchwaly')">&#8592; Uchwały</button>
-    <div style="margin-bottom:24px">
-      <div style="color:var(--muted);font-size:0.85rem;margin-bottom:4px">${u.organ || 'Rada Miasta Gdańska'}</div>
-      <h2 style="font-size:1.3rem;font-weight:600;border:none;padding:0">${u.numer || '?'}</h2>
-      <div style="margin-top:8px;line-height:1.6">${u.tytul || ''}</div>
-    </div>
-
-    <div class="profile-metrics" style="margin-bottom:24px">
-      <div class="metric-card">
-        <div class="metric-value" style="color:${stColor}">${u.status || '?'}</div>
-        <div class="metric-label">Status</div>
-      </div>
-      <div class="metric-card">
-        <div class="metric-value">${u.data_podjecia || '?'}</div>
-        <div class="metric-label">Data podjęcia</div>
-      </div>
-      ${u.data_wejscia ? `<div class="metric-card">
-        <div class="metric-value">${u.data_wejscia}</div>
-        <div class="metric-label">Wejście w życie</div>
-      </div>` : ''}
-      ${u.kadencja ? `<div class="metric-card">
-        <div class="metric-value">${u.kadencja}</div>
-        <div class="metric-label">Kadencja</div>
-      </div>` : ''}
-    </div>
-
-    ${u.odpowiedzialny ? `<div style="margin-bottom:12px"><span style="color:var(--muted)">Odpowiedzialny:</span> ${u.odpowiedzialny}</div>` : ''}
-    ${u.poz_dz_urz ? `<div style="margin-bottom:12px"><span style="color:var(--muted)">Dz. Urz.:</span> poz. ${u.poz_dz_urz}${u.rok_dz_urz ? `, rok ${u.rok_dz_urz}` : ''}</div>` : ''}
-
-    ${voteLink}
-
-    ${bawUrl ? `<div style="margin-top:12px"><a href="${bawUrl}" target="_blank" rel="noopener" style="color:var(--accent);font-size:0.85rem">Pełny tekst w BAW &#8599;</a></div>` : ''}
-  `;
-
-  view.innerHTML = html;
-  window.scrollTo(0, 0);
-}
-
-// ============= INTERPELACJE =============
-const INTERP_PER_PAGE = 50;
-let interpPage = 0;
-let interpSearch = '';
-let interpTypFilter = 'all';
-let interpCatFilter = 'all';
-let interpRadnyFilter = 'all';
-
-function interpCriToSlug(cri) { return (cri || '').replace(/\//g, '-'); }
-function interpSlugToCri(slug) { return (slug || '').replace(/-/g, '/'); }
-
-function renderInterpelacjeTable() {
-  const all = window.INTERPELACJE || [];
-  if (!all.length) return;
-
-  // Build radny dropdown (only for current kadencja or all)
-  const radnySet = new Set();
-  all.forEach(i => { (i.radni || []).forEach(n => radnySet.add(n)); if (!i.radni || !i.radni.length) { if (i.radny) radnySet.add(i.radny); } });
-  const radniSorted = [...radnySet].sort((a, b) => a.localeCompare(b, 'pl'));
-  const radnySelect = document.getElementById('interpelacje-radny-filter');
-  if (radnySelect && radnySelect.options.length <= 1) {
-    radniSorted.forEach(name => {
-      const opt = document.createElement('option');
-      opt.value = name;
-      opt.textContent = name;
-      radnySelect.appendChild(opt);
-    });
-  }
-
-  // Wire up search and filters
-  const searchInput = document.getElementById('interpelacje-search');
-  if (searchInput && !searchInput._wired) {
-    searchInput._wired = true;
-    let debounce;
-    searchInput.addEventListener('input', () => {
-      clearTimeout(debounce);
-      debounce = setTimeout(() => {
-        interpSearch = searchInput.value.toLowerCase();
-        interpPage = 0;
-        renderInterpelacjeTable();
-      }, 300);
-    });
-  }
-
-  const typSelect = document.getElementById('interpelacje-typ-filter');
-  if (typSelect && !typSelect._wired) {
-    typSelect._wired = true;
-    typSelect.addEventListener('change', () => {
-      interpTypFilter = typSelect.value;
-      interpPage = 0;
-      renderInterpelacjeTable();
-    });
-  }
-
-  if (radnySelect && !radnySelect._wired) {
-    radnySelect._wired = true;
-    radnySelect.addEventListener('change', () => {
-      interpRadnyFilter = radnySelect.value;
-      interpPage = 0;
-      renderInterpelacjeTable();
-    });
-  }
-
-  // Category dropdown
-  const catSelect = document.getElementById('interpelacje-cat-filter');
-  if (catSelect && catSelect.options.length <= 1) {
-    const catOrder = Object.keys(INTERP_CATS).sort((a,b) => (INTERP_CATS[a]?.order||99) - (INTERP_CATS[b]?.order||99));
-    catOrder.forEach(cat => {
-      const cnt = all.filter(i => categorizeInterpelacja(i.przedmiot) === cat).length;
-      if (!cnt) return;
-      const opt = document.createElement('option');
-      opt.value = cat;
-      opt.textContent = `${INTERP_CATS[cat].label} (${cnt})`;
-      catSelect.appendChild(opt);
-    });
-  }
-  if (catSelect && !catSelect._wired) {
-    catSelect._wired = true;
-    catSelect.addEventListener('change', () => {
-      interpCatFilter = catSelect.value;
-      interpPage = 0;
-      renderInterpelacjeTable();
-    });
-  }
-
-  // Filter
-  let filtered = all;
-  if (interpTypFilter !== 'all') {
-    filtered = filtered.filter(i => i.typ === interpTypFilter);
-  }
-  if (interpCatFilter !== 'all') {
-    filtered = filtered.filter(i => categorizeInterpelacja(i.przedmiot) === interpCatFilter);
-  }
-  if (interpRadnyFilter !== 'all') {
-    filtered = filtered.filter(i => (i.radni || []).includes(interpRadnyFilter) || i.radny === interpRadnyFilter);
-  }
-  if (interpSearch) {
-    const q = interpSearch;
-    filtered = filtered.filter(i =>
-      (i.przedmiot || '').toLowerCase().includes(q) ||
-      (i.radni || []).some(n => n.toLowerCase().includes(q)) ||
-      (i.radny || '').toLowerCase().includes(q) ||
-      (i.cri || '').toLowerCase().includes(q)
-    );
-  }
-
-  // Stats
-  const totalInterp = all.filter(i => i.typ === 'interpelacja').length;
-  const totalZap = all.filter(i => i.typ === 'zapytanie').length;
-  const withAnswer = all.filter(i => i.data_odpowiedzi).length;
-  const kadIX = all.filter(i => i.kadencja === 'IX').length;
-  const kadVIII = all.filter(i => i.kadencja === 'VIII').length;
-
-  document.getElementById('interpelacje-stats').innerHTML = `
-    <div class="metric-card"><div class="metric-value">${all.length}</div><div class="metric-label">Razem</div></div>
-    <div class="metric-card"><div class="metric-value">${totalInterp}</div><div class="metric-label">Interpelacji</div></div>
-    <div class="metric-card"><div class="metric-value">${totalZap}</div><div class="metric-label">Zapytań</div></div>
-    <div class="metric-card"><div class="metric-value">${withAnswer}</div><div class="metric-label">Z odpowiedzią</div></div>
-    <div class="metric-card"><div class="metric-value">${kadIX}</div><div class="metric-label">Kadencja IX</div></div>
-  `;
-
-  // Group by year
-  const totalPages = Math.ceil(filtered.length / INTERP_PER_PAGE);
-  if (interpPage >= totalPages) interpPage = Math.max(0, totalPages - 1);
-  const pageItems = filtered.slice(interpPage * INTERP_PER_PAGE, (interpPage + 1) * INTERP_PER_PAGE);
-
-  let html = '';
-  let currentYear = null;
-  pageItems.forEach(item => {
-    const year = item.rok || (item.data_wplywu ? parseInt(item.data_wplywu.substring(0, 4)) : 0);
-    if (year !== currentYear) {
-      currentYear = year;
-      html += `<div class="uchwaly-year-group">${year}</div>`;
-    }
-
-    const typLabel = item.typ === 'zapytanie'
-      ? '<span style="background:rgba(37,99,235,0.12);color:var(--blue);padding:1px 6px;border-radius:3px;font-size:0.72rem;font-weight:600">ZAPYTANIE</span>'
-      : '<span style="background:rgba(79,70,229,0.12);color:var(--accent);padding:1px 6px;border-radius:3px;font-size:0.72rem;font-weight:600">INTERPELACJA</span>';
-
-    const hasAnswer = item.data_odpowiedzi ? '<span style="color:var(--green);font-size:0.75rem" title="Jest odpowiedź">&#10003;</span>' : '<span style="color:var(--muted);font-size:0.75rem" title="Brak odpowiedzi">&#8987;</span>';
-
-    const slug = interpCriToSlug(item.cri);
-    const cri = (item.cri || '').replace(/'/g, "\\'");
-
-    // Build author links for all radni
-    const radniArr = item.radni && item.radni.length ? item.radni : (item.radny ? [item.radny] : []);
-    const radnyHtml = radniArr.map(name => {
-      const prof = PROFILES && PROFILES.profiles.find(p => p.name === name);
-      return prof
-        ? `<a href="/profil/${prof.slug}" onclick="event.stopPropagation();event.preventDefault();showProfile('${name.replace(/'/g, "\\'")}')" style="color:var(--accent)">${name}</a>`
-        : name;
-    }).join(', ') || '<span style="color:var(--muted)">brak autora</span>';
-
-    html += `<div class="uchwala-row" onclick="showInterpelacja('${cri}')" style="cursor:pointer">
-      <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:8px">
-        <div style="flex:1">
-          <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px;flex-wrap:wrap">
-            <span class="uchwala-numer">${item.cri || '?'}</span>
-            ${typLabel}
-            ${interpCatPill(categorizeInterpelacja(item.przedmiot))}
-            ${hasAnswer}
-          </div>
-          <div class="uchwala-tytul">${item.przedmiot || '(brak tematu)'}</div>
-        </div>
-      </div>
-      <div class="uchwala-meta" style="margin-top:4px">
-        ${radnyHtml} · ${item.data_wplywu || '?'}${item.data_odpowiedzi ? ' · odp. ' + item.data_odpowiedzi : ''}
-      </div>
-    </div>`;
-  });
-
-  if (!html) html = '<div style="color:var(--muted);text-align:center;padding:40px">Brak wyników</div>';
-  document.getElementById('interpelacje-list').innerHTML = html;
-
-  // Pager
-  let pHtml = `<span style="color:var(--muted);font-size:0.85rem">${filtered.length} wyników</span> `;
-  if (totalPages > 1) {
-    if (interpPage > 0) pHtml += `<button class="pager-btn" onclick="interpPage=${interpPage-1};renderInterpelacjeTable()">&#8249;</button>`;
-    for (let i = Math.max(0, interpPage-3); i < Math.min(totalPages, interpPage+4); i++) {
-      pHtml += `<button class="pager-btn ${i===interpPage?'active':''}" onclick="interpPage=${i};renderInterpelacjeTable()">${i+1}</button>`;
-    }
-    if (interpPage < totalPages - 1) pHtml += `<button class="pager-btn" onclick="interpPage=${interpPage+1};renderInterpelacjeTable()">&#8250;</button>`;
-  }
-  document.getElementById('interpelacje-pager').innerHTML = pHtml;
-}
-
-function showInterpelacja(cri) {
-  const all = window.INTERPELACJE || [];
-  const item = all.find(i => i.cri === cri);
-  if (!item) { showMain(); return; }
-
-  hideAllViews();
-  const view = document.getElementById('interpelacja-view');
-  view.style.display = 'block';
-  navigateTo('/interpelacja/' + interpCriToSlug(cri));
-  setTitle((item.typ === 'zapytanie' ? 'Zapytanie' : 'Interpelacja') + ' ' + cri);
-
-  const typLabel = item.typ === 'zapytanie' ? 'Zapytanie' : 'Interpelacja';
-  const typColor = item.typ === 'zapytanie' ? 'var(--blue)' : 'var(--accent)';
-
-  // Councilor profile links (multiple authors)
-  const radniArr = item.radni && item.radni.length ? item.radni : (item.radny ? [item.radny] : []);
-  const radnyHtml = radniArr.map(name => {
-    const prof = PROFILES && PROFILES.profiles.find(p => p.name === name);
-    return prof
-      ? `<a href="/profil/${prof.slug}" onclick="event.preventDefault();showProfile('${name.replace(/'/g, "\\'")}')" style="color:var(--accent);font-weight:500">${name}</a>`
-      : `<span style="font-weight:500">${name}</span>`;
-  }).join(', ') || '<span style="font-weight:500;color:var(--muted)">brak autora</span>';
-
-  // Count how many interpelacje the first author has
-  const firstAuthor = radniArr[0] || '';
-  const radnyCount = firstAuthor ? all.filter(i => (i.radni || []).includes(firstAuthor)).length : 0;
-
-  let html = `
-    <button class="profile-back" onclick="showMain();activateTab('interpelacje')">&#8592; Interpelacje</button>
-    <div style="margin-bottom:24px">
-      <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;flex-wrap:wrap">
-        <span style="color:${typColor};font-weight:600;font-size:0.85rem;text-transform:uppercase">${typLabel}</span>
-        ${interpCatPill(categorizeInterpelacja(item.przedmiot))}
-        <span style="color:var(--muted);font-size:0.85rem">${item.cri || ''}</span>
-      </div>
-      <h2 style="font-size:1.3rem;font-weight:600;border:none;padding:0">${item.przedmiot || '(brak tematu)'}</h2>
-    </div>
-
-    <div class="profile-metrics interp-detail-metrics" style="margin-bottom:24px">
-      <div class="metric-card" style="grid-column:1/-1">
-        <div class="metric-value" style="font-size:1.1rem">${radnyHtml}</div>
-        <div class="metric-label">${radniArr.length > 1 ? 'Autorzy' : 'Autor'} ${radnyCount ? '(' + radnyCount + ' interp.)' : ''}</div>
-      </div>
-      <div class="metric-card">
-        <div class="metric-value" style="font-size:1.1rem">${item.data_wplywu || '?'}</div>
-        <div class="metric-label">Data wpływu</div>
-      </div>
-      <div class="metric-card">
-        <div class="metric-value" style="font-size:1.1rem;color:${item.data_odpowiedzi ? 'var(--green)' : 'var(--muted)'}">${item.data_odpowiedzi || 'brak'}</div>
-        <div class="metric-label">Data odpowiedzi</div>
-      </div>
-      <div class="metric-card">
-        <div class="metric-value">${item.kadencja || '?'}</div>
-        <div class="metric-label">Kadencja</div>
-      </div>
-    </div>
-
-    <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px">
-      ${item.tresc_url ? `<a href="${item.tresc_url}" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;padding:8px 16px;background:var(--accent);color:white;border-radius:8px;text-decoration:none;font-size:0.9rem;font-weight:500">Treść interpelacji &#8599;</a>` : ''}
-      ${item.odpowiedz_url ? `<a href="${item.odpowiedz_url}" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;padding:8px 16px;background:var(--green);color:white;border-radius:8px;text-decoration:none;font-size:0.9rem;font-weight:500">Odpowiedź &#8599;</a>` : ''}
-    </div>
-
-    ${item.data_odpowiedzi && item.data_wplywu ? `<div style="color:var(--muted);font-size:0.85rem;margin-bottom:20px">Czas odpowiedzi: ${Math.round((new Date(item.data_odpowiedzi) - new Date(item.data_wplywu)) / (1000 * 60 * 60 * 24))} dni</div>` : ''}
-  `;
-
-  // Show other interpelacje by the same author(s)
-  const otherByRadny = all.filter(i => i.cri !== item.cri && radniArr.some(name => (i.radni || []).includes(name))).slice(0, 10);
-  if (otherByRadny.length) {
-    const authorLabel = radniArr.length > 1 ? radniArr[0] + ' i in.' : (radniArr[0] || '');
-    html += `<div style="margin-top:20px;border-top:1px solid var(--border);padding-top:16px">
-      <h3 style="font-size:1rem;font-weight:600;margin-bottom:12px">Inne interpelacje: ${authorLabel}</h3>`;
-    otherByRadny.forEach(o => {
-      const oCri = (o.cri || '').replace(/'/g, "\\'");
-      html += `<div class="uchwala-row" onclick="showInterpelacja('${oCri}')" style="cursor:pointer;padding:8px 12px">
-        <div style="display:flex;align-items:center;gap:8px">
-          <span class="uchwala-numer" style="font-size:0.8rem">${o.cri}</span>
-          <span style="font-size:0.75rem;color:var(--muted)">${o.data_wplywu}</span>
-        </div>
-        <div style="font-size:0.85rem">${o.przedmiot || ''}</div>
-      </div>`;
-    });
-    html += '</div>';
-  }
-
-  view.innerHTML = html;
-  window.scrollTo(0, 0);
-}
-
 function backFromVote() {
   document.getElementById('vote-view').style.display = 'none';
   document.getElementById('app').style.display = 'block';
@@ -2262,7 +1315,7 @@ function showSession(sessionNumber) {
   hideAllViews();
   const view = document.getElementById('session-view');
   view.style.display = 'block';
-  navigateTo('/sesja/' + encodeURIComponent(sessionNumber));
+  navigateTo('/sesja/' + encodeURIComponent(sessionNumber) + '/');
   setTitle('Sesja ' + sessionNumber + (sess.date ? ' (' + sess.date + ')' : ''));
 
   // Club lookup
@@ -2324,7 +1377,7 @@ function showSession(sessionNumber) {
       const cl = clubMap[sp.name] || '?';
       const barPct = Math.max((sp.words / maxWords) * 100, 2);
       return `<div class="speaker-bar">
-        <span class="speaker-name"><span class="club ${clubClass(cl)}">${cl}</span> <a class="name-link" href="/profil/${profileSlug(sp.name)}" onclick="event.preventDefault();showProfile('${sp.name.replace(/'/g, "\\'")}')">${sp.name}</a></span>
+        <span class="speaker-name"><span class="club ${clubClass(cl)}">${cl}</span> <a class="name-link" href="/profil/${profileSlug(sp.name)}/" onclick="event.preventDefault();showProfile('${sp.name.replace(/'/g, "\\'")}')">${sp.name}</a></span>
         <div class="speaker-bar-fill" style="width:${barPct}%"></div>
         <span style="color:var(--muted);font-size:0.8rem;white-space:nowrap">${sp.statements} wyp. · ${sp.words.toLocaleString('pl')} słów</span>
       </div>`;
@@ -2384,7 +1437,7 @@ function showSession(sessionNumber) {
     <div class="session-attendees">`;
   sortByLastName([...present]).forEach(n => {
     const cl = clubMap[n] || '?';
-    html += `<div class="session-attendee"><span class="club ${clubClass(cl)}">${cl}</span> <a class="name-link" href="/profil/${profileSlug(n)}" onclick="event.preventDefault();showProfile('${n.replace(/'/g, "\\'")}')">${n}</a></div>`;
+    html += `<div class="session-attendee"><span class="club ${clubClass(cl)}">${cl}</span> <a class="name-link" href="/profil/${profileSlug(n)}/" onclick="event.preventDefault();showProfile('${n.replace(/'/g, "\\'")}')">${n}</a></div>`;
   });
   html += `</div></div>`;
 
@@ -2394,7 +1447,7 @@ function showSession(sessionNumber) {
       <div class="session-attendees">`;
     absent.forEach(n => {
       const cl = clubMap[n] || '?';
-      html += `<div class="session-attendee session-absent"><span class="club ${clubClass(cl)}">${cl}</span> <a class="name-link" href="/profil/${profileSlug(n)}" onclick="event.preventDefault();showProfile('${n.replace(/'/g, "\\'")}')">${n}</a></div>`;
+      html += `<div class="session-attendee session-absent"><span class="club ${clubClass(cl)}">${cl}</span> <a class="name-link" href="/profil/${profileSlug(n)}/" onclick="event.preventDefault();showProfile('${n.replace(/'/g, "\\'")}')">${n}</a></div>`;
     });
     html += `</div></div>`;
   }
@@ -2422,7 +1475,7 @@ function renderSimilarity() {
     el.innerHTML = pairs.map(p => `
       <div class="similarity-pair">
         <span class="similarity-score" style="color:${p.score>=90?'var(--green)':p.score>=70?'var(--yellow)':'var(--red)'}">${p.score}%</span>
-        <span><a class="name-link" href="/profil/${profileSlug(p.a)}" onclick="event.preventDefault();showProfile('${p.a.replace(/'/g, "\\'")}')">${p.a}</a> <span style="color:var(--muted)">↔</span> <a class="name-link" href="/profil/${profileSlug(p.b)}" onclick="event.preventDefault();showProfile('${p.b.replace(/'/g, "\\'")}')">${p.b}</a></span>
+        <span><a class="name-link" href="/profil/${profileSlug(p.a)}/" onclick="event.preventDefault();showProfile('${p.a.replace(/'/g, "\\'")}')">${p.a}</a> <span style="color:var(--muted)">↔</span> <a class="name-link" href="/profil/${profileSlug(p.b)}/" onclick="event.preventDefault();showProfile('${p.b.replace(/'/g, "\\'")}')">${p.b}</a></span>
       </div>
     `).join('');
   };
@@ -2434,7 +1487,7 @@ let budgetChartTrend = null, budgetChartCat = null;
 
 function renderBudget() {
   const B = window.BUDGET;
-  if (!B || !B.totals) return;
+  if (!B) return;
   const container = document.getElementById('budget-content');
   const fmt = (n) => (n/1e9).toFixed(2).replace('.', ',') + ' mld';
   const fmtM = (n) => n >= 1e9 ? fmt(n) : (n/1e6).toFixed(0) + ' mln';
@@ -2524,7 +1577,6 @@ function renderBudget() {
           </div>
         </div>`;
     }
-
 
     // Budget votes for this year
     if (votes.length > 0) {
@@ -2681,22 +1733,10 @@ window.addEventListener('popstate', () => {
     _popstateActive = false;
     return;
   }
-  if (path.startsWith('/uchwala/')) {
-    const numer = uchwalaSlugToNumer(decodeURIComponent(path.replace('/uchwala/', '')));
-    showUchwala(numer);
-    _popstateActive = false;
-    return;
-  }
-  if (path.startsWith('/interpelacja/')) {
-    const cri = decodeURIComponent(path.replace('/interpelacja/', '').replace(/-/g, '/'));
-    showInterpelacja(cri);
-    _popstateActive = false;
-    return;
-  }
   // Main page tab/kadencja paths
   hideAllViews();
   document.getElementById('app').style.display = 'block';
-  if (path === '/budzet') {
+  if (path === '/budzet' || path === '/budzet/') {
     activateTab('budget');
   } else if (path.startsWith('/kadencja/')) {
     const parts = path.replace('/kadencja/', '').split('/');
@@ -2717,6 +1757,5 @@ window.addEventListener('popstate', () => {
 
 init();
 </script>
-</main>
 </body>
 </html>
