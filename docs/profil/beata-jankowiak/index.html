@@ -3,20 +3,21 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Beata Jankowiak - Radoskop Gdańsk</title>
-<meta name="description" content="Profil: Beata Jankowiak. Sprawdz glosowania, frekwencje i aktywnosc w Radzie Miasta Gdańska.">
+<title>Beata Jankowiak, KO – Radoskop Gdańsk</title>
+<meta name="description" content="Beata Jankowiak, klub Koalicja Obywatelska. Frekwencja 100%, aktywnosc 89%, zgodnosc z klubem 99%. Rada Miasta Gdańska.">
 <meta name="keywords" content="Gdańsk, rada miasta, radni, głosowania, frekwencja, samorząd, monitoring, transparentność">
 <meta name="author" content="Patryk Orwat">
 <link rel="canonical" href="https://gdansk.radoskop.pl/profil/beata-jankowiak/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Beata Jankowiak - Radoskop Gdańsk">
-<meta property="og:description" content="Profil: Beata Jankowiak. Sprawdz glosowania, frekwencje i aktywnosc w Radzie Miasta Gdańska.">
+<meta property="og:title" content="Beata Jankowiak, KO – Radoskop Gdańsk">
+<meta property="og:description" content="Beata Jankowiak, klub Koalicja Obywatelska. Frekwencja 100%, aktywnosc 89%, zgodnosc z klubem 99%. Rada Miasta Gdańska.">
 <meta property="og:url" content="https://gdansk.radoskop.pl/profil/beata-jankowiak/">
+<meta property="og:image" content="https://gdansk.radoskop.pl/profil/beata-jankowiak/og.png">
 <meta property="og:locale" content="pl_PL">
 <meta property="og:site_name" content="Radoskop Gdańsk">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Beata Jankowiak - Radoskop Gdańsk">
-<meta name="twitter:description" content="Profil: Beata Jankowiak. Sprawdz glosowania, frekwencje i aktywnosc w Radzie Miasta Gdańska.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Beata Jankowiak, KO – Radoskop Gdańsk">
+<meta name="twitter:description" content="Beata Jankowiak, klub Koalicja Obywatelska. Frekwencja 100%, aktywnosc 89%, zgodnosc z klubem 99%. Rada Miasta Gdańska.">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -202,7 +203,17 @@ footer a { color:var(--accent); text-decoration:none; }
     </div>
   </header>
 
-  <div id="loading">Ładowanie danych...</div>
+  
+<div id="seo-content" style="padding:20px;max-width:800px;margin:0 auto">
+<h1>Beata Jankowiak</h1>
+<p>Klub: Koalicja Obywatelska</p>
+<p>Frekwencja: 100% · Aktywnosc: 89% · Zgodnosc z klubem: 99%</p>
+<p>Za: 603 · Przeciw: 27 · Wstrzymal sie: 1</p>
+<p><a href="https://gdansk.radoskop.pl/">Radoskop Gdańsk</a></p>
+
+</div>
+<script>var sc=document.getElementById("seo-content");if(sc)sc.style.display="none";</script>
+<div id="loading">Ładowanie danych...</div>
 
   <!-- Main dashboard view -->
   <div id="app" style="display:none">
@@ -214,6 +225,7 @@ footer a { color:var(--accent); text-decoration:none; }
         <button class="tab" data-tab="sessions">Sesje</button>
         <button class="tab" data-tab="votes">Głosowania</button>
         <button class="tab" data-tab="similarity">Kto z kim głosuje</button>
+        <button class="tab" data-tab="interpelacje">Interpelacje</button>
         <button class="tab tab-budget" data-tab="budget">Budżet</button>
       </div>
       <div class="kadencja-bar" id="kadencja-bar"></div>
@@ -278,6 +290,10 @@ footer a { color:var(--accent); text-decoration:none; }
       <div id="sim-bottom"></div>
     </div>
 
+    <div id="tab-interpelacje" class="section" style="display:none">
+      <div id="interpelacje-content"></div>
+    </div>
+
     <div id="tab-budget" class="section" style="display:none">
       <div id="budget-content"></div>
     </div>
@@ -294,7 +310,10 @@ footer a { color:var(--accent); text-decoration:none; }
   <div id="session-view" style="display:none"></div>
 
   <footer>
-    Radoskop — otwarte narzędzie monitoringu samorządu.
+    <div style="margin-bottom:10px">
+      <a href="https://radoskop.pl">Radoskop</a>:
+      <a href="https://gdansk.radoskop.pl">Gdańsk</a> · <a href="https://gdynia.radoskop.pl">Gdynia</a> · <a href="https://krakow.radoskop.pl">Kraków</a> · <a href="https://lublin.radoskop.pl">Lublin</a> · <a href="https://lodz.radoskop.pl">Łódź</a> · <a href="https://poznan.radoskop.pl">Poznań</a> · <a href="https://sopot.radoskop.pl">Sopot</a> · <a href="https://szczecin.radoskop.pl">Szczecin</a> · <a href="https://warszawa.radoskop.pl">Warszawa</a> · <a href="https://wroclaw.radoskop.pl">Wrocław</a>
+    </div>
     Dane źródłowe: <a href="https://bip.gdansk.pl/rada-miasta" target="_blank">BIP Gdańsk</a>.
     Kod: <a href="https://github.com/patrykorwat/radoskop-gdansk" target="_blank">GitHub</a> (AGPL-3.0).
   </footer>
@@ -358,6 +377,23 @@ function catPill(cat) {
 }
 
 // Sort names by last name, then first name
+// Resolve indexed named_votes: converts integer indices to names using councilor_index.
+// Supports both old format (string arrays) and new indexed format (integer arrays).
+function resolveNV(nv, councilor_index) {
+  if (!nv || !councilor_index || councilor_index.length === 0) return nv;
+  const out = {};
+  for (const key of Object.keys(nv)) {
+    const arr = nv[key];
+    if (!Array.isArray(arr) || arr.length === 0) { out[key] = arr; continue; }
+    if (typeof arr[0] === 'number') {
+      out[key] = arr.map(i => councilor_index[i] || ('?' + i));
+    } else {
+      out[key] = arr;
+    }
+  }
+  return out;
+}
+
 function sortByLastName(names) {
   return [...names].sort((a, b) => {
     const pa = a.split(' '), pb = b.split(' ');
@@ -375,6 +411,23 @@ function isFemale(name) {
   return first.endsWith('a') && first !== 'Kosma' && first !== 'Kuba';
 }
 
+// Cache for loaded kadencja data (keyed by kid)
+const _kadCache = {};
+
+async function loadKadencja(kid) {
+  if (_kadCache[kid]) return _kadCache[kid];
+  // Support legacy single-file format (RAW.kadencje contains full objects)
+  const existing = RAW.kadencje.find(k => k.id === kid && k.votes);
+  if (existing) { _kadCache[kid] = existing; return existing; }
+  const resp = await fetch('/kadencja-' + kid + '.json');
+  const kad = await resp.json();
+  _kadCache[kid] = kad;
+  // Replace stub in RAW.kadencje with full data
+  const idx = RAW.kadencje.findIndex(k => k.id === kid);
+  if (idx >= 0) RAW.kadencje[idx] = kad;
+  return kad;
+}
+
 async function init() {
   // Restore path from 404.html SPA redirect
   const sp = new URLSearchParams(location.search);
@@ -382,47 +435,67 @@ async function init() {
     history.replaceState(null, '', decodeURIComponent(sp.get('p')));
   }
   try {
-    const [dataResp, profResp, budgetResp] = await Promise.all([
+    const [dataResp, profResp, budgetResp, interpResp] = await Promise.all([
       fetch('/data.json'),
       fetch('/profiles.json'),
-      fetch('/budget.json')
+      fetch('/budget.json'),
+      fetch('/interpelacje.json').catch(() => new Response('[]'))
     ]);
     RAW = await dataResp.json();
     PROFILES = await profResp.json();
     window.BUDGET = await budgetResp.json();
+    window.INTERPELACJE = await interpResp.json();
+
+    // Determine which kadencja to load first
+    const defaultKid = RAW.default_kadencja || RAW.kadencje[RAW.kadencje.length-1].id;
+    const path = routePath();
+    let initialKid = defaultKid;
+    if (path.startsWith('/kadencja/')) {
+      const parts = path.replace('/kadencja/', '').split('/');
+      const kid = SLUG_KADS[parts[0]];
+      if (kid) initialKid = kid;
+    }
+
+    // Load the initial kadencja before showing UI
+    await loadKadencja(initialKid);
+
     document.getElementById('loading').style.display = 'none';
     document.getElementById('app').style.display = 'block';
     renderKadencjaBar();
 
-    // Check URL path for deep links
-    const defaultKid = RAW.default_kadencja || RAW.kadencje[RAW.kadencje.length-1].id;
-    const path = routePath();
+    // Deep links
     if (path.startsWith('/profil/')) {
       const slug = path.replace('/profil/', '');
       const profile = PROFILES.profiles.find(p => p.slug === slug);
       if (profile) {
-        selectKadencjaQuiet(defaultKid);
+        selectKadencjaQuiet(initialKid);
         showProfile(profile.name);
         navigateTo(path, true);
         return;
       }
     }
     if (path.startsWith('/glosowanie/')) {
-      selectKadencjaQuiet(defaultKid);
+      selectKadencjaQuiet(initialKid);
       const vid = path.replace('/glosowanie/', '');
       showVote(vid);
       navigateTo(path, true);
       return;
     }
     if (path.startsWith('/sesja/')) {
-      selectKadencjaQuiet(defaultKid);
+      selectKadencjaQuiet(initialKid);
       const snum = decodeURIComponent(path.replace('/sesja/', ''));
       showSession(snum);
       navigateTo(path, true);
       return;
     }
+    if (path === '/interpelacje' || path === '/interpelacje/') {
+      selectKadencjaQuiet(initialKid);
+      activateTab('interpelacje');
+      navigateTo(path, true);
+      return;
+    }
     if (path === '/budzet' || path === '/budzet/') {
-      selectKadencjaQuiet(defaultKid);
+      selectKadencjaQuiet(initialKid);
       activateTab('budget');
       navigateTo(path, true);
       return;
@@ -438,7 +511,7 @@ async function init() {
         return;
       }
     }
-    selectKadencja(defaultKid);
+    selectKadencja(initialKid);
   } catch(e) {
     document.getElementById('loading').textContent = 'Błąd ładowania danych: ' + e.message;
   }
@@ -454,7 +527,7 @@ function renderKadencjaBar() {
   });
 }
 
-function selectKadencjaQuiet(kid) {
+function _applyKadencja(kid) {
   K = RAW.kadencje.find(k => k.id === kid);
   if (!K) return;
   currentKid = kid;
@@ -468,14 +541,19 @@ function selectKadencjaQuiet(kid) {
   render();
 }
 
-function selectKadencja(kid) {
-  selectKadencjaQuiet(kid);
+async function selectKadencjaQuiet(kid) {
+  if (!_kadCache[kid]) await loadKadencja(kid);
+  _applyKadencja(kid);
+}
+
+async function selectKadencja(kid) {
+  await selectKadencjaQuiet(kid);
   navigateTo(mainPath());
 }
 
 function activateTab(tabName) {
   trackEvent('view_tab', {tab_name: tabName});
-  const allTabs = ['ranking','profiles','sessions','votes','similarity','budget'];
+  const allTabs = ['ranking','profiles','sessions','votes','similarity','interpelacje','budget'];
   currentTab = tabName;
   document.querySelectorAll('.tab').forEach(t => {
     t.classList.toggle('active', t.dataset.tab === tabName);
@@ -484,7 +562,8 @@ function activateTab(tabName) {
     const el = document.getElementById('tab-'+t);
     if (el) el.style.display = (t === tabName) ? 'block' : 'none';
   });
-  document.getElementById('kadencja-bar').style.display = tabName === 'budget' ? 'none' : '';
+  document.getElementById('kadencja-bar').style.display = (tabName === 'budget' || tabName === 'interpelacje') ? 'none' : '';
+  if (tabName === 'interpelacje') renderInterpelacje();
   setTitle(TAB_TITLES[tabName] || '');
 }
 
@@ -496,21 +575,65 @@ function hideAllViews() {
 }
 
 let currentTab = 'ranking';
-const TAB_SLUGS = {ranking:'ranking',profiles:'radni',sessions:'sesje',votes:'glosowania',similarity:'podobienstwo',budget:'budzet'};
+const TAB_SLUGS = {ranking:'ranking',profiles:'radni',sessions:'sesje',votes:'glosowania',similarity:'podobienstwo',interpelacje:'interpelacje',budget:'budzet'};
 const SLUG_TABS = Object.fromEntries(Object.entries(TAB_SLUGS).map(([k,v])=>[v,k]));
 const KAD_SLUGS = {'2018-2023':'viii','2024-2029':'ix'};
 const SLUG_KADS = Object.fromEntries(Object.entries(KAD_SLUGS).map(([k,v])=>[v,k]));
 
 const BASE_TITLE = 'Radoskop Gdańsk — Jak głosują radni?';
-const TAB_TITLES = {ranking:'Ranking radnych',profiles:'Profile radnych',sessions:'Sesje',votes:'Głosowania',similarity:'Podobieństwo',budget:'Budżet'};
+const TAB_TITLES = {ranking:'Ranking radnych',profiles:'Profile radnych',sessions:'Sesje',votes:'Głosowania',similarity:'Podobieństwo',interpelacje:'Interpelacje',budget:'Budżet'};
 function setTitle(subtitle) {
-  document.title = subtitle ? subtitle + ' — ' + BASE_TITLE : BASE_TITLE;
+  document.title = subtitle ? subtitle + ' \u2013 ' + BASE_TITLE : BASE_TITLE;
+}
+
+function setOgMeta(opts) {
+  // opts: { title, description, url, image }
+  var t = opts.title || document.title;
+  var d = opts.description || '';
+  var u = opts.url || location.href;
+  var tags = {
+    'og:title': t,
+    'og:description': d,
+    'og:url': u,
+    'twitter:title': t,
+    'twitter:description': d
+  };
+  for (var prop in tags) {
+    var isOg = prop.indexOf('og:') === 0;
+    var sel = isOg ? 'meta[property="' + prop + '"]' : 'meta[name="' + prop + '"]';
+    var el = document.querySelector(sel);
+    if (el) el.setAttribute('content', tags[prop]);
+  }
+  // OG image
+  var imgEl = document.querySelector('meta[property="og:image"]');
+  if (opts.image) {
+    if (imgEl) { imgEl.setAttribute('content', opts.image); }
+    else {
+      imgEl = document.createElement('meta');
+      imgEl.setAttribute('property', 'og:image');
+      imgEl.setAttribute('content', opts.image);
+      document.head.appendChild(imgEl);
+    }
+    var tw = document.querySelector('meta[name="twitter:card"]');
+    if (tw) tw.setAttribute('content', 'summary_large_image');
+  } else if (imgEl) {
+    imgEl.remove();
+    var tw = document.querySelector('meta[name="twitter:card"]');
+    if (tw) tw.setAttribute('content', 'summary');
+  }
+  // Canonical
+  var can = document.querySelector('link[rel="canonical"]');
+  if (can) can.setAttribute('href', u);
+  // Meta description
+  var desc = document.querySelector('meta[name="description"]');
+  if (desc && d) desc.setAttribute('content', d);
 }
 
 function mainPath(tab, kid) {
   tab = tab || currentTab;
   kid = kid || currentKid;
   if (tab === 'budget') return '/budzet/';
+  if (tab === 'interpelacje') return '/interpelacje/';
   const kadSlug = KAD_SLUGS[kid] || kid;
   const tabSlug = TAB_SLUGS[tab] || tab;
   if (tab === 'ranking' && kid === (RAW.default_kadencja || '2024-2029')) return '/';
@@ -529,8 +652,36 @@ function routePath() {
   return location.pathname.replace(/\/$/, '') || '/';
 }
 
+function findProfile(name) {
+  if (!PROFILES) return null;
+  var n = name.trim().toLowerCase();
+  var p = PROFILES.profiles.find(function(pr) { return pr.name.toLowerCase() === n; });
+  if (p) return p;
+  var parts = n.split(/\s+/);
+  if (parts.length >= 2) {
+    var flipped = parts.slice(-1).concat(parts.slice(0, -1)).join(' ');
+    p = PROFILES.profiles.find(function(pr) { return pr.name.toLowerCase() === flipped; });
+    if (p) return p;
+    if (parts.length > 2) {
+      var flip2 = parts.slice(1).concat(parts.slice(0, 1)).join(' ');
+      p = PROFILES.profiles.find(function(pr) { return pr.name.toLowerCase() === flip2; });
+      if (p) return p;
+    }
+  }
+  // Fuzzy fallback: match if profile name starts with flipped or vice versa
+  if (parts.length >= 2) {
+    var flipped = parts.slice(-1).concat(parts.slice(0, -1)).join(' ');
+    p = PROFILES.profiles.find(function(pr) {
+      var pn = pr.name.toLowerCase();
+      return pn.indexOf(flipped) === 0 || flipped.indexOf(pn) === 0;
+    });
+    if (p) return p;
+  }
+  return null;
+}
+
 function profileSlug(name) {
-  const p = PROFILES && PROFILES.profiles.find(pr => pr.name === name);
+  const p = findProfile(name);
   return p ? p.slug : name.toLowerCase().replace(/\s+/g, '-');
 }
 
@@ -572,6 +723,11 @@ function showMain() {
   document.getElementById('app').style.display = 'block';
   navigateTo(mainPath());
   setTitle(TAB_TITLES[currentTab] || '');
+  setOgMeta({
+    title: BASE_TITLE,
+    description: 'Radoskop — otwarte narzędzie monitoringu Rady Miasta Gdańska. Sprawdź frekwencję, głosowania i aktywność radnych na sesjach.',
+    url: 'https://gdansk.radoskop.pl' + mainPath()
+  });
 }
 
 function render() {
@@ -589,11 +745,12 @@ function render() {
 
 function renderStats() {
   const grid = document.getElementById('stats-grid');
-  const clubs = [...new Set(K.councilors.map(c=>c.club))].filter(c=>c!=='?');
+  const councilors = K.councilors || [];
+  const clubs = [...new Set(councilors.map(c=>c.club))].filter(c=>c!=='?');
   const cards = [
-    { label: 'Sesje', value: K.total_sessions },
-    { label: 'Głosowania', value: K.total_votes },
-    { label: 'Radnych', value: K.total_councilors },
+    { label: 'Sesje', value: K.total_sessions || (K.sessions ? K.sessions.length : 0) },
+    { label: 'Głosowania', value: K.total_votes || (K.votes ? K.votes.length : 0) },
+    { label: 'Radnych', value: K.total_councilors || councilors.length },
     { label: 'Kluby', value: clubs.length },
   ];
   grid.innerHTML = cards.map(c => `
@@ -605,7 +762,7 @@ function renderStats() {
 }
 
 function renderClubFilter() {
-  const clubs = [...new Set(K.councilors.map(c=>c.club))].sort();
+  const clubs = [...new Set((K.councilors || []).map(c=>c.club))].sort();
   const bar = document.getElementById('club-filter');
   bar.innerHTML = `<button class="filter-btn active" data-club="all">Wszyscy</button>` +
     clubs.map(c => `<button class="filter-btn" data-club="${c}">${c}</button>`).join('');
@@ -634,7 +791,7 @@ function initials(name) {
 
 function renderCouncilorTable() {
   const tbody = document.querySelector('#councilor-table tbody');
-  let data = K.councilors;
+  let data = K.councilors || [];
   if (clubFilter !== 'all') data = data.filter(c => c.club === clubFilter);
 
   data = [...data].sort((a,b) => {
@@ -726,7 +883,7 @@ function getProfilesForKadencja(kid) {
 }
 
 function showProfile(name) {
-  const profile = PROFILES.profiles.find(p => p.name === name);
+  const profile = findProfile(name);
   if (!profile) return;
 
   trackEvent('view_profile', {profile_name: name, profile_slug: profile.slug});
@@ -735,6 +892,13 @@ function showProfile(name) {
   view.style.display = 'block';
   navigateTo('/profil/' + profile.slug + '/');
   setTitle(profile.name);
+  var _pk = profile.kadencje[Object.keys(profile.kadencje).pop()] || {};
+  setOgMeta({
+    title: profile.name + ' \u2013 Radoskop Gdańsk',
+    description: profile.name + ', ' + (_pk.club_full || _pk.club || '') + '. Frekwencja ' + (_pk.frekwencja||0).toFixed(0) + '%, aktywnosc ' + (_pk.aktywnosc||0).toFixed(0) + '%.',
+    url: 'https://gdansk.radoskop.pl/profil/' + profile.slug + '/',
+    image: 'https://gdansk.radoskop.pl/profil/' + profile.slug + '/og.png'
+  });
 
   // Find which kadencje this person has data for
   const kids = Object.keys(profile.kadencje);
@@ -915,6 +1079,56 @@ function showProfile(name) {
       html += `</div>`;
     }
 
+    // Interpelacje section
+    const interpData = window.INTERPELACJE || [];
+    if (interpData.length > 0) {
+      const pName = profile.name.trim();
+      const pLow = pName.toLowerCase();
+      const pNameParts = pName.split(' ');
+      const pNameReversed = pNameParts.length >= 2 ? pNameParts.slice(1).join(' ') + ' ' + pNameParts[0] : pName;
+      const pRevLow = pNameReversed.toLowerCase();
+      function interpMatchesName(radnyField) {
+        // Normalize: replace non-breaking spaces, collapse whitespace
+        const norm = radnyField.replace(/\u00a0/g, ' ').replace(/\s{2,}/g, ' ');
+        // Split on comma, semicolon, newline, or " i " (Polish "and") for multi-author
+        const authors = norm.split(/[,;\r\n]+| i /).map(s => s.replace(/\.$/,'').trim()).filter(Boolean);
+        return authors.some(a => {
+          const al = a.toLowerCase();
+          if (al === pLow || al === pRevLow) return true;
+          // Prefix match: "Karol Masztalerz" flipped to "Masztalerz Karol" matches "Masztalerz Karol Konrad"
+          var aParts = al.split(/\s+/);
+          if (aParts.length >= 2) {
+            var aFlipped = aParts.slice(-1).concat(aParts.slice(0, -1)).join(' ');
+            if (pLow.indexOf(aFlipped) === 0 || aFlipped.indexOf(pLow) === 0) return true;
+          }
+          return false;
+        });
+      }
+      const personInterp = interpData.filter(d => interpMatchesName(d.radny || ''))
+        .sort((a,b) => (b.data_wplywu || '').localeCompare(a.data_wplywu || ''));
+      if (personInterp.length > 0) {
+        html += `<div class="section">
+          <h2>Interpelacje i zapytania (${personInterp.length})</h2>
+          <div style="overflow-x:auto"><table><thead><tr>
+            <th>Data</th><th>Typ</th><th>Przedmiot</th><th>Treść</th><th>Odpowiedź</th>
+          </tr></thead><tbody>`;
+        personInterp.forEach(d => {
+          const typClass = d.typ === 'interpelacja' ? 'pill-za' : 'pill-wstrzymal';
+          const typLabel = d.typ === 'interpelacja' ? 'Interpelacja' : 'Zapytanie';
+          const trescLink = d.tresc_url ? `<a href="${d.tresc_url}" target="_blank" style="color:var(--accent)">PDF</a>` : '';
+          const odpLink = d.odpowiedz_url ? `<a href="${d.odpowiedz_url}" target="_blank" style="color:var(--accent)">PDF</a>` : (d.data_odpowiedzi ? d.data_odpowiedzi : '<span style="color:var(--muted)">brak</span>');
+          html += `<tr>
+            <td style="white-space:nowrap">${d.data_wplywu || ''}</td>
+            <td><span class="pill ${typClass}">${typLabel}</span></td>
+            <td style="max-width:400px">${d.przedmiot || ''}</td>
+            <td>${trescLink}</td>
+            <td>${odpLink}</td>
+          </tr>`;
+        });
+        html += `</tbody></table></div></div>`;
+      }
+    }
+
     // Votes grouped by session
     let allPersonVotes = [];
     let profCatCounts = {};
@@ -929,7 +1143,7 @@ function showProfile(name) {
           const sessionVotes = getSessionVotes(kadData.votes, kadData.sessions, sess);
           if (sessionVotes.length === 0) continue;
           const personVotes = sessionVotes.map(v => {
-            const nv = v.named_votes || {};
+            const nv = resolveNV(v.named_votes || {}, kadData.councilor_index);
             let pv = null;
             if ((nv.za||[]).includes(profile.name)) pv = 'za';
             else if ((nv.przeciw||[]).includes(profile.name)) pv = 'przeciw';
@@ -1105,24 +1319,26 @@ function getSessionVotes(votes, sessions, sess) {
 }
 
 function renderSessionsTable() {
-  const sessions = [...K.sessions].sort((a,b) => b.date.localeCompare(a.date));
+  const sessions = [...(K.sessions || [])].sort((a,b) => b.date.localeCompare(a.date));
   const tbody = document.querySelector('#sessions-table tbody');
+  const hasVoteRecords = (K.votes || []).length > 0;
   tbody.innerHTML = sessions.map(s => {
     // Count passed/rejected from votes
-    const sessionVotes = getSessionVotes(K.votes, K.sessions, s);
+    const sessionVotes = hasVoteRecords ? getSessionVotes(K.votes, K.sessions || [], s) : [];
+    const voteCount = hasVoteRecords ? sessionVotes.length : (s.vote_count || 0);
     const passed = sessionVotes.filter(v => {
       const c = v.counts || {};
       const total = (c.za||0) + (c.przeciw||0) + (c.wstrzymal_sie||0);
       return (c.za||0) > total/2;
     }).length;
-    const rejected = sessionVotes.length - passed;
+    const rejected = hasVoteRecords ? (sessionVotes.length - passed) : 0;
     const speakers = (s.speakers || []).length;
     return `<tr class="vote-row" onclick="showSession('${s.number}')">
       <td style="font-weight:600">${s.number || '?'}</td>
       <td>${s.date}</td>
-      <td>${sessionVotes.length}</td>
-      <td><span class="pill pill-za">${passed}</span></td>
-      <td>${rejected > 0 ? `<span class="pill pill-przeciw">${rejected}</span>` : '0'}</td>
+      <td>${voteCount}</td>
+      <td>${hasVoteRecords ? `<span class="pill pill-za">${passed}</span>` : ''}</td>
+      <td>${hasVoteRecords && rejected > 0 ? `<span class="pill pill-przeciw">${rejected}</span>` : (hasVoteRecords ? '0' : '')}</td>
       <td>${s.attendee_count}</td>
       <td>${speakers > 0 ? speakers : '—'}</td>
     </tr>`;
@@ -1130,15 +1346,20 @@ function renderSessionsTable() {
 }
 
 function renderVotesTable() {
+  if (!(K.votes || []).length) {
+    const container = document.getElementById('votes-grouped');
+    if (container) container.innerHTML = '<p style="color:var(--muted)">Brak danych o indywidualnych głosowaniach.</p>';
+    return;
+  }
   // Build category filter pills
   const catBar = document.getElementById('cat-filter');
   const catCounts = {};
-  K.votes.forEach(v => {
+  (K.votes || []).forEach(v => {
     const cat = categorizeVote(v.topic);
     catCounts[cat] = (catCounts[cat] || 0) + 1;
   });
   const catOrder = Object.keys(VOTE_CATS).sort((a,b) => (VOTE_CATS[a]?.order||99) - (VOTE_CATS[b]?.order||99));
-  let catPills = `<button class="session-pill ${currentCatFilter==='all'?'active':''}" data-cat="all">Wszystkie <span class="pill-count">(${K.votes.length})</span></button>`;
+  let catPills = `<button class="session-pill ${currentCatFilter==='all'?'active':''}" data-cat="all">Wszystkie <span class="pill-count">(${(K.votes || []).length})</span></button>`;
   for (const cat of catOrder) {
     if (!catCounts[cat]) continue;
     catPills += `<button class="session-pill cat-pill cat-${cat} ${currentCatFilter===cat?'active':''}" data-cat="${cat}">${VOTE_CATS[cat]?.label||cat} <span class="pill-count">(${catCounts[cat]})</span></button>`;
@@ -1152,7 +1373,7 @@ function renderVotesTable() {
   });
 
   // Filter votes by category
-  let votes = K.votes;
+  let votes = K.votes || [];
   if (currentCatFilter !== 'all') {
     votes = votes.filter(v => categorizeVote(v.topic) === currentCatFilter);
   }
@@ -1163,7 +1384,7 @@ function renderVotesTable() {
   let html = '';
 
   for (const s of sessions) {
-    const sessAllVotes = getSessionVotes(K.votes, K.sessions, s);
+    const sessAllVotes = getSessionVotes(K.votes || [], K.sessions || [], s);
     const sessVoteIds = new Set(sessAllVotes.map(v => v.id));
     const sessVotes = votes.filter(v => sessVoteIds.has(v.id));
     if (sessVotes.length === 0) continue;
@@ -1215,6 +1436,7 @@ function showVote(voteId) {
   // Search across all kadencje, not just the currently active one
   let vote = null, voteKad = null;
   for (const kad of RAW.kadencje) {
+    if (!kad.votes) continue;
     const found = kad.votes.find(v => v.id === voteId);
     if (found) { vote = found; voteKad = kad; break; }
   }
@@ -1225,9 +1447,16 @@ function showVote(voteId) {
   view.style.display = 'block';
   navigateTo('/glosowanie/' + voteId + '/');
   setTitle('Głosowanie: ' + (vote.topic || voteId).substring(0, 60));
+  var _vc = vote.counts || {};
+  setOgMeta({
+    title: (vote.topic || voteId).substring(0, 80) + ' \u2013 Radoskop Gdańsk',
+    description: 'Za ' + (_vc.za||0) + ', przeciw ' + (_vc.przeciw||0) + ', wstrzym. ' + (_vc.wstrzymal_sie||0) + '. Sesja ' + (vote.session_number||'') + ', ' + (vote.session_date||'') + '.',
+    url: 'https://gdansk.radoskop.pl/glosowanie/' + voteId + '/',
+    image: 'https://gdansk.radoskop.pl/glosowanie/' + voteId + '/og.png'
+  });
 
   const c = vote.counts || {};
-  const nv = vote.named_votes || {};
+  const nv = resolveNV(vote.named_votes || {}, voteKad.councilor_index);
   const total = (c.za||0) + (c.przeciw||0) + (c.wstrzymal_sie||0);
   const passed = (c.za||0) > total/2;
   const allVoted = (c.za||0) + (c.przeciw||0) + (c.wstrzymal_sie||0) + (c.brak_glosu||0) + (c.nieobecni||0);
@@ -1326,7 +1555,7 @@ function backFromVote() {
   document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
   const votesTab = document.querySelector('.tab[data-tab="votes"]');
   if (votesTab) votesTab.classList.add('active');
-  ['ranking','profiles','sessions','similarity','budget'].forEach(t => {
+  ['ranking','profiles','sessions','similarity','interpelacje','budget'].forEach(t => {
     document.getElementById('tab-'+t).style.display = 'none';
   });
   document.getElementById('tab-votes').style.display = 'block';
@@ -1344,6 +1573,7 @@ function showSession(sessionNumber) {
   }
   if (!sess) {
     for (const kad of RAW.kadencje) {
+      if (!kad.sessions) continue;
       const found = kad.sessions.find(s => s.number === sessionNumber);
       if (found) { sess = found; sessKad = kad; break; }
     }
@@ -1355,18 +1585,25 @@ function showSession(sessionNumber) {
   view.style.display = 'block';
   navigateTo('/sesja/' + encodeURIComponent(sessionNumber) + '/');
   setTitle('Sesja ' + sessionNumber + (sess.date ? ' (' + sess.date + ')' : ''));
+  setOgMeta({
+    title: 'Sesja ' + sessionNumber + (sess.date ? ' (' + sess.date + ')' : '') + ' \u2013 Radoskop Gdańsk',
+    description: 'Sesja ' + sessionNumber + ', ' + (sess.date||'') + '. ' + (sess.vote_count||0) + ' glosowan, ' + (sess.attendee_count||0) + ' obecnych.',
+    url: 'https://gdansk.radoskop.pl/sesja/' + encodeURIComponent(sessionNumber) + '/'
+  });
 
   // Club lookup
   const clubMap = {};
-  sessKad.councilors.forEach(co => { clubMap[co.name] = co.club; });
+  (sessKad.councilors || []).forEach(co => { clubMap[co.name] = co.club; });
 
   // Get all councilors for this kadencja to find absent ones
-  const allNames = new Set(sessKad.councilors.map(c => c.name));
+  const allNames = new Set((sessKad.councilors || []).map(c => c.name));
   const present = new Set(sess.attendees || []);
   const absent = sortByLastName([...allNames].filter(n => !present.has(n)));
 
   // Session votes
-  const sessionVotes = getSessionVotes(sessKad.votes, sessKad.sessions, sess);
+  const hasVoteRecords = (sessKad.votes || []).length > 0;
+  const sessionVotes = hasVoteRecords ? getSessionVotes(sessKad.votes, sessKad.sessions || [], sess) : [];
+  const sessVoteCount = hasVoteRecords ? sessionVotes.length : (sess.vote_count || 0);
 
   // Vote stats
   const passed = sessionVotes.filter(v => {
@@ -1374,7 +1611,7 @@ function showSession(sessionNumber) {
     const total = (c.za||0) + (c.przeciw||0) + (c.wstrzymal_sie||0);
     return (c.za||0) > total/2;
   }).length;
-  const rejected = sessionVotes.length - passed;
+  const rejected = hasVoteRecords ? (sessionVotes.length - passed) : 0;
 
   let html = `
     <button class="profile-back" onclick="showMain()">← Strona główna</button>
@@ -1385,17 +1622,17 @@ function showSession(sessionNumber) {
 
     <div class="profile-metrics" style="margin-bottom:24px">
       <div class="metric-card">
-        <div class="metric-value">${sessionVotes.length}</div>
+        <div class="metric-value">${sessVoteCount}</div>
         <div class="metric-label">Głosowań</div>
       </div>
-      <div class="metric-card">
+      ${hasVoteRecords ? `<div class="metric-card">
         <div class="metric-value" style="color:var(--green)">${passed}</div>
         <div class="metric-label">Przyjętych</div>
       </div>
       <div class="metric-card">
         <div class="metric-value" style="color:var(--red)">${rejected}</div>
         <div class="metric-label">Odrzuconych</div>
-      </div>
+      </div>` : ''}
       <div class="metric-card">
         <div class="metric-value">${sess.attendee_count}</div>
         <div class="metric-label">Obecnych</div>
@@ -1434,13 +1671,16 @@ function showSession(sessionNumber) {
 
   // Category summary with filter
   html += `<div class="section">
-    <h2>Głosowania (${sessionVotes.length})</h2>
+    <h2>Głosowania (${sessVoteCount})</h2>
     <div class="filter-bar" id="session-cat-filter" style="margin-bottom:12px;flex-wrap:wrap">
       <button class="session-pill active" data-scat="all">Wszystkie <span class="pill-count">(${sessionVotes.length})</span></button>`;
   catOrder.forEach(cat => {
     html += `<button class="session-pill cat-pill cat-${cat}" data-scat="${cat}">${VOTE_CATS[cat]?.label||cat} <span class="pill-count">(${grouped[cat].length})</span></button>`;
   });
   html += `</div>`;
+  if (!sessionVotes.length) {
+    html += `<p style="color:var(--muted)">Brak danych o indywidualnych głosowaniach.</p>`;
+  }
 
   // Grouped tables
   let globalIdx = 0;
@@ -1517,8 +1757,97 @@ function renderSimilarity() {
       </div>
     `).join('');
   };
-  renderPairs(K.similarity_top || [], document.getElementById('sim-top'));
-  renderPairs(K.similarity_bottom || [], document.getElementById('sim-bottom'));
+  const simTop = K.similarity_top || (K.similarity && K.similarity.top) || [];
+  const simBottom = K.similarity_bottom || (K.similarity && K.similarity.bottom) || [];
+  renderPairs(simTop, document.getElementById('sim-top'));
+  renderPairs(simBottom, document.getElementById('sim-bottom'));
+}
+
+let interpelacjeRendered = false;
+function renderInterpelacje() {
+  if (interpelacjeRendered) return;
+  interpelacjeRendered = true;
+  trackEvent('view_interpelacje');
+  const data = window.INTERPELACJE || [];
+  if (!data.length) {
+    document.getElementById('interpelacje-content').innerHTML = '<p style="color:var(--muted)">Brak danych o interpelacjach.</p>';
+    return;
+  }
+  // Filter to current kadencja (IX by default)
+  const kadencje = [...new Set(data.map(d => d.kadencja))].sort();
+  let currentIntKad = kadencje.includes('IX') ? 'IX' : kadencje[kadencje.length - 1];
+  const container = document.getElementById('interpelacje-content');
+
+  function renderForKadencja(kad) {
+    currentIntKad = kad;
+    const items = data.filter(d => d.kadencja === kad);
+    // Stats
+    const total = items.length;
+    const interp = items.filter(d => d.typ === 'interpelacja').length;
+    const zapyt = items.filter(d => d.typ === 'zapytanie').length;
+    const answered = items.filter(d => d.data_odpowiedzi).length;
+    // Per-councillor stats
+    const byRadny = {};
+    items.forEach(d => {
+      const names = d.radny.split(/[;\r\n,]+/).map(n => n.trim()).filter(Boolean);
+      names.forEach(n => { byRadny[n] = (byRadny[n] || 0) + 1; });
+    });
+    const topRadni = Object.entries(byRadny).sort((a, b) => b[1] - a[1]).slice(0, 15);
+
+    let html = `<div class="kadencja-bar" id="interp-kad-bar" style="margin-bottom:16px">`;
+    kadencje.forEach(k => {
+      html += `<button class="kadencja-btn${k === kad ? ' active' : ''}" data-kad="${k}">Kadencja ${k}</button>`;
+    });
+    html += `</div>`;
+    html += `<div class="stats-grid">
+      <div class="stat-card"><div class="label">Interpelacje i zapytania</div><div class="value">${total}</div></div>
+      <div class="stat-card"><div class="label">Interpelacje</div><div class="value">${interp}</div></div>
+      <div class="stat-card"><div class="label">Zapytania</div><div class="value">${zapyt}</div></div>
+      <div class="stat-card"><div class="label">Z odpowiedzią</div><div class="value">${answered} <span style="font-size:0.9rem;color:var(--muted)">(${total ? Math.round(100*answered/total) : 0}%)</span></div></div>
+    </div>`;
+
+    // Top radni chart
+    html += `<div class="section"><h2>Najbardziej aktywni radni</h2><div style="overflow-x:auto"><table><thead><tr>
+      <th>Radny/a</th><th>Liczba</th><th></th></tr></thead><tbody>`;
+    const maxCount = topRadni.length ? topRadni[0][1] : 1;
+    topRadni.forEach(([name, count]) => {
+      const pct = Math.round(100 * count / maxCount);
+      html += `<tr><td style="font-weight:600">${profileLink(name)}</td><td>${count}</td>
+        <td style="min-width:120px"><div class="bar"><div class="bar-fill" style="width:${pct}%;background:var(--accent)"></div></div></td></tr>`;
+    });
+    html += `</tbody></table></div></div>`;
+
+    // List of interpelacje
+    html += `<div class="section"><h2>Lista interpelacji i zapytań</h2>`;
+    html += `<div style="overflow-x:auto"><table id="interp-table"><thead><tr>
+      <th>Data</th><th>Typ</th><th>Radny/a</th><th>Przedmiot</th><th>Treść</th><th>Odpowiedź</th>
+    </tr></thead><tbody>`;
+    const sorted = [...items].sort((a, b) => (b.data_wplywu || '').localeCompare(a.data_wplywu || ''));
+    sorted.forEach(d => {
+      const typClass = d.typ === 'interpelacja' ? 'pill-za' : 'pill-wstrzymal';
+      const typLabel = d.typ === 'interpelacja' ? 'Interpelacja' : 'Zapytanie';
+      const trescLink = d.tresc_url ? `<a href="${d.tresc_url}" target="_blank" style="color:var(--accent)">PDF</a>` : '';
+      const odpLink = d.odpowiedz_url ? `<a href="${d.odpowiedz_url}" target="_blank" style="color:var(--accent)">PDF</a>` : (d.data_odpowiedzi ? d.data_odpowiedzi : '<span style="color:var(--muted)">brak</span>');
+      html += `<tr>
+        <td style="white-space:nowrap">${d.data_wplywu || ''}</td>
+        <td><span class="pill ${typClass}">${typLabel}</span></td>
+        <td style="font-weight:500">${d.radny.split(/[;\r\n,]+/).map(n => n.trim()).filter(Boolean).map(n => profileLink(n)).join(', ')}</td>
+        <td style="max-width:400px">${d.przedmiot}</td>
+        <td>${trescLink}</td>
+        <td>${odpLink}</td>
+      </tr>`;
+    });
+    html += `</tbody></table></div></div>`;
+
+    container.innerHTML = html;
+
+    // Bind kadencja buttons
+    container.querySelectorAll('#interp-kad-bar .kadencja-btn').forEach(btn => {
+      btn.onclick = () => renderForKadencja(btn.dataset.kad);
+    });
+  }
+
+  renderForKadencja(currentIntKad);
 }
 
 let budgetChartTrend = null, budgetChartCat = null;
@@ -1751,7 +2080,7 @@ function bindSort() {
 
 // Handle browser back/forward — suppress pushState during popstate
 let _popstateActive = false;
-window.addEventListener('popstate', () => {
+window.addEventListener('popstate', async () => {
   _popstateActive = true;
   const path = routePath();
   if (path.startsWith('/profil/')) {
@@ -1774,20 +2103,22 @@ window.addEventListener('popstate', () => {
   // Main page tab/kadencja paths
   hideAllViews();
   document.getElementById('app').style.display = 'block';
-  if (path === '/budzet' || path === '/budzet/') {
+  if (path === '/interpelacje' || path === '/interpelacje/') {
+    activateTab('interpelacje');
+  } else if (path === '/budzet' || path === '/budzet/') {
     activateTab('budget');
   } else if (path.startsWith('/kadencja/')) {
     const parts = path.replace('/kadencja/', '').split('/');
     const kid = SLUG_KADS[parts[0]];
     const tab = SLUG_TABS[parts[1]] || 'ranking';
     if (kid && kid !== currentKid) {
-      selectKadencjaQuiet(kid);
+      await selectKadencjaQuiet(kid);
     }
     activateTab(tab);
   } else {
     // Root path — default kadencja + ranking
     const defaultKid = RAW.default_kadencja || RAW.kadencje[RAW.kadencje.length-1].id;
-    if (defaultKid !== currentKid) selectKadencjaQuiet(defaultKid);
+    if (defaultKid !== currentKid) await selectKadencjaQuiet(defaultKid);
     activateTab('ranking');
   }
   _popstateActive = false;
