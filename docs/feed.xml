@@ -1,463 +1,915 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Radoskop Gdańsk</title>
-  <subtitle>Aktualnosci z Rady Miasta Gdańska. Glosowania, sesje, rebelie.</subtitle>
+  <subtitle>Glosowania, interpelacje i sesje Rady Miasta Gdańska.</subtitle>
   <link href="https://gdansk.radoskop.pl/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://gdansk.radoskop.pl/" rel="alternate" type="text/html"/>
   <id>https://gdansk.radoskop.pl/</id>
-  <updated>2026-03-31T13:26:20Z</updated>
+  <updated>2026-03-31T15:44:39Z</updated>
   <author>
     <name>Radoskop</name>
     <uri>https://radoskop.pl</uri>
   </author>
   <entry>
+    <title>Interpelacja: w sprawie stanu technicznego budynków przy ul. Rybaki Górne</title>
+    <link href="https://gdansk.radoskop.pl/profil/przemyslaw-majewski/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/profil/przemyslaw-majewski/#interpelacja</id>
+    <published>2026-05-01T12:00:00+01:00</published>
+    <updated>2026-05-01T12:00:00+01:00</updated>
+    <summary type="html">Przemysław Majewski. w sprawie stanu technicznego budynków przy ul. Rybaki Górne</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: w sprawie zakupu ergonomicznych krzeseł celem wyposażenia pracowni komputerowych i projektorów multi</title>
+    <link href="https://gdansk.radoskop.pl/profil/zaneta-geryk/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/profil/zaneta-geryk/#interpelacja</id>
+    <published>2026-03-23T12:00:00+01:00</published>
+    <updated>2026-03-23T12:00:00+01:00</updated>
+    <summary type="html">Żaneta Geryk. w sprawie zakupu ergonomicznych krzeseł celem wyposażenia pracowni komputerowych i projektorów multimedialnych</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: w sprawie uzupełnienia ubytku oraz wyrównania pokrywy betonowej włazu znajdującego się w chodniku p</title>
+    <link href="https://gdansk.radoskop.pl/profil/wojciech-blaszkowski/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/profil/wojciech-blaszkowski/#interpelacja</id>
+    <published>2026-03-23T12:00:00+01:00</published>
+    <updated>2026-03-23T12:00:00+01:00</updated>
+    <summary type="html">Wojciech Błaszkowski. w sprawie uzupełnienia ubytku oraz wyrównania pokrywy betonowej włazu znajdującego się w chodniku przy ulicy Wassowskiego</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: w sprawie koczowiska osób w kryzysie bezdomności i nielegalnego składowiska odpadów we wraku samoc</title>
+    <link href="https://gdansk.radoskop.pl/profil/cezary-spiewak-dowbor/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/profil/cezary-spiewak-dowbor/#interpelacja</id>
+    <published>2026-03-23T12:00:00+01:00</published>
+    <updated>2026-03-23T12:00:00+01:00</updated>
+    <summary type="html">Cezary Śpiewak-Dowbór. w sprawie koczowiska osób w kryzysie bezdomności i nielegalnego składowiska odpadów we wraku samochodu w dzielnicy Brzeźno</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: w sprawie przeprowadzonych remontów szkół na terenie miasta Gdańska w roku 2025 oraz zaplanowanych r</title>
+    <link href="https://gdansk.radoskop.pl/interpelacje/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/interpelacje/#interpelacja</id>
+    <published>2026-03-20T12:00:00+01:00</published>
+    <updated>2026-03-20T12:00:00+01:00</updated>
+    <summary type="html">Barbara Imianowska
+Przemysław Majewski
+Andrzej Skiba. w sprawie przeprowadzonych remontów szkół na terenie miasta Gdańska w roku 2025 oraz zaplanowanych remontów dla placówek oświatowych na rok 2026</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: w sprawie zapewnienia realizacji inwestycji drogowych towarzyszących planowanej zabudowie w miejscu</title>
+    <link href="https://gdansk.radoskop.pl/profil/marcin-mickun/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/profil/marcin-mickun/#interpelacja</id>
+    <published>2026-03-19T12:00:00+01:00</published>
+    <updated>2026-03-19T12:00:00+01:00</updated>
+    <summary type="html">Marcin Mickun. w sprawie zapewnienia realizacji inwestycji drogowych towarzyszących planowanej zabudowie w miejscu Alfa Centrum na Przymorzu Małym</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Zapytanie: w sprawie korekty rozkładu jazdy linii autobusowej 113</title>
+    <link href="https://gdansk.radoskop.pl/profil/andrzej-skiba/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/profil/andrzej-skiba/#interpelacja</id>
+    <published>2026-03-19T12:00:00+01:00</published>
+    <updated>2026-03-19T12:00:00+01:00</updated>
+    <summary type="html">Andrzej Skiba. w sprawie korekty rozkładu jazdy linii autobusowej 113</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: w sprawie utworzenia pełnoprawnego miejskiego targowiska w dzielnicy Ujeścisko-Łostowice</title>
+    <link href="https://gdansk.radoskop.pl/profil/sylwia-rydlewska-kowalik/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/profil/sylwia-rydlewska-kowalik/#interpelacja</id>
+    <published>2026-03-17T12:00:00+01:00</published>
+    <updated>2026-03-17T12:00:00+01:00</updated>
+    <summary type="html">Sylwia Rydlewska-Kowalik. w sprawie utworzenia pełnoprawnego miejskiego targowiska w dzielnicy Ujeścisko-Łostowice</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: w sprawie naprawy schodów pomiędzy ulicami Pobiedzisko i Aleją Generała Władysława Sikorskiego</title>
+    <link href="https://gdansk.radoskop.pl/profil/beata-jankowiak/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/profil/beata-jankowiak/#interpelacja</id>
+    <published>2026-03-17T12:00:00+01:00</published>
+    <updated>2026-03-17T12:00:00+01:00</updated>
+    <summary type="html">Beata Jankowiak. w sprawie naprawy schodów pomiędzy ulicami Pobiedzisko i Aleją Generała Władysława Sikorskiego</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: w sprawie uprzątnięcia terenu w rejonie ul. Fundamentowej i zwiększenia bezpieczeństwa w ruchu drog</title>
+    <link href="https://gdansk.radoskop.pl/profil/jan-perucki/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/profil/jan-perucki/#interpelacja</id>
+    <published>2026-03-09T12:00:00+01:00</published>
+    <updated>2026-03-09T12:00:00+01:00</updated>
+    <summary type="html">Jan Perucki. w sprawie uprzątnięcia terenu w rejonie ul. Fundamentowej i zwiększenia bezpieczeństwa w ruchu drogowym/pieszy</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: w sprawie realizacji placu zabaw na Biskupiej Górce</title>
+    <link href="https://gdansk.radoskop.pl/profil/jolanta-banach/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/profil/jolanta-banach/#interpelacja</id>
+    <published>2026-03-09T12:00:00+01:00</published>
+    <updated>2026-03-09T12:00:00+01:00</updated>
+    <summary type="html">Jolanta Banach. w sprawie realizacji placu zabaw na Biskupiej Górce</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: w sprawie planowanej inwestycji na terenie Alfa Centrum oraz jej wpływu na układ komunikacyjny i f</title>
+    <link href="https://gdansk.radoskop.pl/profil/marcin-makowski/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/profil/marcin-makowski/#interpelacja</id>
+    <published>2026-03-06T12:00:00+01:00</published>
+    <updated>2026-03-06T12:00:00+01:00</updated>
+    <summary type="html">Marcin Makowski. w sprawie planowanej inwestycji na terenie Alfa Centrum oraz jej wpływu na układ komunikacyjny i funkcje usługowe na terenie pobliskich dzielnicy</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: w sprawie naprawy lub wymiany drzwi wejściowych do budynku przy ul. Zakopiańskiej</title>
+    <link href="https://gdansk.radoskop.pl/profil/lukasz-swiacki/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/profil/lukasz-swiacki/#interpelacja</id>
+    <published>2026-03-04T12:00:00+01:00</published>
+    <updated>2026-03-04T12:00:00+01:00</updated>
+    <summary type="html">Łukasz Świacki. w sprawie naprawy lub wymiany drzwi wejściowych do budynku przy ul. Zakopiańskiej</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: w sprawie uporządkowania parkowania w okolicy ul. 3 Maja 9</title>
+    <link href="https://gdansk.radoskop.pl/profil/kamila-blaszczyk/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/profil/kamila-blaszczyk/#interpelacja</id>
+    <published>2026-02-26T12:00:00+01:00</published>
+    <updated>2026-02-26T12:00:00+01:00</updated>
+    <summary type="html">Kamila Błaszczyk. w sprawie uporządkowania parkowania w okolicy ul. 3 Maja 9</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: Dot. ustalenia właściciela płotu (ekranu dźwiękochłonnego) oraz decyzji co do jego naprawy lub rozb</title>
+    <link href="https://gdansk.radoskop.pl/profil/piotr-gierszewski/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/profil/piotr-gierszewski/#interpelacja</id>
+    <published>2026-02-26T12:00:00+01:00</published>
+    <updated>2026-02-26T12:00:00+01:00</updated>
+    <summary type="html">Piotr Gierszewski. Dot. ustalenia właściciela płotu (ekranu dźwiękochłonnego) oraz decyzji co do jego naprawy lub rozbiórki</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Zapytanie: w sprawie Patrona tramwaju nr 1026 – Jana Jerzego Forstera</title>
+    <link href="https://gdansk.radoskop.pl/profil/tomasz-rakowski/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/profil/tomasz-rakowski/#interpelacja</id>
+    <published>2026-02-25T12:00:00+01:00</published>
+    <updated>2026-02-25T12:00:00+01:00</updated>
+    <summary type="html">Tomasz Rakowski. w sprawie Patrona tramwaju nr 1026 – Jana Jerzego Forstera</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: w sprawie organizacji ruchu na ul. Czarny Dwór</title>
+    <link href="https://gdansk.radoskop.pl/profil/andrzej-kowalczys/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/profil/andrzej-kowalczys/#interpelacja</id>
+    <published>2026-02-24T12:00:00+01:00</published>
+    <updated>2026-02-24T12:00:00+01:00</updated>
+    <summary type="html">Andrzej Kowalczys. w sprawie organizacji ruchu na ul. Czarny Dwór</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: w sprawie budowy wyniesionych przejść dla pieszych na ulicy Olsztyńskiej</title>
+    <link href="https://gdansk.radoskop.pl/profil/agnieszka-owczarczak/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/profil/agnieszka-owczarczak/#interpelacja</id>
+    <published>2026-02-23T12:00:00+01:00</published>
+    <updated>2026-02-23T12:00:00+01:00</updated>
+    <summary type="html">Agnieszka Owczarczak. w sprawie budowy wyniesionych przejść dla pieszych na ulicy Olsztyńskiej</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: w sprawie sposobu procedowania zgłoszeń oraz nadzoru nad przebiegiem zgromadzeń publicznych w dniu </title>
+    <link href="https://gdansk.radoskop.pl/profil/barbara-imianowska/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/profil/barbara-imianowska/#interpelacja</id>
+    <published>2026-02-19T12:00:00+01:00</published>
+    <updated>2026-02-19T12:00:00+01:00</updated>
+    <summary type="html">Barbara Imianowska. w sprawie sposobu procedowania zgłoszeń oraz nadzoru nad przebiegiem zgromadzeń publicznych w dniu 15 lutego 2026 r. w rejonie Szpitala św. Wojciech</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: w sprawie możliwości wprowadzenia szpaleru drzew przy ul. Ofiar Grudnia ’70 w  dzielnicy Orunia Gór</title>
+    <link href="https://gdansk.radoskop.pl/profil/maximilian-kieturakis/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/profil/maximilian-kieturakis/#interpelacja</id>
+    <published>2026-02-18T12:00:00+01:00</published>
+    <updated>2026-02-18T12:00:00+01:00</updated>
+    <summary type="html">Maximilian Kieturakis. w sprawie możliwości wprowadzenia szpaleru drzew przy ul. Ofiar Grudnia ’70 w  dzielnicy Orunia Górna-Gdańsk Południe</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: w sprawie wsparcia w roku bieżącym dodatkowymi środkami finansowymi Szkoły Podstawowej nr 19 im. Z</title>
+    <link href="https://gdansk.radoskop.pl/profil/mateusz-skarbek/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/profil/mateusz-skarbek/#interpelacja</id>
+    <published>2026-02-18T12:00:00+01:00</published>
+    <updated>2026-02-18T12:00:00+01:00</updated>
+    <summary type="html">Mateusz Skarbek. w sprawie wsparcia w roku bieżącym dodatkowymi środkami finansowymi Szkoły Podstawowej nr 19 im. Zasłużonych Ludzi Morza</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>włączenie druku nr 594</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2026-02-05_0/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2026-02-05_0/#vote</id>
+    <published>2026-02-05T12:00:00+01:00</published>
+    <updated>2026-02-05T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 32, przeciw 0, wstrzym. 0). Sesja XXIII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>w sprawie przyjęcia do realizacji rocznego planu potrzeb w zakresie wykonywania prac społecznie użyt</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2026-02-05_1/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2026-02-05_1/#vote</id>
+    <published>2026-02-05T12:00:00+01:00</published>
+    <updated>2026-02-05T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 27, przeciw 0, wstrzym. 0). Sesja XXIII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>w sprawie ustalenia jednostkowych stawek kalkulacyjnych dotacji przedmiotowej dla Gdańskich Nierucho</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2026-02-05_2/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2026-02-05_2/#vote</id>
+    <published>2026-02-05T12:00:00+01:00</published>
+    <updated>2026-02-05T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 32, przeciw 0, wstrzym. 0). Sesja XXIII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>w sprawie trybu postępowania o udzielenie dotacji celowej na prowadzenie społecznej agencji najmu, s</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2026-02-05_3/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2026-02-05_3/#vote</id>
+    <published>2026-02-05T12:00:00+01:00</published>
+    <updated>2026-02-05T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 32, przeciw 0, wstrzym. 0). Sesja XXIII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>w sprawie przystąpienia do sporządzenia miejscowego planu zagospodarowania przestrzennego Długie Ogr</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2026-02-05_4/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2026-02-05_4/#vote</id>
+    <published>2026-02-05T12:00:00+01:00</published>
+    <updated>2026-02-05T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 33, przeciw 0, wstrzym. 0). Sesja XXIII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>w sprawie przystąpienia do sporządzenia miejscowego planu zagospodarowania przestrzennego VII Dwór –</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2026-02-05_5/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2026-02-05_5/#vote</id>
+    <published>2026-02-05T12:00:00+01:00</published>
+    <updated>2026-02-05T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 30, przeciw 0, wstrzym. 0). Sesja XXIII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>w sprawie przystąpienia do sporządzenia miejscowego planu zagospodarowania przestrzennego Maćkowy - </title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2026-02-05_6/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2026-02-05_6/#vote</id>
+    <published>2026-02-05T12:00:00+01:00</published>
+    <updated>2026-02-05T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 32, przeciw 0, wstrzym. 0). Sesja XXIII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>w sprawie przystąpienia do sporządzenia miejscowego planu zagospodarowania przestrzennego Szadółki -</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2026-02-05_7/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2026-02-05_7/#vote</id>
+    <published>2026-02-05T12:00:00+01:00</published>
+    <updated>2026-02-05T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 32, przeciw 0, wstrzym. 0). Sesja XXIII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>w sprawie przystąpienia do sporządzenia miejscowego planu zagospodarowania przestrzennego Rudniki – </title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2026-02-05_8/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2026-02-05_8/#vote</id>
+    <published>2026-02-05T12:00:00+01:00</published>
+    <updated>2026-02-05T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 33, przeciw 0, wstrzym. 0). Sesja XXIII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>w sprawie odstąpienia od sporządzenia miejscowego planu zagospodarowania przestrzennego Stare Szkoty</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2026-02-05_9/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2026-02-05_9/#vote</id>
+    <published>2026-02-05T12:00:00+01:00</published>
+    <updated>2026-02-05T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 31, przeciw 0, wstrzym. 1). Sesja XXIII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>w sprawie przystąpienia do sporządzenia miejscowego planu zagospodarowania przestrzennego Stare Szko</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2026-02-05_10/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2026-02-05_10/#vote</id>
+    <published>2026-02-05T12:00:00+01:00</published>
+    <updated>2026-02-05T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 32, przeciw 0, wstrzym. 0). Sesja XXIII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>w sprawie nadania nazwy Rondo im. ks. prałata Józefa Bigusa (druk 586)</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2026-02-05_11/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2026-02-05_11/#vote</id>
+    <published>2026-02-05T12:00:00+01:00</published>
+    <updated>2026-02-05T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 32, przeciw 0, wstrzym. 0). Sesja XXIII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>w sprawie nadania nazwy Rondo Wsi Wysoka (druk 587)</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2026-02-05_12/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2026-02-05_12/#vote</id>
+    <published>2026-02-05T12:00:00+01:00</published>
+    <updated>2026-02-05T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 33, przeciw 0, wstrzym. 0). Sesja XXIII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>w sprawie nadania nazwy ulica Agrestowa (druk 588)</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2026-02-05_13/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2026-02-05_13/#vote</id>
+    <published>2026-02-05T12:00:00+01:00</published>
+    <updated>2026-02-05T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 32, przeciw 0, wstrzym. 0). Sesja XXIII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>zmieniająca uchwałę w sprawie przepisów porządkowych związanych z przewozem osób i bagażu ręcznego p</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2026-02-05_14/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2026-02-05_14/#vote</id>
+    <published>2026-02-05T12:00:00+01:00</published>
+    <updated>2026-02-05T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 33, przeciw 0, wstrzym. 0). Sesja XXIII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>w sprawie rozpatrzenia odwołania od Zarządzenia Nr 1970/25 Prezydenta Miasta Gdańska z dnia 6 listop</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2026-02-05_15/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2026-02-05_15/#vote</id>
+    <published>2026-02-05T12:00:00+01:00</published>
+    <updated>2026-02-05T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 33, przeciw 0, wstrzym. 0). Sesja XXIII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
     <title>Sesja XXIII Rady Miasta Gdańsk</title>
     <link href="https://gdansk.radoskop.pl/sesja/XXIII/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/sesja/XXIII/</id>
+    <id>https://gdansk.radoskop.pl/sesja/XXIII/#session</id>
     <published>2026-02-05T12:00:00+01:00</published>
     <updated>2026-02-05T12:00:00+01:00</updated>
-    <summary type="html">16 glosowan. 34 obecnych radnych.</summary>
+    <summary type="html">16 glosowan, 34 obecnych.</summary>
     <category term="session"/>
   </entry>
   <entry>
-    <title>Agnieszka Bartków (KO) zaglosowal/a wbrew klubowi</title>
-    <link href="https://gdansk.radoskop.pl/profil/agnieszka-bartkow/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/profil/agnieszka-bartkow/</id>
+    <title>Interpelacja: w sprawie zabezpieczenia przed zalewaniem skrzyżowania w rejonie ul. Damroki</title>
+    <link href="https://gdansk.radoskop.pl/profil/anna-goledzinowska/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/profil/anna-goledzinowska/#interpelacja</id>
     <published>2026-02-05T12:00:00+01:00</published>
     <updated>2026-02-05T12:00:00+01:00</updated>
-    <summary type="html">wstrzymal_sie zamiast za w sprawie: w sprawie odstąpienia od sporządzenia miejscowego planu zagospodarowania przestrzennego Stare Szkoty</summary>
-    <category term="rebellion"/>
+    <summary type="html">Anna Golędzinowska. w sprawie zabezpieczenia przed zalewaniem skrzyżowania w rejonie ul. Damroki</summary>
+    <category term="interpelacja"/>
   </entry>
   <entry>
-    <title>Kazimierz Koralewski (PiS) zaglosowal/a wbrew klubowi</title>
-    <link href="https://gdansk.radoskop.pl/profil/kazimierz-koralewski/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/profil/kazimierz-koralewski/</id>
+    <title>Interpelacja: w sprawie planów remontowów dla budynku komunalnego Małomiejska 57 _ zlokalizowanego w bliskim sąsi</title>
+    <link href="https://gdansk.radoskop.pl/profil/agnieszka-bartkow/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/profil/agnieszka-bartkow/#interpelacja</id>
+    <published>2026-02-05T12:00:00+01:00</published>
+    <updated>2026-02-05T12:00:00+01:00</updated>
+    <summary type="html">Agnieszka Bartków. w sprawie planów remontowów dla budynku komunalnego Małomiejska 57 _ zlokalizowanego w bliskim sąsiedztwie projektowanej linii kolejowej PKM POŁUDNIE</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: w sprawie możliwości udziału Miasta Gdańska w realizacji i współfinansowaniu montażu wiat przystanko</title>
+    <link href="https://gdansk.radoskop.pl/profil/lukasz-bejm/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/profil/lukasz-bejm/#interpelacja</id>
+    <published>2026-01-16T12:00:00+01:00</published>
+    <updated>2026-01-16T12:00:00+01:00</updated>
+    <summary type="html">Łukasz Bejm. w sprawie możliwości udziału Miasta Gdańska w realizacji i współfinansowaniu montażu wiat przystankowych Radunica 01 i Radunica 02 przy ul. Grunwaldzk</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Zapytanie: w sprawie udostępnienia wykazu nieruchomości,  w których zidentyfikowano problemy w postaci syllogom</title>
+    <link href="https://gdansk.radoskop.pl/profil/aleksander-jankowski/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/profil/aleksander-jankowski/#interpelacja</id>
+    <published>2025-12-30T12:00:00+01:00</published>
+    <updated>2025-12-30T12:00:00+01:00</updated>
+    <summary type="html">Aleksander Jankowski. w sprawie udostępnienia wykazu nieruchomości,  w których zidentyfikowano problemy w postaci syllogomanii najemców</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>włączenie druku (576)</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-12-19_0/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-12-19_0/#vote</id>
     <published>2025-12-19T12:00:00+01:00</published>
     <updated>2025-12-19T12:00:00+01:00</updated>
-    <summary type="html">za zamiast wstrzymal_sie w sprawie: w sprawie skargi Pana XY na Prezydenta Miasta Gdańska (druk 567)</summary>
-    <category term="rebellion"/>
+    <summary type="html">Wynik: przyjete (za 29, przeciw 0, wstrzym. 0). Sesja XXII.</summary>
+    <category term="vote"/>
   </entry>
   <entry>
-    <title>Sesja XXI Rady Miasta Gdańsk</title>
-    <link href="https://gdansk.radoskop.pl/sesja/XXI/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/sesja/XXI/</id>
-    <published>2025-11-28T12:00:00+01:00</published>
-    <updated>2025-11-28T12:00:00+01:00</updated>
-    <summary type="html">65 glosowan. 34 obecnych radnych.</summary>
-    <category term="session"/>
+    <title>włączenie druku (577)</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-12-19_1/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-12-19_1/#vote</id>
+    <published>2025-12-19T12:00:00+01:00</published>
+    <updated>2025-12-19T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 29, przeciw 0, wstrzym. 0). Sesja XXII.</summary>
+    <category term="vote"/>
   </entry>
   <entry>
-    <title>Sylwia Cisoń (KO) zaglosowal/a wbrew klubowi</title>
+    <title>Uchwała w sprawie przyjęcia Wieloletniej Prognozy Finansowej Gminy Miasta Gdańska (druk 525)</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-12-19_2/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-12-19_2/#vote</id>
+    <published>2025-12-19T12:00:00+01:00</published>
+    <updated>2025-12-19T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 22, przeciw 7, wstrzym. 0). Sesja XXII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Uchwała w sprawie uchwalenia budżetu Miasta Gdańska na 2026 rok (druk 526)</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-12-19_3/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-12-19_3/#vote</id>
+    <published>2025-12-19T12:00:00+01:00</published>
+    <updated>2025-12-19T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 25, przeciw 7, wstrzym. 0). Sesja XXII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>zmieniająca uchwałę w sprawie uchwalenia budżetu na 2025 rok (druk 574)</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-12-19_4/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-12-19_4/#vote</id>
+    <published>2025-12-19T12:00:00+01:00</published>
+    <updated>2025-12-19T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 25, przeciw 7, wstrzym. 0). Sesja XXII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>zmieniająca uchwałę w sprawie przyjęcia Wieloletniej Prognozy Finansowej Gminy Miasta Gdańska (druk </title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-12-19_5/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-12-19_5/#vote</id>
+    <published>2025-12-19T12:00:00+01:00</published>
+    <updated>2025-12-19T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 25, przeciw 7, wstrzym. 0). Sesja XXII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>zmieniająca uchwałę w sprawie zaciągnięcia kredytu długoterminowego w Europejskim Banku Inwestycyjny</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-12-19_6/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-12-19_6/#vote</id>
+    <published>2025-12-19T12:00:00+01:00</published>
+    <updated>2025-12-19T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 32, przeciw 0, wstrzym. 0). Sesja XXII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>w sprawie wyodrębnienia na rok 2027 środków finansowych na działalność statutową Dzielnic Miasta Gda</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-12-19_7/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-12-19_7/#vote</id>
+    <published>2025-12-19T12:00:00+01:00</published>
+    <updated>2025-12-19T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 25, przeciw 0, wstrzym. 7). Sesja XXII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>w sprawie połączenia samorządowych instytucji kultury - Gdańskiej Galerii Miejskiej i Centrum Sztuki</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-12-19_8/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-12-19_8/#vote</id>
+    <published>2025-12-19T12:00:00+01:00</published>
+    <updated>2025-12-19T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 26, przeciw 0, wstrzym. 7). Sesja XXII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>zmieniająca uchwałę w sprawie określenia szczegółowych warunków przyznawania i odpłatności za usługi</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-12-19_9/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-12-19_9/#vote</id>
+    <published>2025-12-19T12:00:00+01:00</published>
+    <updated>2025-12-19T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 33, przeciw 0, wstrzym. 0). Sesja XXII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>zmieniająca uchwałę w sprawie wyrażenia woli objęcia akcji w spółce Międzynarodowe Targi Gdańskie S.</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-12-19_10/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-12-19_10/#vote</id>
+    <published>2025-12-19T12:00:00+01:00</published>
+    <updated>2025-12-19T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 26, przeciw 0, wstrzym. 6). Sesja XXII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>w sprawie ustalenia lokalizacji inwestycji mieszkaniowej przy ul. Nowomiejskiej i inwestycji towarzy</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-12-19_11/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-12-19_11/#vote</id>
+    <published>2025-12-19T12:00:00+01:00</published>
+    <updated>2025-12-19T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 25, przeciw 0, wstrzym. 7). Sesja XXII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>w sprawie zmiany nazwy parku XXV-lecia Polski Rzeczypospolitej Ludowej (druk 573)</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-12-19_12/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-12-19_12/#vote</id>
+    <published>2025-12-19T12:00:00+01:00</published>
+    <updated>2025-12-19T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 32, przeciw 0, wstrzym. 0). Sesja XXII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>w sprawie udzielenia pomocy finansowej z budżetu Gminy Miasta Gdańska Województwu Pomorskiemu (druk </title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-12-19_13/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-12-19_13/#vote</id>
+    <published>2025-12-19T12:00:00+01:00</published>
+    <updated>2025-12-19T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 25, przeciw 0, wstrzym. 6). Sesja XXII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>zmieniająca uchwałę w sprawie powierzenia InnoBaltica Spółce z ograniczoną odpowiedzialnością z sied</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-12-19_14/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-12-19_14/#vote</id>
+    <published>2025-12-19T12:00:00+01:00</published>
+    <updated>2025-12-19T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 26, przeciw 8, wstrzym. 0). Sesja XXII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>w sprawie wyboru metody ustalenia opłaty za gospodarowanie odpadami komunalnymi i ustalenia stawki t</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-12-19_15/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-12-19_15/#vote</id>
+    <published>2025-12-19T12:00:00+01:00</published>
+    <updated>2025-12-19T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 26, przeciw 7, wstrzym. 0). Sesja XXII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>w sprawie ustalenia stawki opłaty za gospodarowanie odpadami komunalnymi za pojemnik lub worek o okr</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-12-19_16/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-12-19_16/#vote</id>
+    <published>2025-12-19T12:00:00+01:00</published>
+    <updated>2025-12-19T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 26, przeciw 7, wstrzym. 0). Sesja XXII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>w sprawie ustalenia ryczałtowej stawki opłaty za gospodarowanie odpadami komunalnymi dla nieruchomoś</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-12-19_17/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-12-19_17/#vote</id>
+    <published>2025-12-19T12:00:00+01:00</published>
+    <updated>2025-12-19T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 26, przeciw 8, wstrzym. 0). Sesja XXII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>w sprawie określenia wzoru deklaracji o wysokości opłaty za gospodarowanie odpadami komunalnymi skła</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-12-19_18/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-12-19_18/#vote</id>
+    <published>2025-12-19T12:00:00+01:00</published>
+    <updated>2025-12-19T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 31, przeciw 0, wstrzym. 3). Sesja XXII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>w sprawie wyrażenia opinii w przedmiocie wniosku o uznanie lasów stanowiących własność Skarbu Państw</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-12-19_19/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-12-19_19/#vote</id>
+    <published>2025-12-19T12:00:00+01:00</published>
+    <updated>2025-12-19T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 34, przeciw 0, wstrzym. 0). Sesja XXII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>w sprawie zatwierdzenia planu kontroli Komisji Rewizyjnej Rady Miasta Gdańska na rok 2026 (druk 548)</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-12-19_20/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-12-19_20/#vote</id>
+    <published>2025-12-19T12:00:00+01:00</published>
+    <updated>2025-12-19T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 34, przeciw 0, wstrzym. 0). Sesja XXII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>w sprawie skargi Pani XY na Dyrektora Miejskiego Ośrodka Pomocy Rodzinie w Gdańsku (druk 559)</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-12-19_21/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-12-19_21/#vote</id>
+    <published>2025-12-19T12:00:00+01:00</published>
+    <updated>2025-12-19T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 34, przeciw 0, wstrzym. 0). Sesja XXII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>w sprawie skargi Pana XY na Dyrektora Miejskiego Ośrodka Pomocy Rodzinie w Gdańsku (druk 560)</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-12-19_22/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-12-19_22/#vote</id>
+    <published>2025-12-19T12:00:00+01:00</published>
+    <updated>2025-12-19T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 26, przeciw 0, wstrzym. 8). Sesja XXII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>w sprawie skargi Pana XY na pracowników Miejskiego Ośrodka Pomocy Rodzinie w Gdańsku (druk 561)</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-12-19_23/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-12-19_23/#vote</id>
+    <published>2025-12-19T12:00:00+01:00</published>
+    <updated>2025-12-19T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 34, przeciw 0, wstrzym. 0). Sesja XXII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>w sprawie skargi Pani XY na Dyrektora Szkoły Podstawowej nr 5 w Gdańsku (druk 562)</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-12-19_24/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-12-19_24/#vote</id>
+    <published>2025-12-19T12:00:00+01:00</published>
+    <updated>2025-12-19T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 34, przeciw 0, wstrzym. 0). Sesja XXII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>w sprawie skargi Pani XY i Pana XY na Dyrektora Szkoły Podstawowej nr 57 im. generała Władysława And</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-12-19_25/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-12-19_25/#vote</id>
+    <published>2025-12-19T12:00:00+01:00</published>
+    <updated>2025-12-19T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 34, przeciw 0, wstrzym. 0). Sesja XXII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>w sprawie skargi Rady Dzielnicy Strzyża (druk 564)</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-12-19_26/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-12-19_26/#vote</id>
+    <published>2025-12-19T12:00:00+01:00</published>
+    <updated>2025-12-19T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 33, przeciw 0, wstrzym. 1). Sesja XXII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>w sprawie skargi Pana XY na Prezydenta Miasta Gdańska (druk 565)</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-12-19_27/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-12-19_27/#vote</id>
+    <published>2025-12-19T12:00:00+01:00</published>
+    <updated>2025-12-19T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 34, przeciw 0, wstrzym. 0). Sesja XXII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>w sprawie Pana XY na Prezydenta Miasta Gdańska (druk 566)</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-12-19_28/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-12-19_28/#vote</id>
+    <published>2025-12-19T12:00:00+01:00</published>
+    <updated>2025-12-19T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 34, przeciw 0, wstrzym. 0). Sesja XXII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>w sprawie skargi Pana XY na Prezydenta Miasta Gdańska (druk 567)</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-12-19_29/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-12-19_29/#vote</id>
+    <published>2025-12-19T12:00:00+01:00</published>
+    <updated>2025-12-19T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 27, przeciw 0, wstrzym. 7). Sesja XXII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>w sprawie skargi Pana XY na Prezydenta Miasta Gdańska (druk 568)</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-12-19_30/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-12-19_30/#vote</id>
+    <published>2025-12-19T12:00:00+01:00</published>
+    <updated>2025-12-19T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 32, przeciw 0, wstrzym. 0). Sesja XXII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>w sprawie wezwania Pana XY (druk 569)</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-12-19_31/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-12-19_31/#vote</id>
+    <published>2025-12-19T12:00:00+01:00</published>
+    <updated>2025-12-19T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 25, przeciw 0, wstrzym. 7). Sesja XXII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>w sprawie petycji z dnia 30 października 2025 roku (druk 570)</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-12-19_32/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-12-19_32/#vote</id>
+    <published>2025-12-19T12:00:00+01:00</published>
+    <updated>2025-12-19T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 26, przeciw 0, wstrzym. 6). Sesja XXII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>w sprawie petycji Pana XY (druk 571)</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-12-19_33/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-12-19_33/#vote</id>
+    <published>2025-12-19T12:00:00+01:00</published>
+    <updated>2025-12-19T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 31, przeciw 0, wstrzym. 0). Sesja XXII.</summary>
+    <category term="vote"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: w sprawie remontu chodników oraz nawierzchni jezdni na ul. Grząskiej</title>
+    <link href="https://gdansk.radoskop.pl/profil/michal-hajduk/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/profil/michal-hajduk/#interpelacja</id>
+    <published>2025-12-18T12:00:00+01:00</published>
+    <updated>2025-12-18T12:00:00+01:00</updated>
+    <summary type="html">Michał Hajduk. w sprawie remontu chodników oraz nawierzchni jezdni na ul. Grząskiej</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: w sprawie wyjaśnienia kwestii ewentualnej wycinki drzew w związku z realizacją projektu prowadzoneg</title>
     <link href="https://gdansk.radoskop.pl/profil/sylwia-cison/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/profil/sylwia-cison/</id>
+    <id>https://gdansk.radoskop.pl/profil/sylwia-cison/#interpelacja</id>
+    <published>2025-12-11T12:00:00+01:00</published>
+    <updated>2025-12-11T12:00:00+01:00</updated>
+    <summary type="html">Sylwia Cisoń. w sprawie wyjaśnienia kwestii ewentualnej wycinki drzew w związku z realizacją projektu prowadzonego pod numerem ZUZ/5419/122025/KU – , Cmentarz na p</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>w sprawie określenia zadań, na które przeznaczone będą środki z Państwowego Funduszu Rehabilitacji O</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-11-28_0/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-11-28_0/#vote</id>
     <published>2025-11-28T12:00:00+01:00</published>
     <updated>2025-11-28T12:00:00+01:00</updated>
-    <summary type="html">wstrzymal_sie zamiast za w sprawie: w sprawie nadania nazwy rondo 318. Dywizjonu Myśliwsko-Rozpoznawczego Gdańskiego (druk 524)</summary>
-    <category term="rebellion"/>
+    <summary type="html">Wynik: przyjete (za 32, przeciw 0, wstrzym. 0). Sesja XXI.</summary>
+    <category term="vote"/>
   </entry>
   <entry>
-    <title>Tomasz Rakowski (PiS) zaglosowal/a wbrew klubowi</title>
-    <link href="https://gdansk.radoskop.pl/profil/tomasz-rakowski/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/profil/tomasz-rakowski/</id>
+    <title>zmieniająca uchwałę w sprawie przyjęcia Gdańskiego Programu Promocji Zdrowia i Przeciwdziałania Chor</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-11-28_1/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-11-28_1/#vote</id>
     <published>2025-11-28T12:00:00+01:00</published>
     <updated>2025-11-28T12:00:00+01:00</updated>
-    <summary type="html">wstrzymal_sie zamiast za w sprawie: w sprawie nadania nazwy ulica Pępowska (druk 522)</summary>
-    <category term="rebellion"/>
+    <summary type="html">Wynik: przyjete (za 33, przeciw 0, wstrzym. 0). Sesja XXI.</summary>
+    <category term="vote"/>
   </entry>
   <entry>
-    <title>Sesja XX Rady Miasta Gdańsk</title>
-    <link href="https://gdansk.radoskop.pl/sesja/XX/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/sesja/XX/</id>
-    <published>2025-10-31T12:00:00+01:00</published>
-    <updated>2025-10-31T12:00:00+01:00</updated>
-    <summary type="html">33 glosowan. 1 odrzuconych. 1 kontrowersyjnych. 34 obecnych radnych.</summary>
-    <category term="session"/>
+    <title>w sprawie przyjęcia „Programu współpracy Miasta Gdańska z organizacjami pozarządowymi na rok 2026" (</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-11-28_2/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-11-28_2/#vote</id>
+    <published>2025-11-28T12:00:00+01:00</published>
+    <updated>2025-11-28T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 25, przeciw 0, wstrzym. 8). Sesja XXI.</summary>
+    <category term="vote"/>
   </entry>
   <entry>
-    <title>Sesja XIX Rady Miasta Gdańsk</title>
-    <link href="https://gdansk.radoskop.pl/sesja/XIX/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/sesja/XIX/</id>
-    <published>2025-09-25T12:00:00+01:00</published>
-    <updated>2025-09-25T12:00:00+01:00</updated>
-    <summary type="html">16 glosowan. 34 obecnych radnych.</summary>
-    <category term="session"/>
+    <title>w sprawie ustalenia miesięcznej kwoty dotacji na działalność Centrum Integracji Społecznej w Gdańsku</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-11-28_3/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-11-28_3/#vote</id>
+    <published>2025-11-28T12:00:00+01:00</published>
+    <updated>2025-11-28T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 33, przeciw 0, wstrzym. 0). Sesja XXI.</summary>
+    <category term="vote"/>
   </entry>
   <entry>
-    <title>Sesja XVIII Rady Miasta Gdańsk</title>
-    <link href="https://gdansk.radoskop.pl/sesja/XVIII/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/sesja/XVIII/</id>
-    <published>2025-08-29T12:00:00+01:00</published>
-    <updated>2025-08-29T12:00:00+01:00</updated>
-    <summary type="html">69 glosowan. 2 odrzuconych. 2 kontrowersyjnych. 34 obecnych radnych.</summary>
-    <category term="session"/>
+    <title>w sprawie wyboru firmy audytorskiej uprawnionej do badania sprawozdań finansowych Europejskiego Cent</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-11-28_4/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-11-28_4/#vote</id>
+    <published>2025-11-28T12:00:00+01:00</published>
+    <updated>2025-11-28T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 24, przeciw 0, wstrzym. 8). Sesja XXI.</summary>
+    <category term="vote"/>
   </entry>
   <entry>
-    <title>Kontrowersyjne glosowanie: w sprawie wyrażenia opinii o lokalizacji kasyna gry (druk 367)</title>
-    <link href="https://gdansk.radoskop.pl/glosowanie/2025-06-26_19/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/glosowanie/2025-06-26_19/</id>
-    <published>2025-06-26T12:00:00+01:00</published>
-    <updated>2025-06-26T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 20, przeciw 6, wstrzym. 6). Sesja XVII.</summary>
-    <category term="controversial_vote"/>
+    <title>zmieniająca uchwałę w sprawie zasad nabywania, zbywania, obciążania, wydzierżawiania i najmu nieruch</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-11-28_5/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-11-28_5/#vote</id>
+    <published>2025-11-28T12:00:00+01:00</published>
+    <updated>2025-11-28T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 33, przeciw 0, wstrzym. 0). Sesja XXI.</summary>
+    <category term="vote"/>
   </entry>
   <entry>
-    <title>Kontrowersyjne glosowanie: w sprawie wyrażenia opinii o lokalizacji kasyna gry (druk 368)</title>
-    <link href="https://gdansk.radoskop.pl/glosowanie/2025-06-26_20/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/glosowanie/2025-06-26_20/</id>
-    <published>2025-06-26T12:00:00+01:00</published>
-    <updated>2025-06-26T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 20, przeciw 6, wstrzym. 6). Sesja XVII.</summary>
-    <category term="controversial_vote"/>
+    <title>w sprawie przyjęcia wieloletniego programu gospodarowania mieszkaniowym zasobem Gminy Miasta Gdańska</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-11-28_6/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-11-28_6/#vote</id>
+    <published>2025-11-28T12:00:00+01:00</published>
+    <updated>2025-11-28T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 25, przeciw 0, wstrzym. 8). Sesja XXI.</summary>
+    <category term="vote"/>
   </entry>
   <entry>
-    <title>Kontrowersyjne glosowanie: w sprawie wyrażenia opinii o lokalizacji kasyna gry (druk 369)</title>
-    <link href="https://gdansk.radoskop.pl/glosowanie/2025-06-26_21/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/glosowanie/2025-06-26_21/</id>
-    <published>2025-06-26T12:00:00+01:00</published>
-    <updated>2025-06-26T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 20, przeciw 6, wstrzym. 6). Sesja XVII.</summary>
-    <category term="controversial_vote"/>
+    <title>w sprawie zasad i kryteriów uprawniających osoby fizyczne do ubiegania się o zawarcie umowy najmu ze</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-11-28_7/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-11-28_7/#vote</id>
+    <published>2025-11-28T12:00:00+01:00</published>
+    <updated>2025-11-28T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 32, przeciw 0, wstrzym. 0). Sesja XXI.</summary>
+    <category term="vote"/>
   </entry>
   <entry>
-    <title>Kontrowersyjne glosowanie: w sprawie wyrażenia opinii o lokalizacji kasyna gry (druk 378)</title>
-    <link href="https://gdansk.radoskop.pl/glosowanie/2025-06-26_29/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/glosowanie/2025-06-26_29/</id>
-    <published>2025-06-26T12:00:00+01:00</published>
-    <updated>2025-06-26T12:00:00+01:00</updated>
-    <summary type="html">Wynik: odrzucone (za 3, przeciw 28, wstrzym. 1). Sesja XVII.</summary>
-    <category term="controversial_vote"/>
+    <title>w sprawie wyrażenia woli objęcia udziałów w podwyższonym kapitale zakładowym jednoosobowej spółki Gm</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-11-28_8/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-11-28_8/#vote</id>
+    <published>2025-11-28T12:00:00+01:00</published>
+    <updated>2025-11-28T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 32, przeciw 0, wstrzym. 0). Sesja XXI.</summary>
+    <category term="vote"/>
   </entry>
   <entry>
-    <title>Kontrowersyjne glosowanie: w sprawie wyrażenia opinii o lokalizacji kasyna gry (druk 379)</title>
-    <link href="https://gdansk.radoskop.pl/glosowanie/2025-06-26_30/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/glosowanie/2025-06-26_30/</id>
-    <published>2025-06-26T12:00:00+01:00</published>
-    <updated>2025-06-26T12:00:00+01:00</updated>
-    <summary type="html">Wynik: odrzucone (za 3, przeciw 28, wstrzym. 1). Sesja XVII.</summary>
-    <category term="controversial_vote"/>
+    <title>w sprawie wyrażenia woli objęcia udziałów w podwyższonym kapitale zakładowym jednoosobowej spółki Gm</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-11-28_9/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-11-28_9/#vote</id>
+    <published>2025-11-28T12:00:00+01:00</published>
+    <updated>2025-11-28T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 32, przeciw 0, wstrzym. 0). Sesja XXI.</summary>
+    <category term="vote"/>
   </entry>
   <entry>
-    <title>Kontrowersyjne glosowanie: w sprawie wyrażenia opinii o lokalizacji kasyna gry (druk 380)</title>
-    <link href="https://gdansk.radoskop.pl/glosowanie/2025-06-26_31/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/glosowanie/2025-06-26_31/</id>
-    <published>2025-06-26T12:00:00+01:00</published>
-    <updated>2025-06-26T12:00:00+01:00</updated>
-    <summary type="html">Wynik: odrzucone (za 3, przeciw 28, wstrzym. 1). Sesja XVII.</summary>
-    <category term="controversial_vote"/>
+    <title>w sprawie wyrażenia woli objęcia udziałów w podwyższonym kapitale zakładowym jednoosobowej spółki Gm</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-11-28_10/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-11-28_10/#vote</id>
+    <published>2025-11-28T12:00:00+01:00</published>
+    <updated>2025-11-28T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 32, przeciw 0, wstrzym. 0). Sesja XXI.</summary>
+    <category term="vote"/>
   </entry>
   <entry>
-    <title>Kontrowersyjne glosowanie: w sprawie przeprowadzenia konsultacji społecznych dotyczących wyrażenia zgody na</title>
-    <link href="https://gdansk.radoskop.pl/glosowanie/2025-06-26_32/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/glosowanie/2025-06-26_32/</id>
-    <published>2025-06-26T12:00:00+01:00</published>
-    <updated>2025-06-26T12:00:00+01:00</updated>
-    <summary type="html">Wynik: odrzucone (za 9, przeciw 21, wstrzym. 0). Sesja XVII.</summary>
-    <category term="controversial_vote"/>
+    <title>w sprawie wyrażenia woli objęcia udziałów w podwyższonym kapitale zakładowym jednoosobowej spółki Gm</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-11-28_11/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-11-28_11/#vote</id>
+    <published>2025-11-28T12:00:00+01:00</published>
+    <updated>2025-11-28T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 33, przeciw 0, wstrzym. 0). Sesja XXI.</summary>
+    <category term="vote"/>
   </entry>
   <entry>
-    <title>Sesja XVII Rady Miasta Gdańsk</title>
-    <link href="https://gdansk.radoskop.pl/sesja/XVII/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/sesja/XVII/</id>
-    <published>2025-06-26T12:00:00+01:00</published>
-    <updated>2025-06-26T12:00:00+01:00</updated>
-    <summary type="html">35 glosowan. 4 odrzuconych. 7 kontrowersyjnych. 33 obecnych radnych.</summary>
-    <category term="session"/>
+    <title>w sprawie wyrażenia woli objęcia udziałów w podwyższonym kapitale zakładowym jednoosobowej spółki Gm</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-11-28_12/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-11-28_12/#vote</id>
+    <published>2025-11-28T12:00:00+01:00</published>
+    <updated>2025-11-28T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 33, przeciw 0, wstrzym. 0). Sesja XXI.</summary>
+    <category term="vote"/>
   </entry>
   <entry>
-    <title>Sesja XVI Rady Miasta Gdańsk</title>
-    <link href="https://gdansk.radoskop.pl/sesja/XVI/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/sesja/XVI/</id>
-    <published>2025-05-30T12:00:00+01:00</published>
-    <updated>2025-05-30T12:00:00+01:00</updated>
-    <summary type="html">34 glosowan. 33 obecnych radnych.</summary>
-    <category term="session"/>
+    <title>w sprawie uchwalenia miejscowego planu zagospodarowania przestrzennego Ujeścisko - rejon ulic Przemy</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-11-28_13/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-11-28_13/#vote</id>
+    <published>2025-11-28T12:00:00+01:00</published>
+    <updated>2025-11-28T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 33, przeciw 0, wstrzym. 0). Sesja XXI.</summary>
+    <category term="vote"/>
   </entry>
   <entry>
-    <title>Aleksander Jankowski (PiS) zaglosowal/a wbrew klubowi</title>
-    <link href="https://gdansk.radoskop.pl/profil/aleksander-jankowski/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/profil/aleksander-jankowski/</id>
-    <published>2025-05-30T12:00:00+01:00</published>
-    <updated>2025-05-30T12:00:00+01:00</updated>
-    <summary type="html">wstrzymal_sie zamiast za w sprawie: w sprawie nadania nowego Statutu miejskiej instytucji kultury pod nazwą Gdański Archipelag Kultury (</summary>
-    <category term="rebellion"/>
+    <title>w sprawie uchwalenia miejscowego planu zagospodarowania przestrzennego Wrzeszcz Górny rejon ulic Jar</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-11-28_14/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-11-28_14/#vote</id>
+    <published>2025-11-28T12:00:00+01:00</published>
+    <updated>2025-11-28T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 27, przeciw 0, wstrzym. 0). Sesja XXI.</summary>
+    <category term="vote"/>
   </entry>
   <entry>
-    <title>Jolanta Banach (WdG) zaglosowal/a wbrew klubowi</title>
-    <link href="https://gdansk.radoskop.pl/profil/jolanta-banach/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/profil/jolanta-banach/</id>
-    <published>2025-05-30T12:00:00+01:00</published>
-    <updated>2025-05-30T12:00:00+01:00</updated>
-    <summary type="html">wstrzymal_sie zamiast za w sprawie: w sprawie skargi Pani XY na Prezydenta Miasta Gdańska oraz na Komendanta Straży Miejskiej w Gdańsku</summary>
-    <category term="rebellion"/>
+    <title>w sprawie ustalenia lokalizacji inwestycji mieszkaniowej przy ul. ks. Jerzego Popiełuszki 8 oraz 10 </title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-11-28_15/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-11-28_15/#vote</id>
+    <published>2025-11-28T12:00:00+01:00</published>
+    <updated>2025-11-28T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 21, przeciw 0, wstrzym. 7). Sesja XXI.</summary>
+    <category term="vote"/>
   </entry>
   <entry>
-    <title>Sesja XV Rady Miasta Gdańsk</title>
-    <link href="https://gdansk.radoskop.pl/sesja/XV/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/sesja/XV/</id>
-    <published>2025-04-25T12:00:00+01:00</published>
-    <updated>2025-04-25T12:00:00+01:00</updated>
-    <summary type="html">45 glosowan. 2 odrzuconych. 2 kontrowersyjnych. 34 obecnych radnych.</summary>
-    <category term="session"/>
+    <title>w sprawie nadania nazwy ulica Borowiecka (druk 521)</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-11-28_16/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-11-28_16/#vote</id>
+    <published>2025-11-28T12:00:00+01:00</published>
+    <updated>2025-11-28T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja XXI.</summary>
+    <category term="vote"/>
   </entry>
   <entry>
-    <title>Sesja XIV Rady Miasta Gdańsk</title>
-    <link href="https://gdansk.radoskop.pl/sesja/XIV/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/sesja/XIV/</id>
-    <published>2025-03-28T12:00:00+01:00</published>
-    <updated>2025-03-28T12:00:00+01:00</updated>
-    <summary type="html">47 glosowan. 2 odrzuconych. 2 kontrowersyjnych. 34 obecnych radnych.</summary>
-    <category term="session"/>
+    <title>w sprawie nadania nazwy ulica Pępowska (druk 522)</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-11-28_17/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-11-28_17/#vote</id>
+    <published>2025-11-28T12:00:00+01:00</published>
+    <updated>2025-11-28T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 29, przeciw 0, wstrzym. 1). Sesja XXI.</summary>
+    <category term="vote"/>
   </entry>
   <entry>
-    <title>Sesja XIII Rady Miasta Gdańsk</title>
-    <link href="https://gdansk.radoskop.pl/sesja/XIII/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/sesja/XIII/</id>
-    <published>2025-02-13T12:00:00+01:00</published>
-    <updated>2025-02-13T12:00:00+01:00</updated>
-    <summary type="html">17 glosowan. 34 obecnych radnych.</summary>
-    <category term="session"/>
+    <title>w sprawie nadania nazwy rondo 318. Dywizjonu Myśliwsko-Rozpoznawczego Gdańskiego (druk 524)</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-11-28_18/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-11-28_18/#vote</id>
+    <published>2025-11-28T12:00:00+01:00</published>
+    <updated>2025-11-28T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 24, przeciw 0, wstrzym. 4). Sesja XXI.</summary>
+    <category term="vote"/>
   </entry>
   <entry>
-    <title>Sesja XII Rady Miasta Gdańsk</title>
-    <link href="https://gdansk.radoskop.pl/sesja/XII/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/sesja/XII/</id>
-    <published>2025-01-31T12:00:00+01:00</published>
-    <updated>2025-01-31T12:00:00+01:00</updated>
-    <summary type="html">24 glosowan. 1 odrzuconych. 1 kontrowersyjnych. 34 obecnych radnych.</summary>
-    <category term="session"/>
+    <title>w sprawie ustalenia wysokości opłat za usuwanie pojazdów z dróg i ich przechowywanie na parkingu str</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-11-28_19/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-11-28_19/#vote</id>
+    <published>2025-11-28T12:00:00+01:00</published>
+    <updated>2025-11-28T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 29, przeciw 0, wstrzym. 0). Sesja XXI.</summary>
+    <category term="vote"/>
   </entry>
   <entry>
-    <title>Marcin Mickun (KO) zaglosowal/a wbrew klubowi</title>
-    <link href="https://gdansk.radoskop.pl/profil/marcin-mickun/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/profil/marcin-mickun/</id>
-    <published>2025-01-31T12:00:00+01:00</published>
-    <updated>2025-01-31T12:00:00+01:00</updated>
-    <summary type="html">wstrzymal_sie zamiast za w sprawie: w sprawie nadania nazwy skwer im. Lucyny Legut (druk 222)</summary>
-    <category term="rebellion"/>
+    <title>zmieniająca uchwałę w sprawie ustalenia strefy płatnego parkowania i śródmiejskiej strefy płatnego p</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-11-28_20/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-11-28_20/#vote</id>
+    <published>2025-11-28T12:00:00+01:00</published>
+    <updated>2025-11-28T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 29, przeciw 0, wstrzym. 0). Sesja XXI.</summary>
+    <category term="vote"/>
   </entry>
   <entry>
-    <title>Kontrowersyjne glosowanie: POPRAWKA NR 1 do uchwały w sprawie uchwalenia budżetu Miasta Gdańska na 2025 rok</title>
-    <link href="https://gdansk.radoskop.pl/glosowanie/2024-12-13_19/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/glosowanie/2024-12-13_19/</id>
-    <published>2024-12-13T12:00:00+01:00</published>
-    <updated>2024-12-13T12:00:00+01:00</updated>
-    <summary type="html">Wynik: odrzucone (za 13, przeciw 21, wstrzym. 0). Sesja XI.</summary>
-    <category term="controversial_vote"/>
-  </entry>
-  <entry>
-    <title>Kontrowersyjne glosowanie: POPRAWKA NR 2 do uchwały w sprawie uchwalenia budżetu Miasta Gdańska na 2025 rok</title>
-    <link href="https://gdansk.radoskop.pl/glosowanie/2024-12-13_20/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/glosowanie/2024-12-13_20/</id>
-    <published>2024-12-13T12:00:00+01:00</published>
-    <updated>2024-12-13T12:00:00+01:00</updated>
-    <summary type="html">Wynik: odrzucone (za 9, przeciw 23, wstrzym. 0). Sesja XI.</summary>
-    <category term="controversial_vote"/>
-  </entry>
-  <entry>
-    <title>Kontrowersyjne glosowanie: POPRAWKA NR 3 do uchwały w sprawie uchwalenia budżetu Miasta Gdańska na 2025 rok</title>
-    <link href="https://gdansk.radoskop.pl/glosowanie/2024-12-13_21/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/glosowanie/2024-12-13_21/</id>
-    <published>2024-12-13T12:00:00+01:00</published>
-    <updated>2024-12-13T12:00:00+01:00</updated>
-    <summary type="html">Wynik: odrzucone (za 8, przeciw 26, wstrzym. 0). Sesja XI.</summary>
-    <category term="controversial_vote"/>
-  </entry>
-  <entry>
-    <title>Kontrowersyjne glosowanie: POPRAWKA NR 4 do uchwały w sprawie uchwalenia budżetu Miasta Gdańska na 2025 rok</title>
-    <link href="https://gdansk.radoskop.pl/glosowanie/2024-12-13_22/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/glosowanie/2024-12-13_22/</id>
-    <published>2024-12-13T12:00:00+01:00</published>
-    <updated>2024-12-13T12:00:00+01:00</updated>
-    <summary type="html">Wynik: odrzucone (za 8, przeciw 25, wstrzym. 0). Sesja XI.</summary>
-    <category term="controversial_vote"/>
-  </entry>
-  <entry>
-    <title>Kontrowersyjne glosowanie: POPRAWKA NR 5 do uchwały w sprawie uchwalenia budżetu Miasta Gdańska na 2025 rok</title>
-    <link href="https://gdansk.radoskop.pl/glosowanie/2024-12-13_23/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/glosowanie/2024-12-13_23/</id>
-    <published>2024-12-13T12:00:00+01:00</published>
-    <updated>2024-12-13T12:00:00+01:00</updated>
-    <summary type="html">Wynik: odrzucone (za 8, przeciw 26, wstrzym. 0). Sesja XI.</summary>
-    <category term="controversial_vote"/>
-  </entry>
-  <entry>
-    <title>Kontrowersyjne glosowanie: POPRAWKA NR 6 do uchwały w sprawie uchwalenia budżetu Miasta Gdańska na 2025 rok</title>
-    <link href="https://gdansk.radoskop.pl/glosowanie/2024-12-13_24/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/glosowanie/2024-12-13_24/</id>
-    <published>2024-12-13T12:00:00+01:00</published>
-    <updated>2024-12-13T12:00:00+01:00</updated>
-    <summary type="html">Wynik: odrzucone (za 8, przeciw 26, wstrzym. 0). Sesja XI.</summary>
-    <category term="controversial_vote"/>
-  </entry>
-  <entry>
-    <title>Kontrowersyjne glosowanie: POPRAWKA NR 7 do uchwały w sprawie uchwalenia budżetu Miasta Gdańska na 2025 rok</title>
-    <link href="https://gdansk.radoskop.pl/glosowanie/2024-12-13_25/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/glosowanie/2024-12-13_25/</id>
-    <published>2024-12-13T12:00:00+01:00</published>
-    <updated>2024-12-13T12:00:00+01:00</updated>
-    <summary type="html">Wynik: odrzucone (za 8, przeciw 26, wstrzym. 0). Sesja XI.</summary>
-    <category term="controversial_vote"/>
-  </entry>
-  <entry>
-    <title>Kontrowersyjne glosowanie: POPRAWKA NR 8 do uchwały w sprawie uchwalenia budżetu Miasta Gdańska na 2025 rok</title>
-    <link href="https://gdansk.radoskop.pl/glosowanie/2024-12-13_26/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/glosowanie/2024-12-13_26/</id>
-    <published>2024-12-13T12:00:00+01:00</published>
-    <updated>2024-12-13T12:00:00+01:00</updated>
-    <summary type="html">Wynik: odrzucone (za 8, przeciw 26, wstrzym. 0). Sesja XI.</summary>
-    <category term="controversial_vote"/>
-  </entry>
-  <entry>
-    <title>Kontrowersyjne glosowanie: POPRAWKA NR 9 do uchwały w sprawie uchwalenia budżetu Miasta Gdańska na 2025 rok</title>
-    <link href="https://gdansk.radoskop.pl/glosowanie/2024-12-13_27/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/glosowanie/2024-12-13_27/</id>
-    <published>2024-12-13T12:00:00+01:00</published>
-    <updated>2024-12-13T12:00:00+01:00</updated>
-    <summary type="html">Wynik: odrzucone (za 8, przeciw 26, wstrzym. 0). Sesja XI.</summary>
-    <category term="controversial_vote"/>
-  </entry>
-  <entry>
-    <title>Kontrowersyjne glosowanie: POPRAWKA NR 10 do uchwały w sprawie uchwalenia budżetu Miasta Gdańska na 2025 ro</title>
-    <link href="https://gdansk.radoskop.pl/glosowanie/2024-12-13_28/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/glosowanie/2024-12-13_28/</id>
-    <published>2024-12-13T12:00:00+01:00</published>
-    <updated>2024-12-13T12:00:00+01:00</updated>
-    <summary type="html">Wynik: odrzucone (za 8, przeciw 26, wstrzym. 0). Sesja XI.</summary>
-    <category term="controversial_vote"/>
-  </entry>
-  <entry>
-    <title>Kontrowersyjne glosowanie: POPRAWKA NR 11 do uchwały w sprawie uchwalenia budżetu Miasta Gdańska na 2025 ro</title>
-    <link href="https://gdansk.radoskop.pl/glosowanie/2024-12-13_29/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/glosowanie/2024-12-13_29/</id>
-    <published>2024-12-13T12:00:00+01:00</published>
-    <updated>2024-12-13T12:00:00+01:00</updated>
-    <summary type="html">Wynik: odrzucone (za 8, przeciw 26, wstrzym. 0). Sesja XI.</summary>
-    <category term="controversial_vote"/>
-  </entry>
-  <entry>
-    <title>Kontrowersyjne glosowanie: POPRAWKA NR 12 do uchwały w sprawie uchwalenia budżetu Miasta Gdańska na 2025 ro</title>
-    <link href="https://gdansk.radoskop.pl/glosowanie/2024-12-13_30/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/glosowanie/2024-12-13_30/</id>
-    <published>2024-12-13T12:00:00+01:00</published>
-    <updated>2024-12-13T12:00:00+01:00</updated>
-    <summary type="html">Wynik: odrzucone (za 8, przeciw 26, wstrzym. 0). Sesja XI.</summary>
-    <category term="controversial_vote"/>
-  </entry>
-  <entry>
-    <title>Kontrowersyjne glosowanie: POPRAWKA NR 13 do uchwały w sprawie uchwalenia budżetu Miasta Gdańska na 2025 ro</title>
-    <link href="https://gdansk.radoskop.pl/glosowanie/2024-12-13_31/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/glosowanie/2024-12-13_31/</id>
-    <published>2024-12-13T12:00:00+01:00</published>
-    <updated>2024-12-13T12:00:00+01:00</updated>
-    <summary type="html">Wynik: odrzucone (za 8, przeciw 26, wstrzym. 0). Sesja XI.</summary>
-    <category term="controversial_vote"/>
-  </entry>
-  <entry>
-    <title>Kontrowersyjne glosowanie: POPRAWKA NR 14 do uchwały w sprawie uchwalenia budżetu Miasta Gdańska na 2025 ro</title>
-    <link href="https://gdansk.radoskop.pl/glosowanie/2024-12-13_32/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/glosowanie/2024-12-13_32/</id>
-    <published>2024-12-13T12:00:00+01:00</published>
-    <updated>2024-12-13T12:00:00+01:00</updated>
-    <summary type="html">Wynik: odrzucone (za 7, przeciw 26, wstrzym. 0). Sesja XI.</summary>
-    <category term="controversial_vote"/>
-  </entry>
-  <entry>
-    <title>Kontrowersyjne glosowanie: POPRAWKA NR 15 do uchwały w sprawie uchwalenia budżetu Miasta Gdańska na 2025 ro</title>
-    <link href="https://gdansk.radoskop.pl/glosowanie/2024-12-13_33/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/glosowanie/2024-12-13_33/</id>
-    <published>2024-12-13T12:00:00+01:00</published>
-    <updated>2024-12-13T12:00:00+01:00</updated>
-    <summary type="html">Wynik: odrzucone (za 8, przeciw 25, wstrzym. 0). Sesja XI.</summary>
-    <category term="controversial_vote"/>
-  </entry>
-  <entry>
-    <title>Kontrowersyjne glosowanie: POPRAWKA NR 16 do uchwały w sprawie uchwalenia budżetu Miasta Gdańska na 2025 ro</title>
-    <link href="https://gdansk.radoskop.pl/glosowanie/2024-12-13_34/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/glosowanie/2024-12-13_34/</id>
-    <published>2024-12-13T12:00:00+01:00</published>
-    <updated>2024-12-13T12:00:00+01:00</updated>
-    <summary type="html">Wynik: odrzucone (za 8, przeciw 26, wstrzym. 0). Sesja XI.</summary>
-    <category term="controversial_vote"/>
-  </entry>
-  <entry>
-    <title>Kontrowersyjne glosowanie: POPRAWKA NR 17 do uchwały w sprawie uchwalenia budżetu Miasta Gdańska na 2025 ro</title>
-    <link href="https://gdansk.radoskop.pl/glosowanie/2024-12-13_35/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/glosowanie/2024-12-13_35/</id>
-    <published>2024-12-13T12:00:00+01:00</published>
-    <updated>2024-12-13T12:00:00+01:00</updated>
-    <summary type="html">Wynik: odrzucone (za 8, przeciw 26, wstrzym. 0). Sesja XI.</summary>
-    <category term="controversial_vote"/>
-  </entry>
-  <entry>
-    <title>Sesja XI Rady Miasta Gdańsk</title>
-    <link href="https://gdansk.radoskop.pl/sesja/XI/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/sesja/XI/</id>
-    <published>2024-12-13T12:00:00+01:00</published>
-    <updated>2024-12-13T12:00:00+01:00</updated>
-    <summary type="html">61 glosowan. 17 odrzuconych. 17 kontrowersyjnych. 34 obecnych radnych.</summary>
-    <category term="session"/>
-  </entry>
-  <entry>
-    <title>Kontrowersyjne glosowanie: w sprawie rozpatrzenia skargi Pani XY i Pana XY z dnia 4 marca 2024 roku na Dyre</title>
-    <link href="https://gdansk.radoskop.pl/glosowanie/2024-11-29_45/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/glosowanie/2024-11-29_45/</id>
-    <published>2024-11-29T12:00:00+01:00</published>
-    <updated>2024-11-29T12:00:00+01:00</updated>
-    <summary type="html">Wynik: przyjete (za 14, przeciw 5, wstrzym. 8). Sesja IX.</summary>
-    <category term="controversial_vote"/>
-  </entry>
-  <entry>
-    <title>Sesja IX Rady Miasta Gdańsk</title>
-    <link href="https://gdansk.radoskop.pl/sesja/IX/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/sesja/IX/</id>
-    <published>2024-11-29T12:00:00+01:00</published>
-    <updated>2024-11-29T12:00:00+01:00</updated>
-    <summary type="html">51 glosowan. 1 odrzuconych. 2 kontrowersyjnych. 34 obecnych radnych.</summary>
-    <category term="session"/>
-  </entry>
-  <entry>
-    <title>Sesja VIII Rady Miasta Gdańsk</title>
-    <link href="https://gdansk.radoskop.pl/sesja/VIII/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/sesja/VIII/</id>
-    <published>2024-10-24T12:00:00+01:00</published>
-    <updated>2024-10-24T12:00:00+01:00</updated>
-    <summary type="html">21 glosowan. 1 kontrowersyjnych. 34 obecnych radnych.</summary>
-    <category term="session"/>
-  </entry>
-  <entry>
-    <title>Barbara Imianowska (PiS) zaglosowal/a wbrew klubowi</title>
-    <link href="https://gdansk.radoskop.pl/profil/barbara-imianowska/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/profil/barbara-imianowska/</id>
-    <published>2024-10-24T12:00:00+01:00</published>
-    <updated>2024-10-24T12:00:00+01:00</updated>
-    <summary type="html">wstrzymal_sie zamiast za w sprawie: w sprawie ogłoszenia tekstu jednolitego uchwały w sprawie Regulaminu utrzymania czystości i porządku</summary>
-    <category term="rebellion"/>
-  </entry>
-  <entry>
-    <title>Kontrowersyjne glosowanie: w sprawie określenia warunków udzielania bonifikat od cen nieruchomości gruntowy</title>
-    <link href="https://gdansk.radoskop.pl/glosowanie/2024-09-26_18/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/glosowanie/2024-09-26_18/</id>
-    <published>2024-09-26T12:00:00+01:00</published>
-    <updated>2024-09-26T12:00:00+01:00</updated>
-    <summary type="html">Wynik: odrzucone (za 6, przeciw 18, wstrzym. 7). Sesja VII.</summary>
-    <category term="controversial_vote"/>
-  </entry>
-  <entry>
-    <title>Sesja VII Rady Miasta Gdańsk</title>
-    <link href="https://gdansk.radoskop.pl/sesja/VII/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/sesja/VII/</id>
-    <published>2024-09-26T12:00:00+01:00</published>
-    <updated>2024-09-26T12:00:00+01:00</updated>
-    <summary type="html">40 glosowan. 2 odrzuconych. 2 kontrowersyjnych. 34 obecnych radnych.</summary>
-    <category term="session"/>
-  </entry>
-  <entry>
-    <title>Sesja VI Rady Miasta Gdańsk</title>
-    <link href="https://gdansk.radoskop.pl/sesja/VI/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/sesja/VI/</id>
-    <published>2024-09-04T12:00:00+01:00</published>
-    <updated>2024-09-04T12:00:00+01:00</updated>
-    <summary type="html">1 glosowan. 34 obecnych radnych.</summary>
-    <category term="session"/>
+    <title>w sprawie upoważnienia Dyrektora Gdańskiego Zarządu Zieleni - jednostki budżetowej do załatwiania in</title>
+    <link href="https://gdansk.radoskop.pl/glosowanie/2025-11-28_21/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/glosowanie/2025-11-28_21/#vote</id>
+    <published>2025-11-28T12:00:00+01:00</published>
+    <updated>2025-11-28T12:00:00+01:00</updated>
+    <summary type="html">Wynik: przyjete (za 28, przeciw 0, wstrzym. 0). Sesja XXI.</summary>
+    <category term="vote"/>
   </entry>
 </feed>
