@@ -5,7 +5,7 @@
   <link href="https://gdansk.radoskop.pl/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://gdansk.radoskop.pl/" rel="alternate" type="text/html"/>
   <id>https://gdansk.radoskop.pl/</id>
-  <updated>2026-04-05T13:45:34Z</updated>
+  <updated>2026-04-05T16:51:00Z</updated>
   <author>
     <name>Radoskop</name>
     <uri>https://radoskop.pl</uri>
@@ -17,6 +17,44 @@
     <published>2026-05-01T12:00:00+01:00</published>
     <updated>2026-05-01T12:00:00+01:00</updated>
     <summary type="html">Przemysław Majewski. w sprawie stanu technicznego budynków przy ul. Rybaki Górne</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: w sprawie planu ogólnego miasta Gdańska i jego znaczenia dla dzielnicy Olszynka</title>
+    <link href="https://gdansk.radoskop.pl/profil/andrzej-skiba/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/profil/andrzej-skiba/#interpelacja</id>
+    <published>2026-03-31T12:00:00+01:00</published>
+    <updated>2026-03-31T12:00:00+01:00</updated>
+    <summary type="html">Andrzej Skiba. w sprawie planu ogólnego miasta Gdańska i jego znaczenia dla dzielnicy Olszynka</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: w sprawie uzgodnienia warunków zabudowy dla terenu CH , ALFA,</title>
+    <link href="https://gdansk.radoskop.pl/interpelacje/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/interpelacje/#interpelacja</id>
+    <published>2026-03-26T12:00:00+01:00</published>
+    <updated>2026-03-26T12:00:00+01:00</updated>
+    <summary type="html">Barbara Imianowska
+Przemysław Majewski
+Andrzej Skiba. w sprawie uzgodnienia warunków zabudowy dla terenu CH , ALFA,</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: w sprawie remontu chodnika i warstwy ścieralnej w ul. Barniewickiej</title>
+    <link href="https://gdansk.radoskop.pl/profil/jan-perucki/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/profil/jan-perucki/#interpelacja</id>
+    <published>2026-03-26T12:00:00+01:00</published>
+    <updated>2026-03-26T12:00:00+01:00</updated>
+    <summary type="html">Jan Perucki. w sprawie remontu chodnika i warstwy ścieralnej w ul. Barniewickiej</summary>
+    <category term="interpelacja"/>
+  </entry>
+  <entry>
+    <title>Interpelacja: w sprawie organizacji ruchu i parkowania na ul. Tatrzańskiej oraz w rejonie ul. Czyżewskiego 12 w G</title>
+    <link href="https://gdansk.radoskop.pl/profil/marcin-makowski/" rel="alternate" type="text/html"/>
+    <id>https://gdansk.radoskop.pl/profil/marcin-makowski/#interpelacja</id>
+    <published>2026-03-26T12:00:00+01:00</published>
+    <updated>2026-03-26T12:00:00+01:00</updated>
+    <summary type="html">Marcin Makowski. w sprawie organizacji ruchu i parkowania na ul. Tatrzańskiej oraz w rejonie ul. Czyżewskiego 12 w Gdańsku</summary>
     <category term="interpelacja"/>
   </entry>
   <entry>
@@ -47,32 +85,12 @@
     <category term="interpelacja"/>
   </entry>
   <entry>
-    <title>Interpelacja: w sprawie przeprowadzonych remontów szkół na terenie miasta Gdańska w roku 2025 oraz zaplanowanych r</title>
-    <link href="https://gdansk.radoskop.pl/interpelacje/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/interpelacje/#interpelacja</id>
-    <published>2026-03-20T12:00:00+01:00</published>
-    <updated>2026-03-20T12:00:00+01:00</updated>
-    <summary type="html">Barbara Imianowska
-Przemysław Majewski
-Andrzej Skiba. w sprawie przeprowadzonych remontów szkół na terenie miasta Gdańska w roku 2025 oraz zaplanowanych remontów dla placówek oświatowych na rok 2026</summary>
-    <category term="interpelacja"/>
-  </entry>
-  <entry>
     <title>Interpelacja: w sprawie zapewnienia realizacji inwestycji drogowych towarzyszących planowanej zabudowie w miejscu</title>
     <link href="https://gdansk.radoskop.pl/profil/marcin-mickun/" rel="alternate" type="text/html"/>
     <id>https://gdansk.radoskop.pl/profil/marcin-mickun/#interpelacja</id>
     <published>2026-03-19T12:00:00+01:00</published>
     <updated>2026-03-19T12:00:00+01:00</updated>
     <summary type="html">Marcin Mickun. w sprawie zapewnienia realizacji inwestycji drogowych towarzyszących planowanej zabudowie w miejscu Alfa Centrum na Przymorzu Małym</summary>
-    <category term="interpelacja"/>
-  </entry>
-  <entry>
-    <title>Zapytanie: w sprawie korekty rozkładu jazdy linii autobusowej 113</title>
-    <link href="https://gdansk.radoskop.pl/profil/andrzej-skiba/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/profil/andrzej-skiba/#interpelacja</id>
-    <published>2026-03-19T12:00:00+01:00</published>
-    <updated>2026-03-19T12:00:00+01:00</updated>
-    <summary type="html">Andrzej Skiba. w sprawie korekty rozkładu jazdy linii autobusowej 113</summary>
     <category term="interpelacja"/>
   </entry>
   <entry>
@@ -94,30 +112,12 @@ Andrzej Skiba. w sprawie przeprowadzonych remontów szkół na terenie miasta Gd
     <category term="interpelacja"/>
   </entry>
   <entry>
-    <title>Interpelacja: w sprawie uprzątnięcia terenu w rejonie ul. Fundamentowej i zwiększenia bezpieczeństwa w ruchu drog</title>
-    <link href="https://gdansk.radoskop.pl/profil/jan-perucki/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/profil/jan-perucki/#interpelacja</id>
-    <published>2026-03-09T12:00:00+01:00</published>
-    <updated>2026-03-09T12:00:00+01:00</updated>
-    <summary type="html">Jan Perucki. w sprawie uprzątnięcia terenu w rejonie ul. Fundamentowej i zwiększenia bezpieczeństwa w ruchu drogowym/pieszy</summary>
-    <category term="interpelacja"/>
-  </entry>
-  <entry>
     <title>Interpelacja: w sprawie realizacji placu zabaw na Biskupiej Górce</title>
     <link href="https://gdansk.radoskop.pl/profil/jolanta-banach/" rel="alternate" type="text/html"/>
     <id>https://gdansk.radoskop.pl/profil/jolanta-banach/#interpelacja</id>
     <published>2026-03-09T12:00:00+01:00</published>
     <updated>2026-03-09T12:00:00+01:00</updated>
     <summary type="html">Jolanta Banach. w sprawie realizacji placu zabaw na Biskupiej Górce</summary>
-    <category term="interpelacja"/>
-  </entry>
-  <entry>
-    <title>Interpelacja: w sprawie planowanej inwestycji na terenie Alfa Centrum oraz jej wpływu na układ komunikacyjny i f</title>
-    <link href="https://gdansk.radoskop.pl/profil/marcin-makowski/" rel="alternate" type="text/html"/>
-    <id>https://gdansk.radoskop.pl/profil/marcin-makowski/#interpelacja</id>
-    <published>2026-03-06T12:00:00+01:00</published>
-    <updated>2026-03-06T12:00:00+01:00</updated>
-    <summary type="html">Marcin Makowski. w sprawie planowanej inwestycji na terenie Alfa Centrum oraz jej wpływu na układ komunikacyjny i funkcje usługowe na terenie pobliskich dzielnicy</summary>
     <category term="interpelacja"/>
   </entry>
   <entry>
