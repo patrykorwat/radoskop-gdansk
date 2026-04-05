@@ -41,8 +41,21 @@
   "inLanguage": "pl"
 }
 </script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-1SH24XVXR3"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-1SH24XVXR3');</script>
+<script>
+window.dataLayer=window.dataLayer||[];
+function gtag(){dataLayer.push(arguments);}
+(function(){
+  var c=document.cookie.match(/(?:^|;\s*)cookie_consent=([^;]*)/);
+  if(c&&c[1]==="rejected"){window["ga-disable-G-1SH24XVXR3"]=true;return;}
+  if(!c||c[1]==="accepted"){
+    var s=document.createElement("script");
+    s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-1SH24XVXR3";
+    document.head.appendChild(s);
+    gtag("js",new Date());gtag("config","G-1SH24XVXR3");
+  }
+})();
+</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1616606963057752" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
 :root {
@@ -517,6 +530,12 @@ Andrzej Skiba. w sprawie przeprowadzonych remontów szkół na terenie miasta Gd
   <!-- Session detail view -->
   <div id="session-view" style="display:none"></div>
 
+  <!-- Privacy policy view -->
+  <div id="privacy-view" style="display:none"></div>
+
+  <!-- Terms of service view -->
+  <div id="terms-view" style="display:none"></div>
+
   <footer>
     <div style="margin-bottom:10px">
       <a href="https://radoskop.pl">Radoskop</a>:
@@ -524,7 +543,20 @@ Andrzej Skiba. w sprawie przeprowadzonych remontów szkół na terenie miasta Gd
     </div>
     Dane źródłowe: <a href="https://bip.gdansk.pl/rada-miasta" target="_blank">BIP Gdańsk</a>.
     Kod: <a href="https://github.com/patrykorwat/radoskop-gdansk" target="_blank">GitHub</a> (AGPL-3.0).
+    <a href="/polityka-prywatnosci/" onclick="event.preventDefault();showPrivacy()">Polityka prywatności</a> · <a href="/regulamin/" onclick="event.preventDefault();showTerms()">Regulamin</a>
   </footer>
+
+  <!-- Cookie consent banner -->
+  <div id="cookie-banner" style="display:none;position:fixed;bottom:0;left:0;right:0;background:#1f2937;color:#e5e7eb;padding:14px 20px;font-size:0.85rem;z-index:9999;box-shadow:0 -2px 10px rgba(0,0,0,0.3)">
+    <div style="max-width:900px;margin:0 auto;display:flex;align-items:center;gap:16px;flex-wrap:wrap">
+      <span style="flex:1;min-width:200px">Ta strona używa plików cookies do analizy ruchu (Google Analytics) i wyświetlania reklam (Google AdSense).</span>
+      <span style="display:flex;gap:8px;flex-shrink:0">
+        <button onclick="acceptCookies()" style="background:#4f46e5;color:#fff;border:none;padding:7px 18px;border-radius:6px;cursor:pointer;font-size:0.85rem">Akceptuję</button>
+        <button onclick="rejectCookies()" style="background:transparent;color:#e5e7eb;border:1px solid #4b5563;padding:7px 18px;border-radius:6px;cursor:pointer;font-size:0.85rem">Odrzucam</button>
+        <a href="/polityka-prywatnosci/" onclick="event.preventDefault();showPrivacy();document.getElementById('cookie-banner').style.display='none'" style="color:#93c5fd;padding:7px 4px;font-size:0.85rem;text-decoration:underline;white-space:nowrap">Więcej</a>
+      </span>
+    </div>
+  </div>
 </div>
 
 <script>
@@ -696,6 +728,16 @@ async function init() {
       navigateTo(path, true);
       return;
     }
+    if (path === '/polityka-prywatnosci' || path === '/polityka-prywatnosci/') {
+      showPrivacy();
+      navigateTo(path, true);
+      return;
+    }
+    if (path === '/regulamin' || path === '/regulamin/') {
+      showTerms();
+      navigateTo(path, true);
+      return;
+    }
     if (path === '/interpelacje' || path === '/interpelacje/') {
       selectKadencjaQuiet(initialKid);
       activateTab('interpelacje');
@@ -722,6 +764,8 @@ async function init() {
     selectKadencja(initialKid);
   } catch(e) {
     document.getElementById('loading').textContent = 'Błąd ładowania danych: ' + e.message;
+  } finally {
+    initCookieBanner();
   }
 }
 
@@ -780,6 +824,8 @@ function hideAllViews() {
   document.getElementById('profile-view').style.display = 'none';
   document.getElementById('vote-view').style.display = 'none';
   document.getElementById('session-view').style.display = 'none';
+  document.getElementById('privacy-view').style.display = 'none';
+  document.getElementById('terms-view').style.display = 'none';
 }
 
 let currentTab = 'ranking';
@@ -924,6 +970,212 @@ function sessionLink(number, content, extraAttrs) {
 function sessionLinkStop(number, content) {
   var enc = encodeURIComponent(number);
   return '<a ' + 'href="/sesja/' + enc + '/" onclick="event.preventDefault();event.stopPropagation();showSession(\'' + number + '\')">' + content + '</a>';
+}
+
+// --- Cookie consent ---
+function getCookieConsent() {
+  var m = document.cookie.match(/(?:^|;\s*)cookie_consent=([^;]*)/);
+  return m ? m[1] : null;
+}
+function setCookieConsent(val) {
+  var d = new Date(); d.setFullYear(d.getFullYear() + 1);
+  document.cookie = 'cookie_consent=' + val + ';expires=' + d.toUTCString() + ';path=/;SameSite=Lax';
+}
+function acceptCookies() {
+  setCookieConsent('accepted');
+  document.getElementById('cookie-banner').style.display = 'none';
+  // Load GA if not yet loaded
+  if (!document.querySelector('script[src*="googletagmanager"]')) {
+    var s = document.createElement('script');
+    s.async = true; s.src = 'https://www.googletagmanager.com/gtag/js?id=G-1SH24XVXR3';
+    document.head.appendChild(s);
+    gtag('js', new Date()); gtag('config', 'G-1SH24XVXR3');
+  }
+}
+function rejectCookies() {
+  setCookieConsent('rejected');
+  document.getElementById('cookie-banner').style.display = 'none';
+  // Disable GA
+  window['ga-disable-G-1SH24XVXR3'] = true;
+}
+function isGoogleCmpPresent() {
+  // Google Funding Choices registers the IAB TCF API
+  if (typeof window.__tcfapi === 'function') return true;
+  // Also check for Google FC cookie
+  if (document.cookie.indexOf('__gfc_consent_info') !== -1) return true;
+  if (document.cookie.indexOf('FCCDCF') !== -1) return true;
+  return false;
+}
+function initCookieBanner() {
+  // If Google CMP already handles consent, skip our banner entirely
+  if (isGoogleCmpPresent()) return;
+  // Retry once after 1.5s in case Google CMP loads late
+  setTimeout(function() {
+    if (isGoogleCmpPresent()) {
+      document.getElementById('cookie-banner').style.display = 'none';
+      return;
+    }
+  }, 1500);
+  var consent = getCookieConsent();
+  if (!consent) {
+    document.getElementById('cookie-banner').style.display = 'block';
+  } else if (consent === 'rejected') {
+    window['ga-disable-G-1SH24XVXR3'] = true;
+  }
+}
+
+// --- Privacy policy page ---
+function showPrivacy() {
+  hideAllViews();
+  var el = document.getElementById('privacy-view');
+  el.style.display = 'block';
+  el.innerHTML = '<div style="max-width:800px;margin:0 auto;padding:20px 0">'
+    + '<button class="profile-back" onclick="showMain()">← Strona główna</button>'
+    + '<h1 style="font-size:1.5rem;margin:20px 0 10px">Polityka prywatności</h1>'
+    + '<p style="color:var(--muted);margin-bottom:20px">Ostatnia aktualizacja: 1 kwietnia 2026</p>'
+
+    + '<h2 style="font-size:1.1rem;margin:24px 0 8px">1. Administrator danych</h2>'
+    + '<p>Administratorem danych osobowych jest Patryk Orwat (kontakt: patrykorwat@gmail.com). '
+    + 'Serwis Radoskop działa pod domenami radoskop.pl oraz subdomenami miast (np. gdansk.radoskop.pl).</p>'
+
+    + '<h2 style="font-size:1.1rem;margin:24px 0 8px">2. Jakie dane zbieramy</h2>'
+    + '<p>Serwis nie wymaga rejestracji ani logowania. Zbieramy anonimowe dane analityczne poprzez Google Analytics 4 (GA4):</p>'
+    + '<ul style="margin:8px 0 8px 24px"><li>Przybliżona lokalizacja (kraj, miasto)</li>'
+    + '<li>Typ urządzenia, przeglądarka, system operacyjny</li>'
+    + '<li>Odwiedzone podstrony i czas wizyty</li>'
+    + '<li>Źródło ruchu (np. wyszukiwarka, link)</li></ul>'
+    + '<p>GA4 nie zbiera adresów IP w pełnej formie.</p>'
+
+    + '<h2 style="font-size:1.1rem;margin:24px 0 8px">3. Reklamy</h2>'
+    + '<p>Serwis może wyświetlać reklamy dostarczane przez Google AdSense i inne sieci reklamowe będące partnerami Google. '
+    + 'Zewnętrzni dostawcy reklam, w tym Google, używają plików cookies do wyświetlania reklam na podstawie poprzednich wizyt użytkownika w Serwisie lub innych witrynach. '
+    + 'Google wykorzystuje pliki cookies (w tym cookie DART) do serwowania reklam na podstawie wizyt użytkownika w Serwisie oraz innych witrynach internetowych. '
+    + 'Użytkownicy mogą zrezygnować z personalizacji reklam w <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener">ustawieniach reklam Google</a>. '
+    + 'Więcej informacji o tym, jak Google wykorzystuje dane: <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">Polityka Google</a>.</p>'
+
+    + '<h2 style="font-size:1.1rem;margin:24px 0 8px">4. Pliki cookies</h2>'
+    + '<p>Serwis wykorzystuje następujące kategorie plików cookies:</p>'
+    + '<p><strong>Funkcjonalne:</strong></p>'
+    + '<ul style="margin:8px 0 8px 24px">'
+    + '<li><strong>cookie_consent</strong> (1 rok) — zapamiętuje Twoją decyzję o cookies</li></ul>'
+    + '<p><strong>Analityczne</strong> (ustawiane po akceptacji):</p>'
+    + '<ul style="margin:8px 0 8px 24px">'
+    + '<li><strong>_ga, _ga_*</strong> (Google, do 2 lat) — identyfikatory sesji Google Analytics</li></ul>'
+    + '<p><strong>Reklamowe</strong> (ustawiane po akceptacji):</p>'
+    + '<ul style="margin:8px 0 8px 24px">'
+    + '<li><strong>__gads, __gpi</strong> (Google AdSense, do 13 miesięcy) — pomiar i personalizacja reklam</li>'
+    + '<li><strong>IDE, DSID</strong> (Google DoubleClick, do 1 roku) — wyświetlanie reklam</li>'
+    + '<li>Inne cookies ustawiane przez partnerów reklamowych Google</li></ul>'
+    + '<p>Możesz zmienić decyzję w dowolnym momencie usuwając cookies w przeglądarce. '
+    + 'Możesz też wyłączyć personalizację reklam na stronie <a href="https://www.aboutads.info/choices/" target="_blank" rel="noopener">aboutads.info</a> '
+    + 'lub <a href="https://www.youronlinechoices.eu/" target="_blank" rel="noopener">youronlinechoices.eu</a>.</p>'
+
+    + '<h2 style="font-size:1.1rem;margin:24px 0 8px">5. Zgoda na cookies i IAB TCF</h2>'
+    + '<p>Serwis korzysta z platformy zarządzania zgodą (CMP) kompatybilnej ze standardem IAB Transparency and Consent Framework v2.3 (TCF v2.3). '
+    + 'Przy pierwszej wizycie wyświetlany jest baner zgody, w którym możesz wybrać, które kategorie cookies akceptujesz (analityczne, reklamowe) lub odrzucić wszystkie niewymagane cookies. '
+    + 'Reklamy spersonalizowane są wyświetlane wyłącznie po wyrażeniu zgody. W przypadku braku zgody Serwis może wyświetlać reklamy niespersonalizowane. '
+    + 'Twoja decyzja jest zapisywana i przekazywana dostawcom reklam za pośrednictwem TC String zgodnie ze specyfikacją IAB TCF. '
+    + 'Możesz zmienić lub wycofać zgodę w dowolnym momencie klikając link "Ustawienia prywatności" w stopce strony lub usuwając cookies w przeglądarce.</p>'
+
+    + '<h2 style="font-size:1.1rem;margin:24px 0 8px">6. Cel przetwarzania</h2>'
+    + '<p>Dane przetwarzamy w następujących celach:</p>'
+    + '<ul style="margin:8px 0 8px 24px">'
+    + '<li>Analiza ruchu i ulepszanie Serwisu (Google Analytics 4, cel 1 TCF: przechowywanie informacji na urządzeniu)</li>'
+    + '<li>Wyświetlanie reklam finansujących działanie Serwisu (Google AdSense, cele TCF: 2, 3, 4, 7, 9, 10)</li>'
+    + '<li>Pomiar skuteczności reklam (cel TCF: 8)</li></ul>'
+    + '<p>Podstawą prawną jest art. 6 ust. 1 lit. a RODO (zgoda wyrażona przez akceptację w CMP) oraz art. 6 ust. 1 lit. f RODO (uzasadniony interes administratora w zakresie niezbędnych cookies funkcjonalnych).</p>'
+
+    + '<h2 style="font-size:1.1rem;margin:24px 0 8px">7. Udostępnianie danych</h2>'
+    + '<p>Dane mogą być przekazywane do: Google LLC (USA) w ramach usług Google Analytics 4 i Google AdSense, '
+    + 'partnerów reklamowych Google zarejestrowanych w <a href="https://iabeurope.eu/vendor-list/" target="_blank" rel="noopener">IAB Global Vendor List</a> '
+    + '(pełna lista na <a href="https://support.google.com/admanager/answer/9012903" target="_blank" rel="noopener">stronie Google</a>). '
+    + 'Google przetwarza dane zgodnie z własnymi zasadami prywatności. Transfer danych do USA odbywa się na podstawie standardowych klauzul umownych (SCC). '
+    + 'Nie sprzedajemy danych osobowych użytkowników podmiotom trzecim.</p>'
+
+    + '<h2 style="font-size:1.1rem;margin:24px 0 8px">7. Dane publiczne radnych</h2>'
+    + '<p>Serwis prezentuje publicznie dostępne dane z Biuletynów Informacji Publicznej (BIP) dotyczące działalności radnych miejskich: '
+    + 'wyniki głosowań, frekwencję, interpelacje. Są to informacje publiczne udostępniane na podstawie ustawy o dostępie do informacji publicznej.</p>'
+
+    + '<h2 style="font-size:1.1rem;margin:24px 0 8px">8. Twoje prawa</h2>'
+    + '<p>Na podstawie RODO przysługuje Ci prawo do: dostępu do swoich danych, ich sprostowania, usunięcia, ograniczenia przetwarzania, '
+    + 'przenoszenia danych, sprzeciwu wobec przetwarzania oraz cofnięcia zgody w dowolnym momencie (przez usunięcie cookies lub kontakt z administratorem). '
+    + 'Masz również prawo wniesienia skargi do Prezesa Urzędu Ochrony Danych Osobowych (PUODO).</p>'
+
+    + '<h2 style="font-size:1.1rem;margin:24px 0 8px">9. Kontakt</h2>'
+    + '<p>W sprawach dotyczących prywatności i danych osobowych: <a href="mailto:patrykorwat@gmail.com">patrykorwat@gmail.com</a></p>'
+
+    + '</div>';
+  navigateTo('/polityka-prywatnosci/');
+  setTitle('Polityka prywatności');
+  setOgMeta({
+    title: 'Polityka prywatności — Radoskop Gdańsk',
+    description: 'Polityka prywatności i informacje o plikach cookies serwisu Radoskop.',
+    url: 'https://gdansk.radoskop.pl/polityka-prywatnosci/'
+  });
+  window.scrollTo(0, 0);
+}
+
+// --- Terms of service page ---
+function showTerms() {
+  hideAllViews();
+  var el = document.getElementById('terms-view');
+  el.style.display = 'block';
+  el.innerHTML = '<div style="max-width:800px;margin:0 auto;padding:20px 0">'
+    + '<button class="profile-back" onclick="showMain()">← Strona główna</button>'
+    + '<h1 style="font-size:1.5rem;margin:20px 0 10px">Regulamin serwisu Radoskop</h1>'
+    + '<p style="color:var(--muted);margin-bottom:20px">Ostatnia aktualizacja: 1 kwietnia 2026</p>'
+
+    + '<h2 style="font-size:1.1rem;margin:24px 0 8px">1. Postanowienia ogólne</h2>'
+    + '<p>Serwis Radoskop (dalej: Serwis) jest prowadzony przez Patryka Orwata (dalej: Administrator). '
+    + 'Serwis działa pod domeną radoskop.pl oraz subdomenami miast (np. gdansk.radoskop.pl). '
+    + 'Korzystanie z Serwisu oznacza akceptację niniejszego Regulaminu.</p>'
+
+    + '<h2 style="font-size:1.1rem;margin:24px 0 8px">2. Charakter serwisu</h2>'
+    + '<p>Radoskop jest narzędziem do monitoringu pracy rad miejskich w Polsce. '
+    + 'Serwis prezentuje publicznie dostępne dane z Biuletynów Informacji Publicznej (BIP): wyniki głosowań imiennych, frekwencję radnych, interpelacje i inne dane o działalności samorządu. '
+    + 'Serwis ma charakter informacyjny i edukacyjny. Nie jest oficjalnym serwisem żadnego urzędu miasta.</p>'
+
+    + '<h2 style="font-size:1.1rem;margin:24px 0 8px">3. Źródła danych</h2>'
+    + '<p>Wszystkie dane prezentowane w Serwisie pochodzą z publicznie dostępnych źródeł, przede wszystkim z Biuletynów Informacji Publicznej poszczególnych miast. '
+    + 'Dane są pobierane automatycznie i przetwarzane algorytmicznie. Administrator dokłada starań, aby dane były aktualne i poprawne, '
+    + 'jednak nie gwarantuje ich pełnej dokładności. W przypadku rozbieżności wiążące są dane źródłowe z BIP.</p>'
+
+    + '<h2 style="font-size:1.1rem;margin:24px 0 8px">4. Wskaźniki i statystyki</h2>'
+    + '<p>Prezentowane wskaźniki (frekwencja, aktywność, zgodność z klubem, liczba rebelii) są obliczane na podstawie danych z BIP według jawnych algorytmów. '
+    + 'Wskaźniki mają charakter informacyjny i nie stanowią oceny wartościującej pracy radnych. '
+    + 'Metodologia obliczeń jest dostępna w kodzie źródłowym Serwisu na platformie GitHub.</p>'
+
+    + '<h2 style="font-size:1.1rem;margin:24px 0 8px">5. Reklamy</h2>'
+    + '<p>Serwis może wyświetlać reklamy dostarczane przez Google AdSense i partnerów reklamowych Google. '
+    + 'Reklamy finansują utrzymanie i rozwój Serwisu. Reklamy spersonalizowane wyświetlane są wyłącznie po wyrażeniu zgody przez użytkownika za pośrednictwem banera cookies. '
+    + 'Szczegóły dotyczące cookies reklamowych i zarządzania zgodą opisane są w <a href="/polityka-prywatnosci/" onclick="event.preventDefault();showPrivacy()">Polityce prywatności</a>.</p>'
+
+    + '<h2 style="font-size:1.1rem;margin:24px 0 8px">6. Licencja i kod źródłowy</h2>'
+    + '<p>Kod źródłowy Serwisu jest udostępniony na licencji AGPL-3.0 na platformie GitHub. '
+    + 'Dane prezentowane w Serwisie, jako informacja publiczna, mogą być swobodnie wykorzystywane z podaniem źródła.</p>'
+
+    + '<h2 style="font-size:1.1rem;margin:24px 0 8px">7. Odpowiedzialność</h2>'
+    + '<p>Administrator nie ponosi odpowiedzialności za: czasową niedostępność Serwisu, ewentualne błędy w danych wynikające z błędów w źródłach BIP, '
+    + 'decyzje podjęte na podstawie informacji z Serwisu, działanie serwisów zewnętrznych, do których Serwis zawiera odnośniki.</p>'
+
+    + '<h2 style="font-size:1.1rem;margin:24px 0 8px">8. Prywatność</h2>'
+    + '<p>Zasady przetwarzania danych osobowych użytkowników opisuje <a href="/polityka-prywatnosci/" onclick="event.preventDefault();showPrivacy()">Polityka prywatności</a>.</p>'
+
+    + '<h2 style="font-size:1.1rem;margin:24px 0 8px">9. Zmiany regulaminu</h2>'
+    + '<p>Administrator zastrzega sobie prawo do zmiany Regulaminu. Aktualna wersja jest zawsze dostępna pod adresem /regulamin/ w każdej instancji Serwisu.</p>'
+
+    + '<h2 style="font-size:1.1rem;margin:24px 0 8px">10. Kontakt</h2>'
+    + '<p>Pytania i uwagi dotyczące Serwisu: <a href="mailto:patrykorwat@gmail.com">patrykorwat@gmail.com</a></p>'
+
+    + '</div>';
+  navigateTo('/regulamin/');
+  setTitle('Regulamin');
+  setOgMeta({
+    title: 'Regulamin — Radoskop Gdańsk',
+    description: 'Regulamin serwisu Radoskop. Informacje o źródłach danych, metodologii i zasadach korzystania.',
+    url: 'https://gdansk.radoskop.pl/regulamin/'
+  });
+  window.scrollTo(0, 0);
 }
 
 function showMain() {
@@ -1312,8 +1564,13 @@ function showProfile(name) {
           return false;
         });
       }
-      const personInterp = interpData.filter(d => interpMatchesName(d.radny || ''))
-        .sort((a,b) => (b.data_wplywu || '').localeCompare(a.data_wplywu || ''));
+      const kadSlugUpper = (KAD_SLUGS[kid] || '').toUpperCase();
+      const personInterp = interpData.filter(d => {
+        if (!interpMatchesName(d.radny || '')) return false;
+        // Filter by kadencja if available (e.g. "IX" matches KAD_SLUGS "ix")
+        if (d.kadencja && kadSlugUpper) return d.kadencja.toUpperCase() === kadSlugUpper;
+        return true;
+      }).sort((a,b) => (b.data_wplywu || '').localeCompare(a.data_wplywu || ''));
       if (personInterp.length > 0) {
         html += `<div class="section">
           <h2>Interpelacje i zapytania (${personInterp.length})</h2>
@@ -2305,6 +2562,16 @@ window.addEventListener('popstate', async () => {
   if (path.startsWith('/sesja/')) {
     const snum = decodeURIComponent(path.replace('/sesja/', ''));
     showSession(snum);
+    _popstateActive = false;
+    return;
+  }
+  if (path === '/polityka-prywatnosci' || path === '/polityka-prywatnosci/') {
+    showPrivacy();
+    _popstateActive = false;
+    return;
+  }
+  if (path === '/regulamin' || path === '/regulamin/') {
+    showTerms();
     _popstateActive = false;
     return;
   }
